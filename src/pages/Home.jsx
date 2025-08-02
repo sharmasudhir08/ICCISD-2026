@@ -20,7 +20,7 @@ const Home = () => {
         <h1 className='w-[80%] mx-auto mt-5 text-2xl text-gray-600 text-left font-semibold'>ABOUT THE CONFERENCE</h1>
 
         <div className='w-[80%] mx-auto p-4 text-lg text-left text-gray-700 tracking-wide'>
-          The IEEE International Conference on Computational Intelligence for Sustainable Development (ICCISD -2026), technically sponsored by IEEE Uttar Pradesh Section and  hosted by Sharda University, Greater Noida will be held on 21st and 22nd May 2026.
+          The IEEE International Conference on Computational Intelligence for Sustainable Development (ICCISD -2026), technically sponsored by IEEE Uttar Pradesh Section and  hosted by Sharda University, Greater Noida will be held on 21st and 22nd June 2026.
           The conference offers a comprehensive platform for researchers, practitioners, and industry professionals to explore advancements in Computer Science, Information Technology, and Computational Intelligence. The conference focuses on leveraging emerging technologies to address global challenges in sustainability. It covers a broad spectrum of cutting-edge topics and applications, emphasizing the integration of intelligent systems and sustainable practices.It is planned to publish the peer reviewed and selected papers of conference as proceedings in the IEEE Xplore.
         </div>
 
@@ -42,130 +42,141 @@ const Home = () => {
         </ul>
 
         <div className='w-[80%] mx-auto p-4 text-lg text-left text-gray-700 tracking-wide'>
-          The conference will cover a wide range of topics related to Smart Cities and Urban Development, Artificial Intelligence and Machine Learning, Advance Data Communication and Edge Computing, Cyber Security and Privacy in Sustainable Systems, Renewable Energy and Smart Grids, Robotics Automation and Networking, Digital Health and Smart Health Informatics. The conference invites original research papers (not being considered for publication elsewhere) of 4-6 pages in standard IEEE conference template in one of the following tracks (but are not limited to):
+          The conference will cover a wide range of topics related to Smart Cities and Urban Development, Artificial Intelligence and Machine Learning, Advance Data Communication and Edge Computing, Cyber Security and Privacy in Sustainable Systems, Renewable Energy and Smart Grids, Robotics Automation and Networking, Digital Health and Smart Health Informatics. The conference invites original research papers (not being considered for publication elsewhere) of 4 pages in standard IEEE conference template in one of the following tracks (but are not limited to):
         </div>
 
-        <div className='w-[80%] mx-auto p-4 text-lg text-left text-gray-700 tracking-wide flex flex-col gap-5 bg-white my-4 rounded-2xl'>
+        <div className='w-[90%] mx-auto p-4 text-lg text-left text-gray-700 tracking-wide flex flex-col gap-10 bg-white my-4 rounded-2xl'>
 
-          <div className='flex flex-wrap justify-between items-start gap-4'>
+  {/* Grouped Track Sections */}
+  {[1, 2, 3].map((group, groupIndex) => {
+    const trackPairs = [
+      [
+        {
+          title: 'Track 1: Machine Learning and Data Science for Sustainable Solutions',
+          topics: [
+            'Core Machine Learning Techniques',
+            'Advanced AI and Computational Theories',
+            'Hybrid and Soft Computing Approaches',
+            'Data Science Techniques',
+            'Specialized and Emerging Areas',
+          ],
+        },
+        {
+          title: 'Track 2: Communication and Smart Technologies for Sustainable Systems',
+          topics: [
+            'Core Communication Technologies',
+            'Advanced Networking Solutions',
+            'Smart and Sustainable Systems',
+            'Emerging and Enabling Technologies',
+            'Data Management and Analysis in Communication',
+            'Sustainability-Focused Approaches',
+            'Smart City and Urban Solutions',
+          ],
+        },
+      ],
+      [
+        {
+          title: 'Track 3: Computational Intelligence in Renewable Energy Systems',
+          topics: [
+            'Core Computational Intelligence Techniques',
+            'AI in Energy Generation and Management',
+            'Advanced Monitoring and Analysis',
+            'Emerging Technologies in Energy Systems',
+            'Sustainability and Efficiency Enhancements',
+            'Cybersecurity and Reliability',
+            'Applications in Specific Energy Sectors',
+          ],
+        },
+        {
+          title: 'Track 4: Robotics and Automation for Sustainable Practices',
+          topics: [
+            'Core Robotics and Automation Technologies',
+            'Sustainable Industrial Automation',
+            'Robotics in Environmental Conservation',
+            'Transportation and Logistics',
+            'Agriculture and Food Production',
+            'Construction and Smart Infrastructure',
+            'Emerging Technologies and Human-Robot Collaboration',
+            'Energy Management and Efficiency',
+          ],
+        },
+      ],
+      [
+        {
+          title: 'Track 5: Cyber security and Data Privacy in Sustainable Systems',
+          topics: [
+            'Core Cybersecurity Principles',
+            'Data Privacy in Sustainable Systems',
+            'Emerging Cybersecurity Technologies',
+            'Cyber-Physical Security',
+            'Compliance and Legal Aspects',
+            'Application-Specific Security Solutions',
+            'Resilience and Recovery',
+            'AI and Cybersecurity Integration',
+          ],
+        },
+        {
+          title: 'Track 6: Emerging Technologies in Health Care',
+          topics: [
+            'Core AI and Machine Learning Applications',
+            'Telemedicine and Remote Health Care Solutions',
+            'Robotics and Automation in Health Care',
+            'Genomics and Bioinformatics',
+            'Wearable Technology and Smart Health Devices',
+            'Big Data and Data Management in Health Care',
+            'Emerging Health Technologies',
+            'Cyber security and Data Privacy',
+            'Sustainable and Equitable Health Solutions',
+          ],
+        },
+      ],
+    ];
 
-            <section className='w-[48%]'>
-              <h1 className='text-2xl text-sky-800 font-semibold'>Track 1: Machine Learning and Data Science for Sustainable Solutions</h1>
-              <ul className=' p-4 text-lg text-left text-gray-700 list-disc'>
-                <li>Core Machine Learning Techniques</li>
-                <li>Advanced AI and Computational Theories</li>
-                <li>Hybrid and Soft Computing Approaches</li>
-                <li>Data Science Techniques</li>
-                <li>Specialized and Emerging Areas</li>
-              </ul>
-            </section>
+    return (
+      <div key={groupIndex} className='flex flex-col md:flex-row flex-wrap justify-between items-start gap-6'>
+        {trackPairs[groupIndex].map((track, index) => (
+          <section key={index} className='w-full md:w-[48%]'>
+            <h1 className='text-xl md:text-2xl text-sky-800 font-semibold mb-2'>{track.title}</h1>
+            <ul className='pl-6 list-disc space-y-1 text-gray-700'>
+              {track.topics.map((topic, i) => (
+                <li key={i}>{topic}</li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
+    );
+  })}
 
-            <section className='w-[48%]'>
-              <h1 className='text-2xl text-sky-800 font-semibold'>Track 2: Communication and smart Technologies for Sustainable Systems</h1>
-              <ul className=' p-4 text-lg text-left text-gray-700 list-disc'>
-                <li>Core Communication Technologies</li>
-                <li>Advanced Networking Solutions</li>
-                <li>Smart and Sustainable Systems</li>
-                <li>Emerging and Enabling Technologies</li>
-                <li>Data Management and Analysis in Communication</li>
-                <li>Sustainability-Focused Approaches</li>
-                <li>Smart City and Urban Solutions</li>
-              </ul>
-            </section>
+  {/* Final Track (Track 7) */}
+  <div className='flex flex-col'>
+    <section className='w-full'>
+      <h1 className='text-xl md:text-2xl text-sky-800 font-semibold mb-2'>
+        Track 7: Sustainable Infrastructure and Smart City Solutions
+      </h1>
+      <ul className='pl-6 list-disc space-y-1 text-gray-700'>
+        {[
+          'Core Smart City Technologies',
+          'Sustainable Urban Infrastructure',
+          'Digital Twin Technology',
+          'Transportation and Mobility',
+          'Security and Data Privacy in Smart Cities',
+          'Sustainable Energy and Resource Management',
+          'Environment and Climate Monitoring',
+          'Citizen Engagement and Smart Governance',
+          'Advanced Technologies and Future Trends',
+          'Sustainability and Efficiency Enhancements',
+        ].map((item, i) => (
+          <li key={i}>{item}</li>
+        ))}
+      </ul>
+    </section>
+  </div>
 
-          </div>
-
-          <div className='flex flex-wrap justify-between items-start gap-4'>
-          
-            <section className='w-[48%]'>
-              <h1 className='text-2xl text-sky-800 font-semibold'>Track 3: Computational Intelligence in Renewable Energy Systems</h1>
-              <ul className=' p-4 text-lg text-left text-gray-700 list-disc'>
-                <li>Core Computational Intelligence Techniques</li>
-                <li>AI in Energy Generation and Management</li>
-                <li>Advanced Monitoring and Analysis</li>
-                <li>Emerging Technologies in Energy Systems</li>
-                <li>Sustainability and Efficiency Enhancements</li>
-                <li>Cybersecurity and Reliability</li>
-                <li>Applications in Specific Energy Sectors</li>
-              </ul>
-            </section>
-
-            <section className='w-[48%]'>
-              <h1 className='text-2xl text-sky-800 font-semibold'>Track 4: Robotics and Automation for Sustainable Practices</h1>
-              <ul className=' p-4 text-lg text-left text-gray-700 list-disc'>
-                <li>Core Robotics and Automation Technologies</li>
-                <li>Sustainable Industrial Automation</li>
-                <li>Robotics in Environmental Conservation</li>
-                <li>Transportation and Logistics</li>
-                <li>Agriculture and Food Production</li>
-                <li>Construction and Smart Infrastructure</li>
-                <li>Emerging Technologies and Human-Robot Collaboration</li>
-                <li>Energy Management and Efficiency</li>
-              </ul>
-            </section>
+</div>
 
 
-          </div>
-
-
-          <div className='flex flex-wrap justify-between items-start gap-4'>
-
-            <section className='w-[48%]'>
-              <h1 className='text-2xl text-sky-800 font-semibold'>Track 5: Cyber security and Data Privacy in Sustainable Systems</h1>
-              <ul className=' p-4 text-lg text-left text-gray-700 list-disc'>
-                <li>Core Cybersecurity Principles</li>
-                <li>Data Privacy in Sustainable Systems</li>
-                <li>Emerging Cybersecurity Technologies</li>
-                <li>Cyber-Physical Security</li>
-                <li>Compliance and Legal Aspects</li>
-                <li>Application-Specific Security Solutions</li>
-                <li>Resilience and Recovery</li>
-                <li>AI and Cybersecurity Integration</li>
-              </ul>
-            </section>
-
-            <section className='w-[48%]'>
-              <h1 className='text-2xl text-sky-800 font-semibold'>Track 6: Emerging Technologies in Health Care</h1>
-              <ul className=' p-4 text-lg text-left text-gray-700 list-disc'>
-                <li>Core AI and Machine Learning Applications</li>
-                <li>Telemedicine and Remote Health Care Solutions</li>
-                <li>Robotics and Automation in Health Care</li>
-                <li>Genomics and Bioinformatics</li>
-                <li>Wearable Technology and Smart Health Devices</li>
-                <li>Big Data and Data Management in Health Care</li>
-                <li>Emerging Health Technologies</li>
-                <li>Cyber security and Data Privacy</li>
-                <li>Sustainable and Equitable Health Solutions</li>
-              </ul>
-            </section>
-          
-          </div>
-
-
-          <div className='flex flex-wrap justify-between items-start gap-4'>
-
-            <section className='w-[48%]'>
-              <h1 className='text-2xl text-sky-800 font-semibold'>Track 7: Sustainable Infrastructure and Smart city solutions</h1>
-              <ul className=' p-4 text-lg text-left text-gray-700 list-disc'>
-                <li>Core Smart City Technologies</li>
-                <li>Sustainable Urban Infrastructure</li>
-                <li>Digital Twin Technology</li>
-                <li>Transportation and Mobility</li>
-                <li>Security and Data Privacy in Smart Cities</li>
-                <li>Sustainable Energy and Resource Management</li>
-                <li>Environment and Climate Monitoring</li>
-                <li>Citizen Engagement and Smart Governance</li>
-                <li>Advanced Technologies and Future Trends</li>
-                <li>Sustainability and Efficiency Enhancements</li>
-              </ul>
-            </section>
-          
-          </div>
-          
-
-        </div>
-
-        <h1 className='mt-5 text-4xl text-gray-800 font-semibold flex justify-center items-center gap-4'>Why <p className='text-sky-800'>ICCISD 2026?</p> </h1>
+        <h1 className='mt-5 text-2xl sm:text-4xl text-gray-800 font-semibold flex justify-center items-center gap-4'>Why <p className='text-sky-800'>ICCISD 2026?</p> </h1>
         <h2 className='w-[80%] mx-auto p-4 text-2xl my-2 font-semibold'>Join the premier international conference bridging computational intelligence and sustainable development for a better tomorrow</h2>
 
           <div className='w-[100%] h-auto flex flex-wrap justify-center items-center bg-gray-100 p-4'>

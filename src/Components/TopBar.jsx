@@ -1,17 +1,30 @@
-import React from 'react'
-import shardalogo from '../assets/shardalogo.png'
-import ieee from '../assets/ieee.jpg'
+import React from 'react';
+import shardalogo from '../assets/shardalogo.png';
+import ieee from '../assets/ieee.jpg';
+
 const TopBar = () => {
   return (
-    <div className='w-[100%] h-28 flex justify-between text-6xl text-center '>
-        <img src={shardalogo} className='w-96'></img>
-        <div>
-          <img src={ieee} className='w-44'></img>
-          <h1 className='text-sm absolute top-20 right-8 text-amber-700'>to be approved</h1>
-        </div>
-        
-    </div>
-  )
-}
+    <div className='w-full px-4 py-2 flex flex-row sm:flex-row justify-between items-center bg-white'>
+      
+      <img
+        src={shardalogo}
+        alt='Sharda University'
+        className='w-48 sm:w-64 md:w-80 lg:w-96 object-contain'
+      />
 
-export default TopBar
+      
+      <div className='flex flex-col items-center relative mt-4 md:mt-0'>
+        <img
+          src={ieee}
+          alt='IEEE Logo'
+          className='w-24 sm:w-32 md:w-44 object-contain'
+        />
+        <h1 className='text-xs sm:text-sm text-amber-700 mt-1 md:absolute md:top-20 md:right-2'>
+          to be approved
+        </h1>
+      </div>
+    </div>
+  );
+};
+
+export default TopBar;
