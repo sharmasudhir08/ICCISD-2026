@@ -40,7 +40,6 @@ const Registration = () => {
             <td className='border border-gray-300 p-2'>Attendee only</td>
             <td className='border border-gray-300 p-2'>₹ 1500</td>
           </tr>
-          
         </table>
 
 
@@ -69,8 +68,7 @@ const Registration = () => {
             <td className='border border-gray-300 p-2'>Attendee only</td>
             <td className='border border-gray-300 p-2'>₹ 2000</td>
           </tr>
-          
-        </table>
+          </table>
 
       </div>
 
