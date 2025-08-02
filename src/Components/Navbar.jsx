@@ -1,109 +1,77 @@
-import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const navItems = [
+    { label: 'Home', path: '/' },
+    { label: 'For Authors', path: 'authors' },
+    { label: 'Speakers', path: 'speakers' },
+    { label: 'Committee', path: 'commitee' },
+    { label: 'Paper Submission', path: 'paperSubmission' },
+    { label: 'Venue', path: 'venue' },
+    { label: 'Registration', path: 'registration' },
+    { label: 'Schedule', path: 'schedule' },
+    { label: 'Contact Us', path: 'contactUs' }
+  ];
+
   return (
-    <div className='w-[100%] h-12 flex text-lg text-bold font-semibold text-center bg-sky-800'>
-        <ul className='w-[100%] mx-0 my-auto flex justify-around items-center text-white hover:cursor-pointer'>
-            <li>
+    <nav className="w-full bg-sky-800 text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+        
+        
+        <div className="md:hidden flex items-center">
+          <button onClick={() => setMenuOpen(!menuOpen)} className="focus:outline-none">
+            {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
+
+        
+        <div className="text-xl font-bold ml-2">
+          
+        </div>
+
+        
+        <ul className="hidden sm:flex space-x-6 text-lg font-semibold">
+          {navItems.map(({ label, path }) => (
+            <li key={path}>
               <NavLink
-                 to='/'
-                 className={({ isActive }) =>
-                    isActive ? "text-orange-400" : "inactive-class"
-                 }
-                 >
-                 Home
-              </NavLink>
-            </li>
-
-            <li>
-              <NavLink to='authors'
-                 className={({ isActive }) =>
-                    isActive ? "text-orange-400" : "inactive-class"
-                 }
-                 >
-                For Authors
-              </NavLink>
-            </li>
-
-            <li>
-                 <NavLink
-                 to='speakers'
-                  className={({isActive})=>{
-                    return isActive ? "text-orange-400" : "inactive-class"
-                  }}                  >
-                  Speakers
-                 </NavLink>
-            </li>
-
-
-            <li>
-              <NavLink to='commitee'
-                  className={({ isActive }) =>
-                      isActive ? "text-orange-400" : "inactive-class"
-                  }
-              >
-                Committee
-              </NavLink>
-            </li>
-
-
-            <li>
-              <NavLink 
-                to='paperSubmission'
+                to={path}
                 className={({ isActive }) =>
-                  isActive ? "text-orange-400" : "inactive-class"
+                  isActive ? 'text-orange-400' : 'hover:text-orange-200 transition duration-200'
                 }
               >
-              Paper Submission
+                {label}
               </NavLink>
             </li>
-
-            <li>
-              <NavLink 
-                to='venue'
-                className={({isActive})=>{
-                  return isActive ? "text-orange-400" : "inactive-class"
-                }}
-              >Venue</NavLink>
-            </li>
-
-            <li>
-              <NavLink 
-                to='registration'
-                className={({isActive})=>{
-                  return isActive ? "text-orange-400" : "inactive-class"
-                }}
-              >
-                Registration
-              </NavLink>
-            </li>
-
-            <li>
-              <NavLink
-                to='schedule'
-                className={({isActive})=>{
-                  return isActive ? "text-orange-400" : "inactive-class"
-                }}
-              >
-                Schedule
-              </NavLink>
-            </li>
-
-            <li>
-              <NavLink
-                to='contactUs'
-                className={({isActive})=>{
-                  return isActive ? "text-orange-400" : "inactive-class"
-                }}
-              >
-                Contact Us
-              </NavLink>
-            </li>
-        
+          ))}
         </ul>
-    </div>
-  )
-}
+      </div>
 
-export default Navbar
+      {/* Mobile Menu */}
+      {menuOpen && (
+        <div className="sm:hidden px-4 pb-4 bg-sky-800">
+          <ul className="flex flex-col space-y-4 text-lg font-medium">
+            {navItems.map(({ label, path }) => (
+              <li key={path}>
+                <NavLink
+                  to={path}
+                  onClick={() => setMenuOpen(false)}
+                  className={({ isActive }) =>
+                    isActive ? 'text-orange-400' : 'hover:text-orange-200 transition duration-200'
+                  }
+                >
+                  {label}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </nav>
+  );
+};
+
+export default Navbar;

@@ -20,8 +20,8 @@ const CommitteeLayout = () => {
   ]);
 
   return (
-    <div className='w-full min-h-screen bg-gray-50'>
-      <div className='w-[80%] mx-auto bg-gray-100'>
+    <div className='w-full min-h-screen bg-gray-50 py-10 px-4'>
+      <div className='w-full max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-4'>
         {committeeType.map((type, index) => {
           const filteredMembers = members.filter(
             (member) => member.committeeType === type
@@ -30,11 +30,12 @@ const CommitteeLayout = () => {
           if (filteredMembers.length === 0) return null;
 
           return (
-            <div key={index} className='mb-6'>
-              <h1 className='text-3xl font-bold text-center p-4 bg-gray-300 text-sky-900'>
+            <div key={index} className='mb-10 '>
+              <h1 className='text-xl sm:text-2xl md:text-3xl font-bold text-center p-4 bg-gray-200 text-sky-900 rounded-md'>
                 {type}
               </h1>
-              <div className='flex flex-col flex-wrap justify-center gap-4 p-4'>
+
+              <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6 sm:flex sm:flex-col'>
                 {filteredMembers.map((member, idx) => (
                   <CommitteeMemberCard
                     key={idx}
