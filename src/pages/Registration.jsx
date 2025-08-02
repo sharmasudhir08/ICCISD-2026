@@ -40,10 +40,7 @@ const Registration = () => {
             <td className='border border-gray-300 p-2'>Attendee only</td>
             <td className='border border-gray-300 p-2'>₹ 1500</td>
           </tr>
-          <tr>
-            <td className='border border-gray-300 p-2'>Any other (pl. specify)</td>
-            <td className='border border-gray-300 p-2'>N/A</td>
-          </tr>
+          
         </table>
 
 
@@ -72,10 +69,7 @@ const Registration = () => {
             <td className='border border-gray-300 p-2'>Attendee only</td>
             <td className='border border-gray-300 p-2'>₹ 2000</td>
           </tr>
-          <tr>
-            <td className='border border-gray-300 p-2'>Any other (pl. specify)</td>
-            <td className='border border-gray-300 p-2'>N/A</td>
-          </tr>
+          
         </table>
 
       </div>
