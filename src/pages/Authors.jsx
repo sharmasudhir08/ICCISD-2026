@@ -27,22 +27,22 @@ const Authors = () => {
         <ul className="text-base sm:text-lg text-gray-700 text-left mt-2 list-none">
           <li>
             Paper Submission Deadline:{' '}
-            <b className="text-orange-700">12th April 2026</b>
+            <b className="text-orange-700">15th February 2026</b>
           </li>
           <li>
             Notification of Acceptance:{' '}
-            <b className="text-orange-700">17th May 2026</b>
+            <b className="text-orange-700">20th March 2026</b>
           </li>
           <li>
             Camera Ready Deadline:{' '}
-            <b className="text-orange-700">7th June 2026</b>
+            <b className="text-orange-700">12th April 2026</b>
           </li>
           <li>
-            Registration: <b className="text-orange-700">14th June 2026</b>
+            Registration: <b className="text-orange-700">19th April 2026</b>
           </li>
           <li>
             Conference Dates:{' '}
-            <b className="text-orange-700">23rd – 24th July 2026</b>
+            <b className="text-orange-700">21st – 22nd May 2026</b>
           </li>
         </ul>
       </div>
@@ -185,39 +185,13 @@ const Authors = () => {
 
                 <li className="list-none">
                   <h1 className="text-lg sm:text-xl text-sky-900 font-semibold">
-                    2.3	Smart and Sustainable Systems
-                  </h1>
-                  <ul className="p-4 ml-2 text-sm sm:text-base list-disc">
-                    <li>Smart Grid Communication and Energy Management</li>
-                    <li>Smart Transportation and Connected Vehicle Systems</li>
-                    <li>Smart Agriculture Communication Solutions</li>
-                    <li>Intelligent Building Management Systems</li>
-                    <li>Cloud-Native Solutions for Sustainable Data Management</li>
-                  </ul>
-                </li>
-
-                <li className="list-none">
-                  <h1 className="text-lg sm:text-xl text-sky-900 font-semibold">
                     2.4	Emerging and Enabling Technologies
                   </h1>
                   <ul className="p-4 ml-2 text-sm sm:text-base list-disc">
-                    <li>•	6G and Beyond: Advancements for Sustainable Networks</li>
-                    <li>•	Ultra-Reliable Low-Latency Communication (URLLC)</li>
-                    <li>•	Quantum Communication for Enhanced Security and Efficiency</li>
-                    <li>•	Satellite Communication for Remote Sustainable Solutions</li>
-                    <li>Cloud-Native Solutions for Sustainable Data Management</li>
-                  </ul>
-                </li>
-
-                <li className="list-none">
-                  <h1 className="text-lg sm:text-xl text-sky-900 font-semibold">
-                    2.4	Emerging and Enabling Technologies
-                  </h1>
-                  <ul className="p-4 ml-2 text-sm sm:text-base list-disc">
-                    <li>•	6G and Beyond: Advancements for Sustainable Networks</li>
-                    <li>•	Ultra-Reliable Low-Latency Communication (URLLC)</li>
-                    <li>•	Quantum Communication for Enhanced Security and Efficiency</li>
-                    <li>•	Satellite Communication for Remote Sustainable Solutions</li>
+                    <li>6G and Beyond: Advancements for Sustainable Networks</li>
+                    <li>Ultra-Reliable Low-Latency Communication (URLLC)</li>
+                    <li>Quantum Communication for Enhanced Security and Efficiency</li>
+                    <li>Satellite Communication for Remote Sustainable Solutions</li>
                   </ul>
                 </li>
 
@@ -226,10 +200,10 @@ const Authors = () => {
                     2.5	Data Management and Analysis in Communication
                   </h1>
                   <ul className="p-4 ml-2 text-sm sm:text-base list-disc">
-                    <li>•	Data Compression Techniques for Energy Savings</li>
-                    <li>•	Real-Time Data Processing and Analytics</li>
-                    <li>•	Big Data Integration in Communication Systems</li>
-                    <li>•	Data Privacy and Security in Smart Communication Systems</li>
+                    <li>Data Compression Techniques for Energy Savings</li>
+                    <li>Real-Time Data Processing and Analytics</li>
+                    <li>Big Data Integration in Communication Systems</li>
+                    <li>Data Privacy and Security in Smart Communication Systems</li>
                   </ul>
                 </li>
 
@@ -250,9 +224,9 @@ const Authors = () => {
                     2.7	Smart City and Urban Solutions
                   </h1>
                   <ul className="p-4 ml-2 text-sm sm:text-base list-disc">
-                    <li>•	Communication Infrastructure for Smart Cities</li>
-                    <li>•	IoT for Urban Planning and Sustainable Development</li>
-                    <li>•	Public Safety Networks and Emergency Communication Systems</li>
+                    <li>Communication Infrastructure for Smart Cities</li>
+                    <li>IoT for Urban Planning and Sustainable Development</li>
+                    <li>Public Safety Networks and Emergency Communication Systems</li>
                   </ul>
                 </li>
 
@@ -474,10 +448,10 @@ const Authors = () => {
                     4.8	Energy Management and Efficiency                 
                   </h1>
                   <ul className="p-4 ml-2 text-sm sm:text-base list-disc">
-                    <li>•	Power Optimization in Robotic Systems</li>
-                    <li>•	Renewable Energy-Powered Robotic Operations</li>
-                    <li>•	Robotic Solutions for Smart Energy Distribution</li>
-                    <li>•	AI in Battery Management for Autonomous Robots</li>
+                    <li>Power Optimization in Robotic Systems</li>
+                    <li>Renewable Energy-Powered Robotic Operations</li>
+                    <li>Robotic Solutions for Smart Energy Distribution</li>
+                    <li>AI in Battery Management for Autonomous Robots</li>
                     <li>Advanced Sensors and Actuators for Sustainable Robotics</li>
                   </ul>
                </li>
@@ -844,11 +818,11 @@ const Authors = () => {
                     7.8	Citizen Engagement and Smart Governance
                   </h1>
                   <ul className="p-4 ml-2 text-sm sm:text-base list-disc">
-                    <li>•	Smart Platforms for Citizen Feedback and Participation</li>
-                    <li>•	E-Governance Solutions for Efficient Public Service Delivery</li>
-                    <li>•	AI-Based Decision Support Systems for Policy Making</li>
-                    <li>•	Digital Inclusion and Bridging the Technology Gap</li>
-                    <li>•	Platforms for Community-Based Sustainable Projects</li>
+                    <li>Smart Platforms for Citizen Feedback and Participation</li>
+                    <li>E-Governance Solutions for Efficient Public Service Delivery</li>
+                    <li>AI-Based Decision Support Systems for Policy Making</li>
+                    <li>Digital Inclusion and Bridging the Technology Gap</li>
+                    <li>Platforms for Community-Based Sustainable Projects</li>
                   </ul>
                 </li>
 
@@ -857,11 +831,11 @@ const Authors = () => {
                     7.9	Advanced Technologies and Future Trends
                   </h1>
                   <ul className="p-4 ml-2 text-sm sm:text-base list-disc">
-                    <li>•	5G/6G Technologies for Enhanced Connectivity</li>
-                    <li>•	Blockchain Applications for Transparent City Operations</li>
-                    <li>•	AR/VR for Urban Development Visualization</li>
-                    <li>•	Robotics in Infrastructure Inspection and Maintenance</li>
-                    <li>•	Integration of AI and Robotics for Urban Emergency Response</li>
+                    <li>5G/6G Technologies for Enhanced Connectivity</li>
+                    <li>Blockchain Applications for Transparent City Operations</li>
+                    <li>AR/VR for Urban Development Visualization</li>
+                    <li>Robotics in Infrastructure Inspection and Maintenance</li>
+                    <li>Integration of AI and Robotics for Urban Emergency Response</li>
                   </ul>
                 </li>
 
