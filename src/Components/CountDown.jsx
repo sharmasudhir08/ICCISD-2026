@@ -42,11 +42,11 @@ const CountDown = () => {
       <section className='w-full lg:w-[50%] p-2 text-left'>
         <h1 className='text-2xl md:text-3xl text-sky-800 font-bold'>IMPORTANT DATES</h1>
         <ul className='mt-3 text-base md:text-lg text-gray-600'>
-          <li className='mt-2'>Paper Submission Deadline: <b className='text-orange-700'>15th February 2026</b></li>
-          <li className='mt-2'>Notification of Acceptance: <b className='text-orange-700'>20th March 2026</b></li>
-          <li className='mt-2'>Camera Ready Deadline: <b className='text-orange-700'>12th April 2026</b></li>
-          <li className='mt-2'>Registration: <b className='text-orange-700'>19th April 2026</b></li>
-          <li className='mt-2'>Conference Dates: <b className='text-orange-700'>21st–22nd May 2026</b></li>
+          <li className='mt-2'>Paper Submission Deadline: <b className='text-orange-700'>12th April 2026</b></li>
+          <li className='mt-2'>Notification of Acceptance: <b className='text-orange-700'>17th May 2026</b></li>
+          <li className='mt-2'>Camera Ready Deadline: <b className='text-orange-700'>7th June 2026</b></li>
+          <li className='mt-2'>Registration: <b className='text-orange-700'>14th June 2026</b></li>
+          <li className='mt-2'>Conference Dates: <b className='text-orange-700'>23rd –24th July 2026</b></li>
         </ul>
       </section>
 

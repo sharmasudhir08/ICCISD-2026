@@ -27,22 +27,22 @@ const Authors = () => {
         <ul className="text-base sm:text-lg text-gray-700 text-left mt-2 list-none">
           <li>
             Paper Submission Deadline:{' '}
-            <b className="text-orange-700">15th February 2026</b>
-          </li>
-          <li>
-            Notification of Acceptance:{' '}
-            <b className="text-orange-700">20th March 2026</b>
-          </li>
-          <li>
-            Camera Ready Deadline:{' '}
             <b className="text-orange-700">12th April 2026</b>
           </li>
           <li>
-            Registration: <b className="text-orange-700">19th April 2026</b>
+            Notification of Acceptance:{' '}
+            <b className="text-orange-700">17th May 2026</b>
+          </li>
+          <li>
+            Camera Ready Deadline:{' '}
+            <b className="text-orange-700">7th June 2026</b>
+          </li>
+          <li>
+            Registration: <b className="text-orange-700">14th June 2026</b>
           </li>
           <li>
             Conference Dates:{' '}
-            <b className="text-orange-700">21st – 22nd May 2026</b>
+            <b className="text-orange-700">23rd – 24th July 2026</b>
           </li>
         </ul>
       </div>

@@ -46,6 +46,12 @@ export const members = [
         designation:'AMU Aligarh',
         committeeType:'Honoary Advisory Committee Chair(s)',
     },
+   
+     {
+        name:'Prof. (Dr.) Parma Nand',
+        designation:'Pro-Vice Chancellor, Sharda University Greater Noida, India',
+        committeeType:'General Chair',
+    },
     {
         name:'Prof. (Dr.) Geetha Ganesan',
         designation:'Dean, SSCSE, Sharda University, Greater Noida, Uttar Pradesh, India',
