@@ -15,7 +15,7 @@ const HeroSection = () => {
 
         <h2 className="text-xl sm:text-2xl md:text-3xl">(ICCISD-2026)</h2>
 
-        <h3 className="text-lg sm:text-xl md:text-2xl">21 - 22 May 2026</h3>
+        <h3 className="text-lg sm:text-xl md:text-2xl">23rd - 24th July 2026</h3>
 
         <h4 className="text-base sm:text-lg md:text-xl font-semibold">ORGANISED BY:</h4>
 

@@ -903,7 +903,7 @@ const Authors = () => {
       <div className="max-w-7xl mx-auto px-4 sm:text-left sm:px-6 lg:px-8 mt-5 text-base sm:text-lg text-gray-600">
         IEEE International Conference on Computational Intelligence for Sustainable
         Development (ICCISD -2026), will be organized by Sharda University, Greater
-        Noida, U.P., India on 21st & 22nd June 2026. The aim of the conference is to
+        Noida, U.P., India on 23rd-24th July 2026. The aim of the conference is to
         serve researchers, developers, educators to present as well as to exchange
         the research ideas in various cutting edge technologies. ICCISD -2026 invites
         authors to submit their original and unpublished work that demonstrates
@@ -912,7 +912,9 @@ const Authors = () => {
         <a href="#" className="text-sky-800">
           https://cmt3.research.microsoft.com/
         </a>
-        . If you encounter problems in submitting, contact at{' '}
+        . The Microsoft CMT service was used for managing the peer-reviewing process for this conference. 
+        This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well 
+        as for software development and support. If you encounter problems in submitting, contact at{' '}
         <a href="#" className="text-sky-800">
           iccisd.conference@gmail.com
         </a>

@@ -25,7 +25,8 @@ const PaperSubmission = () => {
           the conference is to serve researchers, developers, educators to present as well as to exchange the
           research ideas in various cutting edge technologies. ICCISD -2026 invites authors to submit their
           original and unpublished work that demonstrates current research in all areas of science technology and
-          sustainable development through Microsoft Conference Management Toolkit 
+          sustainable development through Microsoft Conference Management Toolkit. The Microsoft CMT service was used for managing the peer-reviewing process for this conference. 
+          This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
           <a href="#" className="text-sky-800 ml-1">https://cmt3.research.microsoft.com/</a>. If you encounter problems in submitting,
           contact at <a href="#" className="text-sky-800">iccisd.conference@gmail.com</a>. Acceptance of papers will be communicated to authors by email.
         </p>
