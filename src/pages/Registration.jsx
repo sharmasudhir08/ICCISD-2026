@@ -35,7 +35,6 @@ const Registration = () => {
                 ["Industry Participants", "₹ 9500"],
                 ["Foreign Participants", "300 USD"],
                 ["Attendee only", "₹ 1500"],
-                ["Any other (pl. specify)", "N/A"]
               ].map(([label, value], i) => (
                 <tr key={i}>
                   <td className='border border-gray-300 p-2'>{label}</td>
@@ -62,7 +61,6 @@ const Registration = () => {
                 ["Industry Participants", "₹ 10000"],
                 ["Foreign Participants", "350 USD"],
                 ["Attendee only", "₹ 2000"],
-                ["Any other (pl. specify)", "N/A"]
               ].map(([label, value], i) => (
                 <tr key={i}>
                   <td className='border border-gray-300 p-2'>{label}</td>
