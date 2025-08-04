@@ -86,25 +86,25 @@ const Registration = () => {
             <tbody>
               <tr>
                 <td className='border border-gray-300 p-2'>Bank Name</td>
-                <td className='border border-gray-300 p-2'>State Bank Of India</td>
+                <td className='border border-gray-300 p-2'>Coming soon...</td>
               </tr>
               <tr>
                 <td className='border border-gray-300 p-2'>Branch Address</td>
                 <td className='border border-gray-300 p-2'>
-                  11456-ALPHA-6, Greater Noida, A3 Kaison Tower Commercial Bel, Alpha 1, Dist. Gautam Budh Nagar, Uttar Pradesh 201310
+                  Coming soon...
                 </td>
               </tr>
               <tr>
                 <td className='border border-gray-300 p-2'>Account Holder Name</td>
-                <td className='border border-gray-300 p-2'>Shiva Economic Educational Development Foundation Trust</td>
+                <td className='border border-gray-300 p-2'>Coming soon...</td>
               </tr>
               <tr>
                 <td className='border border-gray-300 p-2'>Account No.</td>
-                <td className='border border-gray-300 p-2'>42269338564</td>
+                <td className='border border-gray-300 p-2'>Coming soon...</td>
               </tr>
               <tr>
                 <td className='border border-gray-300 p-2'>IFSC Code</td>
-                <td className='border border-gray-300 p-2'>SBIN0011000</td>
+                <td className='border border-gray-300 p-2'>Coming soon...</td>
               </tr>
             </tbody>
           </table>
