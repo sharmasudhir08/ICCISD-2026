@@ -692,8 +692,21 @@ export const members = [
         designation:'Senior Data Scientist, Amazon',
         committeeType:'Technical Program Committee',
     },
-
-
+    {
+        name:'Dr. Awanit kumar',
+        designation:'Associate Professo, Sangam University Bhilwara, Rajasthan',
+        committeeType:'Technical Program Committee',
+    },
+     {
+        name:'Dr. Anindya Nag',
+        designation:'Associate Professo, Northern University of Business and Technology Khulna, Bangladesh',
+        committeeType:'Technical Program Committee',
+    },
+{
+        name:'Prof.(Dr.) Sunil Gupta',
+        designation:'Professor & Head, School of Computer & Systems Sciences, Jaipur National University',
+        committeeType:'Technical Program Committee',
+    },
     
 ]
 
