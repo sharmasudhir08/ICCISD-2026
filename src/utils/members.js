@@ -698,15 +698,19 @@ export const members = [
         committeeType:'Technical Program Committee',
     },
      {
-        name:'Dr. Anindya Nag',
-        designation:'Associate Professo, Northern University of Business and Technology Khulna, Bangladesh',
+        name:'Mr. Anindya Nag',
+        designation:'Lecturer, Northern University of Business and Technology Khulna, Bangladesh',
         committeeType:'Technical Program Committee',
     },
-{
+    {
         name:'Prof.(Dr.) Sunil Gupta',
         designation:'Professor & Head, School of Computer & Systems Sciences, Jaipur National University',
         committeeType:'Technical Program Committee',
     },
-    
+    {
+        name:'Mr. Vijay Karnatak',
+        designation:'Assistant Professor, Uttaranchal University',
+        committeeType:'Technical Program Committee',
+    },
 ]
 
