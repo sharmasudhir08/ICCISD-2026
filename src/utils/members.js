@@ -678,7 +678,7 @@ export const members = [
         committeeType:'Technical Program Committee',
     },
     {
-        name:'Vishal Sharma',
+        name:'Mr. Vishal Sharma',
         designation:'Amity University Rajasthan, Jaipur',
         committeeType:'Technical Program Committee',
     },
@@ -693,7 +693,7 @@ export const members = [
         committeeType:'Technical Program Committee',
     },
     {
-        name:'Dr. Awanit kumar',
+        name:'Dr. Awanit Kumar',
         designation:'Associate Professo, Sangam University Bhilwara, Rajasthan',
         committeeType:'Technical Program Committee',
     },
