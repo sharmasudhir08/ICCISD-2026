@@ -712,5 +712,41 @@ export const members = [
         designation:'Assistant Professor, Uttaranchal University',
         committeeType:'Technical Program Committee',
     },
+    {
+    name: 'Mr. Sathish Krishna Anumula',
+    designation: 'Business & Enterprise Architect, IBM Corporation, Detroit, USA',
+    committeeType: 'Technical Program Committee',
+},
+{
+    name: 'Mr. Suharsh Anand',
+    designation: 'Solutions Architect, IEEE, SCRS & oXya Corporation, NJ, USA',
+    committeeType: 'Technical Program Committee',
+},
+{
+    name: 'Dr. S. Sugumaran',
+    designation: 'Professor, Vishnu Institute of Technology, Vishnupur, Bhimavaram',
+    committeeType: 'Technical Program Committee',
+},
+{
+    name: 'Dr. Vijayalakshmi A.',
+    designation: 'Christ University, Bangalore',
+    committeeType: 'Technical Program Committee',
+},
+{
+    name: 'Dr. Deepti Khanna',
+    designation: 'Jagan Institute of Management Studies, Rohini, New Delhi',
+    committeeType: 'Technical Program Committee',
+},
+{
+    name: 'Ms. Babita Verma',
+    designation: 'Bhilai Institute of Technology, Durg, Chhattisgarh',
+    committeeType: 'Technical Program Committee',
+},
+{
+    name: 'Dr. Shveta Bansal',
+    designation: 'Chitkara University, Punjab',
+    committeeType: 'Technical Program Committee',
+}
+
 ]
 
