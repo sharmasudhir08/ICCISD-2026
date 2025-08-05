@@ -29,22 +29,22 @@ export const members = [
     {
         name:'Prof. S. N. Singh',
         designation:'Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
-        committeeType:'Honoary Advisory Committee Chair(s)',
+        committeeType:'Honorary Advisory Committee Chair(s)',
     },
     {
         name:'Prof. Yogesh Singh Chauhan',
         designation:'IIT Kanpur',
-        committeeType:'Honoary Advisory Committee Chair(s)',
+        committeeType:'Honorary Advisory Committee Chair(s)',
     },
     {
         name:'Prof. Satish Singh',
         designation:'Indian Institute of Information Technology Allahabad, India',
-        committeeType:'Honoary Advisory Committee Chair(s)',
+        committeeType:'Honorary Advisory Committee Chair(s)',
     },
     {
         name:'Prof. Ekram Khan',
         designation:'AMU Aligarh',
-        committeeType:'Honoary Advisory Committee Chair(s)',
+        committeeType:'Honorary Advisory Committee Chair(s)',
     },
    
      {
@@ -491,21 +491,47 @@ export const members = [
         committeeType:'Track Chair(s)',
     },
 
-
-
+    {
+        name:'Dr. Ravi Prakash Chaturvedi',
+        designation:'Assistant Professor, CSA, SSCSE, Sharda University',
+        committeeType:'Finance Chair(s)',
+    },
+  {
+        name:'Mr. Aditya Dayal Tyagi',
+        designation:'Assistant Professor, CSA, SSCSE, Sharda University',
+        committeeType:'Finance Chair(s)',
+    },
     {
         name:'Prof. (Dr) Anurag Rai',
         designation:'Prof (Dr.) CSA, SSCSE, Sharda University',
-        committeeType:'Finance Chair',
+        committeeType:'Publicty Chair(s)',
     },
-
+      {
+        name:'Dr. Bharat Bhushan',
+        designation:' CSE, SSCSE, Sharda University',
+        committeeType:'Publicty Chair(s)',
+    },
     {
         name:'Dr. Archana Sharma',
-        designation:'CSA, SSET, Sharda University, Greater Noida',
-        committeeType:'Program Chair',
+        designation:'CSA, SSCSE, Sharda University, Greater Noida',
+        committeeType:'Program Chair(s)',
     },
-
-
+ {
+        name:'Dr. Samta Rani',
+        designation:'CSA, SSCSE, Sharda University, Greater Noida',
+        committeeType:'Program Chair(s)',
+    },
+    {
+        name:'Dr. Deepthi PS',
+        designation:'CSA, SSCSE, Sharda University, Greater Noida',
+        committeeType:'Web Master',
+    },
+    {
+        name:'Dr. Yagyesh Godiyal',
+        designation:'CSA, SSCSE, Sharda University, Greater Noida',
+        committeeType:'Web Master',
+    },
+    ,
     {
         name:'Prof. (Dr) Anurag Rai',
         designation:'Sharda University, Greater Noida',

@@ -6,7 +6,7 @@ const CommitteeLayout = () => {
   const [committeeType] = useState([
     'Chief Patron',
     'Patron',
-    'Honoary Advisory Committee Chair(s)',
+    'Honorary Advisory Committee Chair(s)',
     'General Chair',
     'Organizing Committee Chair(s)',
     'Convener',
@@ -14,8 +14,10 @@ const CommitteeLayout = () => {
     'National Advisory Committee',
     'Publication Chair',
     'Track Chair(s)',
-    'Finance Chair',
-    'Program Chair',
+    'Finance Chair(s)',
+    'Program Chair(s)',
+    'Publicity Chair(s)',
+    'Web Master',
     'Technical Program Committee',
   ]);
 
