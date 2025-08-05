@@ -532,247 +532,234 @@ export const members = [
         committeeType:'Web Master',
     },
     ,
-    {
-        name:'Prof. (Dr) Anurag Rai',
-        designation:'Sharda University, Greater Noida',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Prof. (Dr) Biswadip Basu Mallik',
-        designation:'Institute of Engineering & Management (School of University of Engineering and Management), Kolkata, West Bengal',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Prof. (Dr) Ketan Sarvakar',
-        designation:'Ganpat University, Mehsana, Gujarat',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Prof. (Dr) Lalit Kumar',
-        designation:'IILM University, Greater Noida',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Prof. (Dr) Muthu Krishnammal P',
-        designation:'Saveetha Engineering college (Autonomous), Chennai',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Prof. (Dr) Preeti Nagrath',
-        designation:'Bharati Vidyapeeth college of Engineering, New Delhi',
-        committeeType:'Technical Program Committee',
-    },
-    
-    {
-        name:'Prof. (Dr) S V Suryanarayana',
-        designation:'CVR College of Engineering, Hyderabad',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Prof. (Dr) Sudhir Kumar Sharma',
-        designation:'Sharda University, Greater Noida',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Prof. (Dr) Vijay Kumar',
-        designation:'Manav Rachna International Institute of Research and Studies, Faridabad',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. A.Akila',
-        designation:'Vels Institute of Science, Technology and Advanced Studies',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Abhishek',
-        designation:'Chitkara University Himachal Pradesh',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Amandeep Kaur Virk',
-        designation:'Sri Guru Granth Sahib World University, Fatehgarh Sahib, Punjab',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Amit Ramesh Khaparde',
-        designation:'G. B. Pant DSEU Campus, New Delhi',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Anju Gautam',
-        designation:'SDGI Global University, NH24, meerut highway, Ghaziabad(UP)',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Bharat Bhushan',
-        designation:'Sharda University, Greater Noida',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Deepak Motwani',
-        designation:'Amity University Gwalior Madhya Pradesh',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Deepti Deshwal',
-        designation:'Maharaja Surajmal Institute of Technology, New Delhi',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Jitendra Kumar Samriya',
-        designation:'Indian Institute of Information Technology, Sonepat',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Kaushik Adhikary',
-        designation:'JIS University, Agarpara',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Lokesh Jain',
-        designation:'Vivekananda Institute of Professional Studies - Technical Campus, Pitampura, Delhi',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Manoj kumar',
-        designation:'Maharaja Surajmal Institute, New Delhi',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Md Khalid Jamal',
-        designation:'Sharda University, Greater Noida',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Nagesh Kumar',
-        designation:'Chitkara University, Himachal Pradesh',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Prabhash Chandra Pathak',
-        designation:'Babu Banarasi Das University, Lucknow',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Praveen Kumar Shukla',
-        designation:'School of Engineering-BBD University, Lucknow',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. R Padma',
-        designation:'Vels Institute of Science Technology and Advanced Studies, Tamil nadu',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Renu Mishra',
-        designation:'Sharda University, Greater NoidaSharda University, Greater Noida',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Samta Rani',
-        designation:'Sharda University, Greater Noida',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Sanjay Kumar Singh',
-        designation:'Amity University Rajasthan, Jaipur',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Saurabh Dubey',
-        designation:'Amity University Gwalior',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Senthil Kumar J',
-        designation:'Kalaignar Karunanidhi institute of technology, Tamil Nadu',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Siva Skandha Sanagala',
-        designation:'CMR College of Engineering & Technology, Hyderabad',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. T. Keerthika',
-        designation:'Amrita Vishwa Vidhyapeetham ,Ettimadai, Coimbatore, Tamil Nadu',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Vandana Dabass',
-        designation:'IITM, Janakpuri,Delhi',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Mr. Vishal Sharma',
-        designation:'Amity University Rajasthan, Jaipur',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Yogita Yashveer Raghav',
-        designation:'Centre of Excellence-Cloud Computing, K R Mangalam University, Haryana',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Mr. Dharmateja Priyadarshi Uddandarao',
-        designation:'Senior Data Scientist, Amazon',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Dr. Awanit Kumar',
-        designation:'Associate Professo, Sangam University Bhilwara, Rajasthan',
-        committeeType:'Technical Program Committee',
-    },
-     {
-        name:'Mr. Anindya Nag',
-        designation:'Lecturer, Northern University of Business and Technology Khulna, Bangladesh',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Prof.(Dr.) Sunil Gupta',
-        designation:'Professor & Head, School of Computer & Systems Sciences, Jaipur National University',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Mr. Vijay Karnatak',
-        designation:'Assistant Professor, Uttaranchal University',
-        committeeType:'Technical Program Committee',
-    },
-    {
-    name: 'Mr. Sathish Krishna Anumula',
-    designation: 'Business & Enterprise Architect, IBM Corporation, Detroit, USA',
+  {
+    name: 'Prof. (Dr) Ajay Shriram Kushwaha',
+    designation: 'Sharda University, Greater Noida',
     committeeType: 'Technical Program Committee',
-},
-{
-    name: 'Mr. Suharsh Anand',
-    designation: 'Solutions Architect, IEEE, SCRS & oXya Corporation, NJ, USA',
+  },
+  {
+    name: 'Prof. (Dr) Anurag Rai',
+    designation: 'Sharda University, Greater Noida',
     committeeType: 'Technical Program Committee',
-},
-{
-    name: 'Dr. S. Sugumaran',
-    designation: 'Professor, Vishnu Institute of Technology, Vishnupur, Bhimavaram',
+  },
+  {
+    name: 'Prof. (Dr) Biswadip Basu Mallik',
+    designation: 'Institute of Engineering & Management (School of University of Engineering and Management), Kolkata, West Bengal',
     committeeType: 'Technical Program Committee',
-},
-{
-    name: 'Dr. Vijayalakshmi A.',
-    designation: 'Christ University, Bangalore',
+  },
+  {
+    name: 'Prof. (Dr) Ketan Sarvakar',
+    designation: 'Ganpat University, Mehsana, Gujarat',
     committeeType: 'Technical Program Committee',
-},
-{
+  },
+  {
+    name: 'Prof. (Dr) Lalit Kumar',
+    designation: 'IILM University, Greater Noida',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Prof. (Dr) Muthu Krishnammal P',
+    designation: 'Saveetha Engineering college (Autonomous), Chennai',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Prof. (Dr) Preeti Nagrath',
+    designation: "Bharati Vidyapeeth's college of Engineering, New Delhi",
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Prof. (Dr) S V Suryanarayana',
+    designation: 'CVR College of Engineering, Hyderabad',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Prof. (Dr) Sudhir Kumar Sharma',
+    designation: 'Sharda University, Greater Noida',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Prof. (Dr) Sunil Gupta',
+    designation: 'Jaipur National University',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Prof. (Dr) Vijay Kumar',
+    designation: 'Manav Rachna International Institute of Research and Studies, Faridabad',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Prof. (Dr) Aditya Patel',
+    designation: 'SAGE University Bhopal',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. A.Akila',
+    designation: 'Vels Institute of Science, Technology and Advanced Studies',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Abhishek',
+    designation: 'Chitkara University Himachal Pradesh',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Amandeep Kaur Virk',
+    designation: 'Sri Guru Granth Sahib World University, Fatehgarh Sahib, Punjab',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Amit Ramesh Khaparde',
+    designation: 'G. B. Pant DSEU Campus, New Delhi',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Anju Gautam',
+    designation: 'SDGI Global University, NH24, meerut highway, Ghaziabad(UP)',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Awanit Kumar',
+    designation: 'Sangam University Rajastan',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Bharat Bhushan',
+    designation: 'Sharda University, Greater Noida',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Deepak Motwani',
+    designation: 'Amity University Gwalior Madhya Pradesh',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Deepti Deshwal',
+    designation: 'Maharaja Surajmal Institute of Technology, New Delhi',
+    committeeType: 'Technical Program Committee',
+  },
+  {
     name: 'Dr. Deepti Khanna',
-    designation: 'Jagan Institute of Management Studies, Rohini, New Delhi',
+    designation: 'Jagana Institute of Management Studies, Rohini, New Delhi',
     committeeType: 'Technical Program Committee',
-},
-{
-    name: 'Ms. Babita Verma',
-    designation: 'Bhilai Institute of Technology, Durg, Chhattisgarh',
+  },
+  {
+    name: 'Dr. Jitendra Kumar Samriya',
+    designation: 'Indian Institute of Information Technology, Sonepat',
     committeeType: 'Technical Program Committee',
-},
-{
+  },
+  {
+    name: 'Dr. Kaushik Adhikary',
+    designation: 'JIS University, Agarpara',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Lokesh Jain',
+    designation: 'Vivekananda Institute of Professional Studies - Technical Campus, Pitampura, Delhi',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Manojkumar',
+    designation: 'Maharaja Surajmal Institute, New Delhi',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Md Khalid Jamal',
+    designation: 'Sharda University, Greater Noida',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Nagesh Kumar',
+    designation: 'Chitkara University, Himachal Pradesh',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Prabhash Chandra Pathak',
+    designation: 'Babu Banarasi Das University, Lucknow',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Praveen Kumar Shukla',
+    designation: 'School of Engineering-BBD University, Lucknow',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. R Padma',
+    designation: 'Vels Institute of Science Technology and Advanced Studies, Tamil nadu',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Renu Mishra',
+    designation: 'Sharda University, Greater Noida',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Samta Rani',
+    designation: 'Sharda University, Greater Noida',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Sanjay Kumar Singh',
+    designation: 'Amity University Rajasthan, Jaipur',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Saurabh Dubey',
+    designation: 'Amity University Gwalior',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. SenthilKumar J',
+    designation: 'Kalaignar Karunanidhi institute of technology, Tamil Nadu',
+    committeeType: 'Technical Program Committee',
+  },
+  {
     name: 'Dr. Shveta Bansal',
-    designation: 'Chitkara University, Punjab',
+    designation: 'Chitkara University',
     committeeType: 'Technical Program Committee',
-}
-
+  },
+  {
+    name: 'Dr. Siva Skandha Sanagala',
+    designation: 'CMR College of Engineering & Technology, Hyderabad',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. T. Keerthika',
+    designation: 'Amrita Vishwa Vidhyapeetham , Ettimadai, Coimbatore, Tamil Nadu',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Vandana Dabass',
+    designation: 'IITM, Janakpuri,Delhi',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Vijayalakshmi A',
+    designation: 'Christ University Bangalore',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Vishal Sharma',
+    designation: 'Amity University Rajasthan, Jaipur',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Dr. Yogita Yashveer Raghav',
+    designation: 'Centre of Excellence-Cloud Computing, K R Mangalam University, Haryana',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Mr. Anindya Nag',
+    designation: 'Northern University of Business and Technology Khulna',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Mr. Dharmateja Priyadarshi Uddandarao',
+    designation: 'Senior Data Scientist, Amazon',
+    committeeType: 'Technical Program Committee',
+  },
+  {
+    name: 'Mr. Vijay Karnatak',
+    designation: 'Uttaranchal University',
+    committeeType: 'Technical Program Committee',
+  },
 ]
-
