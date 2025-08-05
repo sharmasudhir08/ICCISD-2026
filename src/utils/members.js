@@ -504,12 +504,12 @@ export const members = [
     {
         name:'Prof. (Dr) Anurag Rai',
         designation:'Prof (Dr.) CSA, SSCSE, Sharda University',
-        committeeType:'Publicty Chair(s)',
+        committeeType:'Publicity Chair(s)',
     },
       {
         name:'Dr. Bharat Bhushan',
         designation:' CSE, SSCSE, Sharda University',
-        committeeType:'Publicty Chair(s)',
+        committeeType:'Publicity Chair(s)',
     },
     {
         name:'Dr. Archana Sharma',
