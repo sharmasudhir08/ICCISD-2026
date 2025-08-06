@@ -42,7 +42,7 @@ const Home = () => {
         </ul>
 
         <div className='w-[80%] mx-auto p-4 text-lg text-left text-gray-700 tracking-wide'>
-          The conference will cover a wide range of topics related to Smart Cities and Urban Development, Artificial Intelligence and Machine Learning, Advance Data Communication and Edge Computing, Cyber Security and Privacy in Sustainable Systems, Renewable Energy and Smart Grids, Robotics Automation and Networking, Digital Health and Smart Health Informatics. ICCISD -2026 invites authors to submit their original and unpublished work that demonstrates current research in all areas of science technology and sustainable development through Microsoft Conference Management Toolkit. The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support. The conference invites original research papers (not being considered for publication elsewhere) of 5 pages in standard IEEE conference template in one of the following tracks (but are not limited to):
+          The conference will cover a wide range of topics related to Smart Cities and Urban Development, Artificial Intelligence and Machine Learning, Advance Data Communication and Edge Computing, Cyber Security and Privacy in Sustainable Systems, Renewable Energy and Smart Grids, Robotics Automation and Networking, Digital Health and Smart Health Informatics. The conference invites original research papers (not being considered for publication elsewhere) of 5 pages in standard IEEE conference template in one of the following tracks (but are not limited to):
         </div>
 
         <div className='w-[90%] mx-auto p-4 text-lg text-left text-gray-700 tracking-wide flex flex-col gap-10 bg-white my-4 rounded-2xl'>
@@ -187,7 +187,13 @@ const Home = () => {
             <Cards source={benefits} heading='IEEE Member Benefits' content='Special discounts for IEEE members, professional recognition, and continuing education credits for career advancement'/>
             <Cards source={Exposure} heading='Hybrid Experience' content='Participate in-person at beautiful Sharda University campus or join virtually with live streaming and interactive sessions'/>
           </div>
-
+<div className="w-[90%] mx-auto my-6 p-4 bg-gray-100 rounded-md text-center text-sm text-gray-700">
+  <p>
+    The Microsoft CMT service was used for managing the peer-reviewing process for this conference. 
+    This service was provided for free by Microsoft and they bore all expenses, including costs for 
+    Azure cloud services as well as for software development and support.
+  </p>
+</div>
         <ContactUsLayout/>
       
     </div>

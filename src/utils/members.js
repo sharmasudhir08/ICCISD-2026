@@ -720,7 +720,7 @@ export const members = [
     },
     {
         name:'Dr. Awanit Kumar',
-        designation:'Associate Professo, Sangam University Bhilwara, Rajasthan',
+        designation:'Associate Professor, Sangam University Bhilwara, Rajasthan',
         committeeType:'Technical Program Committee',
     },
      {
