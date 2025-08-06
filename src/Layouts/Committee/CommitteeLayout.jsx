@@ -26,9 +26,8 @@ const CommitteeLayout = () => {
       <div className='w-full max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-4'>
         {committeeType.map((type, index) => {
           const filteredMembers = members.filter(
-            (member) => member.committeeType === type
-          );
-
+          (member) => member.committeeType === type
+        );
           if (filteredMembers.length === 0) return null;
 
           return (
