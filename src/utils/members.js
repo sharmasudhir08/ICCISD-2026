@@ -652,7 +652,7 @@ export const members = [
         committeeType:'Technical Program Committee',
     },
     {
-        name:'Kaushik Adhikary',
+        name:'Dr. Kaushik Adhikary',
         designation:'JIS University, Agarpara',
         committeeType:'Technical Program Committee',
     },
