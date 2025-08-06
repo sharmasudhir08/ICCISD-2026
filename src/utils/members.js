@@ -503,7 +503,7 @@ export const members = [
     },
     {
         name:'Prof. (Dr) Anurag Rai',
-        designation:'Prof (Dr.) CSA, SSCSE, Sharda University',
+        designation:'CSA, SSCSE, Sharda University',
         committeeType:'Publicity Chair(s)',
     },
       {
@@ -720,7 +720,7 @@ export const members = [
     },
     {
         name:'Dr. Awanit Kumar',
-        designation:'Associate Professo, Sangam University Bhilwara, Rajasthan',
+        designation:'Associate Professor, Sangam University Bhilwara, Rajasthan',
         committeeType:'Technical Program Committee',
     },
      {
