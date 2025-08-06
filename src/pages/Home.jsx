@@ -188,11 +188,7 @@ const Home = () => {
             <Cards source={Exposure} heading='Hybrid Experience' content='Participate in-person at beautiful Sharda University campus or join virtually with live streaming and interactive sessions'/>
           </div>
 <div className="w-[90%] mx-auto my-6 p-4 bg-gray-100 rounded-md text-center text-sm text-gray-700">
-  <p>
-    The Microsoft CMT service was used for managing the peer-reviewing process for this conference. 
-    This service was provided for free by Microsoft and they bore all expenses, including costs for 
-    Azure cloud services as well as for software development and support.
-  </p>
+
 </div>
         <ContactUsLayout/>
       
