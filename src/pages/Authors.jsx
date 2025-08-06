@@ -42,7 +42,7 @@ const Authors = () => {
           </li>
           <li>
             Conference Dates:{' '}
-            <b className="text-orange-700">21st – 22nd May 2026</b>
+            <b className="text-orange-700">23rd – 24th July 2026</b>
           </li>
         </ul>
       </div>
