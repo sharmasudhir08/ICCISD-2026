@@ -506,11 +506,12 @@ export const members = [
         designation:'CSA, SSCSE, Sharda University',
         committeeType:'Publicity Chair(s)',
     },
-      {
+    {
         name:'Dr. Bharat Bhushan',
         designation:' CSE, SSCSE, Sharda University',
         committeeType:'Publicity Chair(s)',
     },
+    
     {
         name:'Dr. Archana Sharma',
         designation:'CSA, SSCSE, Sharda University, Greater Noida',
@@ -530,6 +531,12 @@ export const members = [
         name:'Dr. Yagyesh Godiyal',
         designation:'CSA, SSCSE, Sharda University, Greater Noida',
         committeeType:'Web Master',
+    },
+
+    {
+        name:'Prof.(Dr.) Ajay Shriram Kushwaha',
+        designation:'Sharda University, Greater Noida',
+        committeeType:'Technical Program Committee',
     },
     ,
     {
@@ -572,6 +579,12 @@ export const members = [
         name:'Prof. (Dr) Sudhir Kumar Sharma',
         designation:'Sharda University, Greater Noida',
         committeeType:'Technical Program Committee',
+        
+    },
+      {
+        name:'Prof.(Dr.) Sunil Gupta',
+        designation:'Professor & Head, School of Computer & Systems Sciences, Jaipur National University',
+        committeeType:'Technical Program Committee',
     },
     {
         name:'Prof. (Dr) Vijay Kumar',
@@ -604,11 +617,21 @@ export const members = [
         committeeType:'Technical Program Committee',
     },
     {
+        name:'Dr. Awanit Kumar',
+        designation:'Associate Professor, Sangam University Bhilwara, Rajasthan',
+        committeeType:'Technical Program Committee',
+    },
+    {
         name:'Dr. Bharat Bhushan',
         designation:'Sharda University, Greater Noida',
         committeeType:'Technical Program Committee',
     },
     {
+        name:'Dr. Bhaskar Kapoor',
+        designation:'Maharaja Agrasen Institute of Technology, New Delhi',
+        committeeType:'Technical Program Committee',
+    },
+        {
         name:'Dr. Deepak Motwani',
         designation:'Amity University Gwalior Madhya Pradesh',
         committeeType:'Technical Program Committee',
@@ -617,6 +640,11 @@ export const members = [
         name:'Dr. Deepti Deshwal',
         designation:'Maharaja Surajmal Institute of Technology, New Delhi',
         committeeType:'Technical Program Committee',
+    },
+    {
+        name: 'Dr. Deepti Khanna',
+        designation: 'Jagana Institute of Management Studies, Rohini, New Delhi',
+        committeeType: 'Technical Program Committee',
     },
     {
         name:'Dr. Jitendra Kumar Samriya',
@@ -664,7 +692,7 @@ export const members = [
         committeeType:'Technical Program Committee',
     },
     {
-        name:'Renu Mishra',
+        name:'Dr. Renu Mishra',
         designation:'Sharda University, Greater NoidaSharda University, Greater Noida',
         committeeType:'Technical Program Committee',
     },
@@ -689,6 +717,11 @@ export const members = [
         committeeType:'Technical Program Committee',
     },
     {
+        name:'Dr. Shveta Bansal',
+        designation:'Chitkara University',
+        committeeType:'Technical Program Committee',
+    },
+        {
         name:'Dr. Siva Skandha Sanagala',
         designation:'CMR College of Engineering & Technology, Hyderabad',
         committeeType:'Technical Program Committee',
@@ -703,74 +736,68 @@ export const members = [
         designation:'IITM, Janakpuri,Delhi',
         committeeType:'Technical Program Committee',
     },
+   {
+        name: 'Dr. Vijayalakshmi A',
+        designation: 'Christ University Bangalore',
+        committeeType: 'Technical Program Committee',
+  },
     {
-        name:'Mr. Vishal Sharma',
-        designation:'Amity University Rajasthan, Jaipur',
+        name: 'Dr. Vishal Sharma',
+        designation: 'Amity University Rajasthan, Jaipur',
+        committeeType: 'Technical Program Committee',
+    },
+    {
+        name: 'Dr. Yogita Yashveer Raghav',
+        designation: 'Centre of Excellence-Cloud Computing, K R Mangalam University, Haryana',
+        committeeType: 'Technical Program Committee',
+    },
+    {
+        name:'Mr. Anindya Nag',
+        designation:'Lecturer, Northern University of Business and Technology Khulna, Bangladesh',
         committeeType:'Technical Program Committee',
     },
     {
-        name:'Dr. Yogita Yashveer Raghav',
-        designation:'Centre of Excellence-Cloud Computing, K R Mangalam University, Haryana',
-        committeeType:'Technical Program Committee',
-    },
+  name: 'Ms. Babita Verma',
+  designation: 'Bhilai Institute of Technology Durg',
+  committeeType: 'Technical Program Committee',
+},
+    {
+  name: 'Mr. Chaitanya Gunupudi K',
+  designation: 'University of Maryland Research Center, USA',
+  committeeType: 'Technical Program Committee',
+},
     {
         name:'Mr. Dharmateja Priyadarshi Uddandarao',
         designation:'Senior Data Scientist, Amazon',
         committeeType:'Technical Program Committee',
     },
     {
-        name:'Dr. Awanit Kumar',
-        designation:'Associate Professor, Sangam University Bhilwara, Rajasthan',
-        committeeType:'Technical Program Committee',
-    },
-     {
-        name:'Mr. Anindya Nag',
-        designation:'Lecturer, Northern University of Business and Technology Khulna, Bangladesh',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Prof.(Dr.) Sunil Gupta',
-        designation:'Professor & Head, School of Computer & Systems Sciences, Jaipur National University',
-        committeeType:'Technical Program Committee',
-    },
-    {
-        name:'Mr. Vijay Karnatak',
-        designation:'Assistant Professor, Uttaranchal University',
-        committeeType:'Technical Program Committee',
-    },
+  name: 'Mr. Jatinkumar Soni',
+  designation: 'Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir',
+  committeeType: 'Technical Program Committee',
+},
+{
+  name: 'Mr. Naveen Ananda Kumar Joseph Annaiah',
+  designation: 'Tekinvaderz LLC',
+  committeeType: 'Technical Program Committee',
+},
+{
+  name: 'Mr. Suharsh Anand',
+  designation: 'Solution Architect, IEEE',
+  committeeType: 'Technical Program Committee',
+},
+          
     {
     name: 'Mr. Sathish Krishna Anumula',
     designation: 'Business & Enterprise Architect, IBM Corporation, Detroit, USA',
     committeeType: 'Technical Program Committee',
   },
   {
-    name: 'Dr. Vijayalakshmi A',
-    designation: 'Christ University Bangalore',
-    committeeType: 'Technical Program Committee',
-  },
-  {
-    name: 'Dr. Vishal Sharma',
-    designation: 'Amity University Rajasthan, Jaipur',
-    committeeType: 'Technical Program Committee',
-  },
-  {
-    name: 'Dr. Yogita Yashveer Raghav',
-    designation: 'Centre of Excellence-Cloud Computing, K R Mangalam University, Haryana',
-    committeeType: 'Technical Program Committee',
-  },
-  {
-    name: 'Mr. Anindya Nag',
-    designation: 'Northern University of Business and Technology Khulna',
-    committeeType: 'Technical Program Committee',
-  },
-  {
-    name: 'Mr. Dharmateja Priyadarshi Uddandarao',
-    designation: 'Senior Data Scientist, Amazon',
-    committeeType: 'Technical Program Committee',
-  },
-  {
-    name: 'Mr. Vijay Karnatak',
-    designation: 'Uttaranchal University',
-    committeeType: 'Technical Program Committee',
-  },
+  name: 'Mr. Vijay Karnatak',
+  designation: 'Uttaranchal University',
+  committeeType: 'Technical Program Committee',
+},
+
+  
+  
 ]
