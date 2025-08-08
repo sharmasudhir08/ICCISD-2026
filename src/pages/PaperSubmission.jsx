@@ -16,7 +16,7 @@ const PaperSubmission = () => {
       </div>
 
       {/* Content Section */}
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-gray-700 sm:text-left">
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-gray-700 sm:text-justify">
 
         <h1 className="text-sky-800 text-xl sm:text-2xl font-bold mb-4">PAPER SUBMISSION</h1>
         <p className="text-base sm:text-lg leading-relaxed mb-8">
@@ -32,7 +32,7 @@ const PaperSubmission = () => {
 
         <h2 className="text-sky-800 text-xl font-bold mt-8 sm:text-left">Author’s Guidelines</h2>
         <h3 className="text-gray-800 text-lg font-semibold mt-4 sm:text-left">Guidelines</h3>
-        <p className="mt-2 text-base sm:text-lg sm:text-left leading-relaxed">
+        <p className="mt-2 text-base sm:text-lg sm:text-justify leading-relaxed">
           At least one author of an accepted paper must register and present his / her paper in conference.
           Authors are invited to submit original papers of 4 - 6 pages in A4 size using the IEEE template, with one accepted paper covered under standard registration.
         </p>
@@ -42,7 +42,7 @@ const PaperSubmission = () => {
         </ul>
 
         <h2 className="text-sky-800 text-xl font-semibold mt-8">Manuscript Preparation</h2>
-        <ul className="list-disc pl-6 mt-4 text-base sm:text-lg sm:text-left space-y-3 text-gray-700">
+        <ul className="list-disc pl-6 mt-4 text-base sm:text-lg sm:text-justify space-y-3 text-gray-700">
           <li>
             All papers are required to be prepared and submitted in the IEEE Standard two–column conference format of A4 size in English.
             Papers must be four to six pages in length, including texts, figures, photographs and references.

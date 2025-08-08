@@ -874,7 +874,7 @@ const Authors = () => {
       <h1 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 text-xl sm:text-2xl text-sky-800 font-bold text-left">
         PAPER SUBMISSION
       </h1>
-      <div className="max-w-7xl mx-auto px-4 sm:text-left sm:px-6 lg:px-8 mt-5 text-base sm:text-lg text-gray-600">
+      <div className="max-w-7xl mx-auto px-4 sm:text-justify sm:px-6 lg:px-8 mt-5 text-base sm:text-lg text-gray-600">
         IEEE International Conference on Computational Intelligence for Sustainable
         Development (ICCISD -2026), will be organized by Sharda University, Greater
         Noida, U.P., India on 23rd-24th July 2026. The aim of the conference is to
@@ -915,7 +915,7 @@ const Authors = () => {
       <h1 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-5 text-xl sm:text-2xl text-sky-800 font-semibold text-left">
         Manuscript Preparation
       </h1>
-      <ul className="max-w-7xl mx-auto px-4 sm:text-left sm:px-6 lg:px-8 mt-5 text-base sm:text-lg text-gray-600 list-disc">
+      <ul className="max-w-7xl mx-auto px-4 sm:text-justify sm:px-6 lg:px-8 mt-5 text-base sm:text-lg text-gray-600 list-disc">
         <li>
           All papers are required to be prepared and submitted in the IEEE Standard
           two – column conference format of A4 size in English. Papers must be four
@@ -967,7 +967,7 @@ const Authors = () => {
       <h1 className="max-w-7xl mx-auto px-4 sm:text-left sm:px-6 lg:px-8 mt-5 text-xl sm:text-2xl text-sky-800 font-semibold text-left">
         Policy on Plagiarism
       </h1>
-      <ul className="max-w-7xl mx-auto px-4 sm:text-left sm:px-6 lg:px-8 mt-5 text-base sm:text-lg text-gray-600 list-disc">
+      <ul className="max-w-7xl mx-auto px-4 sm:text-justify sm:px-6 lg:px-8 mt-5 text-base sm:text-lg text-gray-600 list-disc">
         <li>
           Authors are requested to kindly refrain from plagiarism in any form.
           Authors should submit their original and unpublished research work not
