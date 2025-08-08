@@ -26,11 +26,11 @@ const Home = () => {
 
         <h1 className='w-[80%] mx-auto mt-5 text-2xl text-gray-600 text-left font-semibold tracking-wide'>THE OBJECTIVE OF THE CONFERENCE</h1>
 
-        <div className='w-[80%] mx-auto p-4 text-lg text-left text-amber-600 tracking-wide text-justify'>
+        <div className='w-[80%] mx-auto p-4 text-lg text-amber-600 tracking-wide text-justify'>
           The conference will provide an opportunity to the students, scholars, practicing engineers, academicians, and researchers to meet in a forum to discuss various issues and its future direction of various emerging areas of science and technologies and impacts on sustainable development. The objectives of the conference are as follows.
         </div>
 
-        <ul className='w-[80%] mx-auto p-4 text-lg text-left text-gray-700 list-disc tracking-wide'>
+        <ul className='w-[80%] mx-auto p-4 text-lg text-justify text-gray-700 list-disc tracking-wide'>
           <li>To bring together researchers, scientists, engineers, policymakers, and industry experts to present and discuss innovative solutions leveraging emerging science and technology to address global sustainability challenges.</li>
           <li>To promote innovative data-driven models for energy optimization, waste reduction, and climate prediction.</li>
           <li>To discuss advancements in IoT, 5G/6G, and wireless sensor networks that contribute to sustainable development.</li>
