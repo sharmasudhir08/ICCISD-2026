@@ -41,7 +41,7 @@ const Home = () => {
           <li>To provide a platform for showcasing successful case studies of smart cities contributing to environmental, economic, and social sustainability.</li>
         </ul>
 
-        <div className='w-[80%] mx-auto p-4 text-lg text-left text-gray-700 tracking-wide'>
+        <div className='w-[80%] mx-auto p-4 text-lg text-justify text-gray-700 tracking-wide'>
           The conference will cover a wide range of topics related to Smart Cities and Urban Development, Artificial Intelligence and Machine Learning, Advance Data Communication and Edge Computing, Cyber Security and Privacy in Sustainable Systems, Renewable Energy and Smart Grids, Robotics Automation and Networking, Digital Health and Smart Health Informatics. The conference invites original research papers (not being considered for publication elsewhere) of 5 pages in standard IEEE conference template in one of the following tracks (but are not limited to):
         </div>
 
