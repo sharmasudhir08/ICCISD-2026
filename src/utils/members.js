@@ -829,11 +829,6 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
-    "name": "Dr. Senthil Kumar J",
-    "designation": "KIT-Kalaignarkarunanidhi Institute of Technology, Tamil Nadu",
-    "committeeType": "Technical Program Committee"
-  },
-  {
     "name": "Dr. SenthilKumar J",
     "designation": "Kalaignar Karunanidhi institute of technology, Tamil Nadu",
     "committeeType": "Technical Program Committee"
