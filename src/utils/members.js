@@ -639,6 +639,11 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
+    "name": "Dr. Anu",
+    "designation": "Banarsidas Chandiwala Institute of Information Technology, GGSIPU, Delhi",
+    "committeeType": "Technical Program Committee"
+  },
+  {
     "name": "Dr. Ashish Runthala",
     "designation": "SR University, Warangal",
     "committeeType": "Technical Program Committee"
@@ -941,6 +946,11 @@ export const members = [
   {
     "name": "Mr. Pankaj Kumar",
     "designation": "Mangalayatan University Aligarh",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Mr. Parbhat Gupta",
+    "designation": "SRM Institute of Science and Technology, Delhi NCR Campus Modinagar Ghaziabad,",
     "committeeType": "Technical Program Committee"
   },
   {
