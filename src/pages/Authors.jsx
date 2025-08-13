@@ -857,7 +857,7 @@ const Authors = () => {
         current research in all areas of science technology and sustainable
         development through Microsoft Conference Management Toolkit{' '}
         <a href="#" className="text-sky-800">
-          https://cmt3.research.microsoft.com/
+          https://cmt3.research.microsoft.com/ICCISD2026
         </a>If you encounter problems in submitting, contact at{' '}
         <a href="#" className="text-sky-800">
           iccisd.conference@gmail.com

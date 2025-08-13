@@ -59,12 +59,12 @@ export const members = [
     },
     {
         name:'Dr. Rajneesh Kumar Singh',
-        designation:'HoD-CSA, SSCSE,Sharda University, Greater Noida, India',
+        designation:'HoD-CSA, SSCSE, Sharda University, Greater Noida, India',
         committeeType:'Organizing Committee Chair(s)',
     },
     {
         name:'Dr. Sudeep Varshney',
-        designation:'HoD-CSE, SSCSE,Sharda University, Greater Noida, India',
+        designation:'HoD-CSE, SSCSE, Sharda University, Greater Noida, India',
         committeeType:'Organizing Committee Chair(s)',
     },
     {
