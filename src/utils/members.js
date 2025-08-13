@@ -930,7 +930,7 @@ export const members = [
   },
   {
     "name": "Mr. Naveen Ananda Kumar Joseph Annaiah",
-    "designation": "Tekinvaderz LLC",
+    "designation": "Data Engineer, Tekinvaderz LLC, Florida, USA",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -960,7 +960,7 @@ export const members = [
   },
   {
     "name": "Mr. Suharsh Anand",
-    "designation": "Solution Architect, IEEE",
+    "designation": "Solution Architect, oXya Corporation, NJ , USA",
     "committeeType": "Technical Program Committee"
   },
   {
