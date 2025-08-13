@@ -829,7 +829,7 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
-    "name": "Dr. SenthilKumar J",
+    "name": "Dr. Senthil Kumar J",
     "designation": "Kalaignar Karunanidhi institute of technology, Tamil Nadu",
     "committeeType": "Technical Program Committee"
   },
@@ -894,8 +894,8 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
-    "name": "Mr. Chaitanya Gunupudi  University of Maryland Research Center",
-    "designation": "USA",
+    "name": "Mr. Chaitanya Gunupudi",
+    "designation": "University of Maryland Research Center, USA",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -949,7 +949,7 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
-    "name": "Mr. Sanjay kumar sonker",
+    "name": "Mr. Sanjay Kumar Sonker",
     "designation": "Sharda University Greater Noida",
     "committeeType": "Technical Program Committee"
   },
