@@ -95,20 +95,6 @@ const Authors = () => {
                     <li>Genetic Algorithm and Programming</li>
                     <li>Neural Genetic Systems</li>
                     <li>Hybrid Intelligent Systems</li>
-                    <li>Soft Computing</li>
-                  </ul>
-                </li>
-
-                <li className="list-none">
-                  <h1 className="text-lg sm:text-xl text-sky-900 font-semibold">
-                    1.3	Hybrid and Soft Computing Approaches
-                  </h1>
-                  <ul className="p-4 ml-2 text-sm sm:text-base list-disc">
-                    <li>Fuzzy Systems</li>
-                    <li>Neural Fuzzy Systems</li>
-                    <li>Genetic Algorithm and Programming</li>
-                    <li>Neural Genetic Systems</li>
-                    <li>Hybrid Intelligent Systems</li>
                   </ul>
                 </li>
 
@@ -282,20 +268,7 @@ const Authors = () => {
                   </ul>
                 </li>
 
-                <li className="list-none">
-                  <h1 className="text-lg sm:text-xl text-sky-900 font-semibold">
-                    3.4	Emerging Technologies in Energy Systems
-                  </h1>
-                  <ul className="p-4 ml-2 text-sm sm:text-base list-disc">
-                    <li>Blockchain for Transparent Energy Trading and Management</li>
-                    <li>Smart Grids with AI-Based Decision-Making</li>
-                    <li>Integration of IoT with Renewable Energy Systems</li>
-                    <li>Edge and Fog Computing for Decentralized Energy Control</li>
-                    <li>Digital Twin Technology for Energy Asset Management</li>
-                  </ul>
-                </li>
-
-                <li className="list-none">
+                 <li className="list-none">
                   <h1 className="text-lg sm:text-xl text-sky-900 font-semibold">
                     3.4	Emerging Technologies in Energy Systems
                   </h1>
