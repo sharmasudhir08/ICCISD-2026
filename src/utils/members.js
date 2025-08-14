@@ -629,6 +629,11 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
+    "name": "Dr. Anil Kumar",
+    "designation": "Galgotia College of Engineering and Technology, Greater Noida",
+    "committeeType": "Technical Program Committee"
+  },
+  {
     "name": "Dr. Anjali Ashokrao Bhadre",
     "designation": "gh raisoni college of engineering and management pune Maharashtra",
     "committeeType": "Technical Program Committee"
@@ -774,8 +779,13 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
-    "name": "Dr. Prabhakar Shukla",
-    "designation": "IIT Delhi",
+    "name": "Dr. P Ramani",
+    "designation": "SRM Institute of Science and Technology, Tamil Nadu",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Dr. Pooja Jain",
+    "designation": "IIIT Nagpur",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -866,6 +876,11 @@ export const members = [
   {
     "name": "Dr. T. Keerthika",
     "designation": "Amrita Vishwa Vidhyapeetham , Ettimadai, Coimbatore, Tamil Nadu",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Dr. Tanya Liyaqat",
+    "designation": "Sharda University, Greater Noida",
     "committeeType": "Technical Program Committee"
   },
   {
