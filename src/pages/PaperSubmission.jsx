@@ -26,9 +26,22 @@ const PaperSubmission = () => {
           research ideas in various cutting edge technologies. ICCISD -2026 invites authors to submit their
           original and unpublished work that demonstrates current research in all areas of science technology and
           sustainable development through Microsoft Conference Management Toolkit:
-          <a href="#" className="text-sky-800 ml-1">https://cmt3.research.microsoft.com/ICCISD2026
-          </a>. If you encounter problems in submitting,
-          contact at <a href="#" className="text-sky-800">iccisd.conference@gmail.com</a>. Acceptance of papers will be communicated to authors by email.
+          <a
+  href="https://cmt3.research.microsoft.com/ICCISD2026"
+  className="text-sky-800 ml-1"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  https://cmt3.research.microsoft.com/ICCISD2026
+</a>.
+If you encounter problems in submitting, contact at{' '}
+<a
+  href="mailto:iccisd.conference@gmail.com"
+  className="text-sky-800"
+>
+  iccisd.conference@gmail.com
+</a>
+. Acceptance of papers will be communicated to authors by email.
         </p>
 
         <h2 className="text-sky-800 text-xl font-bold mt-8 sm:text-left">Author’s Guidelines</h2>

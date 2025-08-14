@@ -604,7 +604,7 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
-    "name": "Dr. A.Akila",
+    "name": "Dr. A. Akila",
     "designation": "Vels Institute of Science, Technology and Advanced Studies",
     "committeeType": "Technical Program Committee"
   },
@@ -635,7 +635,7 @@ export const members = [
   },
   {
     "name": "Dr. Anjali Ashokrao Bhadre",
-    "designation": "gh raisoni college of engineering and management pune Maharashtra",
+    "designation": "G H RAISONI College OF Engineering AND Management, PUNE, Maharashtra",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -700,12 +700,12 @@ export const members = [
   },
   {
     "name": "Dr. Hardikkumar Mahendrabhai Patel",
-    "designation": "Vidush Somany Institute of Technology & Research,Kadi",
+    "designation": "Vidush Somany Institute of Technology & Research, Kadi",
     "committeeType": "Technical Program Committee"
   },
   {
     "name": "Dr. Honey Gocher",
-    "designation": "Amity University , Jaipur",
+    "designation": "Amity University, Jaipur",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -795,7 +795,7 @@ export const members = [
   },
   {
     "name": "Dr. R Padma",
-    "designation": "Vels Institute of Science Technology and Advanced Studies, Tamil nadu",
+    "designation": "Vels Institute of Science Technology and Advanced Studies, Tamil Nadu",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -835,7 +835,7 @@ export const members = [
   },
   {
     "name": "Dr. Saurabh Dubey",
-    "designation": "Amity University Gwalior",
+    "designation": "Amity University, Gwalior",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -845,12 +845,12 @@ export const members = [
   },
   {
     "name": "Dr. Shanmugaraja P",
-    "designation": "Sona College of Technology, Salem, Tamilnadu",
+    "designation": "Sona College of Technology, Salem, Tamil Nadu",
     "committeeType": "Technical Program Committee"
   },
   {
     "name": "Dr. Shikha Marwaha",
-    "designation": "Shiv Nadar University Chennai",
+    "designation": "Shiv Nadar University, Chennai",
     "committeeType": "Technical Program Committee"
   },
   {

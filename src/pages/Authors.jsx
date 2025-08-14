@@ -856,12 +856,22 @@ const Authors = () => {
         authors to submit their original and unpublished work that demonstrates
         current research in all areas of science technology and sustainable
         development through Microsoft Conference Management Toolkit{' '}
-        <a href="#" className="text-sky-800">
-          https://cmt3.research.microsoft.com/ICCISD2026
-        </a>If you encounter problems in submitting, contact at{' '}
-        <a href="#" className="text-sky-800">
-          iccisd.conference@gmail.com
-        </a>
+        <a
+  href="https://cmt3.research.microsoft.com/ICCISD2026"
+  className="text-sky-800"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  https://cmt3.research.microsoft.com/ICCISD2026
+</a>
+. If you encounter problems in submitting, contact at{' '}
+<a
+  href="mailto:iccisd.conference@gmail.com"
+  className="text-sky-800"
+>
+  iccisd.conference@gmail.com
+</a>
+
         . Acceptance of papers will be communicated to authors by email.
       </div>
 
