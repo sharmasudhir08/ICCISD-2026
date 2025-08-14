@@ -779,11 +779,6 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
-    "name": "Dr. P Ramani",
-    "designation": "SRM Institute of Science and Technology, Tamil Nadu",
-    "committeeType": "Technical Program Committee"
-  },
-  {
     "name": "Dr. Pooja Jain",
     "designation": "IIIT Nagpur",
     "committeeType": "Technical Program Committee"
