@@ -19,7 +19,7 @@ const PaperSubmission = () => {
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-gray-700 sm:text-justify">
 
         <h1 className="text-sky-800 text-xl sm:text-2xl font-bold mb-4">PAPER SUBMISSION</h1>
-        <p className="text-base sm:text-lg leading-relaxed mb-8">
+        <div className="text-base sm:text-lg leading-relaxed mb-2">
           IEEE International Conference on Computational Intelligence for Sustainable Development (ICCISD -2026),
           will be organized by Sharda University, Greater Noida, U.P., India on 21st & 22nd June 2026. The aim of
           the conference is to serve researchers, developers, educators to present as well as to exchange the
@@ -27,22 +27,28 @@ const PaperSubmission = () => {
           original and unpublished work that demonstrates current research in all areas of science technology and
           sustainable development through Microsoft Conference Management Toolkit:
           <a
-  href="https://cmt3.research.microsoft.com/ICCISD2026"
-  className="text-sky-800 ml-1"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  https://cmt3.research.microsoft.com/ICCISD2026
-</a>.
-If you encounter problems in submitting, contact at{' '}
-<a
-  href="mailto:iccisd.conference@gmail.com"
-  className="text-sky-800"
->
-  iccisd.conference@gmail.com
-</a>
-. Acceptance of papers will be communicated to authors by email.
-        </p>
+            href="https://cmt3.research.microsoft.com/ICCISD2026"
+            className="text-sky-800 ml-1 break-words text-sm sm:text-base md:text-lg hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://cmt3.research.microsoft.com/ICCISD2026
+          </a>.
+          If you encounter problems in submitting, contact at{' '}
+          <a
+            href="mailto:iccisd.conference@gmail.com"
+            className="text-sky-800"
+          >
+            iccisd.conference@gmail.com
+          </a>
+          . Acceptance of papers will be communicated to authors by email.
+        </div>
+
+        <div className='flex flex-col sm:flex-row items-center gap-4 mb-8'>
+          <a href='https://cmt3.research.microsoft.com/ICCISD2026' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>CMT PaperSubmission Link</button></a>
+          <a href='mailto:iccisd.conference@gmail.com' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>Contact Email</button></a>
+        </div>
+
 
         <h2 className="text-sky-800 text-xl font-bold mt-8 sm:text-left">Author’s Guidelines</h2>
         <h3 className="text-gray-800 text-lg font-semibold mt-4 sm:text-left">Guidelines</h3>
@@ -51,9 +57,10 @@ If you encounter problems in submitting, contact at{' '}
           Authors are invited to submit original papers of 4 - 6 pages in A4 size using the IEEE template, with one accepted paper covered under standard registration.
         </p>
 
-        <ul className="list-disc pl-6 mt-4 text-lg text-sky-800 sm:text-xl">
-          <li><a href="#">Download Call For Papers in PDF</a></li>
-        </ul>
+        <div className=" mt-4 text-lg text-sky-800 font-bold flex flex-col gap-4 sm:flex-row sm:gap-4 sm:text-xl">
+          <a href="#"><button className='p-2 text-white bg-sky-800 border rounded-xl'>Download Call For Papers</button></a>
+          <a href="#"><button className='p-2  text-white bg-sky-800 border rounded-xl'>Download Paper Template</button></a>
+        </div>
 
         <h2 className="text-sky-800 text-xl font-semibold mt-8">Manuscript Preparation</h2>
         <ul className="list-disc pl-6 mt-4 text-base sm:text-lg sm:text-justify space-y-3 text-gray-700">
