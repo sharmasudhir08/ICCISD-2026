@@ -875,6 +875,12 @@ const Authors = () => {
         . Acceptance of papers will be communicated to authors by email.
       </div>
 
+      <div className='max-w-7xl mx-auto px-8 flex flex-col sm:flex-row items-center gap-4 mb-2'>
+        <a href='https://cmt3.research.microsoft.com/ICCISD2026' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>CMT PaperSubmission Link</button></a>
+        <a href='mailto:iccisd.conference@gmail.com' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>Contact Email</button></a>
+      </div>
+
+
       {/* Author’s Guidelines */}
       <h1 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 text-xl sm:text-2xl text-sky-800 font-bold text-left">
         Author’s Guidelines
@@ -888,11 +894,11 @@ const Authors = () => {
         pages in A4 size using the IEEE template, with one accepted paper covered
         under standard registration.
       </div>
-      <ul className="max-w-7xl mx-auto px-4 sm:text-left sm:px-6 lg:px-8 mt-5 text-base sm:text-lg text-sky-800 list-disc">
-        <li>
-          <a href="#">Download Call For Papers in PDF</a>
-        </li>
-      </ul>
+
+      <div className="max-w-7xl mx-auto px-8 mt-4 text-lg text-sky-800 font-bold flex flex-col gap-4 sm:flex-row sm:gap-4 sm:text-xl">
+        <a href="#"><button className='p-2 text-white bg-sky-800 border rounded-xl hover:cursor-pointer'>Download Call For Papers</button></a>
+        <a href="#"><button className='p-2  text-white bg-sky-800 border rounded-xl hover:cursor-pointer'>Download Paper Template</button></a>
+      </div>
 
       {/* Manuscript Preparation */}
       <h1 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-5 text-xl sm:text-2xl text-sky-800 font-semibold text-left">
