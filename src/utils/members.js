@@ -85,6 +85,11 @@ export const members = [
         committeeType: 'International Advisory Committee',
     },
     {
+        name: 'Dr. Yu-Chen Hu',
+        designation: 'Department of Computer Science, Tunghai University, Taiwan',
+        committeeType: 'International Advisory Committee',
+    },
+    {
         name: 'Mr. Akash Takyar',
         designation: 'Founder and CEO, LeewayHertz',
         committeeType: 'International Advisory Committee',
@@ -584,6 +589,11 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
+  "name": "Prof. (Dr) Shiv Kumar Verma",
+  "designation": "Sharda University, Greater Noida",
+  "committeeType": "Technical Program Committee"
+},
+  {
     "name": "Prof. (Dr) Sudhir Kumar Sharma",
     "designation": "Sharda University, Greater Noida",
     "committeeType": "Technical Program Committee"
@@ -1007,6 +1017,11 @@ export const members = [
     "name": "Ms. Sakshi",
     "designation": "Ram Lal Anand College, University of Delhi",
     "committeeType": "Technical Program Committee"
-  }
+  },
+  {
+  "name": "Ms. Sakshini Hangloo",
+  "designation": "Sharda University, Greater Noida",
+  "committeeType": "Technical Program Committee"
+}
 
 ]
