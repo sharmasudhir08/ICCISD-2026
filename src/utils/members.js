@@ -1,5 +1,3 @@
-
-
 export const members = [
     {
         name:'Shri Pradeep Kumar Gupta',
@@ -85,15 +83,30 @@ export const members = [
         committeeType: 'International Advisory Committee',
     },
     {
-        name: 'Dr. Yu-Chen Hu',
-        designation: 'Department of Computer Science, Tunghai University, Taiwan',
-        committeeType: 'International Advisory Committee',
-    },
-    {
         name: 'Mr. Akash Takyar',
         designation: 'Founder and CEO, LeewayHertz',
         committeeType: 'International Advisory Committee',
     },
+    {
+    "name": "Dr. Mukta Sharma",
+    "designation": "Michigan State University, USA",
+    "committeeType": "International Advisory Committee"
+  },
+  {
+    "name": "Dr. Rishabh Das",
+    "designation": "Ohio University, USA",
+    "committeeType": "International Advisory Committee" 
+  },
+  {
+    "name": "Dr. Yagna Yashpalsinh Jadeja",
+    "designation": "University of London, United Kingdom",
+    "committeeType": "International Advisory Committee"
+  },
+  {
+    "name": "Dr. Yu-Chen Hu",
+    "designation": "Tunghai University, Taiwan",
+    "committeeType": "International Advisory Committee"
+  },
 
     /*
     {
@@ -984,7 +997,7 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
-    "name": "Mr. Snehal Moghe",
+    "name": "Ms. Snehal Moghe",
     "designation": "Alliance University, Bengaluru",
     "committeeType": "Technical Program Committee"
   },
