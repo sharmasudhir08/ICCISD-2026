@@ -27,22 +27,22 @@ export const members = [
     {
         name:'Prof. S. N. Singh',
         designation:'Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
-        committeeType:'Honorary Advisory Committee Chair(s)',
+        committeeType:'Honorary Chair(s)',
     },
     {
         name:'Prof. Yogesh Singh Chauhan',
         designation:'IIT Kanpur',
-        committeeType:'Honorary Advisory Committee Chair(s)',
+        committeeType:'Honorary Chair(s)',
     },
     {
         name:'Prof. Satish Singh',
         designation:'Indian Institute of Information Technology Allahabad, India',
-        committeeType:'Honorary Advisory Committee Chair(s)',
+        committeeType:'Honorary Chair(s)',
     },
     {
         name:'Prof. Ekram Khan',
         designation:'AMU Aligarh',
-        committeeType:'Honorary Advisory Committee Chair(s)',
+        committeeType:'Honorary Chair(s)',
     },
    
      {
@@ -1017,7 +1017,7 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
-    "name": "Ms. S.Sindhu",
+    "name": "Ms. S. Sindhu",
     "designation": "SRM Institute of Science and Technology, Tamilnadu",
     "committeeType": "Technical Program Committee"
   },
