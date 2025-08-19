@@ -997,11 +997,6 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
-    "name": "Ms. Snehal Moghe",
-    "designation": "Alliance University, Bengaluru",
-    "committeeType": "Technical Program Committee"
-  },
-  {
     "name": "Mr. Suharsh Anand",
     "designation": "Solution Architect, oXya Corporation, NJ , USA",
     "committeeType": "Technical Program Committee"
@@ -1035,6 +1030,11 @@ export const members = [
   "name": "Ms. Sakshini Hangloo",
   "designation": "Sharda University, Greater Noida",
   "committeeType": "Technical Program Committee"
-}
+},
+{
+    "name": "Ms. Snehal Moghe",
+    "designation": "Alliance University, Bengaluru",
+    "committeeType": "Technical Program Committee"
+  },
 
 ]
