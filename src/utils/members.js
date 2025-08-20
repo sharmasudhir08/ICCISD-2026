@@ -26,17 +26,17 @@ export const members = [
     },
     {
         name:'Prof. (Dr.) S. N. Singh',
-        designation:'Director,Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
+        designation:'Director, Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
         committeeType:'Honorary Chair(s)',
     },
     {
         name:'Prof. (Dr.) Yogesh Singh Chauhan',
-        designation:'IIT Kanpur',
+        designation:'Professor, IIT Kanpur',
         committeeType:'Honorary Chair(s)',
     },
     {
         name:'Prof. (Dr.) Satish Singh',
-        designation:'Indian Institute of Information Technology Allahabad, India',
+        designation:'Professor, Indian Institute of Information Technology Allahabad, India',
         committeeType:'Honorary Chair(s)',
     },
     {
@@ -233,8 +233,8 @@ export const members = [
 
 
     {
-        name:'Prof. J. Ram Kumar',
-        designation:'IIT Kanpur',
+        name:'Prof. (Dr.) Janakarajan. Ramkumar',
+        designation:'Professor, IIT Kanpur',
         committeeType:'National Advisory Committee',
     },
     {
@@ -244,22 +244,22 @@ export const members = [
     },
     {
         name:'Prof. (Dr.) Pravin Chandra',
-        designation:'GGSIPU, Delhi, India',
+        designation:'Professor, USICT, GGSIPU, Delhi, India',
         committeeType:'National Advisory Committee',
     },
     {
-        name:'Dr. Raghvendra Kumar Chaudhary',
-        designation:'IIT Kanpur',
+        name:'Prof. (Dr.) Raghvendra Kumar Chaudhary',
+        designation:'Professor, IIT Kanpur, India',
         committeeType:'National Advisory Committee',
     },
     {
-        name:'Prof. Mohammad Rihan',
-        designation:'AMU, Aligarh',
+        name:'Prof. (Dr.) Mohammad Rihan',
+        designation:'Professor, AMU, Aligarh',
         committeeType:'National Advisory Committee',
     },
     {
-        name:'Dr. R. K. Singh',
-        designation:'IIT (BHU)',
+        name:'Prof. (Dr.) Rajeev K. Singh',
+        designation:'Professor, IIT BHU, India',
         committeeType:'National Advisory Committee',
     },
 
