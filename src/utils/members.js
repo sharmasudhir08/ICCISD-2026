@@ -25,23 +25,23 @@ export const members = [
         committeeType:'Patron',
     },
     {
-        name:'Prof. S. N. Singh',
-        designation:'Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
+        name:'Prof. (Dr.) S. N. Singh',
+        designation:'Director,Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
         committeeType:'Honorary Chair(s)',
     },
     {
-        name:'Prof. Yogesh Singh Chauhan',
+        name:'Prof. (Dr.) Yogesh Singh Chauhan',
         designation:'IIT Kanpur',
         committeeType:'Honorary Chair(s)',
     },
     {
-        name:'Prof. Satish Singh',
+        name:'Prof. (Dr.) Satish Singh',
         designation:'Indian Institute of Information Technology Allahabad, India',
         committeeType:'Honorary Chair(s)',
     },
     {
-        name:'Prof. Ekram Khan',
-        designation:'AMU Aligarh',
+        name:'Prof. (Dr.) Ekram Khan',
+        designation:'Professor, AMU Aligarh',
         committeeType:'Honorary Chair(s)',
     },
    
