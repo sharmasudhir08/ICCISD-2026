@@ -6,11 +6,7 @@ const HeroSection = () => {
       <div className="max-w-screen-xl mx-auto text-center flex flex-col items-center justify-center space-y-2">
 
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-          INTERNATIONAL CONFERENCE ON COMPUTATIONAL INTELLIGENCE FOR
-        </h1>
-
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-          SUSTAINABLE DEVELOPMENT
+            INTERNATIONAL CONFERENCE ON COMPUTATIONAL INTELLIGENCE SYSTEMS AND DEVICES
         </h1>
 
         <h2 className="text-xl sm:text-2xl md:text-3xl">(ICCISD-2026)</h2>

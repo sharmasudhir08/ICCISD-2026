@@ -848,8 +848,7 @@ const Authors = () => {
         PAPER SUBMISSION
       </h1>
       <div className="max-w-7xl mx-auto px-4 sm:text-justify sm:px-6 lg:px-8 mt-5 text-base sm:text-lg text-gray-600">
-        IEEE International Conference on Computational Intelligence for Sustainable
-        Development (ICCISD -2026), will be organized by Sharda University, Greater
+        IEEE International Conference on Computational Intelligence Systems and Devices (ICCISD-2026), will be organized by Sharda University, Greater
         Noida, U.P., India on 23rd-24th July 2026. The aim of the conference is to
         serve researchers, developers, educators to present as well as to exchange
         the research ideas in various cutting edge technologies. ICCISD -2026 invites

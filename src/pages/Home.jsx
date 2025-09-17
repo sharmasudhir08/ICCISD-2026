@@ -20,7 +20,7 @@ const Home = () => {
         <h1 className='w-[80%] mx-auto mt-5 text-2xl text-gray-600 text-left font-semibold'>ABOUT THE CONFERENCE</h1>
 
       <div className='w-[80%] mx-auto p-4 text-lg text-gray-700 tracking-wide text-justify'>
-        <p>  The IEEE International Conference on Computational Intelligence for Sustainable Development (ICCISD -2026), technically sponsored by IEEE Uttar Pradesh Section and  hosted by Sharda University, Greater Noida will be held on 23rd - 24th July 2026.
+        <p>  The IEEEInternational Conference on Computational Intelligence Systems and Devices (ICCISD -2026), technically sponsored by IEEE Uttar Pradesh Section and  hosted by Sharda University, Greater Noida will be held on 23rd - 24th July 2026.
         The conference offers a comprehensive platform for researchers, practitioners, and industry professionals to explore advancements in Computer Science, Information Technology, and Computational Intelligence. The conference focuses on leveraging emerging technologies to address global challenges in sustainability. It covers a broad spectrum of cutting-edge topics and applications, emphasizing the integration of intelligent systems and sustainable practices.It is planned to publish the peer reviewed and selected papers of conference as proceedings in the IEEE Xplore.</p>
         </div>
 
@@ -67,72 +67,97 @@ topics: [
           ],
         },
         {
-          title: 'Track 2: Communication and Smart Technologies for Sustainable Systems',
-          topics: [
-            'Core Communication Technologies',
-            'Advanced Networking Solutions',
-            'Smart and Sustainable Systems',
-            'Emerging and Enabling Technologies',
-            'Data Management and Analysis in Communication',
-            'Sustainability-Focused Approaches',
-            'Smart City and Urban Solutions',
+          title: 'Track 2: Fuzzy Systems, Evolutionary Computation, and Hybrid Intelligence',
+    topics: [
+      'Adaptive Neuro-Fuzzy Inference Systems (ANFIS)',
+      'Fuzzy Logic for Real-Time Decision-Making',
+      'Swarm Intelligence and Collective Behavior Models',
+      'Genetic Algorithms and Evolutionary Strategies',
+      'Multi-Objective Evolutionary Optimization',
+      'Bio-Inspired Algorithms (PSO, ACO, GWO, DE, Firefly, etc.)',
+      'Hybrid Evolutionary-Deep Learning Models',
+      'Evolutionary Computation for IoT Device Optimization',
+      'Fuzzy Systems for Uncertainty in Healthcare and Robotics',
+      'Evolutionary Game Theory for Smart Systems',
           ],
         },
       ],
       [
         {
-          title: 'Track 3: Computational Intelligence in Renewable Energy Systems',
-          topics: [
-            'Core Computational Intelligence Techniques',
-            'AI in Energy Generation and Management',
-            'Advanced Monitoring and Analysis',
-            'Emerging Technologies in Energy Systems',
-            'Sustainability and Efficiency Enhancements',
-            'Cybersecurity and Reliability',
-            'Applications in Specific Energy Sectors',
-          ],
+           title: 'Track 3: Intelligent Devices, Embedded Systems, and IoT Applications',
+    topics: [
+      'AI-Powered Edge and Embedded Systems',
+      'Neuromorphic and Low-Power AI Chips',
+      'IoT Protocols for Scalability and Sustainability',
+      'Digital Twins for IoT Devices and Systems',
+      'Blockchain-Enabled Secure IoT Applications',
+      'Intelligent Wearable and Implantable Devices',
+      'Embedded Systems for Autonomous Vehicles and Drones',
+      'AI in Predictive Maintenance of IoT Devices',
+      'Cloud-Edge-IoT Integration Architectures',
+      'AI-Driven Energy-Efficient Smart Devices',
+        ],
         },
         {
-          title: 'Track 4: Robotics and Automation for Sustainable Practices',
-          topics: [
-            'Core Robotics and Automation Technologies',
-            'Sustainable Industrial Automation',
-            'Robotics in Environmental Conservation',
-            'Transportation and Logistics',
-            'Agriculture and Food Production',
-            'Construction and Smart Infrastructure',
-            'Emerging Technologies and Human-Robot Collaboration',
-            'Energy Management and Efficiency',
+         title: 'Track 4: Robotics, Automation, and Human–Machine Interaction',
+    topics: [
+      'Cognitive Robotics and Autonomous Decision-Making',
+      'Human–Robot Collaboration in Industry 5.0',
+      'Swarm Robotics for Environmental and Industrial Applications',
+      'Soft Robotics for Medical and Assistive Systems',
+      'Autonomous Navigation and Path Planning in Unknown Environments',
+      'AI-Enhanced Vision and Perception in Robots',
+      'Intelligent Drones and UAV Applications',
+      'Natural Language Interfaces for Human–Machine Interaction',
+      'Robotics for Disaster Response and Climate Applications',
+      'Ethics, Trust, and Safety in Human–Robot Systems',
           ],
         },
       ],
       [
         {
-          title: 'Track 5: Cyber security and Data Privacy in Sustainable Systems',
-          topics: [
-            'Core Cybersecurity Principles',
-            'Data Privacy in Sustainable Systems',
-            'Emerging Cybersecurity Technologies',
-            'Cyber-Physical Security',
-            'Compliance and Legal Aspects',
-            'Application-Specific Security Solutions',
-            'Resilience and Recovery',
-            'AI and Cybersecurity Integration',
+         title: 'Track 5: Signal and Image Processing using Computational Intelligence',
+    topics: [
+      'Deep Learning for Medical Image Analysis',
+      'AI for Satellite and Remote Sensing Applications',
+      'Generative Models for Image Enhancement and Synthesis',
+      'Multimodal Fusion of Audio, Video, and Sensor Signals',
+      'Hyperspectral and Multispectral Image Processing',
+      'Real-Time Video Analytics for Smart Surveillance',
+      'Adversarial Attacks and Defenses in Image Processing',
+      'AI-Driven Speech Recognition and Language Models',
+      'Edge-AI for Low-Latency Signal Processing',
+      'Virtual, Augmented, and Mixed Reality Signal Processing',
           ],
         },
         {
-          title: 'Track 6: Emerging Technologies in Health Care',
-          topics: [
-            'Core AI and Machine Learning Applications',
-            'Telemedicine and Remote Health Care Solutions',
-            'Robotics and Automation in Health Care',
-            'Genomics and Bioinformatics',
-            'Wearable Technology and Smart Health Devices',
-            'Big Data and Data Management in Health Care',
-            'Emerging Health Technologies',
-            'Cyber security and Data Privacy',
-            'Sustainable and Equitable Health Solutions',
-          ],
+        title: 'Track 6: Cybersecurity, Data Privacy, and Trustworthy Systems',
+    topics: [
+      'Privacy-Preserving Machine Learning (Federated, Differential Privacy)',
+      'AI for Intrusion Detection and Anomaly Detection',
+      'Blockchain for Security in IoT and Devices',
+      'Quantum-Safe Cryptography for Future-Proof Security',
+      'Zero-Trust Architectures in Intelligent Systems',
+      'Cyber-Physical Security in Smart Grids and Robotics',
+      'Secure Data Sharing and Compliance (GDPR, HIPAA)',
+      'AI-Powered Threat Intelligence and Cyber Defense',
+      'Explainable and Trustworthy AI for Security Applications',
+      'Risk Management and Resilient Design for Smart Devices',          ],
+        },
+         {
+        title: 'Track 7: Computational Intelligence for Sustainable Systems and Devices',
+    topics: [
+      'AI for Climate Change Modeling and Prediction',
+      'Green AI and Energy-Efficient Machine Learning Models',
+      'Computational Intelligence for Renewable Energy Optimization',
+      'Smart Grid Management with AI-Driven Decision Making',
+      'Intelligent Transportation and Mobility Systems',
+      'AI for Water Resource Management and Agriculture',
+      'Waste Management and Circular Economy Systems',
+      'Disaster Prediction and Climate-Resilient Infrastructure',
+      'AI for Smart City Governance and Citizen Engagement',
+      'Computational Intelligence for Net-Zero and Sustainability Goals',
+        ],
         },
       ],
     ];
@@ -153,31 +178,7 @@ topics: [
     );
   })}
 
-  {/* Final Track (Track 7) */}
-  <div className='flex flex-col'>
-    <section className='w-full'>
-      <h1 className='text-xl md:text-2xl text-sky-800 font-semibold mb-2'>
-        Track 7: Sustainable Infrastructure and Smart City Solutions
-      </h1>
-      <ul className='pl-6 list-disc space-y-1 text-gray-700'>
-        {[
-          'Core Smart City Technologies',
-          'Sustainable Urban Infrastructure',
-          'Digital Twin Technology',
-          'Transportation and Mobility',
-          'Security and Data Privacy in Smart Cities',
-          'Sustainable Energy and Resource Management',
-          'Environment and Climate Monitoring',
-          'Citizen Engagement and Smart Governance',
-          'Advanced Technologies and Future Trends',
-          'Sustainability and Efficiency Enhancements',
-        ].map((item, i) => (
-          <li key={i}>{item}</li>
-        ))}
-      </ul>
-    </section>
-  </div>
-
+ 
 </div>
 
 
