@@ -56,7 +56,7 @@ const Home = () => {
 topics: [
       'Explainable AI and Interpretable Deep Models',
       'Foundation Models and Large Language Models (LLMs)',
-      'Large language models and prompt engineering',
+      'Prompt Engineering and Retrieval Augmented Generation',
       'Neural Architecture Search and AutoML for Devices',
       'Federated and Distributed Deep Learning on Edge Devices',
       'Adversarial Robustness in Deep Learning Systems',
