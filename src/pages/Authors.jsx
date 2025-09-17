@@ -60,7 +60,7 @@ const Authors = () => {
         <ul className="p-4 text-base text-gray-700 list-none space-y-2">
           <li>1.1 Explainable AI and Interpretable Deep Models</li>
           <li>1.2 Foundation Models and Large Language Models (LLMs)</li>
-          <li>1.3 Few-Shot, Zero-Shot, and Self-Supervised Learning</li>
+          <li>1.3 Large language models and prompt engineering</li>
           <li>1.4 Neural Architecture Search and AutoML for Devices</li>
           <li>1.5 Federated and Distributed Deep Learning on Edge Devices</li>
           <li>1.6 Adversarial Robustness in Deep Learning Systems</li>
