@@ -31,15 +31,16 @@ const Home = () => {
         </div>
 
         <ul className='w-[80%] mx-auto p-4 text-lg text-justify text-gray-700 list-disc tracking-wide'>
-          <li>To bring together researchers, scientists, engineers, policymakers, and industry experts to present and discuss innovative solutions leveraging emerging science and technology to address global sustainability challenges.</li>
-          <li>To promote innovative data-driven models for energy optimization, waste reduction, and climate prediction.</li>
-          <li>To discuss advancements in IoT, 5G/6G, and wireless sensor networks that contribute to sustainable development.</li>
-          <li>To present intelligent algorithms for efficient integration and management of renewable energy sources.</li>
-          <li>To encourage the development of autonomous systems for environmental monitoring and disaster response.</li>
-          <li>To address the critical role of cyber security in protecting sustainable digital infrastructures.</li>
-          <li>To explore how AI, IoT, and wearable technologies can revolutionize preventive and personalized healthcare.</li>
-          <li>To provide a platform for showcasing successful case studies of smart cities contributing to environmental, economic, and social sustainability.</li>
-        </ul>
+  <li>To bring together researchers, scientists, engineers, policymakers, and industry experts to present and discuss innovative solutions leveraging computational intelligence and evolutionary computation.</li>
+  <li>Foster the development of intelligent, adaptive, and energy-efficient devices and embedded systems that enhance IoT scalability, security, and sustainability.</li>
+  <li>Support the integration of AI and computational intelligence into sustainable systems including renewable energy, smart grids, climate modelling, and sustainable urban infrastructure.</li>
+  <li>To provide a platform for showcasing successful case studies of smart cities contributing to environmental, economic, and social sustainability.</li>
+  <li>Encourage breakthroughs in signal and image processing using AI to improve healthcare, remote sensing, multimedia, and real-time analytics applications.</li>
+  <li>Facilitate interdisciplinary collaboration among academia, industry, and government to accelerate the translation of intelligent technologies into real-world sustainable solutions.</li>
+  <li>Promote ethical, explainable, and responsible AI practices to build trust, transparency, and societal acceptance in emerging intelligent systems and technologies.</li>
+  <li>Promote cutting-edge robotics, automation, and human–machine interaction technologies aimed at improving industrial efficiency, environmental conservation, and safety.</li>
+</ul>
+
 
         <div className='w-[80%] mx-auto p-4 text-lg text-justify text-gray-700 tracking-wide'>
           The conference will cover a wide range of topics related to Smart Cities and Urban Development, Artificial Intelligence and Machine Learning, Advance Data Communication and Edge Computing, Cyber Security and Privacy in Sustainable Systems, Renewable Energy and Smart Grids, Robotics Automation and Networking, Digital Health and Smart Health Informatics. The conference invites original research papers (not being considered for publication elsewhere) of 5 pages in standard IEEE conference template in one of the following tracks (but are not limited to):
