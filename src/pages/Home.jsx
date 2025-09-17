@@ -52,13 +52,18 @@ const Home = () => {
     const trackPairs = [
       [
         {
-          title: 'Track 1: Machine Learning and Data Science for Sustainable Solutions',
-          topics: [
-            'Core Machine Learning Techniques',
-            'Advanced AI and Computational Theories',
-            'Hybrid and Soft Computing Approaches',
-            'Data Science Techniques',
-            'Specialized and Emerging Areas',
+          title: 'Track 1: Neural Networks, Deep Learning, and Reinforcement Learning',
+topics: [
+      'Explainable AI and Interpretable Deep Models',
+      'Foundation Models and Large Language Models (LLMs)',
+      'Few-Shot, Zero-Shot, and Self-Supervised Learning',
+      'Neural Architecture Search and AutoML for Devices',
+      'Federated and Distributed Deep Learning on Edge Devices',
+      'Adversarial Robustness in Deep Learning Systems',
+      'Continual and Lifelong Learning Algorithms',
+      'Reinforcement Learning in Robotics and Control Systems',
+      'Generative AI for Realistic Data and Simulation',
+      'Multi-Modal Deep Learning (vision, speech, text, sensors)',
           ],
         },
         {
