@@ -27,8 +27,13 @@ export const members = [
     {
         name:'Prof. (Dr.) S. N. Singh',
         designation:'Director, Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
-        committeeType:'Honorary Chair(s)',
+        committeeType:'Patron',
     },
+   // {
+    //    name:'Prof. (Dr.) S. N. Singh',
+    //    designation:'Director, Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
+    //    committeeType:'Honorary Chair(s)',
+    //},
     {
         name:'Prof. (Dr.) Yogesh Singh Chauhan',
         designation:'Professor, IIT Kanpur',
