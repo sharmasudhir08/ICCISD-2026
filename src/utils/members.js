@@ -262,7 +262,11 @@ export const members = [
         designation:'Professor, IIT BHU, India',
         committeeType:'National Advisory Committee',
     },
-
+    {
+        name:'Prof. (Dr.) Avadhesh Kumar',
+        designation:'Pro Vice Chancellor -Galgotias University',
+        committeeType:'National Advisory Committee',
+    },
 
 
 
