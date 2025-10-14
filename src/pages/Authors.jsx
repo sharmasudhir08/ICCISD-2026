@@ -27,7 +27,7 @@ const Authors = () => {
         <ul className="text-base sm:text-lg text-gray-700 text-left mt-2 list-none">
           <li>
             Paper Submission Deadline:{' '}
-            <b className="text-orange-700">January 11, 2026</b>
+            <b className="text-orange-700">January 12, 2026</b>
           </li>
           <li>
             Notification of Acceptance:{' '}
@@ -38,7 +38,7 @@ const Authors = () => {
             <b className="text-orange-700">March 29, 2026</b>
           </li>
           <li>
-            Registration: <b className="text-orange-700">March 29, 2026</b>
+            Registration: <b className="text-orange-700">April 10, 2026</b>
           </li>
           <li>
             Conference Dates:{' '}
