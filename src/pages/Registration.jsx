@@ -31,10 +31,10 @@ const Registration = () => {
             <tbody>
               {[
                 ["Student", "₹ 7000"],
-                ["Professional", "₹ 8000"],
-                ["Industry Participants", "₹ 9500"],
+                ["Professional", "₹ 9000"],
+                ["Industry Participants", "₹ 11000"],
                 ["Foreign Participants", "300 USD"],
-                ["Attendee only", "₹ 1500"],
+                ["Attendee only", "₹ 2500"],
               ].map(([label, value], i) => (
                 <tr key={i}>
                   <td className='border border-gray-300 p-2'>{label}</td>
@@ -56,11 +56,11 @@ const Registration = () => {
             </thead>
             <tbody>
               {[
-                ["Student", "₹ 7500"],
-                ["Professional", "₹ 9000"],
-                ["Industry Participants", "₹ 10000"],
-                ["Foreign Participants", "350 USD"],
-                ["Attendee only", "₹ 2000"],
+                ["Student", "₹ 8000"],
+                ["Professional", "₹ 10000"],
+                ["Industry Participants", "₹ 12000"],
+                ["Foreign Participants", "400 USD"],
+                ["Attendee only", "₹ 3000"],
               ].map(([label, value], i) => (
                 <tr key={i}>
                   <td className='border border-gray-300 p-2'>{label}</td>
