@@ -20,7 +20,7 @@ export const members = [
     designation:'Vice Chancellor, Sharda University, Greater Noida, India',
     committeeType:'Patron',
   },
-  /*  {
+    {
         name:'Prof. (Dr.) Parma Nand',
         designation:'Pro-Vice Chancellor, Sharda University Greater Noida, India',
         committeeType:'Patron',
@@ -29,7 +29,7 @@ export const members = [
         name:'Prof. (Dr.) S. N. Singh',
         designation:'Director, Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
         committeeType:'Patron',
-    }, */
+    }, 
    // {
     //    name:'Prof. (Dr.) S. N. Singh',
     //    designation:'Director, Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
