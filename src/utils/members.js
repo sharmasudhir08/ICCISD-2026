@@ -1,25 +1,26 @@
 export const members = [
-    {
-        name:'Shri Pradeep Kumar Gupta',
-        designation:'Chancellor, Sharda University and Chairman, SGI',
-        committeeType:'Chief Patron',
-    },
-    {
-        name:'Shri Yatendra Kumar Gupta',
-        designation:'Pro-Chancellor, Sharda University and Vice Chairman, SGI',
-        committeeType:'Chief Patron',
-    },
-    {
-        name:'Shri Prashant Gupta',
-        designation:'CEO, Sharda Group of Institute, India',
-        committeeType:'Chief Patron',
-    },
-    {
-        name:'Prof. (Dr.) Sibaram Khara',
-        designation:'Vice Chancellor, Sharda University, Greater Noida, India',
-        committeeType:'Patron',
-    },
-    {
+  {
+    name: 'Shri Pradeep Kumar Gupta',
+    designation: 'Chancellor, Sharda University and Chairman, SGI',
+    committeeType: 'Chief Patron',
+  },
+  {
+    name: 'Shri Yatendra Kumar Gupta',
+    designation: 'Pro-Chancellor, Sharda University and Vice Chairman, SGI',
+    committeeType: 'Chief Patron',
+  },
+  {
+    name: 'Shri Prashant Gupta',
+    designation: 'CEO, Sharda Group of Institutions, India',
+    committeeType: 'Chief Patron',
+  },
+  
+  {
+    name:'Prof. (Dr.) Sibaram Khara',
+    designation:'Vice Chancellor, Sharda University, Greater Noida, India',
+    committeeType:'Patron',
+  },
+  /*  {
         name:'Prof. (Dr.) Parma Nand',
         designation:'Pro-Vice Chancellor, Sharda University Greater Noida, India',
         committeeType:'Patron',
@@ -28,7 +29,7 @@ export const members = [
         name:'Prof. (Dr.) S. N. Singh',
         designation:'Director, Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
         committeeType:'Patron',
-    },
+    }, */
    // {
     //    name:'Prof. (Dr.) S. N. Singh',
     //    designation:'Director, Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
@@ -55,27 +56,41 @@ export const members = [
         designation:'Pro-Vice Chancellor, Sharda University Greater Noida, India',
         committeeType:'General Chair',
     },
-    {
-        name:'Prof. (Dr.) Geetha Ganesan',
-        designation:'Dean, SSCSE, Sharda University, Greater Noida, Uttar Pradesh, India',
-        committeeType:'General Chair',
-    },
+  {
+    name:'Prof. (Dr.) Geetha Ganesan',
+    designation:'Dean, SSCSE, Sharda University, Greater Noida, Uttar Pradesh, India',
+    committeeType:'Conference Chair',
+  },
     {
         name:'Dr. Rajneesh Kumar Singh',
         designation:'HoD-CSA, SSCSE, Sharda University, Greater Noida, India',
-        committeeType:'Organizing Committee Chair(s)',
+        committeeType:'Organizing Chair',
     },
     {
         name:'Dr. Sudeep Varshney',
         designation:'HoD-CSE, SSCSE, Sharda University, Greater Noida, India',
-        committeeType:'Organizing Committee Chair(s)',
+        committeeType:'Organizing Chair',
     },
     {
         name:'Prof. (Dr.) Sudhir Kumar Sharma',
         designation:'Professor- CSA, SSCSE, Sharda University, Greater Noida, India',
         committeeType:'Convener',
     },
-
+{
+    name: 'Prof.(Dr.) Ajay Shriram Kushwaha',
+    designation: 'Professor- CSA, SSCSE, Sharda University',
+    committeeType: 'Co-Convener',
+  },
+  {
+    name: 'Dr. Sreejita S',
+    designation: 'Associate Professor- CSA, SSCSE, Sharda University',
+    committeeType: 'Co-Convener',
+  },
+  {
+    name: 'Dr. Ravi Prakash Chaturvedi',
+    designation: 'Assistant Professor- CSA, SSCSE, Sharda University',
+    committeeType: 'Co-Convener',
+  },
 
     {
         name: 'Prof. (Dr.) Bhuvan Unhelkar',
