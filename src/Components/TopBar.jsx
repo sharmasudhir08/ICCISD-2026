@@ -1,6 +1,6 @@
 import React from 'react';
 import shardalogo from '../assets/shardalogo.png';
-import ieee from '../assets/ieee.jpg';
+import ieee from '../assets/ieeeup.png';
 
 const TopBar = () => {
   return (
@@ -19,9 +19,6 @@ const TopBar = () => {
           alt='IEEE Logo'
           className='w-24 sm:w-32 md:w-44 object-contain'
         />
-        <h1 className='text-xs sm:text-sm text-amber-700 mt-1 md:absolute md:top-20 md:right-2'>
-          to be approved
-        </h1>
       </div>
     </div>
   );
