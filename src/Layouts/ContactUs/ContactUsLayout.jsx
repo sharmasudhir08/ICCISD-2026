@@ -25,6 +25,7 @@ const ContactUsLayout = () => {
               {[
                 "Organizing Chair",
                 "Convener",
+                "Co-Convener",
                 "For Publication Related Query",
                 "For Registration Related Query",
               ].map((tab) => (

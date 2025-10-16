@@ -22,6 +22,25 @@ export const contactDetails = [
         Phone: null
     },
     {
+    name: 'Prof.(Dr.) Ajay Shriram Kushwaha',
+    designation: 'Co-Convener',
+    email: "Email: iccisd.conference@sharda.ac.in",
+    Phone: null
+  },
+  {
+    name: 'Dr. Sreejith S',
+    designation: 'Co-Convener',
+    email: "Email: iccisd.conference@sharda.ac.in",
+    Phone: null
+  },
+  {
+    name: 'Dr. Ravi Prakash Chaturvedi',
+    designation: 'Co-Convener',
+    email: "Email: iccisd.conference@sharda.ac.in",
+    Phone: null
+  },
+
+    {
         name: "Prof.(Dr.) Ajay Shriram Kushwaha",
         designation: "For Publication Related Query",
         email: "Email: iccisd.conference@sharda.ac.in",
@@ -36,13 +55,13 @@ export const contactDetails = [
     {
         name: "Dr. Sreejith S",
         designation: "For Registration Related Query",
-        email: "iccisd.conference@sharda.ac.in",
-        Phone: "Email: +91-9847152700"
+        email: "Email: iccisd.conference@sharda.ac.in",
+        Phone: "Phone: +91-9847152700"
     },
     {
         name: "Dr. Yagyesh Godiyal",
         designation:"For Registration Related Query",
-        email: "iccisd.conference@sharda.ac.in",
+        email: "Email: iccisd.conference@sharda.ac.in",
         Phone: "Phone: +91-7895942282"
     }
 
