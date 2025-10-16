@@ -36,17 +36,17 @@ const PaperSubmission = () => {
           </a>.
           If you encounter problems in submitting, contact at{' '}
           <a
-            href="mailto:iccisd.conference@gmail.com"
+            href="mailto:iccisd.conference@sharda.ac.in"
             className="text-sky-800"
           >
-            iccisd.conference@gmail.com
+            iccisd.conference@sharda.ac.in
           </a>
           . Acceptance of papers will be communicated to authors by email.
         </div>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mb-8'>
           <a href='https://cmt3.research.microsoft.com/ICCISD2026' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>CMT PaperSubmission Link</button></a>
-          <a href='mailto:iccisd.conference@gmail.com' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>Contact Email</button></a>
+          <a href='mailto:iccisd.conference@sharda.ac.in' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>Contact Email</button></a>
         </div>
 
 

@@ -192,18 +192,24 @@ const Authors = () => {
   </div>
 </section>
 
+  {/* Call for Papers */}
+  <h1 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 text-xl sm:text-2xl text-sky-800 font-bold text-left">
+  Call for Papers
+  </h1>
 
-      {/* Call for Papers */}
-      <h1 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 text-xl sm:text-2xl text-sky-800 font-bold text-left">
-        Call for Papers
-      </h1>
-      <ul className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-3 text-base sm:text-lg text-gray-700 text-left list-disc">
-        <li>
-          <a href="#" className="text-sky-800">
-            Download Call For Papers in PDF
-          </a>
-        </li>
-      </ul>
+<ul className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-3 text-base sm:text-lg text-gray-700 text-left list-disc">
+  <li>
+    <a
+      href="/CFP.pdf" // path relative to the public folder
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sky-800 hover:underline"
+    >
+      Download Call For Papers in PDF
+    </a>
+  </li>
+</ul>
+
 
       {/* Paper Submission */}
       <h1 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 text-xl sm:text-2xl text-sky-800 font-bold text-left">
@@ -227,10 +233,10 @@ const Authors = () => {
 </a>
 . If you encounter problems in submitting, contact at{' '}
 <a
-  href="mailto:iccisd.conference@gmail.com"
+  href="mailto:iccisd.conference@sharda.ac.in"
   className="text-sky-800"
 >
-  iccisd.conference@gmail.com
+  iccisd.conference@sharda.ac.in
 </a>
 
         . Acceptance of papers will be communicated to authors by email.
@@ -238,7 +244,7 @@ const Authors = () => {
 
       <div className='max-w-7xl mx-auto px-8 flex flex-col sm:flex-row items-center gap-4 mb-2'>
         <a href='https://cmt3.research.microsoft.com/ICCISD2026' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>CMT PaperSubmission Link</button></a>
-        <a href='mailto:iccisd.conference@gmail.com' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>Contact Email</button></a>
+        <a href='mailto:iccisd.conference@sharda.ac.in' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>Contact Email</button></a>
       </div>
 
 

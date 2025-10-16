@@ -82,7 +82,7 @@ export const members = [
     committeeType: 'Co-Convener',
   },
   {
-    name: 'Dr. Sreejita S',
+    name: 'Dr. Sreejith S',
     designation: 'Associate Professor- CSA, SSCSE, Sharda University',
     committeeType: 'Co-Convener',
   },
