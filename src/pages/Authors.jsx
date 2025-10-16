@@ -215,32 +215,32 @@ const Authors = () => {
       <h1 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 text-xl sm:text-2xl text-sky-800 font-bold text-left">
         PAPER SUBMISSION
       </h1>
-      <div className="max-w-7xl mx-auto px-4 sm:text-justify sm:px-6 lg:px-8 mt-5 text-base sm:text-lg text-gray-600">
-        IEEE International Conference on Computational Intelligence Systems and Devices (ICCISD-2026), will be organized by Sharda University, Greater
-        Noida, U.P., India on 23rd-24th July 2026. The aim of the conference is to
-        serve researchers, developers, educators to present as well as to exchange
-        the research ideas in various cutting edge technologies. ICCISD -2026 invites
-        authors to submit their original and unpublished work that demonstrates
-        current research in all areas of science technology and sustainable
-        development through Microsoft Conference Management Toolkit{' '}
-        <a
-  href="https://cmt3.research.microsoft.com/ICCISD2026"
-  className="text-sky-800"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  https://cmt3.research.microsoft.com/ICCISD2026
-</a>
-. If you encounter problems in submitting, contact at{' '}
-<a
-  href="mailto:iccisd.conference@sharda.ac.in"
-  className="text-sky-800"
->
-  iccisd.conference@sharda.ac.in
-</a>
-
-        . Acceptance of papers will be communicated to authors by email.
-      </div>
+      <div className="max-w-7xl mx-auto px-4 sm:text-justify sm:px-6 lg:px-8 mt-5 text-base sm:text-lg text-gray-600 leading-relaxed">
+  IEEE International Conference on Computational Intelligence Systems and Devices (ICCISD-2026) will be organized by Sharda University, Greater
+  Noida, U.P., India on <strong>23rd–24th July 2026</strong>. The aim of the conference is to
+  serve researchers, developers, and educators to present as well as exchange
+  research ideas in various cutting-edge technologies.
+  <br /><br />
+  ICCISD-2026 invites authors to submit their original and unpublished work that demonstrates
+  current research in all areas of science, technology, and sustainable
+  development through Microsoft Conference Management Toolkit{' '}
+  <a
+    href="https://cmt3.research.microsoft.com/ICCISD2026"
+    className="text-sky-800 underline hover:text-sky-600 break-all"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    https://cmt3.research.microsoft.com/ICCISD2026
+  </a>
+  . If you encounter problems in submitting, contact at{' '}
+  <a
+    href="mailto:iccisd.conference@sharda.ac.in"
+    className="text-sky-800 underline hover:text-sky-600"
+  >
+    iccisd.conference@sharda.ac.in
+  </a>
+  . Acceptance of papers will be communicated to authors by email.
+</div>
 
       <div className='max-w-7xl mx-auto px-8 flex flex-col sm:flex-row items-center gap-4 mb-2'>
         <a href='https://cmt3.research.microsoft.com/ICCISD2026' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>CMT PaperSubmission Link</button></a>
