@@ -59,6 +59,12 @@ export const contactDetails = [
         Phone: "Phone: +91-9847152700"
     },
     {
+        name: "Dr. Ravi Prakash Chaturvedi",
+        designation:"For Registration Related Query",
+        email: "Email: iccisd.conference@sharda.ac.in",
+        Phone: "Phone: +91-9873050339"
+    },
+    {
         name: "Dr. Yagyesh Godiyal",
         designation:"For Registration Related Query",
         email: "Email: iccisd.conference@sharda.ac.in",

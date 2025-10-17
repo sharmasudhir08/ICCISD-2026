@@ -57,10 +57,14 @@ const PaperSubmission = () => {
           Authors are invited to submit original papers of 4 - 6 pages in A4 size using the IEEE template, with one accepted paper covered under standard registration.
         </p>
 
-        <div className=" mt-4 text-lg text-sky-800 font-bold flex flex-col gap-4 sm:flex-row sm:gap-4 sm:text-xl">
-          <a href="#"><button className='p-2 text-white bg-sky-800 border rounded-xl'>Download Call For Papers</button></a>
-          <a href="#"><button className='p-2  text-white bg-sky-800 border rounded-xl'>Download Paper Template</button></a>
-        </div>
+        <a
+  href="https://www.ieee.org/conferences/publishing/templates"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-sky-800 text-white text-sm sm:text-base font-medium px-3 py-1.5 rounded-md hover:bg-sky-900 transition duration-200"
+>
+  Manuscript Templates for Conference Proceedings
+</a>
 
         <h2 className="text-sky-800 text-xl font-semibold mt-8">Manuscript Preparation</h2>
         <ul className="list-disc pl-6 mt-4 text-base sm:text-lg sm:text-justify space-y-3 text-gray-700">

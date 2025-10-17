@@ -261,10 +261,15 @@ const Authors = () => {
         under standard registration.
       </div>
 
-      <div className="max-w-7xl mx-auto px-8 mt-4 text-lg text-sky-800 font-bold flex flex-col gap-4 sm:flex-row sm:gap-4 sm:text-xl">
-        <a href="#"><button className='p-2 text-white bg-sky-800 border rounded-xl hover:cursor-pointer'>IEEE MICROSOFT DOC TEMPLATE</button></a>
-        <a href="#"><button className='p-2  text-white bg-sky-800 border rounded-xl hover:cursor-pointer'>Download Paper Template</button></a>
-      </div>
+      <a
+  href="https://www.ieee.org/conferences/publishing/templates"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-sky-800 text-white text-sm sm:text-base font-medium px-3 py-1.5 rounded-md hover:bg-sky-900 transition duration-200"
+>
+  Manuscript Templates for Conference Proceedings
+</a>
+
 
       {/* Manuscript Preparation */}
       <h1 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-5 text-xl sm:text-2xl text-sky-800 font-semibold text-left">
