@@ -197,18 +197,17 @@ const Authors = () => {
   Call for Papers
   </h1>
 
-<ul className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-3 text-base sm:text-lg text-gray-700 text-left list-disc">
-  <li>
-    <a
-      href="/CFP.pdf" // path relative to the public folder
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-sky-800 hover:underline"
-    >
-      Download Call For Papers in PDF
-    </a>
-  </li>
-</ul>
+<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-3 text-left">
+  <a
+    href="/CFP.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-sky-800 text-white text-sm sm:text-base font-medium px-4 py-1.5 rounded-lg hover:bg-sky-900 transition duration-200"
+  >
+    Download Call For Papers in PDF
+  </a>
+</div>
+
 
 
       {/* Paper Submission */}
@@ -263,7 +262,7 @@ const Authors = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-8 mt-4 text-lg text-sky-800 font-bold flex flex-col gap-4 sm:flex-row sm:gap-4 sm:text-xl">
-        <a href="#"><button className='p-2 text-white bg-sky-800 border rounded-xl hover:cursor-pointer'>Download Call For Papers</button></a>
+        <a href="#"><button className='p-2 text-white bg-sky-800 border rounded-xl hover:cursor-pointer'>IEEE MICROSOFT DOC TEMPLATE</button></a>
         <a href="#"><button className='p-2  text-white bg-sky-800 border rounded-xl hover:cursor-pointer'>Download Paper Template</button></a>
       </div>
 
