@@ -62,8 +62,8 @@ const CountDown = () => {
             { label: 'Minutes', value: min },
             { label: 'Seconds', value: sec },
           ].map((item, index) => (
-            <div key={index} className='w-16 h-16 sm:w-16 sm:h-16 border rounded-2xl border-gray-300 flex flex-col justify-center items-center'>
-              <div className='h-[70%] w-full text-3xl sm:text-4xl text-white font-semibold bg-sky-800 flex justify-center items-center rounded-t-2xl'>{item.value}</div>
+            <div key={index} className='w-16 h-16 sm:w-16 sm:h-16 border rounded-2xl border-gray-300 flex flex-col justify-center items-center bg-white'>
+              <div className='h-[70%] w-full text-3xl sm:text-4xl font-semibold bg-sky-800 text-white flex justify-center items-center rounded-t-2xl'>{item.value}</div>
               <div className='text-sm text-gray-800 font-semibold mt-1'>{item.label}</div>
             </div>
           ))}

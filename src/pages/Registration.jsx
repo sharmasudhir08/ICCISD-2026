@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Banner from '../assets/Banner.webp'
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout'
 
 const Registration = () => {
+  const [tab, setTab] = useState('ieee')
+
+  const ieeeRows = [
+    ["Student", "₹ 7000"],
+    ["Professional", "₹ 9000"],
+    ["Industry Participants", "₹ 11000"],
+    ["Foreign Participants", "300 USD"],
+    ["Attendee only", "₹ 2500"],
+  ]
+
+  const nonIeeeRows = [
+    ["Student", "₹ 8000"],
+    ["Professional", "₹ 10000"],
+    ["Industry Participants", "₹ 12000"],
+    ["Foreign Participants", "400 USD"],
+    ["Attendee only", "₹ 3000"],
+  ]
+
   return (
     <div>
       {/* Banner Section */}
@@ -14,97 +32,79 @@ const Registration = () => {
       </div>
 
       {/* Heading */}
-      <h1 className='w-[90%] mx-auto mt-8 text-2xl md:text-3xl text-left font-semibold text-sky-800'>Registration Fee</h1>
+      <h1 className='max-w-6xl mx-auto mt-8 text-2xl md:text-3xl text-left font-semibold text-sky-800 px-4'>Registration Fee</h1>
 
-      {/* Registration Fee Tables */}
-      <div className='w-[90%] mx-auto mt-8 flex flex-col md:flex-row justify-between items-start gap-8'>
+      {/* Tabbed Fee Card */}
+      <div className='max-w-6xl mx-auto px-4 mt-6'>
+        <div className='bg-white rounded-2xl shadow-md p-4'>
+          <div className='flex gap-3 items-center'>
+            <button
+              onClick={() => setTab('ieee')}
+              className={`px-3 py-1.5 rounded-full font-semibold text-sm md:text-base transition ${tab === 'ieee' ? 'bg-amber-500 text-sky-900' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}>
+              IEEE Members
+            </button>
 
-        {/* IEEE Members */}
-        <div className='w-full md:w-[45%] overflow-x-auto'>
-          <table className='min-w-full border text-sm border-gray-300'>
-            <thead className='bg-gray-200'>
-              <tr>
-                <th className='border border-gray-300 p-2 font-bold'>IEEE Members</th>
-                <th className='border border-gray-300 p-2 font-bold'>Registration Fee</th>
-              </tr>
-            </thead>
-            <tbody>
-              {[
-                ["Student", "₹ 7000"],
-                ["Professional", "₹ 9000"],
-                ["Industry Participants", "₹ 11000"],
-                ["Foreign Participants", "300 USD"],
-                ["Attendee only", "₹ 2500"],
-              ].map(([label, value], i) => (
-                <tr key={i}>
-                  <td className='border border-gray-300 p-2'>{label}</td>
-                  <td className='border border-gray-300 p-2'>{value}</td>
+            <button
+              onClick={() => setTab('non')}
+              className={`px-3 py-1.5 rounded-full font-semibold text-sm md:text-base transition ${tab === 'non' ? 'bg-amber-500 text-sky-900' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}>
+              Non-IEEE Members
+            </button>
+          </div>
+
+          <div className='mt-4 overflow-x-auto'>
+            <table className='min-w-full text-sm border border-gray-200'>
+              <thead className='bg-gray-50'>
+                <tr>
+                  <th className='p-3 text-center text-sm font-medium'>{tab === 'ieee' ? 'IEEE Members' : 'Non IEEE Members'}</th>
+                  <th className='p-3 text-center text-sm font-medium'>Registration Fee</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        {/* Non-IEEE Members */}
-        <div className='w-full md:w-[45%] overflow-x-auto'>
-          <table className='min-w-full border text-sm border-gray-300'>
-            <thead className='bg-gray-200'>
-              <tr>
-                <th className='border border-gray-300 p-2 font-bold'>Non IEEE Members</th>
-                <th className='border border-gray-300 p-2 font-bold'>Registration Fee</th>
-              </tr>
-            </thead>
-            <tbody>
-              {[
-                ["Student", "₹ 8000"],
-                ["Professional", "₹ 10000"],
-                ["Industry Participants", "₹ 12000"],
-                ["Foreign Participants", "400 USD"],
-                ["Attendee only", "₹ 3000"],
-              ].map(([label, value], i) => (
-                <tr key={i}>
-                  <td className='border border-gray-300 p-2'>{label}</td>
-                  <td className='border border-gray-300 p-2'>{value}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {(tab === 'ieee' ? ieeeRows : nonIeeeRows).map(([label, value], i) => (
+                  <tr key={i} className='even:bg-gray-50'>
+                    <td className='p-3 border-t border-gray-100 text-center'>{label}</td>
+                    <td className='p-3 border-t border-gray-100 text-center'>{value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
 
       {/* Registration Link */}
-      <h1 className='w-[90%] mx-auto mt-12 text-base md:text-lg text-left text-gray-600'>
+      <h1 className='max-w-6xl mx-auto mt-6 px-4 text-base md:text-lg text-left text-gray-600'>
         <b>Registration Link:</b> <a href='#' className='text-sky-800 underline hover:text-sky-600'>Click here</a>
       </h1>
 
       {/* Payment Details */}
-      <div className='w-[90%] mx-auto mt-10'>
+      <div className='max-w-6xl mx-auto px-4 mt-6'>
         <h1 className='text-xl md:text-2xl text-gray-700 font-semibold'>Payment Details</h1>
 
         <div className='overflow-x-auto mt-5'>
           <table className='min-w-full text-sm font-semibold border border-gray-300'>
             <tbody>
               <tr>
-                <td className='border border-gray-300 p-2'>Bank Name</td>
-                <td className='border border-gray-300 p-2'>Coming soon...</td>
+                <td className='border border-gray-300 p-2 text-center'>Bank Name</td>
+                <td className='border border-gray-300 p-2 text-center'>Coming soon...</td>
               </tr>
               <tr>
-                <td className='border border-gray-300 p-2'>Branch Address</td>
-                <td className='border border-gray-300 p-2'>
+                <td className='border border-gray-300 p-2 text-center'>Branch Address</td>
+                <td className='border border-gray-300 p-2 text-center'>
                   Coming soon...
                 </td>
               </tr>
               <tr>
-                <td className='border border-gray-300 p-2'>Account Holder Name</td>
-                <td className='border border-gray-300 p-2'>Coming soon...</td>
+                <td className='border border-gray-300 p-2 text-center'>Account Holder Name</td>
+                <td className='border border-gray-300 p-2 text-center'>Coming soon...</td>
               </tr>
               <tr>
-                <td className='border border-gray-300 p-2'>Account No.</td>
-                <td className='border border-gray-300 p-2'>Coming soon...</td>
+                <td className='border border-gray-300 p-2 text-center'>Account No.</td>
+                <td className='border border-gray-300 p-2 text-center'>Coming soon...</td>
               </tr>
               <tr>
-                <td className='border border-gray-300 p-2'>IFSC Code</td>
-                <td className='border border-gray-300 p-2'>Coming soon...</td>
+                <td className='border border-gray-300 p-2 text-center'>IFSC Code</td>
+                <td className='border border-gray-300 p-2 text-center'>Coming soon...</td>
               </tr>
             </tbody>
           </table>

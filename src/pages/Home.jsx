@@ -17,20 +17,20 @@ const Home = () => {
         <HeroSection/>
         <CountDown/>
 
-        <h1 className='w-[80%] mx-auto mt-5 text-2xl text-gray-600 text-left font-semibold'>ABOUT THE CONFERENCE</h1>
+        <h2 className='max-w-6xl mx-auto mt-8 text-2xl text-gray-600 text-left font-semibold px-4'>ABOUT THE CONFERENCE</h2>
 
-      <div className='w-[80%] mx-auto p-4 text-lg text-gray-700 tracking-wide text-justify'>
+      <div className='max-w-6xl mx-auto p-4 text-lg text-gray-700 tracking-wide text-justify px-4'>
         <p>  The IEEE International Conference on Computational Intelligence Systems and Devices (ICCISD -2026), technically sponsored by IEEE Uttar Pradesh Section and  hosted by Sharda University, Greater Noida will be held on 23rd - 24th July 2026.
         The conference offers a comprehensive platform for researchers, practitioners, and industry professionals to explore advancements in Computer Science, Information Technology, and Computational Intelligence. The conference focuses on leveraging emerging technologies to address global challenges in sustainability. It covers a broad spectrum of cutting-edge topics and applications, emphasizing the integration of intelligent systems and sustainable practices.It is planned to submit the peer reviewed and selected papers of conference as proceedings for possible inclusion in IEEE Xplore.</p>
         </div>
 
-        <h1 className='w-[80%] mx-auto mt-5 text-2xl text-gray-600 text-left font-semibold tracking-wide'>THE OBJECTIVE OF THE CONFERENCE</h1>
+  <h2 className='max-w-6xl mx-auto mt-6 text-2xl text-gray-600 text-left font-semibold tracking-wide px-4'>THE OBJECTIVE OF THE CONFERENCE</h2>
 
-        <div className='w-[80%] mx-auto p-4 text-lg text-amber-600 tracking-wide text-justify'>
+  <div className='max-w-6xl mx-auto p-4 text-lg text-amber-600 tracking-wide text-justify px-4'>
           The conference will provide an opportunity to the students, scholars, practicing engineers, academicians, and researchers to meet in a forum to discuss various issues and its future direction of various emerging areas of science and technologies and impacts on sustainable development. The objectives of the conference are as follows.
         </div>
 
-        <ul className='w-[80%] mx-auto p-4 text-lg text-justify text-gray-700 list-disc tracking-wide'>
+  <ul className='max-w-6xl mx-auto p-4 text-lg text-justify text-gray-700 list-disc tracking-wide px-4'>
   <li>To bring together researchers, scientists, engineers, policymakers, and industry experts to present and discuss innovative solutions leveraging computational intelligence and evolutionary computation.</li>
   <li>Foster the development of intelligent, adaptive, and energy-efficient devices and embedded systems that enhance IoT scalability, security, and sustainability.</li>
   <li>Support the integration of AI and computational intelligence into sustainable systems including renewable energy, smart grids, climate modelling, and sustainable urban infrastructure.</li>
@@ -42,11 +42,11 @@ const Home = () => {
 </ul>
 
 
-        <div className='w-[80%] mx-auto p-4 text-lg text-justify text-gray-700 tracking-wide'>
+  <div className='max-w-6xl mx-auto p-4 text-lg text-justify text-gray-700 tracking-wide px-4'>
           The conference will cover a wide range of topics related to Smart Cities and Urban Development, Artificial Intelligence and Machine Learning, Advance Data Communication and Edge Computing, Cyber Security and Privacy in Sustainable Systems, Renewable Energy and Smart Grids, Robotics Automation and Networking, Digital Health and Smart Health Informatics. The conference invites original research papers (not being considered for publication elsewhere) of 5 pages in standard IEEE conference template in one of the following tracks (but are not limited to):
         </div>
 
-        <div className='w-[90%] mx-auto p-4 text-lg text-left text-gray-700 tracking-wide flex flex-col gap-10 bg-white my-4 rounded-2xl'>
+  <div className='max-w-6xl mx-auto p-4 text-lg text-left text-gray-700 tracking-wide flex flex-col gap-10 bg-white my-6 rounded-2xl px-4'>
 
   {/* Grouped Track Sections */}
   {[1, 2, 3].map((group, groupIndex) => {
@@ -183,16 +183,16 @@ topics: [
 </div>
 
 
-        <h1 className='mt-5 text-2xl sm:text-4xl text-gray-800 font-semibold flex justify-center items-center gap-4'>Why <p className='text-sky-800'>ICCISD 2026?</p> </h1>
-        <h2 className='w-[80%] mx-auto p-4 text-2xl my-2 font-semibold'>Join the premier international conference bridging computational intelligence and sustainable development for a better tomorrow</h2>
+        <h2 className='mt-8 text-3xl md:text-4xl text-gray-800 font-semibold text-center'>Why <span className='text-sky-800'>ICCISD 2026?</span></h2>
+        <p className='max-w-4xl mx-auto p-4 text-center text-lg my-2 font-semibold text-gray-700'>Join the premier international conference bridging computational intelligence and sustainable development for a better tomorrow</p>
 
-          <div className='w-[100%] h-auto flex flex-wrap justify-center items-center bg-gray-100 p-4'>
-            <Cards source={trophy} heading='IEEE Xplore Indexing' content='All accepted papers will be published in IEEE Xplore Digital Library with DOI assignment for global visibility and citations'/>
-            <Cards source={star} heading='World-Class Speakers' content='Learn from renowned experts in AI, sustainability, and computational intelligence through keynotes and invited talks'/>
-            <Cards source={network} heading='Networking Excellence' content='Connect with researchers, academics, and industry leaders from around the world in both physical and virtual formats'/>
-            <Cards source={researchAssets} heading='7 Research Tracks' content='AI for Sustainability, Communication, Renewable Energy, Robotics and Automation, Cyber security, Health Care, Infrastructure and Smart city'/>
-            <Cards source={benefits} heading='IEEE Member Benefits' content='Special discounts for IEEE members, professional recognition, and continuing education credits for career advancement'/>
-            <Cards source={Exposure} heading='Hybrid Experience' content='Participate in-person at beautiful Sharda University campus or join virtually with live streaming and interactive sessions'/>
+          <div className='max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
+            <Cards source={trophy} alt='Trophy' heading='IEEE Xplore Indexing' content='All accepted papers will be published in IEEE Xplore Digital Library with DOI assignment for global visibility and citations'/>
+            <Cards source={star} alt='Star' heading='World-Class Speakers' content='Learn from renowned experts in AI, sustainability, and computational intelligence through keynotes and invited talks'/>
+            <Cards source={network} alt='Network' heading='Networking Excellence' content='Connect with researchers, academics, and industry leaders from around the world in both physical and virtual formats'/>
+            <Cards source={researchAssets} alt='Research' heading='7 Research Tracks' content='AI for Sustainability, Communication, Renewable Energy, Robotics and Automation, Cyber security, Health Care, Infrastructure and Smart city'/>
+            <Cards source={benefits} alt='Benefits' heading='IEEE Member Benefits' content='Special discounts for IEEE members, professional recognition, and continuing education credits for career advancement'/>
+            <Cards source={Exposure} alt='Hybrid' heading='Hybrid Experience' content='Participate in-person at beautiful Sharda University campus or join virtually with live streaming and interactive sessions'/>
           </div>
 <div className="w-[90%] mx-auto my-6 p-4 bg-gray-100 rounded-md text-center text-sm text-gray-700">
 
