@@ -21,7 +21,7 @@ const Home = () => {
 
       <div className='w-[80%] mx-auto p-4 text-lg text-gray-700 tracking-wide text-justify'>
         <p>  The IEEE International Conference on Computational Intelligence Systems and Devices (ICCISD -2026), technically sponsored by IEEE Uttar Pradesh Section and  hosted by Sharda University, Greater Noida will be held on 23rd - 24th July 2026.
-        The conference offers a comprehensive platform for researchers, practitioners, and industry professionals to explore advancements in Computer Science, Information Technology, and Computational Intelligence. The conference focuses on leveraging emerging technologies to address global challenges in sustainability. It covers a broad spectrum of cutting-edge topics and applications, emphasizing the integration of intelligent systems and sustainable practices.It is planned to publish the peer reviewed and selected papers of conference as proceedings in the IEEE Xplore.</p>
+        The conference offers a comprehensive platform for researchers, practitioners, and industry professionals to explore advancements in Computer Science, Information Technology, and Computational Intelligence. The conference focuses on leveraging emerging technologies to address global challenges in sustainability. It covers a broad spectrum of cutting-edge topics and applications, emphasizing the integration of intelligent systems and sustainable practices.It is planned to submit the peer reviewed and selected papers of conference as proceedings for possible inclusion in IEEE Xplore.</p>
         </div>
 
         <h1 className='w-[80%] mx-auto mt-5 text-2xl text-gray-600 text-left font-semibold tracking-wide'>THE OBJECTIVE OF THE CONFERENCE</h1>
