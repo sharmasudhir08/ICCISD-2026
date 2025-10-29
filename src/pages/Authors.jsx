@@ -5,17 +5,19 @@ import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
 const Authors = () => {
   return (
     <div className="box-border">
-      {/* Banner Section */}
+      {/* Banner / Heading Section (smaller with gradient) */}
       <div className="relative w-full">
-        <img
-          src={Banner}
-          className="w-full min-h-[200px] max-h-[400px] object-cover"
-          alt="Conference Banner"
-        />
-        <div className="absolute inset-0 bg-gray-800 opacity-80 flex flex-col justify-center items-center">
-          <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">
-            AUTHORS
-          </h1>
+  <div className="w-full min-h-[96px] md:min-h-[140px] relative bg-gradient-to-r from-fuchsia-600 via-pink-500 to-rose-500 flex items-center">
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.35) 100%)' }}
+            aria-hidden
+          />
+          <div className="max-w-4xl w-full px-4 py-4 mx-auto">
+            <h1 className="text-white drop-shadow-md text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-center">
+              AUTHORS
+            </h1>
+          </div>
         </div>
       </div>
 
@@ -54,8 +56,11 @@ const Authors = () => {
     {/* Track 1 & 2 */}
     <div className="flex flex-wrap justify-between items-start gap-4">
       <section className="w-full md:w-[48%]">
-        <h1 className="text-xl sm:text-2xl text-sky-800 font-semibold">
-          Track 1: Neural Networks, Deep Learning, and Reinforcement Learning
+        <h1 className="text-xl sm:text-2xl font-semibold flex items-center">
+          <span className="inline-block w-8 h-0.5 rounded-full mr-3 bg-gradient-to-r from-sky-700 to-indigo-600" />
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-700 via-indigo-600 to-violet-600">
+            Track 1: Neural Networks, Deep Learning, and Reinforcement Learning
+          </span>
         </h1>
         <ul className="p-4 text-base text-gray-700 list-none space-y-2">
           <li>1.1 Explainable AI and Interpretable Deep Models</li>
@@ -72,8 +77,11 @@ const Authors = () => {
       </section>
 
       <section className="w-full md:w-[48%]">
-        <h1 className="text-xl sm:text-2xl text-sky-800 font-semibold">
-          Track 2: Fuzzy Systems, Evolutionary Computation, and Hybrid Intelligence
+        <h1 className="text-xl sm:text-2xl font-semibold flex items-center">
+          <span className="inline-block w-12 h-1 rounded-full mr-3 bg-gradient-to-r from-sky-600 to-indigo-500" />
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-indigo-500 to-purple-600">
+            Track 2: Fuzzy Systems, Evolutionary Computation, and Hybrid Intelligence
+          </span>
         </h1>
         <ul className="p-4 text-base text-gray-700 list-none space-y-2">
           <li>2.1 Adaptive Neuro-Fuzzy Inference Systems (ANFIS)</li>
@@ -93,8 +101,11 @@ const Authors = () => {
     {/* Track 3 & 4 */}
     <div className="flex flex-wrap justify-between items-start gap-4 mt-6">
       <section className="w-full md:w-[48%]">
-        <h1 className="text-xl sm:text-2xl text-sky-800 font-semibold">
-          Track 3: Intelligent Devices, Embedded Systems, and IoT Applications
+        <h1 className="text-xl sm:text-2xl font-semibold flex items-center">
+          <span className="inline-block w-12 h-1 rounded-full mr-3 bg-gradient-to-r from-sky-600 to-indigo-500" />
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-indigo-500 to-purple-600">
+            Track 3: Intelligent Devices, Embedded Systems, and IoT Applications
+          </span>
         </h1>
         <ul className="p-4 text-base text-gray-700 list-none space-y-2">
           <li>3.1 AI-Powered Edge and Embedded Systems</li>
@@ -111,8 +122,11 @@ const Authors = () => {
       </section>
 
       <section className="w-full md:w-[48%]">
-        <h1 className="text-xl sm:text-2xl text-sky-800 font-semibold">
-          Track 4: Robotics, Automation, and Human–Machine Interaction
+        <h1 className="text-xl sm:text-2xl font-semibold flex items-center">
+          <span className="inline-block w-12 h-1 rounded-full mr-3 bg-gradient-to-r from-sky-600 to-indigo-500" />
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-indigo-500 to-purple-600">
+            Track 4: Robotics, Automation, and Human–Machine Interaction
+          </span>
         </h1>
         <ul className="p-4 text-base text-gray-700 list-none space-y-2">
           <li>4.1 Cognitive Robotics and Autonomous Decision-Making</li>
@@ -132,8 +146,11 @@ const Authors = () => {
     {/* Track 5 & 6 */}
     <div className="flex flex-wrap justify-between items-start gap-4 mt-6">
       <section className="w-full md:w-[48%]">
-        <h1 className="text-xl sm:text-2xl text-sky-800 font-semibold">
-          Track 5: Signal and Image Processing using Computational Intelligence
+        <h1 className="text-xl sm:text-2xl font-semibold flex items-center">
+          <span className="inline-block w-12 h-1 rounded-full mr-3 bg-gradient-to-r from-sky-600 to-indigo-500" />
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-indigo-500 to-purple-600">
+            Track 5: Signal and Image Processing using Computational Intelligence
+          </span>
         </h1>
         <ul className="p-4 text-base text-gray-700 list-none space-y-2">
           <li>5.1 Deep Learning for Medical Image Analysis</li>
@@ -150,8 +167,11 @@ const Authors = () => {
       </section>
 
       <section className="w-full md:w-[48%]">
-        <h1 className="text-xl sm:text-2xl text-sky-800 font-semibold">
-          Track 6: Cybersecurity, Data Privacy, and Trustworthy Systems
+        <h1 className="text-xl sm:text-2xl font-semibold flex items-center">
+          <span className="inline-block w-12 h-1 rounded-full mr-3 bg-gradient-to-r from-sky-600 to-indigo-500" />
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-indigo-500 to-purple-600">
+            Track 6: Cybersecurity, Data Privacy, and Trustworthy Systems
+          </span>
         </h1>
         <ul className="p-4 text-base text-gray-700 list-none space-y-2">
           <li>6.1 Privacy-Preserving Machine Learning (Federated, Differential Privacy)</li>
@@ -171,8 +191,11 @@ const Authors = () => {
     {/* Track 7 */}
     <div className="flex flex-wrap justify-between items-start gap-4 mt-6">
       <section className="w-full md:w-[48%]">
-        <h1 className="text-xl sm:text-2xl text-sky-800 font-semibold">
-          Track 7: Computational Intelligence for Sustainable Systems and Devices
+        <h1 className="text-xl sm:text-2xl font-semibold flex items-center">
+          <span className="inline-block w-12 h-1 rounded-full mr-3 bg-gradient-to-r from-sky-600 to-indigo-500" />
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 via-indigo-500 to-purple-600">
+            Track 7: Computational Intelligence for Sustainable Systems and Devices
+          </span>
         </h1>
         <ul className="p-4 text-base text-gray-700 list-none space-y-2">
           <li>7.1 AI for Climate Change Modeling and Prediction</li>

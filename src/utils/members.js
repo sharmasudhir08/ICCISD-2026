@@ -502,36 +502,36 @@ export const members = [
         designation:'Assistant Professor- CSA, SSCSE',
         committeeType:'Track Chair(s)',
     },
-    {
-        name:'Track 2: Dr. Syed Arshad Ali',
-        designation:'Assistant Professor- CSA, SSCSE, Sharda University',
-        committeeType:'Track Chair(s)',
-    },
-    {
-        name:'Track 3: Prof.(Dr.) Khushboo Tripathi',
-        designation:'Professor- CSA, SSCSE, Sharda University',
-        committeeType:'Track Chair(s)',
-    },
+  {
+    name:'Track 2: Dr. Deepthi P. S.',
+    designation:'Assistant Professor- CSA, SSCSE, Sharda University',
+    committeeType:'Track Chair(s)',
+  },
+  {
+    name:'Track 3: Dr. Syed Arshad Ali',
+    designation:'Assistant Professor- CSA, SSCSE, Sharda University',
+    committeeType:'Track Chair(s)',
+  },
     {
         name:'Track 4: Prof.(Dr.) Kuldeep Chouhan',
         designation:'Professor- CSA, SSCSE, Sharda University',
         committeeType:'Track Chair(s)',
     },
-    {
-        name:'Track 5: Prof.(Dr.) Ajay Shriram Kushwaha',
-        designation:'Professor- CSA, SSCSE, Sharda University',
-        committeeType:'Track Chair(s)',
-    },
-    {
-        name:'Track 6: Prof.(Dr.) Swati Sah',
-        designation:'Professor- CSA, SSCSE, Sharda University',
-        committeeType:'Track Chair(s)',
-    },
-    {
-        name:'Track 7: Dr. Sreejith S',
-        designation:'Associate Professor- CSA, SSCSE, Sharda University',
-        committeeType:'Track Chair(s)',
-    },
+  {
+    name:'Track 5: Prof.(Dr.) Swati Sah',
+    designation:'Professor- CSA, SSCSE, Sharda University',
+    committeeType:'Track Chair(s)',
+  },
+  {
+    name:'Track 6: Prof.(Dr.) Ajay Shriram Kushwaha',
+    designation:'Professor- CSA, SSCSE, Sharda University',
+    committeeType:'Track Chair(s)',
+  },
+  {
+    name:'Track 7: Prof.(Dr.) Khushboo Tripathi',
+    designation:'Professor- CSA, SSCSE, Sharda University',
+    committeeType:'Track Chair(s)',
+  },
 
     {
         name:'Dr. Ravi Prakash Chaturvedi',

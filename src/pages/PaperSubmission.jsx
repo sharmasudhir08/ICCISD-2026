@@ -1,17 +1,23 @@
 import React from 'react';
-import Banner from '../assets/Banner.webp';
+// banner image removed — using magenta gradient block for banner
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
 
 const PaperSubmission = () => {
   return (
     <div className="w-full">
-      {/* Banner Section */}
+      {/* Banner Section (magenta gradient like Registration) */}
       <div className="relative w-full">
-        <img src={Banner} alt="Banner" className="w-full h-60 object-cover" />
-        <div className="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-70">
-          <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">
-            PAPER SUBMISSION
-          </h1>
+  <div className="w-full min-h-[96px] md:min-h-[140px] relative bg-gradient-to-r from-fuchsia-600 via-pink-500 to-rose-500 flex items-center">
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.35) 100%)' }}
+            aria-hidden
+          />
+          <div className="max-w-4xl w-full px-4 py-4 mx-auto">
+            <h1 className="text-white drop-shadow-md text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-center">
+              PAPER SUBMISSION
+            </h1>
+          </div>
         </div>
       </div>
 

@@ -6,11 +6,11 @@ const HeroSection = () => {
     <div className="w-full">
       <div className="relative bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 min-h-[60vh] md:min-h-[50vh] flex items-center">
         <div className="absolute inset-0 bg-black/45" aria-hidden />
-        <div className="relative max-w-screen-xl mx-auto px-4 py-12 md:py-16 text-white w-full">
+        <div className="relative max-w-4xl mx-auto px-4 py-12 md:py-16 w-full">
           <div className="flex flex-col items-center gap-4">
             {/* Centered original banner text (kept exactly as requested) */}
-            <div className="text-center space-y-1 md:space-y-2 max-w-5xl mx-auto">
-              <h1 className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 via-white to-sky-100 drop-shadow-md leading-tight tracking-tight">
+            <div className="text-center space-y-1 md:space-y-2 max-w-4xl mx-auto">
+              <h1 className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-100 via-purple-200 to-pink-200 drop-shadow-md leading-tight tracking-tight">
                 <span className="block">INTERNATIONAL CONFERENCE ON</span>
                 <span className="block">COMPUTATIONAL INTELLIGENCE SYSTEMS AND DEVICES</span>
               </h1>
