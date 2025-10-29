@@ -591,8 +591,23 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
+    "name": "Prof. (Dr) Ashish B. Sasankar",
+    "designation": "R.T.M.N.U, Nagpur (Maharashtra)",
+    "committeeType": "Technical Program Committee"
+  },
+  {
     "name": "Prof. (Dr) Biswadip Basu Mallik",
     "designation": "Institute of Engineering & Management (School of University of Engineering and Management), Kolkata, West Bengal",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Prof. (Dr) Geeta R Bharamagoudar",
+    "designation": "KLE Institute of Technology Hubballi",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Prof. (Dr) Harish Mittal",
+    "designation": "BM Institute of Engineering & Technology, Sonepat",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -611,6 +626,11 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
+    "name": "Prof. (Dr) P L Chithra",
+    "designation": "University of Madras, Guindy Campus, Chennai",
+    "committeeType": "Technical Program Committee"
+  },
+  {
     "name": "Prof. (Dr) Parameswari R",
     "designation": "Vels Institute of Science and Technology, Chennai",
     "committeeType": "Technical Program Committee"
@@ -621,6 +641,11 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
+    "name": "Prof. (Dr) Rajendra Patil",
+    "designation": "Uma Krishna Shetty Institute Of Management And Research, Mumbai",
+    "committeeType": "Technical Program Committee"
+  },
+  {
     "name": "Prof. (Dr) S V Suryanarayana",
     "designation": "CVR College of Engineering, Hyderabad",
     "committeeType": "Technical Program Committee"
@@ -628,8 +653,13 @@ export const members = [
   {
   "name": "Prof. (Dr) Shiv Kumar Verma",
   "designation": "Sharda University, Greater Noida",
-  "committeeType": "Technical Program Committee"
+"committeeType": "Technical Program Committee"
 },
+  {
+    "name": "Prof. (Dr) Siddharth Arora",
+    "designation": "Chandigarh University",
+    "committeeType": "Technical Program Committee"
+  },
   {
     "name": "Prof. (Dr) Sudhir Kumar Sharma",
     "designation": "Sharda University, Greater Noida",
@@ -646,6 +676,11 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
+    "name": "Prof. (Dr) Vasanthi Reena Williams",
+    "designation": "Vidya Vikas Institute of Engineering and Technology Mysuru",
+    "committeeType": "Technical Program Committee"
+  },
+  {
     "name": "Prof. (Dr) Vijay Kumar",
     "designation": "Manav Rachna International Institute of Research and Studies, Faridabad",
     "committeeType": "Technical Program Committee"
@@ -653,6 +688,16 @@ export const members = [
   {
     "name": "Dr. A. Akila",
     "designation": "Vels Institute of Science, Technology and Advanced Studies",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Dr. Abha Khandelwal",
+    "designation": "RashtraSant Tukdoji Maharaj Nagpur University, Nagpur",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Dr. Abhilasha Dangi",
+    "designation": "Sangam university, Rajasthan",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -698,6 +743,11 @@ export const members = [
   {
     "name": "Dr. Ashish Runthala",
     "designation": "SR University, Warangal",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Dr. Awanit Kumar",
+    "designation": "Career Point University, Kota",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -761,6 +811,11 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
+    "name": "Dr. John T Abraham",
+    "designation": "Bharata Mata College Kochi",
+    "committeeType": "Technical Program Committee"
+  },
+  {
     "name": "Dr. Karthika",
     "designation": "Guru Nanak College, Chennai",
     "committeeType": "Technical Program Committee"
@@ -778,6 +833,11 @@ export const members = [
   {
     "name": "Dr. Lowlesh Nandkishor Yadav",
     "designation": "Tulsiramji Gaikwad Patil College of Engineering and Technology, Nagpur, Maharashtra",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Dr. M.S.Nidhya",
+    "designation": "Dayanand Sagar University, Bengaluru",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -831,6 +891,16 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
+    "name": "Dr. Prabhakar Shukla",
+    "designation": "IIT Delhi",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Dr. Prajakta Somaji Ratnaparkhi",
+    "designation": "City Premier College Nagpur, Maharashtra",
+    "committeeType": "Technical Program Committee"
+  },
+  {
     "name": "Dr. Prabhash Chandra Pathak",
     "designation": "Babu Banarasi Das University, Lucknow",
     "committeeType": "Technical Program Committee"
@@ -843,6 +913,11 @@ export const members = [
   {
     "name": "Dr. R Padma",
     "designation": "Vels Institute of Science Technology and Advanced Studies, Tamil Nadu",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Dr. Rashmi Rathi Upadhyay",
+    "designation": "Sharda University",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -916,6 +991,11 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
+    "name": "Dr. Suman Avdhesh Yadav",
+    "designation": "IILM University Greater Noida",
+    "committeeType": "Technical Program Committee"
+  },
+  {
     "name": "Dr. T. Keerthika",
     "designation": "Amrita Vishwa Vidhyapeetham , Ettimadai, Coimbatore, Tamil Nadu",
     "committeeType": "Technical Program Committee"
@@ -948,6 +1028,11 @@ export const members = [
   {
     "name": "Dr. Yogita Yashveer Raghav",
     "designation": "Centre of Excellence-Cloud Computing, K R Mangalam University, Haryana",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Mr. ANIK ACHARJEE",
+    "designation": "IILM University Greater Noida",
     "committeeType": "Technical Program Committee"
   },
   {
@@ -1016,6 +1101,16 @@ export const members = [
     "committeeType": "Technical Program Committee"
   },
   {
+    "name": "Mr. Sandeep Mukherji",
+    "designation": "United College of Engineering and Research, Prayagraj",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Mr. Sandeep Pal",
+    "designation": "Salesforce",
+    "committeeType": "Technical Program Committee"
+  },
+  {
     "name": "Mr. Sanjay Kumar Sonker",
     "designation": "Sharda University Greater Noida",
     "committeeType": "Technical Program Committee"
@@ -1028,6 +1123,11 @@ export const members = [
   {
     "name": "Mr. Vijay Karnatak",
     "designation": "Uttaranchal University",
+    "committeeType": "Technical Program Committee"
+  },
+  {
+    "name": "Ms. Akanksha Srivastav",
+    "designation": "Tula's Institute , Dehradun",
     "committeeType": "Technical Program Committee"
   },
   {
