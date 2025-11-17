@@ -50,7 +50,11 @@ export const members = [
         designation:'Professor, AMU Aligarh',
         committeeType:'Honorary Chair(s)',
     },
-   
+   {
+    name:'Dr. Varun Kakar',
+    designation:'B. T. Kumaon Institute of Technology, Dwarahat',
+    committeeType:'Honorary Chair(s)',
+  },
      {
         name:'Prof. (Dr.) Parma Nand',
         designation:'Pro-Vice Chancellor, Sharda University Greater Noida, India',
@@ -390,11 +394,6 @@ export const members = [
   {
     name:'Dr. Sandeep Kumar Sood',
     designation:'National Institute of Technology, Kurukshetra, Haryana',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Dr. Varun Kakar',
-    designation:'B. T. Kumaon Institute of Technology, Dwarahat',
     committeeType:'National Advisory Committee',
   },
   {
