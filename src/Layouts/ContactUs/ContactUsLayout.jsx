@@ -52,7 +52,7 @@ const ContactUsLayout = () => {
           </div>
         </div>
 
-        <div className="w-full mt-4 px-3 mb-16 grid grid-cols-1 sm:flex sm:flex-wrap sm:justify-between gap-4 bg-white text-sky-800 sm:rounded-xl sm:shadow-2xl sm:shadow-gray-900 sm:p-4">
+        <div className="w-full mt-4 px-2 sm:px-4 mb-16 flex flex-wrap justify-center sm:justify-between gap-3 sm:gap-4 bg-white text-sky-800 rounded-xl shadow-2xl shadow-gray-900 p-3 sm:p-6">
           {members.map((e, index) => (
             <ContactCard
               key={index}
