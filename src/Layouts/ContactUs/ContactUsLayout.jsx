@@ -21,7 +21,7 @@ const ContactUsLayout = () => {
 
         <div className="w-full mt-8 px-2 py-4 rounded-lg">
           <div className="text-base sm:text-lg font-semibold mb-3">
-            <ul className="flex gap-1 sm:gap-2 items-stretch w-full flex-wrap sm:flex-nowrap">
+            <ul className="flex gap-2 items-stretch w-full flex-wrap justify-center sm:justify-start">
               {[
                 "Organizing Chair",
                 "Convener",
@@ -30,21 +30,17 @@ const ContactUsLayout = () => {
                 "For Registration Related Query",
               ].map((tab) => {
                 const isSmall = tab === "Convener" || tab === "Co-Convener";
-                const isOrganizing = tab === "Organizing Chair";
                 const isActive = currentTab === tab;
-                const smallClass = `cursor-pointer px-2 sm:px-3 rounded-md transition-all duration-200 select-none text-xs sm:text-base flex items-center justify-center border h-9 sm:h-12 flex-none min-w-[80px]`; 
-                // large tabs: flex-1 normally; make Organizing Chair slightly smaller using an explicit flex factor
-                const flexClass = isOrganizing
-                  ? `cursor-pointer px-2 sm:px-4 rounded-lg transition-all duration-200 select-none text-xs sm:text-base flex items-center justify-center text-center border flex-[0.85] min-w-0 h-9 sm:h-12 leading-tight`
-                  : `cursor-pointer px-2 sm:px-4 rounded-lg transition-all duration-200 select-none text-xs sm:text-base flex items-center justify-center text-center border flex-1 min-w-0 h-9 sm:h-12 leading-tight`;
+                const baseClass = `cursor-pointer px-3 py-2 rounded-lg transition-all duration-200 select-none text-xs sm:text-sm flex items-center justify-center text-center border min-h-[3rem] sm:min-h-[3rem]`;
+                const sizeClass = isSmall ? 'w-[48%] sm:w-auto sm:flex-none' : 'w-full sm:flex-1';
                 const activeClass = "bg-gradient-to-r from-yellow-300 via-orange-300 to-amber-400 text-sky-900 font-bold shadow-lg";
 
                 return (
                   <li
                     key={tab}
                     onClick={() => setCurrentTab(tab)}
-                    className={`${isSmall ? smallClass : flexClass} ${isActive ? activeClass : 'bg-transparent text-white border-white/30 hover:bg-white/10'}`}>
-                    <span className="text-center leading-tight">{tab}</span>
+                    className={`${baseClass} ${sizeClass} ${isActive ? activeClass : 'bg-transparent text-white border-white/30 hover:bg-white/10'}`}>
+                    <span className="text-center leading-tight px-1">{tab}</span>
                   </li>
                 );
               })}
