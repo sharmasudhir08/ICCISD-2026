@@ -618,7 +618,7 @@ export const members = [
     },
   {
     name:'Track 2: Dr. Deepthi P. S.',
-    designation:'Assistant Professor- CSA, SSCSE, Sharda University',
+    designation:'Associate Professor- CSA, SSCSE, Sharda University',
     committeeType:'Track Chair(s)',
   },
   {
@@ -643,7 +643,7 @@ export const members = [
   },
   {
     name:'Track 7: Dr. Sreejith S',
-    designation:'Professor- CSA, SSCSE, Sharda University',
+    designation:'Associate Professor- CSA, SSCSE, Sharda University',
     committeeType:'Track Chair(s)',
   },
 
