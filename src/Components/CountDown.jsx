@@ -6,7 +6,7 @@ const CountDown = () => {
   const [min, setMin] = useState(0);
   const [sec, setSec] = useState(0);
 
-  const targetDate = new Date('2026-05-21T00:00:00');
+  const targetDate = new Date('2026-07-23T00:00:00');
 
   useEffect(() => {
     const interval = setInterval(() => {
