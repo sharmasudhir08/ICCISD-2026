@@ -692,677 +692,812 @@ export const members = [
     {
     "name": "Prof. (Dr) Aditya Patel",
     "designation": "SAGE University Bhopal",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Ajay Shriram Kushwaha",
     "designation": "Sharda University, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Anil Kumar Lamba",
     "designation": "MMEC, Maharishi Markandeshwar Deemed to be University, Mullana, Haryana",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Anurag Rai",
     "designation": "Sharda University, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Ashish B. Sasankar",
     "designation": "R.T.M.N.U, Nagpur (Maharashtra)",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Biswadip Basu Mallik",
     "designation": "Institute of Engineering & Management (School of University of Engineering and Management), Kolkata, West Bengal",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Gaurav Gupta",
     "designation": "Shoolini University, Himachal Pradesh",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Geeta R Bharamagoudar",
     "designation": "KLE Institute of Technology Hubballi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Hardeep Singh",
     "designation": "Amritsar Group of Colleges, Punjab",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Harish Mittal",
     "designation": "BM Institute of Engineering & Technology, Sonepat",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Ketan Sarvakar",
     "designation": "Ganpat University, Mehsana, Gujarat",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Lalit Kumar",
     "designation": "IILM University, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Muthu Krishnammal P",
     "designation": "Saveetha Engineering college (Autonomous), Chennai",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) P L Chithra",
     "designation": "University of Madras, Guindy Campus, Chennai",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Parameswari R",
     "designation": "Vels Institute of Science and Technology, Chennai",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Prasanth Aruchamy",
     "designation": "Vel Tech University, Chennai",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Preeti Nagrath",
     "designation": "Bharati Vidyapeeth's college of Engineering, New Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Rajendra Patil",
     "designation": "Uma Krishna Shetty Institute Of Management And Research, Mumbai",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) S V Suryanarayana",
     "designation": "CVR College of Engineering, Hyderabad",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Satish Muppidi",
     "designation": "GMR Institute of Technology, Andhra Pradesh",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
   "name": "Prof. (Dr) Shiv Kumar Verma",
   "designation": "Sharda University, Greater Noida",
-"committeeType": "Technical Program Committee"
+  "committeeType": "Technical Program Committee",
+  "country": "India"
 },
   {
     "name": "Prof. (Dr) Siddharth Arora",
     "designation": "Chandigarh University",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Sri Hari Nallamala",
     "designation": "Vasireddy Venkatadri International Technological University, Guntur",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Sudhir Kumar Sharma",
     "designation": "Sharda University, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Sunil Gupta",
     "designation": "Jaipur National University",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Urvi Dhamecha",
     "designation": "Marwadi University, Gujarat",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Usha Rani Nelakuditi",
     "designation": "VFSTR(Deemed to be University), Andhra Pradesh",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Vasanthi Reena Williams",
     "designation": "Vidya Vikas Institute of Engineering and Technology Mysuru",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Vijay Kumar",
     "designation": "Manav Rachna International Institute of Research and Studies, Faridabad",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) Yogesh Singh Rathore",
     "designation": "Sharda University Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. A.Akila",
     "designation": "Vels Institute of Science, Technology and Advanced Studies",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Aakanksha Mahajan",
     "designation": "PIET, SAMALKHA, Haryana",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Abha Khandelwal",
     "designation": "RashtraSant Tukdoji Maharaj Nagpur University, Nagpur",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Abhilasha Dangi",
     "designation": "Sangam university, Rajasthan",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Abhishek",
     "designation": "Chitkara University Himachal Pradesh",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Achyutha Prasad N",
     "designation": "East West Institute of Technology, Bangalore",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Ajay Beniwal",
     "designation": "Dhirubhai Ambani University (formerly DA-IICT), Gandhinagar, India",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Ajay Kumar Mallick",
     "designation": "National Institute of Technology, Hamirpur",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Akash Punhani",
     "designation": "IILM UNIVERSITY Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Amandeep Kaur Virk",
     "designation": "Sri Guru Granth Sahib World University, Fatehgarh Sahib, Punjab",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Amit Ramesh Khaparde",
     "designation": "G. B. Pant DSEU Campus, New Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Anil Kumar Prajapati",
     "designation": "Manipal University Jaipur",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Anil Kumar",
     "designation": "Galgotia College of Engineering and Technology, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Anjali Ashokrao Bhadre",
     "designation": "gh raisoni college of engineering and management pune Maharashtra",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Anju Gautam",
     "designation": "SDGI Global University, NH24, meerut highway, Ghaziabad(UP)",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Anuradha Bhardwaj",
     "designation": "Amity University, Uttar Pradesh",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Anwar Basha H",
     "designation": "Rajalakshmi Institute of Technology, Chennai, Tamil Nadu, India",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Ashish Runthala",
     "designation": "SR University, Warangal",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Awanit Kumar",
     "designation": "Career Point University, Kota",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Awanit Kumar",
     "designation": "Sangam University Rajastan",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. B Gayathri",
     "designation": "Bishop Heber College, Tamil Nadu",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Bharat Bhushan",
     "designation": "Sharda University, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Bhaskar Kapoor",
     "designation": "Maharaja Agrasen Institute of Technology, New Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Debajyoti Biswas",
     "designation": "Shiv Nadar University Chennai",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Deepak Motwani",
     "designation": "Amity University Gwalior Madhya Pradesh",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Deepika. M",
     "designation": "B.S. Abdur Rahman Crescent Institute of Science and Technology, Chennai",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Deepti Deshwal",
     "designation": "Maharaja Surajmal Institute of Technology, New Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Deepti Khanna",
     "designation": "Jagana Institute of Management Studies, Rohini, New Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Dileep V K",
     "designation": "Associate Professor, LBSITW, Thiruvananthapuram, Kerala",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Divya Agarwal",
     "designation": "Vivekananda Institute of Professional Studies – Technical Campus Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Gaganpreet Kaur",
     "designation": "JMIT, Radaur, Haryana",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Gunjan Verma",
     "designation": "GL BAJAJ INSTITUTE OF TECHNOLOGY AND MANAGEMENT, Uttar Pradesh",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Hardikkumar Mahendrabhai Patel",
     "designation": "Vidush Somany Institute of Technology & Research,Kadi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Hemprasad Patil",
     "designation": "MCTE, Ministry of Defence, Govt of India",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Honey Gocher",
     "designation": "Amity University, Jaipur",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Jitendra Kumar Samriya",
     "designation": "Indian Institute of Information Technology, Sonepat",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. John T Abraham",
     "designation": "Bharata Mata College Kochi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Kanika Singhal",
     "designation": "Noida Institute of Engineering and Technology, Uttar Pradesh",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Karthika",
     "designation": "Guru Nanak College, Chennai",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Kaushik Adhikary",
     "designation": "JIS University, Agarpara",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Lokesh Jain",
     "designation": "Vivekananda Institute of Professional Studies - Technical Campus, Pitampura, Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Lokesh P. Gagnani",
     "designation": "LDRP -ITR, KSV University, SVKM",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Lowlesh Nandkishor Yadav",
     "designation": "Suryodaya College of Engineering and Technology, Nagpur, Maharashtra, India",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. M.S.Nidhya",
     "designation": "Dayanand Sagar University, Bengaluru",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Manojkumar",
     "designation": "Maharaja Surajmal Institute, New Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Md Arquam",
     "designation": "IIIT SONEPAT",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Md Khalid Jamal",
     "designation": "Sharda University, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Meenakshi Pareek",
     "designation": "Banasthali Vidhyapith, Rajasthan",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Mohd Naseem",
     "designation": "Baba Ghulam Shah Badshah University, Rajouri",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. N. Vanitha",
     "designation": "Coimbatore Institute of Technology, Coimbatore, Tamil Nadu",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Nagesh Kumar",
     "designation": "Chitkara University, Himachal Pradesh",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Neeraj Kumar",
     "designation": "Babasaheb Bhimrao Ambedkar University, Lucknow",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Neha Kashyap",
     "designation": "Sharda University, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Nilesh Madhukar Patil",
     "designation": "SVKM's Dwarkadas J Sanghvi College of Engineering, Mumbai",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Nithyanandh Selvam",
     "designation": "PSG College of Arts & Science, Tamilnadu",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Om Pal",
     "designation": "University of Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. P Ashok",
     "designation": "Symbiosis International Pune, Maharashtra, India",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. P Ramani",
     "designation": "SRM Institute of Science and Technology, Tamil Nadu",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Pooja Jain",
     "designation": "IIIT Nagpur",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Prabhakar Shukla",
     "designation": "IIT Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Prajakta Somaji Ratnaparkhi",
     "designation": "City Premier College Nagpur, Maharashtra",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Prabhash Chandra Pathak",
     "designation": "Babu Banarasi Das University, Lucknow",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Pramod Kumar",
     "designation": "Manipal University Jaipur",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Praveen Kumar Shukla",
     "designation": "School of Engineering-BBD University, Lucknow",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Praveen R",
     "designation": "National Institute of Technology Puducherry",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. R Padma",
     "designation": "Vels Institute of Science Technology and Advanced Studies, Tamil nadu",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. R.Manikandan",
     "designation": "SASTRA Deemed University, Thanjavur, India",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Rashmi Rathi Upadhyay",
     "designation": "Sharda University",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Renu Mishra",
     "designation": "Sharda University, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Revathy V R",
     "designation": "Kristu Jayanti University, Bengaluru",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Ritu Singhal",
     "designation": "I P College , University of Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. S Vijay Kumar",
     "designation": "GRIET, Hyderabad",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Sakshi Gupta",
     "designation": "Manav Rachna International Institute of Research and Studies, Haryana",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Saleem S Tevaramani",
     "designation": "KSIT Bengaluru",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Samta Rani",
     "designation": "Sharda University, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Sanjay Kumar Singh",
     "designation": "Amity University Rajasthan, Jaipur",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Sanjeevkumar Angadi",
     "designation": "Nutan Maharashtra Institute of Engineering and Technology, Maharashtra",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Saurabh Dubey",
     "designation": "Amity University Gwalior",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Senthil Kumar J",
     "designation": "KIT-Kalaignarkarunanidhi Institute of Technology, Tamil Nadu",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Shanmugaraja P",
     "designation": "Sona College of Technology, Salem, Tamilnadu",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Shikha Marwaha",
     "designation": "Shiv Nadar University Chennai",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Shivani Vats",
     "designation": "GGIPU, Jagan Institute Of Management Studies, New Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Shveta Bansal",
     "designation": "Chitkara University",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Siva Skandha Sanagala",
     "designation": "CMR College of Engineering & Technology, Hyderabad",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Soubhagya Ranjan Mallick",
     "designation": "Symbiosis International (Deemed University), Pune, India",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Sudhanshu Kumar Jha",
     "designation": "University of Allahabad, Uttar Pradesh",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Suman Avdhesh Yadav",
     "designation": "IILM University Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Susmita Das",
     "designation": "Narula Institute of Technology, Kolkata, West Bengal",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. T. Keerthika",
     "designation": "Amrita Vishwa Vidhyapeetham , Ettimadai, Coimbatore, Tamil Nadu",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Tanya Liyaqat",
     "designation": "Sharda University, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Tarun Kumar Vashishth",
     "designation": "IIMT University, Meerut, U.P",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Vandana Dabass",
     "designation": "IITM, Janakpuri,Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Varun Chand H",
     "designation": "College of Engineering Perumon, APJ Abdul Kalam Technological University, Kerala",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Vijayalakshmi A",
     "designation": "Christ University Bangalore",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Vijeta Iyer",
     "designation": "Kumaraguru College of Technology, Tamil Nadu",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Vishal Sharma",
     "designation": "Amity University Rajasthan, Jaipur",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Dr. Yogita Yashveer Raghav",
     "designation": "Centre of Excellence-Cloud Computing, K R Mangalam University, Haryana",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Mr. ANIK ACHARJEE",
     "designation": "IILM University Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Mr. Anindya Nag",
     "designation": "Northern University of Business and Technology Khulna",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "Bangladesh"
   },
   {
     "name": "Mr. Ashish Jain",
     "designation": "Sharda university",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Mr. Chaitanya Gunupudi",
     "designation": "University of Maryland Research Center, USA",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "USA"
   },
   {
     "name": "Mr. Dharmateja Priyadarshi Uddandarao",
     "designation": "Senior Data Scientist, Amazon",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "USA"
   },
   {
     "name": "Mr. Dipak Suresh Yeole",
     "designation": "Vidya Pratishthan's Kamalnayan Bajaj Institute of Engineering & Technology, Maharastra",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Mr. Gautam Pal",
     "designation": "Tripura Institute of Technology, Tripura",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Mr. Gyanender Kumar",
     "designation": "Raj Kumar Goel Institute of Technology Ghaziabad",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Mr. Jatinkumar Soni",
@@ -1407,92 +1542,110 @@ export const members = [
   {
     "name": "Mr. Prateek Singhal",
     "designation": "Christ (Deemed to be University), Delhi-NCR",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Mr. Sandeep Mukherji",
     "designation": "United College of Engineering and Research, Prayagraj",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Mr. Sandeep Pal",
     "designation": "Salesforce",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "USA"
   },
   {
     "name": "Mr. Sanjay Kumar Sonker",
     "designation": "Sharda University Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Mr. Suharsh Anand",
     "designation": "Solution Architect, IEEE",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "USA"
   },
   {
     "name": "Mr. Vijay Karnatak",
     "designation": "Uttaranchal University",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Ms. Akanksha Srivastav",
     "designation": "Tula's Institute , Dehradun",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Ms. Babita Verma",
     "designation": "Bhilai Institute of Technology Durg",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Ms. Neha Tyagi",
     "designation": "Amity university, Greater Noida",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Ms. S. Sindhu",
     "designation": "SRM Institute of Science and Technology, Tamilnadu",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Ms. Sakshi",
     "designation": "Ram Lal Anand College, University of Delhi",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
   "name": "Ms. Sakshini Hangloo",
   "designation": "Sharda University, Greater Noida",
-  "committeeType": "Technical Program Committee"
+  "committeeType": "Technical Program Committee",
+  "country": "India"
 },
 {
     "name": "Ms. Snehal Moghe",
     "designation": "Alliance University, Bengaluru",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Ms. Annu Yadav",
     "designation": "KIET GROUP OF INSTITUTIONS GHAZIABAD DELHI NCR",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Ms. Greeshma N Gopal",
     "designation": "College of Engineering Attingal, Kerala",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Ms. Meena Kumari",
     "designation": "ABES Institute of Technology, Ghaziabad",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Ms. Niranchana Shri Viswanathan",
     "designation": "Sapthagiri NPS University, Bangalore, Karnataka",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
   {
     "name": "Ms. Pratibha Rohit Dumane",
     "designation": "Don Bosco Institute of Technology, Mumbai",
-    "committeeType": "Technical Program Committee"
+    "committeeType": "Technical Program Committee",
+    "country": "India"
   },
 
 ]

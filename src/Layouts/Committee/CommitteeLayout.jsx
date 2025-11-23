@@ -44,6 +44,7 @@ const CommitteeLayout = () => {
                     key={idx}
                     name={member.name}
                     designation={member.designation}
+                    country={member.country}
                   />
                 ))}
               </div>
