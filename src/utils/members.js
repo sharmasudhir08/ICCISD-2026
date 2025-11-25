@@ -838,7 +838,7 @@ export const members = [
     "name": "Prof. (Dr) S Sugumaran",
     "designation": "Vishnu Institute of Technology , JNTUK, Andhra Pradesh",
     "committeeType": "Technical Program Committee",
-    "country": "United Kingdom"
+    "country": "India"
   },
   {
     "name": "Prof. (Dr) S V Suryanarayana",
