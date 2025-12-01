@@ -267,155 +267,20 @@ export const members = [
     */
 
 
-    {
-    name:'Prof. (Dr.) Adesh Pandey',
-    designation:'KIET Group of Institutions, Ghaziabad, Delhi-NCR, India',
-    committeeType:'National Advisory Committee',
+  {
+    name: "Prof. (Dr.) Adesh Pandey",
+    designation: "KIET Group of Institutions, Ghaziabad, Delhi-NCR, India",
+    committeeType: "National Advisory Committee",
   },
   {
-    name:'Prof. (Dr.) Amit Prakash Singh',
-    designation:'GGSIPU, New Delhi, India',
-    committeeType:'National Advisory Committee',
+    name: "Prof. (Dr.) Alok Singh Chauhan",
+    designation: "Galgotias University, Greater Noida, UP",
+    committeeType: "National Advisory Committee",
   },
   {
-    name:'Prof. (Dr.) Arun Prakash Agrawal',
-    designation:'Department of CSE, Bennett University, Greater Noida, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Arun Sharma',
-    designation:'Indira Gandhi Delhi Technical University for Women, Delhi, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Arvidner Kaur',
-    designation:'Dean, USAR, GGSIPU, New Delhi, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Avadhesh Kumar',
-    designation:'Pro Vice Chancellor -Galgotias University',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Dr. Anil Ahlawat',
-    designation:'Director Academics, NIET Greater Noida, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Jai Prakash Saini',
-    designation:'VC- MMMUT, Gorakhpur, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Janakarajan Ramkumar',
-    designation:'IIT Kanpur',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Mohammad Rihan',
-    designation:'Professor, AMU, Aligarh',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Pravin Chandra',
-    designation:'Professor, USICT, GGSIPU, Delhi, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) R.K. Upadhyay',
-    designation:'Director Kamla Nehru Institute of Technology, Sultanpur, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Raghvendra Kumar Chaudhary',
-    designation:'IIT Kanpur',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Rajeev K. Singh',
-    designation:'IIT BHU, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Shailesh Tiwari',
-    designation:'Joint Dean - School of Computer Science Engineering and Technology, Bennett University, Greater Noida, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Vikram Bali',
-    designation:'Galgotias College of Engineering and Technology, Noida, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Vikram Singh',
-    designation:'Chancellor, Noida International University, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Ehtiram Raza Khan',
-    designation:'Jamia Hamdard University, New Delhi, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Vineet Kansal',
-    designation:'Institute of Engineering & Technology, Lucknow',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Prof. (Dr.) Bashir Alam',
-    designation:'Jamia Millia Islamia, New Delhi, India',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Dr. Amit Kumar Singh',
-    designation:'NIT Patna',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Dr. Ankit Gupta',
-    designation:'Associate Professor, School of Engineering, Shiv Nadar University, Delhi',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Dr. Lithungo k Murry',
-    designation:'NIT Nagaland',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Dr. M. P. Kurhekar',
-    designation:'VNIT Nagpur',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Dr. Munesh Singh',
-    designation:'NIT Delhi',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Dr. Mushtaq Ahmed',
-    designation:'MNIT Jaipur',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Dr. S Mini',
-    designation:'NIT Goa',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Dr. Sandeep Kumar Sood',
-    designation:'National Institute of Technology, Kurukshetra, Haryana',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Dr. Veena Thenkanidiyoor',
-    designation:'NIT Goa',
-    committeeType:'National Advisory Committee',
-  },
-  {
-    name:'Dr. Yambem Jina Chanu',
-    designation:'NIT Manipur',
-    committeeType:'National Advisory Committee',
+    name: "Prof. (Dr.) Amit Prakash Singh",
+    designation: "GGSIPU, New Delhi, India",
+    committeeType: "National Advisory Committee",
   },
   {
     name: "Prof. (Dr.) Anil Ahlawat",
@@ -428,8 +293,53 @@ export const members = [
     committeeType: "National Advisory Committee",
   },
   {
+    name: "Prof. (Dr.) Arun Prakash Agrawal",
+    designation: "Department of CSE, Bennett University, Greater Noida, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Arun Sharma",
+    designation: "Indira Gandhi Delhi Technical University for Women, Delhi, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Arvidner Kaur",
+    designation: "Dean, USAR, GGSIPU, New Delhi, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Avadhesh Kumar",
+    designation: "Pro Vice Chancellor -Galgotias University",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Bashir Alam",
+    designation: "Jamia Millia Islamia, New Delhi, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Ehtiram Raza Khan",
+    designation: "Jamia Hamdard University, New Delhi, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Jai Prakash Saini",
+    designation: "VC- MMMUT, Gorakhpur, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Janakarajan Ramkumar",
+    designation: "IIT Kanpur",
+    committeeType: "National Advisory Committee",
+  },
+  {
     name: "Prof. (Dr.) Mansaf Alam",
     designation: "Jamia Millia Islamia",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Mohammad Rihan",
+    designation: "Professor, AMU, Aligarh",
     committeeType: "National Advisory Committee",
   },
   {
@@ -438,8 +348,33 @@ export const members = [
     committeeType: "National Advisory Committee",
   },
   {
+    name: "Prof. (Dr.) Pravin Chandra",
+    designation: "Professor, USICT, GGSIPU, Delhi, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
     name: "Prof. (Dr.) R Madhusudhan",
     designation: "NIT Suratkal",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) R.K. Upadhyay",
+    designation: "Director Kamla Nehru Institute of Technology, Sultanpur, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Raghvendra Kumar Chaudhary",
+    designation: "IIT Kanpur",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Rajeev K. Singh",
+    designation: "IIT BHU, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Ranjan Walia",
+    designation: "Chandigarh University, Mohali, Punjab",
     committeeType: "National Advisory Committee",
   },
   {
@@ -448,8 +383,28 @@ export const members = [
     committeeType: "National Advisory Committee",
   },
   {
+    name: "Prof. (Dr.) Shahin Ara Begum",
+    designation: "Assam University, Silchar",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Shailesh Tiwari",
+    designation: "Bennett University, Greater Noida, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
     name: "Prof. (Dr.) Tanvir Ahmad",
     designation: "Jamia Millia Islamia, New Delhi, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Vikram Bali",
+    designation: "Galgotias College of Engineering and Technology, Noida, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Vikram Singh",
+    designation: "Chancellor, Noida International University, India",
     committeeType: "National Advisory Committee",
   },
   {
@@ -458,8 +413,73 @@ export const members = [
     committeeType: "National Advisory Committee",
   },
   {
+    name: "Prof. (Dr.) Vineet Kansal",
+    designation: "Institute of Engineering & Technology, Lucknow",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Prof. (Dr.) Vishal Bharti",
+    designation: "Maharishi Markandeshwar (Deemed to be University), Mullana, Haryana, India",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. Amit Kumar Singh",
+    designation: "NIT Patna",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. Ankit Gupta",
+    designation: "Associate Professor, School of Engineering, Shiv Nadar University, Delhi",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. Lithungo k Murry",
+    designation: "NIT Nagaland",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. M. P. Kurhekar",
+    designation: "VNIT Nagpur",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. Manoj Kumar",
+    designation: "BBAU Lucknow",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. Munesh Singh",
+    designation: "NIT Delhi",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. Mushtaq Ahmed",
+    designation: "MNIT Jaipur",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. Om Pal",
+    designation: "University of Delhi",
+    committeeType: "National Advisory Committee",
+  },
+  {
     name: "Dr. Prasanth Aruchamy",
     designation: "Vel Tech University, Chennai, Tamil Nadu",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. Praveen R",
+    designation: "NIT Puducherry",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. S Mini",
+    designation: "NIT Goa",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. Sandeep Kumar Sood",
+    designation: "National Institute of Technology, Kurukshetra, Haryana",
     committeeType: "National Advisory Committee",
   },
   {
@@ -470,6 +490,16 @@ export const members = [
   {
     name: "Dr. Triloki Pant",
     designation: "IIIT, Allahabad",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. Veena Thenkanidiyoor",
+    designation: "NIT Goa",
+    committeeType: "National Advisory Committee",
+  },
+  {
+    name: "Dr. Yambem Jina Chanu",
+    designation: "NIT Manipur",
     committeeType: "National Advisory Committee",
   },
 
