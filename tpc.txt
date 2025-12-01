@@ -1,0 +1,224 @@
+1.      Prof. (Dr) Aditya Patel, SAGE University Bhopal
+2.      Prof. (Dr) Ajay Shriram Kushwaha, Sharda University, Greater Noida
+3.      Prof. (Dr) Anil Kumar Lamba, MMEC, Maharishi Markandeshwar Deemed to be University, Mullana, Haryana
+4.      Prof. (Dr) Anurag Rai, Sharda University, Greater Noida
+5.      Prof. (Dr) Ashish B. Sasankar, R.T.M.N.U, Nagpur (Maharashtra)
+6.      Prof. (Dr) Biswadip Basu Mallik, Institute of Engineering & Management (School of University of Engineering and Management), Kolkata, West Bengal
+7.      Prof. (Dr) Biswadip Basu Mallik, Institute of Engineering & Management, University of Engineering and Management, Kolkata, West Bengal, India.
+8.      Prof. (Dr) Ganesh Gupta, Amity University Madhya Pradesh
+9.      Prof. (Dr) Gaurav Gupta, Shoolini University, Himachal Pradesh
+10.   Prof. (Dr) Geeta R Bharamagoudar, KLE Institute of Technology Hubballi
+11.   Prof. (Dr) Hardeep Singh, Amritsar Group of Colleges, Punjab
+12.   Prof. (Dr) Harish Mittal, BM Institute of Engineering & Technology, Sonepat
+13.   Prof. (Dr) Ketan Sarvakar, Ganpat University, Mehsana, Gujarat
+14.   Prof. (Dr) Lalit Kumar, IILM University, Greater Noida
+15.   Prof. (Dr) M Mohammed Mustafa, Anna University Chennai
+16.   Prof. (Dr) Mareddy Padma Lalitha, Annamacharya University, Andhra Pradesh
+17.   Prof. (Dr) Muthu Krishnammal P, Saveetha Engineering college (Autonomous), Chennai
+18.   Prof. (Dr) P L Chithra, University of Madras, Guindy Campus, Chennai
+19.   Prof. (Dr) Pankaj Bhambri, Guru Nanak Dev Engineering College, Ludhiana
+20.   Prof. (Dr) Pankaj Kumar Varshney, IITM GGSIPU JANAKPURI NEW DELHI
+21.   Prof. (Dr) Parameswari R, Vels Institute of Science and Technology, Chennai
+22.   Prof. (Dr) Prasanth Aruchamy, Vel Tech University, Chennai
+23.   Prof. (Dr) Preeti Nagrath, Bharati Vidyapeeth's college of Engineering, New Delhi
+24.   Prof. (Dr) Rajendra Patil, Uma Krishna Shetty Institute Of Management And Research, Mumbai
+25.    Prof. (Dr) S Sugumaran, Vishnu Institute of Technology , JNTUK, Andhra Pradesh
+26.   Prof. (Dr) S V Suryanarayana, CVR College of Engineering, Hyderabad
+27.   Prof. (Dr) Sanjay Kumar, Galgotias college of Engineering and Technology Greater Noida, UP
+28.   Prof. (Dr) Satish Muppidi, GMR Institute of Technology, Andhra Pradesh
+29.   Prof. (Dr) Shiv Kumar Verma, Sharda University, Greater Noida
+30.   Prof. (Dr) Siddharth Arora, Chandigarh University
+31.   Prof. (Dr) Sri Hari Nallamala, Vasireddy Venkatadri International Technological University, Guntur
+32.   Prof. (Dr) Sudhir Kumar Sharma, Sharda University, Greater Noida
+33.   Prof. (Dr) Sunil Gupta, Jaipur National University
+34.   Prof. (Dr) Urvi Dhamecha, Marwadi University, Gujarat
+35.   Prof. (Dr) Usha Rani Nelakuditi, VFSTR(Deemed to be University), Andhra Pradesh
+36.   Prof. (Dr) Vasanthi Reena Williams, Vidya Vikas Institute of Engineering and Technology Mysuru
+37.   Prof. (Dr) Vijay Kumar, Manav Rachna International Institute of Research and Studies, Faridabad
+38.   Prof. (Dr) Yogesh Singh Rathore, Sharda University Greater Noida
+39.   Dr. A.Akila, Vels Institute of Science, Technology and Advanced Studies
+40.   Dr. Aakanksha Mahajan, PIET , SAMALKHA, Haryana
+41.   Dr. Aashita Chhabra, Vivekananda Institute of Professional Studies - Technical Campus, New Delhi
+42.    Dr. Abha Khandelwal, RashtraSant Tukdoji Maharaj Nagpur University, Nagpur
+43.    Dr. Abhilasha Dangi, Sangam university, Rajasthan
+44.   Dr. Abhishek, Chitkara University Himachal Pradesh
+45.   Dr. Achyutha Prasad N, East West Institute of Technology, Bangalore
+46.   Dr. Ajay Beniwal, Dhirubhai Ambani University (formerly DA-IICT), Gandhinagar, India
+47.   Dr. Ajay Kumar Mallick, National Institute of Technology , Hamirpur
+48.   Dr. Akash Punhani, IILM UNIVERSITY Greater Noida
+49.   Dr. Alpana Jijja, Sushant University, Haryana
+50.   Dr. Alpana, Amity University Gurgaon Haryana
+51.   Dr. Amandeep Kaur Virk, Sri Guru Granth Sahib World University, Fatehgarh Sahib, Punjab
+52.   Dr. Amit Ramesh Khaparde, G. B. Pant DSEU Campus, New Delhi
+53.   Dr. Anil Kumar Prajapati, Manipal University Jaipur
+54.   Dr. Anil Kumar, Galgotia College of Engineering and Technology, Greater Noida
+55.   Dr. Anjali Ashokrao Bhadre, gh raisoni college of engineering and management pune Maharashtra
+56.   Dr. Anju Gautam, SDGI Global University, NH24, meerut highway, Ghaziabad(UP)
+57.   Dr. Anuradha Bhardwaj, Amity University, Uttar Pradesh
+58.   Dr. Anwar Basha H, Rajalakshmi Institute of Technology, Chennai, Tamil Nadu, India
+59.   Dr. Arun Kumar Rana, Galgotias College Of Engineering And Technology Greater Noida, UP, India
+60.   Dr. Ashish Runthala, SR University, Warangal
+61.    Dr. Awanit Kumar, Career Point University, Kota
+62.   Dr. Awanit Kumar, Sangam University Rajastan
+63.   Dr. Ayush Kumar Agrawal, Dr. C. V. Raman University, Kota, India
+64.   Dr. B Gayathri, Bishop Heber College, Tamil Nadu
+65.   Dr. Bharat Bhushan, Sharda University, Greater Noida
+66.   Dr. Bhaskar Kapoor, Maharaja Agrasen Institute of Technology, New Delhi
+67.   Dr. Christopher Ifeanyi Eke, Federal university of lafia, Nigeria
+68.   Dr. Darapu Uma, Pragati Engineering College, Andhra Pradesh
+69.   Dr. Debajyoti Biswas, Shiv Nadar University Chennai
+70.   Dr. Deepak Motwani, Amity University Gwalior Madhya Pradesh
+71.   Dr. Deepika. M, B.S. Abdur Rahman Crescent Institute of Science and Technology, Chennai
+72.   Dr. Deepti Deshwal, Maharaja Surajmal Institute of Technology, New Delhi
+73.   Dr. Deepti Khanna, Jagana Institute of Management Studies, Rohini, New Delhi
+74.   Dr. Dileep V K, Associate Professor, LBSITW, Thiruvananthapuram, Kerala
+75.   Dr. Divya Agarwal, Vivekananda Institute of Professional Studies – Technical Campus Delhi
+76.    Dr. Divya Saleela, University of Southampton, United Kingdom
+77.   Dr. Gaganpreet Kaur, JMIT, Radaur, Haryana
+78.   Dr. Gunjan Verma, GL BAJAJ INSTITUTE OF TECHNOLOGY AND MANAGEMENT, Uttar Pradesh
+79.   Dr. Hardikkumar Mahendrabhai Patel, Vidush Somany Institute of Technology & Research,Kadi
+80.   Dr. Harish Padmanaban, Site Reliability Engineering & AI Expert, IEEE
+81.   Dr. Hemprasad Patil, MCTE, Ministry of Defence, Govt of India
+82.   Dr. Himanshu Rai, SRM Institute of Science and Technology Tiruchirappalli
+83.   Dr. Honey Gocher, Amity University , Jaipur
+84.   Dr. Inguva Sharath Chandra, Matrusri Engineering College, Telangana
+85.   Dr. Jitendra Kumar Samriya, Indian Institute of Information Technology, Sonepat
+86.    Dr. John T Abraham, Bharata Mata College Kochi
+87.   Dr. Kanika Singhal, Noida Institute of Engineering and Technology, Uttar Pradesh
+88.   Dr. Karthika, Guru Nanak College, Chennai
+89.   Dr. Kaushik Adhikary, JIS University, Agarpara
+90.   Dr. Logeswaran K, Christ University, Bangalore, Karnataka
+91.   Dr. Lokesh Jain, Vivekananda Institute of Professional Studies – Technical Campus, Pitampura, Delhi
+92.   Dr. Lokesh P. Gagnani, LDRP -ITR, KSV University, SVKM
+93.   Dr. Lowlesh Nandkishor Yadav, Suryodaya College of Engineering and Technology, Nagpur, Maharashtra, India
+94.   Dr. Lowlesh Nandkishor Yadav, Tulsiramji Gaikwad Patil College of Engineering and Technology, Nagpur, Maharashtra
+95.   Dr. M.S.Nidhya, Dayanand Sagar University, Bengaluru
+96.   Dr. Manisha, Sharda University, Greater Noida, UP
+97.   Dr. Manoj K, Kumaraguru college of Technology, Tamil Nadu
+98.   Dr. Manojkumar, Maharaja Surajmal Institute, New Delhi
+99.   Dr. Md Arquam, IIIT SONEPAT
+100.Dr. Md Khalid Jamal, Sharda University, Greater Noida
+101.Dr. Meenakshi Pareek, Banasthali Vidhyapith, Rajasthan
+102.Dr. Meenakshi Pareek, Banasthali Vidhyapith, Rajasthan
+103.Dr. Mirothali Chand, IIT Mandi, Himachal Pradesh
+104. Dr. Mohd Naseem, Baba Ghulam Shah Badshah University,  Rajouri
+105.Dr. Mohd. Naseem, Baba Ghulam Shah Badshah University,  Rajouri
+106.Dr. Mukesh Kumar Tripathi, Kiet Group Of Institutions Ghaziabad
+107.Dr. N. Vanitha, Coimbatore Institute of Technology, Coimbatore, Tamil Nadu
+108.Dr. Nabeela Hasan, New Delhi Institute of Management, New Delhi
+109.Dr. Nafees Akhter Farooqui, Integral University, Lucknow
+110.Dr. Nagarajapandian, Sri Ramakrishna Engineering college Coimbatore, Tamil Nadu
+111.Dr. Nagesh Kumar, Chitkara University, Himachal Pradesh
+112.Dr. Neeraj Kumar, Babasaheb Bhimrao Ambedkar University, Lucknow
+113.Dr. Neha Kashyap, Sharda University, Greater Noida
+114.Dr. Nilesh Madhukar Patil, SVKM's Dwarkadas J Sanghvi College of Engineering, Mumbai
+115.Dr. Nisha Pal, Galgotias University of Engineering and Technology, Greater Noida
+116.Dr. Nithyanandh Selvam, PSG College of Arts & Science, Tamilnadu
+117.Dr. Om Pal, University of Delhi
+118.Dr. P Ashok, Symbiosis International Pune, Maharashtra, India
+119.Dr. P Manikya Prasuna, KLEF Deemed to be University, Telangana
+120.Dr. P Ramani, SRM Institute of Science and Technology, Tamil Nadu
+121.Dr. Pooja Jain, IIIT Nagpur
+122.Dr. Prabhakar Shukla, IIT Delhi
+123.Dr. Prabhash Chandra Pathak, Babu Banarasi Das University, Lucknow
+124.Dr. Prajakta Somaji Ratnaparkhi, City Premier College Nagpur, Maharashtra
+125.Dr. Pramod Kumar, Ganga Institute of Technology and Management Kablana Jhajjar Haryana
+126.Dr. Pramod Kumar, Manipal University Jaipur
+127.Dr. Praveen Kumar Shukla, School of Engineering-BBD University, Lucknow
+128.Dr. Praveen R, National Institute of Technology Puducherry
+129.Dr. R Padma, Vels Institute of Science Technology and Advanced Studies, Tamil nadu
+130.Dr. R.Manikandan, SASTRA Deemed University, Thanjavur, India
+131.Dr. Ramya vani Rayala, University of the cumberlands, United States of America
+132.Dr. Rashmi Rathi Upadhyay, Sharda University
+133.Dr. Renu Mishra, Sharda University, Greater Noida
+134.Dr. Revathy V R, Kristu Jayanti University, Bengaluru
+135.Dr. Ritu Singhal, I P College , University of Delhi
+136.Dr. Rupa Rani, Ajay Kumar Garg Engineering College Ghaziabad
+137.Dr. S Vijay Kumar, GRIET, Hyderabad
+138.Dr. Sakshi Gupta, Manav Rachna International Institute of Research and Studies, Haryana
+139.Dr. Saleem S Tevaramani, KSIT Bengaluru
+140.Dr. Samta Rani, Sharda University, Greater Noida
+141.Dr. Sanjay Kumar Singh, Amity University Rajasthan, Jaipur
+142.Dr. Sanjeevkumar Angadi, Nutan Maharashtra Institute of Engineering and Technology, Maharashtra
+143. Dr. Sartaj Ahmad, KIET Group of Institutions, Ghaziabad, UP
+144.Dr. Saurabh Dubey, Amity University Gwalior
+145.Dr. Senthil Kumar J, KIT-Kalaignarkarunanidhi Institute of Technology, Tamil Nadu
+146.Dr. Shanmugaraja P, Sona College of Technology, Salem, Tamilnadu
+147.Dr. Shikha Marwaha, Shiv Nadar University Chennai
+148.Dr. Shivani Vats, GGIPU, Jagan Institute Of Management Studies, New Delhi
+149.Dr. Shrikant Jagdish Honade, CSMSS Chh Shahu College of Engineering, Maharashtra
+150.Dr. Shveta Bansal, Chitkara University
+151.Dr. Siva Skandha Sanagala, CMR College of Engineering & Technology, Hyderabad
+152.Dr. Sivabalan Settu , International School of Technology and Science for Women, Andhra Pradesh
+153.Dr. Soubhagya Ranjan Mallick, Symbiosis International (Deemed University), Pune, India
+154.Dr. Sridevi Bonthu, Vishnu Institute of Technology, Bhimavaram, Andhra Pradesh
+155.Dr. Sudhanshu Kumar Jha, University of Allahabad, Uttar Pradesh
+156.Dr. Suman Avdhesh Yadav, IILM University Greater Noida
+157.Dr. Susmita Das, Narula Institute of Technology, Kolkata, West Bengal
+158.Dr. Syed Arshad Ali, Sharda University, Greater Noida, UP
+159.Dr. T. Keerthika, Amrita Vishwa Vidhyapeetham , Ettimadai, Coimbatore, Tamil Nadu
+160.Dr. Tanya Liyaqat, Sharda University, Greater Noida
+161.Dr. Tarun Kumar Vashishth, IIMT University, Meerut, U.P
+162.Dr. Usha Tiwari, Sharda University, Greater Noida
+163.Dr. Vandana Dabass, IITM, Janakpuri,Delhi
+164.Dr. Varun Chand H, College of Engineering Perumon, APJ Abdul Kalam Technological University, Kerala
+165.Dr. Vijayalakshmi A, Christ University Bangalore
+166.Dr. Vijeta Iyer, Kumaraguru College of Technology, Tamil Nadu
+167.Dr. Vishal Sharma, Amity University Rajasthan, Jaipur
+168.Dr. Yogita Yashveer Raghav, Centre of Excellence-Cloud Computing, K R Mangalam University, Haryana,
+ 
+169.Mr. ANIK ACHARJEE, IILM University Greater Noida
+170.Mr. Anindya Nag, Northern University of Business and Technology Khulna
+171.Mr. Aravindaguru, Sri Ramakrishna Engineering College,Coimbatore, Tamil Nadu
+172.Mr. Arul Prakash Samathuvamani, Arm, United Kingdom
+173.Mr. Ashish Jain, Sharda university
+174.Mr. Bhushan Bhimrao Chavan, Independent Cybersecurity researcher, IEEE
+175.Mr. Chaitanya Gunupudi  University of Maryland Research Center, USA
+176.Mr. Dharmateja Priyadarshi Uddandarao, Senior Data Scientist, Amazon
+177.Mr. Dipak Suresh Yeole, Vidya Pratishthan's Kamalnayan Bajaj Institute of Engineering & Technology, Maharastra
+178.Mr. Gautam Pal, Tripura Institute of Technology, Tripura
+179.Mr. Gyanender Kumar, Raj Kumar Goel Institute of Technology Ghaziabad
+180.Mr. Jatinkumar Soni, Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir
+181.Mr. Jayasurya Arasur Subramanian, Petronas University Of Technology, Malaysia
+182.Mr. Lav Upadhyay, Manipal University Jaipur
+183.Mr. Manas Kumar Yogi, Pragati Engineering College(A),Surampalem,A.P.
+184.Mr. Manoj Kumar, Sharda University Greater Noida
+185.Mr. Mohammad Zahid, Jamia Millia Islamia New Delhi India
+186.Mr. Mohit Tiwari, Bharati Vidyapeeth’s College of Engineering, New Delhi
+187.Mr. Naveen Ananda Kumar Joseph Annaiah, Tekinvaderz LLC
+188.Mr. Nitin Thapliyal, Graphic era Hill university Dehradun
+189.Mr. Panchanan Nath, IIIT Guwahati
+190.Mr. Pankaj Kumar, Mangalayan University Aligarh
+191.Mr. Prateek Singhal, Christ (Deemed to be University), Delhi-NCR
+192.Mr. Rakesh Pai, University of Hartford, USA
+193.Mr. Sandeep Mukherji, United College of Engineering and Research, Prayagraj
+194.Mr. Sandeep Pal, Salesforce
+195.Mr. Sanjay kumar sonker, Sharda University Greater Noida
+196.Mr. Somnath Banerjee, American Family Insurance, United States
+197.Mr. Suharsh Anand, Solution Architect, IEEE
+198.Mr. Vijay Karnatak, Uttaranchal University
+ 
+ 
+199.            Ms. Akanksha Srivastav, Tula's Institute , Dehradun
+200.      Ms. Annu Yadav, KIET GROUP OF INSTITUTIONS GHAZIABAD DELHI NCR
+201.  Ms. Anuska Gupta, Galgotia College of Engineering and Technology, Greater Noida
+202.Ms. Babita Verma, Bhilai Institute of Technology Durg
+203.    Ms. Greeshma N Gopal, College of Engineering Attingal, Kerala
+204.     Ms. Madhuri Thimmapuram, Chaitanya Bharathi Institute of Technology, Hyderabad
+205.          Ms. Meena Kumari, ABES Institute of Technology, Ghaziabad
+206.                 Ms. Neha Tyagi, Amity university, Greater Noida
+207.       Ms. Ninitha Mary Antonina N.M, Jain Deemed to be University, Kochi
+208.          Ms. Niranchana Shri Viswanathan, Sapthagiri NPS University, Bangalore,    Karnataka
+209.       Ms. Pratibha Rohit Dumane, Don Bosco Institute of Technology, Mumbai
+210.  Ms. Priyanka Gaikwad, MIT ADT University Pune
+211.Ms. S.Sindhu, SRM Institute of Science and Technology, Tamilnadu
+212.Ms. Sakshi, Ram Lal Anand College, University of Delhi
+213.Ms. Sakshini Hangloo, Sharda University Greater Noida
+214.  Ms. Sheenam Naaz, Sharda University, Greater Noida UP
+215.          Ms. Snehal Moghe, Alliance University, Bengaluru
+216.        Ms. Syeda Hifsa Naaz, Bharat Institute of Engineering and Technology, Telangana
+ 
+ 
+ 
+ 
+
