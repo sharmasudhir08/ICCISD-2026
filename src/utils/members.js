@@ -14,73 +14,73 @@ export const members = [
     designation: 'CEO, Sharda Group of Institutions, India',
     committeeType: 'Chief Patron',
   },
-  
+
   {
-    name:'Prof. (Dr.) Sibaram Khara',
-    designation:'Vice Chancellor, Sharda University, Greater Noida, India',
-    committeeType:'Patron',
+    name: 'Prof. (Dr.) Sibaram Khara',
+    designation: 'Vice Chancellor, Sharda University, Greater Noida, India',
+    committeeType: 'Patron',
   },
-    {
-        name:'Prof. (Dr.) Parma Nand',
-        designation:'Pro-Vice Chancellor, Sharda University Greater Noida, India',
-        committeeType:'Patron',
-    },
-    {
-        name:'Prof. (Dr.) S. N. Singh',
-        designation:'Director, Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
-        committeeType:'Patron',
-    }, 
-   // {
-    //    name:'Prof. (Dr.) S. N. Singh',
-    //    designation:'Director, Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
-    //    committeeType:'Honorary Chair(s)',
-    //},
-    {
-        name:'Prof. (Dr.) Yogesh Singh Chauhan',
-        designation:'Professor, IIT Kanpur',
-        committeeType:'Honorary Chair(s)',
-    },
-    {
-        name:'Prof. (Dr.) Satish Singh',
-        designation:'Professor, Indian Institute of Information Technology Allahabad, India',
-        committeeType:'Honorary Chair(s)',
-    },
-    {
-        name:'Prof. (Dr.) Ekram Khan',
-        designation:'Professor, AMU Aligarh',
-        committeeType:'Honorary Chair(s)',
-    },
-   {
-    name:'Dr. Varun Kakar',
-    designation:'B. T. Kumaon Institute of Technology, Dwarahat',
-    committeeType:'Honorary Chair(s)',
-  },
-     {
-        name:'Prof. (Dr.) Parma Nand',
-        designation:'Pro-Vice Chancellor, Sharda University Greater Noida, India',
-        committeeType:'General Chair',
-    },
   {
-    name:'Prof. (Dr.) Geetha Ganesan',
-    designation:'Dean, SSCSE, Sharda University, Greater Noida, Uttar Pradesh, India',
-    committeeType:'Conference Chair',
+    name: 'Prof. (Dr.) Parma Nand',
+    designation: 'Pro-Vice Chancellor, Sharda University Greater Noida, India',
+    committeeType: 'Patron',
   },
-    {
-        name:'Dr. Rajneesh Kumar Singh',
-        designation:'HoD-CSA, SSCSE, Sharda University, Greater Noida, India',
-        committeeType:'Organizing Chair',
-    },
-    {
-        name:'Dr. Sudeep Varshney',
-        designation:'HoD-CSE, SSCSE, Sharda University, Greater Noida, India',
-        committeeType:'Organizing Chair',
-    },
-    {
-        name:'Prof. (Dr.) Sudhir Kumar Sharma',
-        designation:'Professor- CSA, SSCSE, Sharda University, Greater Noida, India',
-        committeeType:'Convener',
-    },
-{
+  {
+    name: 'Prof. (Dr.) S. N. Singh',
+    designation: 'Director, Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
+    committeeType: 'Patron',
+  },
+  // {
+  //    name:'Prof. (Dr.) S. N. Singh',
+  //    designation:'Director, Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM) Gwalior, India',
+  //    committeeType:'Honorary Chair(s)',
+  //},
+  {
+    name: 'Prof. (Dr.) Yogesh Singh Chauhan',
+    designation: 'Professor, IIT Kanpur',
+    committeeType: 'Honorary Chair(s)',
+  },
+  {
+    name: 'Prof. (Dr.) Satish Singh',
+    designation: 'Professor, Indian Institute of Information Technology Allahabad, India',
+    committeeType: 'Honorary Chair(s)',
+  },
+  {
+    name: 'Prof. (Dr.) Ekram Khan',
+    designation: 'Professor, AMU Aligarh',
+    committeeType: 'Honorary Chair(s)',
+  },
+  {
+    name: 'Dr. Varun Kakar',
+    designation: 'B. T. Kumaon Institute of Technology, Dwarahat',
+    committeeType: 'Honorary Chair(s)',
+  },
+  {
+    name: 'Prof. (Dr.) Parma Nand',
+    designation: 'Pro-Vice Chancellor, Sharda University Greater Noida, India',
+    committeeType: 'General Chair',
+  },
+  {
+    name: 'Prof. (Dr.) Geetha Ganesan',
+    designation: 'Dean, SSCSE, Sharda University, Greater Noida, Uttar Pradesh, India',
+    committeeType: 'Conference Chair',
+  },
+  {
+    name: 'Dr. Rajneesh Kumar Singh',
+    designation: 'HoD-CSA, SSCSE, Sharda University, Greater Noida, India',
+    committeeType: 'Organizing Chair',
+  },
+  {
+    name: 'Dr. Sudeep Varshney',
+    designation: 'HoD-CSE, SSCSE, Sharda University, Greater Noida, India',
+    committeeType: 'Organizing Chair',
+  },
+  {
+    name: 'Prof. (Dr.) Sudhir Kumar Sharma',
+    designation: 'Professor- CSA, SSCSE, Sharda University, Greater Noida, India',
+    committeeType: 'Convener',
+  },
+  {
     name: 'Prof.(Dr.) Ajay Shriram Kushwaha',
     designation: 'Professor- CSA, SSCSE, Sharda University',
     committeeType: 'Co-Convener',
@@ -96,33 +96,33 @@ export const members = [
     committeeType: 'Co-Convener',
   },
 
-    {
-        name: 'Prof. (Dr.) Bhuvan Unhelkar',
-        designation: 'Muma College of Business, University of South Florida, USA',
-        committeeType: 'International Advisory Committee',
-    },
-    {
-        name: 'Prof.(Dr.) Marcin Paprzycki',
-        designation: 'Systems Research Institute, Poland',
-        committeeType: 'International Advisory Committee',
-    },
-    {
-        name: 'Mr. Akash Takyar',
-        designation: 'Founder and CEO, LeewayHertz',
-        committeeType: 'International Advisory Committee',
-    },
+  {
+    name: 'Prof. (Dr.) Bhuvan Unhelkar',
+    designation: 'Muma College of Business, University of South Florida, USA',
+    committeeType: 'International Advisory Committee',
+  },
+  {
+    name: 'Prof.(Dr.) Marcin Paprzycki',
+    designation: 'Systems Research Institute, Poland',
+    committeeType: 'International Advisory Committee',
+  },
+  {
+    name: 'Mr. Akash Takyar',
+    designation: 'Founder and CEO, LeewayHertz',
+    committeeType: 'International Advisory Committee',
+  },
   {
     name: "Prof.(Dr.) Narayan C. Debnath",
     designation: "Nam Ky Khoi Nghia Street, Vietnam",
     committeeType: "International Advisory Committee",
   },
   {
-    name: "Mr. Keith Sherringham",
+    name: "Prof. Keith Sherringham",
     designation: "Australian Computer Society: Brisbane, QLD, AU",
     committeeType: "International Advisory Committee",
   },
 
-    {
+  {
     "name": "Dr. Mukta Sharma",
     "designation": "Michigan State University, USA",
     "committeeType": "International Advisory Committee"
@@ -130,7 +130,7 @@ export const members = [
   {
     "name": "Dr. Rishabh Das",
     "designation": "Ohio University, USA",
-    "committeeType": "International Advisory Committee" 
+    "committeeType": "International Advisory Committee"
   },
   {
     "name": "Dr. Yagna Yashpalsinh Jadeja",
@@ -143,128 +143,128 @@ export const members = [
     "committeeType": "International Advisory Committee"
   },
 
-    /*
-    {
-        name: 'Prof. Praveen Agarwal',
-        designation: 'International Telematic University Uninettuno',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Mr. Chaitanya Gunupudi',
-        designation: 'University of Maryland Research Center',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Mr. Naga Bharadwaj Bhavikatta',
-        designation: 'Oracle, USA',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Mukta Sharma',
-        designation: 'Michigan State University',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. A. Hepzibah Christinal',
-        designation: 'Karunya Institute of Technology and Sciences',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. TANYA GARG',
-        designation: 'Thapar Institute Of Engineering and Technology',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Thirumala I selvi .R',
-        designation: 'Government Arts College, Nandanam, Chennai',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Mr. Govindaprabhu G B',
-        designation: 'Thiagarajar College, Madurai',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Mr. Anindya Nag',
-        designation: 'Northern University of Business and Technology Khulna',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Mr. Suharsh Anand',
-        designation: 'IEEE',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Ms. Babita Verma',
-        designation: 'Bhilai Institute of Technology Durg',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Brajesh Kumar Singh',
-        designation: 'Galgotias College of Engineering and Technology',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Raja Sarath Kumar Boddu',
-        designation: 'Raghu Engineering College',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Mr. Sathish Krishna Anumula',
-        designation: 'IBM Corporation',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. R K Kumawat',
-        designation: 'Sardar Vallabhbhai Patel University of Agriculture & Technology, Meerut',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Om Prakash Singh',
-        designation: 'IIIT Bhagalpur',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Deepti Khanna',
-        designation: 'Jagana Institute of Management Studies, Rohini, New Delhi',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Kashyapkumar Chaitanyakumar Patel',
-        designation: 'Ganpat University',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Reji R',
-        designation: 'TKMIT, Kollam, Kerala',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Prof. Yuvraj Singh Negi',
-        designation: 'Uttranchal University, Dehradun',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Shashi Mehrotra',
-        designation: 'SRM Institute of Science and Technology, Delhi NCR Campus, Modinagar, Ghaziabad',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Sumit Kushwaha',
-        designation: 'Chandigarh University, India',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Mr. Amit Singh',
-        designation: 'Cisco Systems',
-        committeeType: 'International Advisory Board Committee',
-    },
-    {
-        name: 'Aditya Patel',
-        designation: 'SAGE University, Bhopal',
-        committeeType: 'International Advisory Board Committee',
-    },
-    */
+  /*
+  {
+      name: 'Prof. Praveen Agarwal',
+      designation: 'International Telematic University Uninettuno',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Mr. Chaitanya Gunupudi',
+      designation: 'University of Maryland Research Center',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Mr. Naga Bharadwaj Bhavikatta',
+      designation: 'Oracle, USA',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. Mukta Sharma',
+      designation: 'Michigan State University',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. A. Hepzibah Christinal',
+      designation: 'Karunya Institute of Technology and Sciences',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. TANYA GARG',
+      designation: 'Thapar Institute Of Engineering and Technology',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. Thirumala I selvi .R',
+      designation: 'Government Arts College, Nandanam, Chennai',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Mr. Govindaprabhu G B',
+      designation: 'Thiagarajar College, Madurai',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Mr. Anindya Nag',
+      designation: 'Northern University of Business and Technology Khulna',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Mr. Suharsh Anand',
+      designation: 'IEEE',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Ms. Babita Verma',
+      designation: 'Bhilai Institute of Technology Durg',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. Brajesh Kumar Singh',
+      designation: 'Galgotias College of Engineering and Technology',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. Raja Sarath Kumar Boddu',
+      designation: 'Raghu Engineering College',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Mr. Sathish Krishna Anumula',
+      designation: 'IBM Corporation',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. R K Kumawat',
+      designation: 'Sardar Vallabhbhai Patel University of Agriculture & Technology, Meerut',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. Om Prakash Singh',
+      designation: 'IIIT Bhagalpur',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. Deepti Khanna',
+      designation: 'Jagana Institute of Management Studies, Rohini, New Delhi',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. Kashyapkumar Chaitanyakumar Patel',
+      designation: 'Ganpat University',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. Reji R',
+      designation: 'TKMIT, Kollam, Kerala',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Prof. Yuvraj Singh Negi',
+      designation: 'Uttranchal University, Dehradun',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. Shashi Mehrotra',
+      designation: 'SRM Institute of Science and Technology, Delhi NCR Campus, Modinagar, Ghaziabad',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Dr. Sumit Kushwaha',
+      designation: 'Chandigarh University, India',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Mr. Amit Singh',
+      designation: 'Cisco Systems',
+      committeeType: 'International Advisory Board Committee',
+  },
+  {
+      name: 'Aditya Patel',
+      designation: 'SAGE University, Bhopal',
+      committeeType: 'International Advisory Board Committee',
+  },
+  */
 
 
   {
@@ -503,288 +503,288 @@ export const members = [
     committeeType: "National Advisory Committee",
   },
 
-      /*
-    {
-        name: 'Dr. Kunal Sil',
-        designation: 'IMAS Business School',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Ranjan Walia',
-        designation: 'Chandigarh University, Mohali, Punjab',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Yogesh Kumar Rathore',
-        designation: 'Shri Shankaracharya Institute of Professional Management and Technology Raipur',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Lovi',
-        designation: 'PCTE',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Prof. Priya Gupta',
-        designation: 'Jawaharlal Nehru University',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Balamurugan M',
-        designation: 'Acharya Institute of Graduate Studies, Bengaluru - 560107',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. S Sugumaran',
-        designation: 'Vishnu Institute of Technology',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Mr. Jatinkumar Soni',
-        designation: 'Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Suresh Raikwar',
-        designation: 'Thapar Institute of Engineering and Technology',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Awanit Kumar',
-        designation: 'Sangam University',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Komal Singh Gill',
-        designation: 'Lovely Professional University, Punjab',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Prof. Yogesh Kumar Jain',
-        designation: 'IILM University, Greater Noida',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Vijayalakshmi A',
-        designation: 'Christ University, Bangalore',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Vishal Pradhan',
-        designation: 'Kalinga Institute of Industrial Technology (KIIT University) Bhubaneswar Odisha India',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Vivek Tomar',
-        designation: 'Graphic Era (Deemed to be) University, Dehradun',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Arun Kumar',
-        designation: 'Prerna Society of Technical Education and Research',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Prof. Shahin Ara Begum',
-        designation: 'Assam University, Silchar',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Shalu Manav',
-        designation: 'Rachna University Faridabad Haryana',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Varun Prakash Saxena',
-        designation: 'Government Women Engineering College Ajmer',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Shilpi Jain',
-        designation: 'Poornima College of Engineering, Jaipur',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Darshana Desai',
-        designation: 'Indira College of Engineering and Management',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Rashmi Kushwah',
-        designation: 'Jaypee Institute of Information Technology, Noida',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Sreekumar Vobugari',
-        designation: 'Infosys Limited, Hyderabad',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. P Rizwan Ahmed',
-        designation: 'Department of Computer Application and Data Science, Mazharul Uloom College, Ambur Tamil Nadu India',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Seema Agrawal',
-        designation: 'S.S.V. College, Hapur, CCS University Meerut',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Jeetendra Kumar',
-        designation: 'Atal Bihari Vajpyee University, Bilaspur',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Pawan Balkishan Lahoti',
-        designation: 'Government Polytechnic Sakoli',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Pradeep Jha',
-        designation: 'Global Institute of Technology, ITS-1, IT park, Sitapura, Jaipur, Rajasthan',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. M S Satyanarayana',
-        designation: 'Manipal Academy Of Higher Education, Bengaluru',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Anuja Shukla',
-        designation: 'Jaipuria Institute of Management, Noida',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Prof. Sunil Gupta',
-        designation: 'Jaipur National University, Jaipur',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Alok Singh Chauhan',
-        designation: 'Galgotias University',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Bhaskar Kapoor',
-        designation: 'MAIT / GGS IP University, Rohini, Delhi, India',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Vishal Bharti',
-        designation: 'Maharishi Markandeshwar (Deemed To Be University), Mullana, Haryana, India',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Shalini Puri',
-        designation: 'Manipal University Jaipur',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Prof. Shamik Tiwari',
-        designation: 'IILM University, Gurugram',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Disha Sharma',
-        designation: 'Amity Business School, Amity University Chhattisgarh',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Ambika N',
-        designation: 'Jain College',
-        committeeType: 'National Advisory Board Committee',
-    },
-    {
-        name: 'Dr. Jagadish',
-        designation: 'SQC & OR Unit, Indian Statistical Institute Bangalore',
-        committeeType: 'National Advisory Board Committee',
-    },
-    */
+  /*
+{
+    name: 'Dr. Kunal Sil',
+    designation: 'IMAS Business School',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Ranjan Walia',
+    designation: 'Chandigarh University, Mohali, Punjab',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Yogesh Kumar Rathore',
+    designation: 'Shri Shankaracharya Institute of Professional Management and Technology Raipur',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Lovi',
+    designation: 'PCTE',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Prof. Priya Gupta',
+    designation: 'Jawaharlal Nehru University',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Balamurugan M',
+    designation: 'Acharya Institute of Graduate Studies, Bengaluru - 560107',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. S Sugumaran',
+    designation: 'Vishnu Institute of Technology',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Mr. Jatinkumar Soni',
+    designation: 'Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Suresh Raikwar',
+    designation: 'Thapar Institute of Engineering and Technology',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Awanit Kumar',
+    designation: 'Sangam University',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Komal Singh Gill',
+    designation: 'Lovely Professional University, Punjab',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Prof. Yogesh Kumar Jain',
+    designation: 'IILM University, Greater Noida',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Vijayalakshmi A',
+    designation: 'Christ University, Bangalore',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Vishal Pradhan',
+    designation: 'Kalinga Institute of Industrial Technology (KIIT University) Bhubaneswar Odisha India',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Vivek Tomar',
+    designation: 'Graphic Era (Deemed to be) University, Dehradun',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Arun Kumar',
+    designation: 'Prerna Society of Technical Education and Research',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Prof. Shahin Ara Begum',
+    designation: 'Assam University, Silchar',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Shalu Manav',
+    designation: 'Rachna University Faridabad Haryana',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Varun Prakash Saxena',
+    designation: 'Government Women Engineering College Ajmer',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Shilpi Jain',
+    designation: 'Poornima College of Engineering, Jaipur',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Darshana Desai',
+    designation: 'Indira College of Engineering and Management',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Rashmi Kushwah',
+    designation: 'Jaypee Institute of Information Technology, Noida',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Sreekumar Vobugari',
+    designation: 'Infosys Limited, Hyderabad',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. P Rizwan Ahmed',
+    designation: 'Department of Computer Application and Data Science, Mazharul Uloom College, Ambur Tamil Nadu India',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Seema Agrawal',
+    designation: 'S.S.V. College, Hapur, CCS University Meerut',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Jeetendra Kumar',
+    designation: 'Atal Bihari Vajpyee University, Bilaspur',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Pawan Balkishan Lahoti',
+    designation: 'Government Polytechnic Sakoli',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Pradeep Jha',
+    designation: 'Global Institute of Technology, ITS-1, IT park, Sitapura, Jaipur, Rajasthan',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. M S Satyanarayana',
+    designation: 'Manipal Academy Of Higher Education, Bengaluru',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Anuja Shukla',
+    designation: 'Jaipuria Institute of Management, Noida',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Prof. Sunil Gupta',
+    designation: 'Jaipur National University, Jaipur',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Alok Singh Chauhan',
+    designation: 'Galgotias University',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Bhaskar Kapoor',
+    designation: 'MAIT / GGS IP University, Rohini, Delhi, India',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Vishal Bharti',
+    designation: 'Maharishi Markandeshwar (Deemed To Be University), Mullana, Haryana, India',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Shalini Puri',
+    designation: 'Manipal University Jaipur',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Prof. Shamik Tiwari',
+    designation: 'IILM University, Gurugram',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Disha Sharma',
+    designation: 'Amity Business School, Amity University Chhattisgarh',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Ambika N',
+    designation: 'Jain College',
+    committeeType: 'National Advisory Board Committee',
+},
+{
+    name: 'Dr. Jagadish',
+    designation: 'SQC & OR Unit, Indian Statistical Institute Bangalore',
+    committeeType: 'National Advisory Board Committee',
+},
+*/
 
-    {
-        name:'Prof.(Dr.) Ajay Shriram Kushwaha',
-        designation:'Professor- CSA, SSCSE, Sharda University',
-        committeeType:'Publication Chair',
-    },
-
-
-    {
-        name:'Track 1: Dr. Ravi Prakash Chaturvedi',
-        designation:'Assistant Professor- CSA, SSCSE',
-        committeeType:'Track Chair(s)',
-    },
   {
-    name:'Track 2: Dr. Deepthi P. S.',
-    designation:'Associate Professor- CSA, SSCSE, Sharda University',
-    committeeType:'Track Chair(s)',
-  },
-  {
-    name:'Track 3: Dr. Syed Arshad Ali',
-    designation:'Assistant Professor- CSA, SSCSE, Sharda University',
-    committeeType:'Track Chair(s)',
-  },
-    {
-        name:'Track 4: Prof.(Dr.) Kuldeep Chouhan',
-        designation:'Professor- CSA, SSCSE, Sharda University',
-        committeeType:'Track Chair(s)',
-    },
-  {
-    name:'Track 5: Prof.(Dr.) Swati Sah',
-    designation:'Professor- CSA, SSCSE, Sharda University',
-    committeeType:'Track Chair(s)',
-  },
-  {
-    name:'Track 6: Prof.(Dr.) Ajay Shriram Kushwaha',
-    designation:'Professor- CSA, SSCSE, Sharda University',
-    committeeType:'Track Chair(s)',
-  },
-  {
-    name:'Track 7: Dr. Sreejith S',
-    designation:'Associate Professor- CSA, SSCSE, Sharda University',
-    committeeType:'Track Chair(s)',
+    name: 'Prof.(Dr.) Ajay Shriram Kushwaha',
+    designation: 'Professor- CSA, SSCSE, Sharda University',
+    committeeType: 'Publication Chair',
   },
 
-    {
-        name:'Dr. Ravi Prakash Chaturvedi',
-        designation:'Assistant Professor, CSA, SSCSE, Sharda University',
-        committeeType:'Finance Chair(s)',
-    },
+
   {
-        name:'Mr. Aditya Dayal Tyagi',
-        designation:'Assistant Professor, CSA, SSCSE, Sharda University',
-        committeeType:'Finance Chair(s)',
-    },
-    {
-        name:'Prof. (Dr) Anurag Rai',
-        designation:'CSA, SSCSE, Sharda University',
-        committeeType:'Publicity Chair(s)',
-    },
-    {
-        name:'Dr. Bharat Bhushan',
-        designation:' CSE, SSCSE, Sharda University',
-        committeeType:'Publicity Chair(s)',
-    },
-    
-    {
-        name:'Dr. Archana Sharma',
-        designation:'CSA, SSCSE, Sharda University, Greater Noida',
-        committeeType:'Program Chair(s)',
-    },
- {
-        name:'Dr. Samta Rani',
-        designation:'CSA, SSCSE, Sharda University, Greater Noida',
-        committeeType:'Program Chair(s)',
-    },
-    {
-        name:'Dr. Deepthi PS',
-        designation:'CSA, SSCSE, Sharda University, Greater Noida',
-        committeeType:'Web Master',
-    },
-    {
-        name:'Dr. Yagyesh Godiyal',
-        designation:'CSA, SSCSE, Sharda University, Greater Noida',
-        committeeType:'Web Master',
-    },
+    name: 'Track 1: Dr. Ravi Prakash Chaturvedi',
+    designation: 'Assistant Professor- CSA, SSCSE',
+    committeeType: 'Track Chair(s)',
+  },
+  {
+    name: 'Track 2: Dr. Deepthi P. S.',
+    designation: 'Associate Professor- CSA, SSCSE, Sharda University',
+    committeeType: 'Track Chair(s)',
+  },
+  {
+    name: 'Track 3: Dr. Syed Arshad Ali',
+    designation: 'Assistant Professor- CSA, SSCSE, Sharda University',
+    committeeType: 'Track Chair(s)',
+  },
+  {
+    name: 'Track 4: Prof.(Dr.) Kuldeep Chouhan',
+    designation: 'Professor- CSA, SSCSE, Sharda University',
+    committeeType: 'Track Chair(s)',
+  },
+  {
+    name: 'Track 5: Prof.(Dr.) Swati Sah',
+    designation: 'Professor- CSA, SSCSE, Sharda University',
+    committeeType: 'Track Chair(s)',
+  },
+  {
+    name: 'Track 6: Prof.(Dr.) Ajay Shriram Kushwaha',
+    designation: 'Professor- CSA, SSCSE, Sharda University',
+    committeeType: 'Track Chair(s)',
+  },
+  {
+    name: 'Track 7: Dr. Sreejith S',
+    designation: 'Associate Professor- CSA, SSCSE, Sharda University',
+    committeeType: 'Track Chair(s)',
+  },
+
+  {
+    name: 'Dr. Ravi Prakash Chaturvedi',
+    designation: 'Assistant Professor, CSA, SSCSE, Sharda University',
+    committeeType: 'Finance Chair(s)',
+  },
+  {
+    name: 'Mr. Aditya Dayal Tyagi',
+    designation: 'Assistant Professor, CSA, SSCSE, Sharda University',
+    committeeType: 'Finance Chair(s)',
+  },
+  {
+    name: 'Prof. (Dr) Anurag Rai',
+    designation: 'CSA, SSCSE, Sharda University',
+    committeeType: 'Publicity Chair(s)',
+  },
+  {
+    name: 'Dr. Bharat Bhushan',
+    designation: ' CSE, SSCSE, Sharda University',
+    committeeType: 'Publicity Chair(s)',
+  },
+
+  {
+    name: 'Dr. Archana Sharma',
+    designation: 'CSA, SSCSE, Sharda University, Greater Noida',
+    committeeType: 'Program Chair(s)',
+  },
+  {
+    name: 'Dr. Samta Rani',
+    designation: 'CSA, SSCSE, Sharda University, Greater Noida',
+    committeeType: 'Program Chair(s)',
+  },
+  {
+    name: 'Dr. Deepthi PS',
+    designation: 'CSA, SSCSE, Sharda University, Greater Noida',
+    committeeType: 'Web Master',
+  },
+  {
+    name: 'Dr. Yagyesh Godiyal',
+    designation: 'CSA, SSCSE, Sharda University, Greater Noida',
+    committeeType: 'Web Master',
+  },
   {
     name: "Prof. (Dr) Aditya Patel",
     designation: "SAGE University Bhopal",
@@ -1911,7 +1911,7 @@ export const members = [
     name: "Mr. Sandeep Pal",
     designation: "Salesforce",
     committeeType: "Technical Program Committee",
-    country: "India"
+    country: "United States"
   },
   {
     name: "Mr. Sanjay kumar sonker",
