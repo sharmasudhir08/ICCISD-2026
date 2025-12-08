@@ -81,7 +81,7 @@ const PaperSubmission = () => {
               <li>Papers found to be plagiarized during any stage of review shall be rejected.</li>
               <li>As per copyright transfer agreement, Authors are deemed individually and collectively responsible for the content of manuscripts published by them.</li>
               <li>Hence, it is the responsibility of each author to strive for the highest ethical standards with respect to plagiarism.</li>
-              <li className="text-amber-600 font-medium">All papers will undergo Plagiarism check using Turnitin Software and only papers having plagiarism below 15% (excluding references) will be considered for review.</li>
+              <li className="text-amber-600 font-medium">All papers will undergo Plagiarism check using Turnitin Software and only papers having plagiarism below 15% will be considered for review.</li>
             </ul>
           </div>
 
