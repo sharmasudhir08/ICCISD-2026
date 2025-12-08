@@ -3,47 +3,59 @@ import shardalogo from '../assets/shardalogo.png';
 
 const HeroSection = () => {
   return (
-    <div className="w-full">
-  <div className="relative bg-gradient-to-r from-stone-200 via-neutral-200 to-slate-100 min-h-[96px] md:min-h-[140px] flex items-center">
-        <div
-          className="absolute inset-0 pointer-events-none"
-          style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(15,23,42,0.45) 100%)' }}
-          aria-hidden
-        />
-  <div className="relative max-w-4xl mx-auto px-4 py-4 md:py-6 w-full">
-          <div className="flex flex-col items-center gap-4">
-            {/* Centered original banner text (kept exactly as requested) */}
-            <div className="text-center space-y-1 md:space-y-2 max-w-4xl mx-auto">
-              <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-extrabold text-slate-900 leading-tight tracking-tight">
-                <span className="block">INTERNATIONAL CONFERENCE ON</span>
-                <span className="block">COMPUTATIONAL INTELLIGENCE SYSTEMS AND DEVICES</span>
-              </h1>
+    <div className="relative w-full min-h-[90vh] flex flex-col justify-center overflow-hidden bg-slate-50 pt-28">
 
-              <h2 className="text-md sm:text-lg md:text-xl text-sky-800">(ICCISD-2026)</h2>
+      {/* Background Decorative Elements */}
+      <div className="absolute top-0 inset-x-0 h-full w-full bg-white opacity-40 mix-blend-multiply pointer-events-none">
+        <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-purple-200 blur-3xl opacity-50 animate-blob"></div>
+        <div className="absolute top-48 -right-24 w-96 h-96 rounded-full bg-blue-200 blur-3xl opacity-50 animate-blob animation-delay-2000"></div>
+        <div className="absolute -bottom-24 left-1/3 w-96 h-96 rounded-full bg-pink-200 blur-3xl opacity-50 animate-blob animation-delay-4000"></div>
+      </div>
 
-              <h3 className="text-sm sm:text-md md:text-lg text-sky-800">23rd - 24th July 2026</h3>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
 
-              <h4 className="text-sm sm:text-md md:text-lg font-semibold text-slate-900">ORGANISED BY:</h4>
+        {/* Conference Title */}
+        <div className="space-y-6">
+          <span className="inline-block py-1 px-3 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-xs font-semibold tracking-wide uppercase mb-4 shadow-sm">
+            23rd - 24th July 2026
+          </span>
 
-              <h6 className="text-sm sm:text-sm md:text-sm font-bold text-slate-900">
-                Department of Computer Science and Applications, Sharda School of Computing Science & Engineering
-              </h6>
-              <h6 className="text-sm sm:text-sm md:text-sm font-bold text-slate-900">
-                Sharda University, Greater Noida, India
-              </h6>
-                <div className="mt-4 flex items-center gap-2 animate-fadeSlideUp justify-center">
-                  {/* Primary CTA: match the lighter secondary CTA style (lighter amber/orange gradient with border) */}
-                  <a href="/Registration" className="inline-flex items-center gap-2 border border-amber-200 bg-gradient-to-r from-amber-100 via-amber-200 to-orange-100 px-3 py-1.5 rounded-md hover:from-amber-50 hover:to-amber-200 text-slate-900 text-sm">
-                    Register
-                  </a>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-slate-900 leading-tight">
+            International Conference on <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
+              Computational Intelligence
+            </span> <br />
+            <span className="text-slate-800">Systems and Devices</span>
+          </h1>
 
-                  {/* Secondary CTA: lighter orange-related gradient with border */}
-                  <a href="/PaperSubmission" className="inline-flex items-center gap-2 border border-amber-200 bg-gradient-to-r from-amber-100 via-amber-200 to-orange-100 px-2.5 py-1.5 rounded-md hover:from-amber-50 hover:to-amber-200 text-slate-900 text-sm">
-                    Call for Papers
-                  </a>
-                </div>
-            </div>
-          </div>
+          <h2 className="text-2xl sm:text-3xl font-medium text-slate-500 tracking-wide mt-2">
+            (ICCISD-2026)
+          </h2>
+        </div>
+
+        {/* Organization Details */}
+        <div className="mt-12 max-w-3xl mx-auto text-center space-y-2 text-slate-600">
+          <p className="text-sm font-semibold tracking-wider uppercase text-slate-400">Organised By</p>
+          <p className="text-lg md:text-xl font-medium">
+            Department of Computer Science and Applications
+          </p>
+          <p className="text-base md:text-lg">
+            Sharda School of Computing Science & Engineering, Sharda University, Greater Noida, India
+          </p>
+        </div>
+
+        {/* CTAs */}
+        <div className="mt-10 flex flex-col sm:flex-row gap-4 items-center justify-center">
+          <a href="/Registration" className="group relative inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 font-pj rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600 hover:bg-blue-700 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 hover:-translate-y-1">
+            Register Now
+            <svg className="w-5 h-5 ml-2 -mr-1 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+
+          <a href="/PaperSubmission" className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-slate-700 transition-all duration-200 bg-white border border-slate-200 rounded-full font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-200 hover:bg-slate-50 hover:text-slate-900 hover:border-slate-300 shadow-sm hover:shadow-md">
+            Submit Paper
+          </a>
         </div>
       </div>
     </div>

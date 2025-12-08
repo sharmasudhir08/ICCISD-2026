@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Home from './pages/Home.jsx'
 import Authors from './pages/Authors.jsx'
-import Commitee from './pages/Commitee.jsx'
+import Committee from './pages/Committee.jsx'
 import ContactUs from './pages/ContactUs.jsx'
 import PaperSubmission from './pages/PaperSubmission.jsx'
 import Venue from './pages/Venue.jsx'
@@ -21,21 +21,21 @@ const appRouter = createBrowserRouter(
       element: <App />,
       children: [
         {
-          path:'/',
+          path: '/',
           element: <Home />
         },
         {
-          path:'authors',
+          path: 'authors',
           element: <Authors />
         },
         {
-          path:'speakers',
+          path: 'speakers',
           element: <Speakers />,
-          
+
         },
         {
-          path:'commitee',
-          element: <Commitee />
+          path: 'committee',
+          element: <Committee />
         },
         {
           path: 'contactUs',
@@ -50,8 +50,8 @@ const appRouter = createBrowserRouter(
           element: <Venue />
         },
         {
-          path:'registration',
-          element:<Registration/>
+          path: 'registration',
+          element: <Registration />
         },
         {
           path: 'schedule',

@@ -1,131 +1,118 @@
-import React, { useState } from 'react'
-import Banner from '../assets/Banner.webp'
-import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout'
+import React, { useState } from 'react';
+import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
 
 const Registration = () => {
-  const [tab, setTab] = useState('ieee')
+  const [tab, setTab] = useState('ieee');
 
   const ieeeRows = [
-    ["Student", "₹ 7000"],
-    ["Professional", "₹ 9000"],
-    ["Industry Participants", "₹ 11000"],
-    ["Foreign Participants", "300 USD"],
-    ["Attendee only", "₹ 2500"],
-  ]
+    { type: "Student", fee: "₹ 7000" },
+    { type: "Professional", fee: "₹ 9000" },
+    { type: "Industry Participants", fee: "₹ 11000" },
+    { type: "Foreign Participants", fee: "300 USD" },
+    { type: "Attendee only", fee: "₹ 2500" },
+  ];
 
   const nonIeeeRows = [
-    ["Student", "₹ 8000"],
-    ["Professional", "₹ 10000"],
-    ["Industry Participants", "₹ 12000"],
-    ["Foreign Participants", "400 USD"],
-    ["Attendee only", "₹ 3000"],
-  ]
+    { type: "Student", fee: "₹ 8000" },
+    { type: "Professional", fee: "₹ 10000" },
+    { type: "Industry Participants", fee: "₹ 12000" },
+    { type: "Foreign Participants", fee: "400 USD" },
+    { type: "Attendee only", fee: "₹ 3000" },
+  ];
 
   return (
-    <div>
-      {/* Banner Section (magenta gradient background) */}
-      <div className="relative w-full">
-  <div className="w-full min-h-[96px] md:min-h-[140px] relative bg-gradient-to-r from-fuchsia-600 via-pink-500 to-rose-500 flex items-center">
-          {/* subtle radial vignette to focus the center heading */}
-          <div
-            className="absolute inset-0 pointer-events-none"
-            style={{
-              background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.35) 100%)'
-            }}
-            aria-hidden
-          />
-          <div className="max-w-4xl w-full px-4 py-4 mx-auto">
-            <h1 className="text-white drop-shadow-md text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-center">
-              REGISTRATION
-            </h1>
-          </div>
+    <div className='bg-slate-50 font-sans'>
+      {/* Header Banner */}
+      <section className="relative w-full bg-slate-900 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900 to-indigo-900 opacity-90"></div>
+        <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] mix-blend-overlay"></div>
+        <div className="relative max-w-7xl mx-auto px-4 pt-32 pb-16 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight">
+            Registration
+          </h1>
+          <p className="mt-4 text-xl text-blue-200">Join us at ICCISD 2026.</p>
         </div>
-      </div>
+      </section>
 
-  {/* Heading */}
-  <h1 className='max-w-6xl mx-auto mt-8 text-2xl md:text-3xl text-left font-semibold text-gray-900 px-4'>Registration Fee</h1>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
-      {/* Tabbed Fee Card */}
-      <div className='max-w-6xl mx-auto px-4 mt-6'>
-        <div className='bg-white rounded-2xl shadow-md p-4'>
-          <div className='flex gap-3 items-center'>
-            <button
-              onClick={() => setTab('ieee')}
-              className={`px-3 py-1.5 rounded-full font-semibold text-sm md:text-base transition ${tab === 'ieee' ? 'bg-amber-500 text-sky-900' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}>
-              IEEE Members
-            </button>
+        {/* Registration Fee Section */}
+        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8 mb-12">
+          <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
+            <h2 className='text-2xl font-bold text-slate-900'>Registration Fees</h2>
 
-            <button
-              onClick={() => setTab('non')}
-              className={`px-3 py-1.5 rounded-full font-semibold text-sm md:text-base transition ${tab === 'non' ? 'bg-amber-500 text-sky-900' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}>
-              Non-IEEE Members
-            </button>
+            <div className='flex gap-2 bg-slate-100 p-1 rounded-full'>
+              <button
+                onClick={() => setTab('ieee')}
+                className={`px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${tab === 'ieee' ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}>
+                IEEE Members
+              </button>
+              <button
+                onClick={() => setTab('non')}
+                className={`px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${tab === 'non' ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}>
+                Non-IEEE Members
+              </button>
+            </div>
           </div>
 
-          <div className='mt-4 overflow-x-auto'>
-            <table className='min-w-full text-sm border border-gray-200'>
-              <thead className='bg-gray-50'>
+          <div className="overflow-hidden rounded-xl border border-slate-200">
+            <table className="min-w-full divide-y divide-slate-200">
+              <thead className="bg-slate-50">
                 <tr>
-                  <th className='p-3 text-center text-sm font-medium'>{tab === 'ieee' ? 'IEEE Members' : 'Non IEEE Members'}</th>
-                  <th className='p-3 text-center text-sm font-medium'>Registration Fee</th>
+                  <th className="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider">Participant Category</th>
+                  <th className="px-6 py-4 text-right text-xs font-bold text-slate-500 uppercase tracking-wider">Fee</th>
                 </tr>
               </thead>
-              <tbody>
-                {(tab === 'ieee' ? ieeeRows : nonIeeeRows).map(([label, value], i) => (
-                  <tr key={i} className='even:bg-gray-50'>
-                    <td className='p-3 border-t border-gray-100 text-center'>{label}</td>
-                    <td className='p-3 border-t border-gray-100 text-center'>{value}</td>
+              <tbody className="bg-white divide-y divide-slate-200">
+                {(tab === 'ieee' ? ieeeRows : nonIeeeRows).map((row, i) => (
+                  <tr key={i} className="hover:bg-slate-50 transition-colors">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">{row.type}</td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-right text-slate-700 font-bold">{row.fee}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
+
+          <div className="mt-8 p-4 bg-blue-50 rounded-xl flex items-center justify-between border border-blue-100">
+            <span className="text-blue-800 font-medium">Ready to register?</span>
+            <a href="#" className="inline-flex items-center px-4 py-2 border border-blue-600 text-sm font-medium rounded-lg text-blue-600 bg-transparent hover:bg-blue-600 hover:text-white transition-colors">
+              Registration Link Coming Soon &rarr;
+            </a>
+          </div>
         </div>
-      </div>
 
-      {/* Registration Link */}
-      <h1 className='max-w-6xl mx-auto mt-6 px-4 text-base md:text-lg text-left text-gray-800'>
-        <b>Registration Link:</b> <a href='#' className='text-gray-900 underline hover:text-gray-700'>Click here</a>
-      </h1>
-
-      {/* Payment Details */}
-      <div className='max-w-6xl mx-auto px-4 mt-6'>
-  <h1 className='text-xl md:text-2xl text-gray-900 font-semibold'>Payment Details</h1>
-
-        <div className='overflow-x-auto mt-5'>
-          <table className='min-w-full text-sm font-semibold border border-gray-300'>
-            <tbody>
-              <tr>
-                <td className='border border-gray-300 p-2 text-center'>Bank Name</td>
-                <td className='border border-gray-300 p-2 text-center'>Coming soon...</td>
-              </tr>
-              <tr>
-                <td className='border border-gray-300 p-2 text-center'>Branch Address</td>
-                <td className='border border-gray-300 p-2 text-center'>
-                  Coming soon...
-                </td>
-              </tr>
-              <tr>
-                <td className='border border-gray-300 p-2 text-center'>Account Holder Name</td>
-                <td className='border border-gray-300 p-2 text-center'>Coming soon...</td>
-              </tr>
-              <tr>
-                <td className='border border-gray-300 p-2 text-center'>Account No.</td>
-                <td className='border border-gray-300 p-2 text-center'>Coming soon...</td>
-              </tr>
-              <tr>
-                <td className='border border-gray-300 p-2 text-center'>IFSC Code</td>
-                <td className='border border-gray-300 p-2 text-center'>Coming soon...</td>
-              </tr>
-            </tbody>
-          </table>
+        {/* Payment Details (Placeholder for now) */}
+        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8 mb-12">
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Payment Details</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-slate-600">
+            <div className="space-y-4">
+              <div className="flex justify-between border-b border-slate-100 pb-2">
+                <span className="font-medium">Bank Name</span>
+                <span className="text-slate-400">Coming soon...</span>
+              </div>
+              <div className="flex justify-between border-b border-slate-100 pb-2">
+                <span className="font-medium">Account Name</span>
+                <span className="text-slate-400">Coming soon...</span>
+              </div>
+            </div>
+            <div className="space-y-4">
+              <div className="flex justify-between border-b border-slate-100 pb-2">
+                <span className="font-medium">Account Number</span>
+                <span className="text-slate-400">Coming soon...</span>
+              </div>
+              <div className="flex justify-between border-b border-slate-100 pb-2">
+                <span className="font-medium">IFSC Code</span>
+                <span className="text-slate-400">Coming soon...</span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
 
-      {/* Contact Section */}
-      <ContactUsLayout />
+        <ContactUsLayout />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Registration
+export default Registration;

@@ -36,41 +36,59 @@ const CountDown = () => {
   }, []);
 
   return (
-    <div className='w-[90%] mx-auto p-4 h-auto mt-8 border-2 border-gray-300 rounded-lg shadow-xl flex flex-col lg:flex-row justify-between items-center bg-gray-50 gap-6'>
+    <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12'>
+      <div className='bg-white rounded-3xl shadow-sm border border-slate-100 p-8 lg:p-12 flex flex-col lg:flex-row justify-between items-center gap-12'>
 
-      {/* Left Section */}
-      <section className='w-full lg:w-[50%] p-2 text-left'>
-        <h1 className='text-2xl md:text-3xl text-sky-800 font-bold'>IMPORTANT DATES</h1>
-        <ul className='mt-3 text-base md:text-lg text-gray-600'>
-          <li className='mt-2'>Paper Submission Deadline: <b className='text-orange-700'>January 12, 2026</b></li>
-          <li className='mt-2'>Notification of Acceptance: <b className='text-orange-700'>March 8, 2026</b></li>
-          <li className='mt-2'>Camera Ready Deadline: <b className='text-orange-700'>March 29, 2026</b></li>
-          <li className='mt-2'>Registration: <b className='text-orange-700'>April 10, 2026</b></li>
-          <li className='mt-2'>Conference Dates: <b className='text-orange-700'>23rd –24th July 2026</b></li>
-        </ul>
-      </section>
-
-      {/* Right Section */}
-      <section className='w-full lg:w-[40%] flex flex-col items-center justify-center'>
-        <div className='text-2xl md:text-3xl text-sky-800 font-bold text-center'>CONFERENCE BEGINS IN</div>
-
-        <section className='mt-6 flex flex-wrap justify-around sm:flex sm:flex-row sm:justify-between sm:gap-3'>
-
-          {[
-            { label: 'Days', value: day },
-            { label: 'Hours', value: hour },
-            { label: 'Minutes', value: min },
-            { label: 'Seconds', value: sec },
-          ].map((item, index) => (
-            <div key={index} className='w-16 h-16 sm:w-16 sm:h-16 border rounded-2xl border-gray-300 flex flex-col justify-center items-center bg-white'>
-              <div className='h-[70%] w-full text-3xl sm:text-4xl font-semibold bg-sky-800 text-white flex justify-center items-center rounded-t-2xl'>{item.value}</div>
-              <div className='text-sm text-gray-800 font-semibold mt-1'>{item.label}</div>
-            </div>
-          ))}
-
+        {/* Left Section */}
+        <section className='w-full lg:w-1/2 space-y-6'>
+          <h2 className='text-3xl font-bold text-slate-900 flex items-center gap-3'>
+            <span className="w-1.5 h-8 bg-blue-600 rounded-full"></span>
+            IMPORTANT DATES
+          </h2>
+          <ul className='space-y-4 text-slate-600'>
+            {[
+              { label: "Paper Submission Deadline", date: "January 12, 2026", color: "text-red-500" },
+              { label: "Notification of Acceptance", date: "March 8, 2026", color: "text-amber-600" },
+              { label: "Camera Ready Deadline", date: "March 29, 2026", color: "text-blue-600" },
+              { label: "Registration", date: "April 10, 2026", color: "text-green-600" },
+              { label: "Conference Dates", date: "23rd – 24th July 2026", color: "text-purple-600" }
+            ].map((item, index) => (
+              <li key={index} className='flex items-center justify-between border-b border-slate-100 pb-2 last:border-0 last:pb-0'>
+                <span className="font-medium">{item.label}</span>
+                <span className={`font-bold ${item.color}`}>{item.date}</span>
+              </li>
+            ))}
+          </ul>
         </section>
 
-      </section>
+        {/* Right Section - Countdown */}
+        <section className='w-full lg:w-1/2 flex flex-col items-center justify-center bg-slate-50 rounded-2xl p-8 border border-slate-100'>
+          <h3 className='text-xl sm:text-2xl text-slate-700 font-bold mb-8 tracking-wide text-center uppercase'>
+            Conference Begins In
+          </h3>
+
+          <div className='flex flex-wrap justify-center gap-4 sm:gap-6'>
+            {[
+              { label: 'Days', value: day },
+              { label: 'Hours', value: hour },
+              { label: 'Minutes', value: min },
+              { label: 'Seconds', value: sec },
+            ].map((item, index) => (
+              <div key={index} className='flex flex-col items-center'>
+                <div className='w-20 h-20 sm:w-24 sm:h-24 bg-white rounded-2xl shadow-sm border border-slate-200 flex items-center justify-center mb-3 transform hover:scale-105 transition-transform duration-300'>
+                  <span className='text-3xl sm:text-4xl font-bold text-blue-600 bg-clip-text'>
+                    {item.value}
+                  </span>
+                </div>
+                <span className='text-xs sm:text-sm font-semibold text-slate-500 uppercase tracking-widest'>
+                  {item.label}
+                </span>
+              </div>
+            ))}
+          </div>
+        </section>
+
+      </div>
     </div>
   );
 };

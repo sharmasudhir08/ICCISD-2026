@@ -1,110 +1,93 @@
 import React from 'react';
-// banner image removed — using magenta gradient block for banner
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
 
 const PaperSubmission = () => {
   return (
-    <div className="w-full">
-      {/* Banner Section (magenta gradient like Registration) */}
-      <div className="relative w-full">
-  <div className="w-full min-h-[96px] md:min-h-[140px] relative bg-gradient-to-r from-fuchsia-600 via-pink-500 to-rose-500 flex items-center">
-          <div
-            className="absolute inset-0 pointer-events-none"
-            style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.35) 100%)' }}
-            aria-hidden
-          />
-          <div className="max-w-4xl w-full px-4 py-4 mx-auto">
-            <h1 className="text-white drop-shadow-md text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-center">
-              PAPER SUBMISSION
-            </h1>
+    <div className='bg-slate-50 font-sans'>
+
+      {/* Header Banner */}
+      <section className="relative w-full bg-slate-900 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900 to-indigo-900 opacity-90"></div>
+        <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] mix-blend-overlay"></div>
+        <div className="relative max-w-7xl mx-auto px-4 pt-32 pb-16 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight">
+            Paper Submission
+          </h1>
+          <p className="mt-4 text-xl text-blue-200">Guidelines and Policy</p>
+        </div>
+      </section>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* Paper Submission Intro */}
+        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8 mb-8">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">PAPER SUBMISSION</h2>
+          <div className="text-slate-600 leading-relaxed mb-6 space-y-4">
+            <p>
+              IEEE International Conference on Computational Intelligence Systems and Devices (ICCISD-2026), will be organized by Sharda University, Greater Noida, U.P., India on 23rd - 24th July 2026. The aim of the conference is to serve researchers, developers, educators to present as well as to exchange the research ideas in various cutting edge technologies. ICCISD -2026 invites authors to submit their original and unpublished work that demonstrates current research in all areas of science technology and sustainable development through Microsoft Conference Management Toolkit: <a href="https://cmt3.research.microsoft.com/ICCISD2026" className="text-blue-600 hover:underline break-all" target="_blank" rel="noopener noreferrer">https://cmt3.research.microsoft.com/ICCISD2026</a>.
+            </p>
+            <p>
+              If you encounter problems in submitting, contact at <a href="mailto:iccisd.conference@sharda.ac.in" className="text-blue-600 hover:underline">iccisd.conference@sharda.ac.in</a>. Acceptance of papers will be communicated to authors by email.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-4">
+            <a href="https://cmt3.research.microsoft.com/ICCISD2026" target="_blank" className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition-colors">
+              CMT PaperSubmission Link
+            </a>
+            <a href="mailto:iccisd.conference@sharda.ac.in" className="inline-flex items-center justify-center px-6 py-3 border border-slate-300 text-base font-medium rounded-md text-slate-700 bg-white hover:bg-slate-50 shadow-sm transition-colors">
+              Contact Email
+            </a>
           </div>
         </div>
-      </div>
 
-      {/* Content Section */}
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-gray-700 sm:text-justify">
+        {/* Guidelines Section Wrapper */}
+        <section className="space-y-8">
 
-        <h1 className="text-sky-800 text-xl sm:text-2xl font-bold mb-4">PAPER SUBMISSION</h1>
-        <div className="text-base sm:text-lg leading-relaxed mb-2">
-          IEEE International Conference on Computational Intelligence Systems and Devices (ICCISD-2026),
-          will be organized by Sharda University, Greater Noida, U.P., India on 23rd - 24th July 2026. The aim of
-          the conference is to serve researchers, developers, educators to present as well as to exchange the
-          research ideas in various cutting edge technologies. ICCISD -2026 invites authors to submit their
-          original and unpublished work that demonstrates current research in all areas of science technology and
-          sustainable development through Microsoft Conference Management Toolkit:
-          <a
-            href="https://cmt3.research.microsoft.com/ICCISD2026"
-            className="text-sky-800 ml-1 break-words text-sm sm:text-base md:text-lg hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://cmt3.research.microsoft.com/ICCISD2026
-          </a>.
-          If you encounter problems in submitting, contact at{' '}
-          <a
-            href="mailto:iccisd.conference@sharda.ac.in"
-            className="text-sky-800"
-          >
-            iccisd.conference@sharda.ac.in
-          </a>
-          . Acceptance of papers will be communicated to authors by email.
-        </div>
-
-        <div className='flex flex-col sm:flex-row items-center gap-4 mb-8'>
-          <a href='https://cmt3.research.microsoft.com/ICCISD2026' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>CMT PaperSubmission Link</button></a>
-          <a href='mailto:iccisd.conference@sharda.ac.in' target='_blank'><button className='p-2 text-white text-lg font-bold bg-sky-800 border rounded-xl hover:cursor-pointer'>Contact Email</button></a>
-        </div>
-
-
-        <h2 className="text-sky-800 text-xl font-bold mt-8 sm:text-left">Author’s Guidelines</h2>
-        <h3 className="text-gray-800 text-lg font-semibold mt-4 sm:text-left">Guidelines</h3>
-        <p className="mt-2 text-base sm:text-lg sm:text-justify leading-relaxed">
-          At least one author of an accepted paper must register and present his / her paper in conference.
-          Authors are invited to submit original papers of 4 - 6 pages in A4 size using the IEEE template, with one accepted paper covered under standard registration.
-        </p>
-
-        <a
-  href="https://www.ieee.org/conferences/publishing/templates"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-block bg-sky-800 text-white text-sm sm:text-base font-medium px-3 py-1.5 rounded-md hover:bg-sky-900 transition duration-200"
->
-  Manuscript Templates for Conference Proceedings
-</a>
-
-        <h2 className="text-sky-800 text-xl font-semibold mt-8">Manuscript Preparation</h2>
-        <ul className="list-disc pl-6 mt-4 text-base sm:text-lg sm:text-justify space-y-3 text-gray-700">
-          <li>
-            All papers are required to be prepared and submitted in the IEEE Standard two–column conference format of A4 size in English.
-            Papers must be four to six pages in length, including texts, figures, photographs and references.
-            <b className="text-amber-600"> Two extra pages are permissible for an additional charge of Rs 1000 per page.</b>
-          </li>
-          <li>The first page must include the title of the paper, author(s), affiliations, address and text.</li>
-          <li>Please do not include page numbers on submitted documents. Failing to conform to the standard format will result in rejection.</li>
-          <li>
-            The authors are required to use the standard IEEE manuscript template for conferences. The Microsoft Word template can be downloaded from: 
-            <a href="https://www.ieee.org/conferences/publishing/templates" target="_blank" rel="noreferrer" className="text-sky-800 ml-1">
-              Manuscript Templates for Conference Proceedings | IEEE
+          {/* Author’s Guidelines */}
+          <div>
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Author’s Guidelines</h2>
+            <h3 className="text-xl font-semibold text-slate-700 mb-2">Guidelines</h3>
+            <p className="text-slate-600 mb-4">
+              At least one author of an accepted paper must register and present his / her paper in conference. Authors are invited to submit original papers of 4 - 6 pages in A4 size using the IEEE template, with one accepted paper covered under standard registration.
+            </p>
+            <a href="https://www.ieee.org/conferences/publishing/templates" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm">
+              Manuscript Templates for Conference Proceedings
             </a>
-          </li>
-          <li>The paper shall consist of original and previously unpublished work, including specific results.</li>
-          <li>All paper submissions must be electronic, using IEEE Xplore compliant PDF format (*.pdf).</li>
-          <li>Type 3 fonts (bitmaps) will not be accepted. Authors can use IEEE PDF eXpress to generate compliant PDFs.</li>
-        </ul>
+          </div>
 
-        <h2 className="text-sky-800 text-xl font-semibold mt-8">Policy on Plagiarism</h2>
-        <ul className="list-disc pl-6 mt-4 text-base sm:text-lg space-y-3 text-gray-700">
-          <li>Authors are requested to kindly refrain from plagiarism in any form.</li>
-          <li>Papers found to be plagiarized during any stage of review shall be rejected.</li>
-          <li>As per copyright transfer agreement, Authors are deemed individually and collectively responsible for the content.</li>
-          <li>It is the responsibility of each author to strive for the highest ethical standards.</li>
-          <li className="text-amber-600">
-            All papers will undergo plagiarism check using Turnitin, and only papers with <b>below 15%</b> (excluding references) will be considered.
-          </li>
-        </ul>
+          {/* Manuscript Preparation */}
+          <div>
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Manuscript Preparation</h2>
+            <ul className="list-disc pl-5 space-y-3 text-slate-600">
+              <li>
+                All papers are required to be prepared and submitted in the IEEE Standard two–column conference format of A4 size in English. Papers must be four to six pages in length, including texts, figures, photographs and references. <strong className="text-amber-600">Two extra pages are permissible for an additional charge of Rs 1000 per page.</strong>
+              </li>
+              <li>The first page must include the title of the paper, author(s), affiliations, address and text.</li>
+              <li>Please do not include page numbers on submitted documents. Failing to conform to the standard format will result in rejection. Detailed format information is available in IEEE Website.</li>
+              <li>
+                The authors are required to use the standard IEEE manuscript template for conferences. The Microsoft Word template can be downloaded from: <a href="https://www.ieee.org/conferences/publishing/templates" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Manuscript Templates for Conference Proceedings | IEEE</a>
+              </li>
+              <li>The paper shall consist of original and previously unpublished work, including specific results. The ‘Introduction’ of the paper shall clearly indicate the unique aspects of the submission and how it is related to the previous work.</li>
+              <li>All paper submissions must be electronic, using IEEE Xplore compliant PDF format (*.pdf). Failure to do so may result in the rejection of the paper.</li>
+              <li>Type 3 fonts (bitmaps) will not be accepted. Authors can use IEEE PDF eXpress to generate compliant PDF Files for final submission.</li>
+            </ul>
+          </div>
 
-        {/* Contact Section */}
-        <div className="mt-10">
+          {/* Policy on Plagiarism */}
+          <div>
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Policy on Plagiarism</h2>
+            <ul className="list-disc pl-5 space-y-3 text-slate-600">
+              <li>Authors are requested to kindly refrain from plagiarism in any form. Authors should submit their original and unpublished research work not under consideration for publication elsewhere.</li>
+              <li>Papers found to be plagiarized during any stage of review shall be rejected.</li>
+              <li>As per copyright transfer agreement, Authors are deemed individually and collectively responsible for the content of manuscripts published by them.</li>
+              <li>Hence, it is the responsibility of each author to strive for the highest ethical standards with respect to plagiarism.</li>
+              <li className="text-amber-600 font-medium">All papers will undergo Plagiarism check using Turnitin Software and only papers having plagiarism below 15% (excluding references) will be considered for review.</li>
+            </ul>
+          </div>
+
+        </section>
+
+        <div className="mt-12">
           <ContactUsLayout />
         </div>
       </div>
