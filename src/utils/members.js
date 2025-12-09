@@ -154,7 +154,7 @@ export const members = [
   },
   {
     "name": "Mr. Yogesh Sharma",
-    "designation": "CEO and Co-Founder, Mamsys Consultancy Services Pvt. Ltd, USA",
+    "designation": "Co-founder & Chairperson, Mamsys",
     "committeeType": "International Advisory Committee"
   },
   {

@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
+import ieeelogo from '../assets/IEEE new logo.webp';
 
 const Authors = () => {
   return (
@@ -190,7 +191,7 @@ const Authors = () => {
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Author’s Guidelines</h2>
             <h3 className="text-xl font-semibold text-slate-700 mb-2">Guidelines</h3>
             <p className="text-slate-600 mb-4">
-              At least one author of an accepted paper must register and present his / her paper in conference. Authors are invited to submit original papers of 4 - 6 pages in A4 size using the IEEE template, with one accepted paper covered under standard registration.
+              At least one author of an accepted paper must register and present his / her paper in conference. Authors are invited to submit original papers of 5 - 6 pages in A4 size using the IEEE template, with one accepted paper covered under standard registration.
             </p>
             <a href="https://www.ieee.org/conferences/publishing/templates" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm">
               Manuscript Templates for Conference Proceedings
@@ -202,7 +203,7 @@ const Authors = () => {
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Manuscript Preparation</h2>
             <ul className="list-disc pl-5 space-y-3 text-slate-600">
               <li>
-                All papers are required to be prepared and submitted in the IEEE Standard two–column conference format of A4 size in English. Papers must be four to six pages in length, including texts, figures, photographs and references. <strong className="text-amber-600">Two extra pages are permissible for an additional charge of Rs 1000 per page.</strong>
+                All papers are required to be prepared and submitted in the IEEE Standard two–column conference format of A4 size in English. Papers must be five to six pages in length, including texts, figures, photographs and references. <strong className="text-amber-600">Two extra pages are permissible for an additional charge of Rs 1000 per page.</strong>
               </li>
               <li>The first page must include the title of the paper, author(s), affiliations, address and text.</li>
               <li>Please do not include page numbers on submitted documents. Failing to conform to the standard format will result in rejection. Detailed format information is available in IEEE Website.</li>
@@ -225,6 +226,33 @@ const Authors = () => {
               <li>Hence, it is the responsibility of each author to strive for the highest ethical standards with respect to plagiarism.</li>
               <li className="text-amber-600 font-medium">All papers will undergo Plagiarism check using Turnitin Software and only papers having plagiarism below 15% will be considered for review.</li>
             </ul>
+          </div>
+
+          {/* Additional Policies Links */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            {/* Plagiarism Policy Link */}
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-200 flex flex-col items-center text-center space-y-4 hover:shadow-md transition-shadow">
+              <img src={ieeelogo} alt="IEEE" className="h-16 object-contain" />
+              <div>
+                <h4 className="font-bold text-slate-800">IEEE Similarity and Plagiarism Policies</h4>
+                <p className="text-sm text-slate-600 mt-1">Guidelines for Maintaining Academic Integrity</p>
+              </div>
+              <a href="https://www.ieee.org/publications/rights/plagiarism/plagiarism.html" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-blue-600 text-sm font-medium rounded-full text-blue-600 bg-transparent hover:bg-blue-600 hover:text-white transition-colors">
+                Read Policy &rarr;
+              </a>
+            </div>
+
+            {/* Copyright Process Link */}
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-200 flex flex-col items-center text-center space-y-4 hover:shadow-md transition-shadow">
+              <img src={ieeelogo} alt="IEEE" className="h-16 object-contain" />
+              <div>
+                <h4 className="font-bold text-slate-800">IEEE E-Copyright Process Document</h4>
+                <p className="text-sm text-slate-600 mt-1">Final Submission with IEEE Xplore®-Compatible PDFs</p>
+              </div>
+              <a href="https://www.ieee.org/publications/rights/copyright-policy" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-blue-600 text-sm font-medium rounded-full text-blue-600 bg-transparent hover:bg-blue-600 hover:text-white transition-colors">
+                View Process &rarr;
+              </a>
+            </div>
           </div>
         </section>
 

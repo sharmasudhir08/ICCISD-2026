@@ -1,24 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
 
 const Registration = () => {
-  const [tab, setTab] = useState('ieee');
-
-  const ieeeRows = [
-    { type: "Student", fee: "₹ 7000" },
-    { type: "Professional", fee: "₹ 9000" },
-    { type: "Industry Participants", fee: "₹ 11000" },
-    { type: "Foreign Participants", fee: "300 USD" },
-    { type: "Attendee only", fee: "₹ 2500" },
-  ];
-
-  const nonIeeeRows = [
-    { type: "Student", fee: "₹ 8000" },
-    { type: "Professional", fee: "₹ 10000" },
-    { type: "Industry Participants", fee: "₹ 12000" },
-    { type: "Foreign Participants", fee: "400 USD" },
-    { type: "Attendee only", fee: "₹ 3000" },
-  ];
 
   return (
     <div className='bg-slate-50 font-sans'>
@@ -40,19 +23,6 @@ const Registration = () => {
         <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8 mb-12">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
             <h2 className='text-2xl font-bold text-slate-900'>Registration Fees</h2>
-
-            <div className='flex gap-2 bg-slate-100 p-1 rounded-full'>
-              <button
-                onClick={() => setTab('ieee')}
-                className={`px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${tab === 'ieee' ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}>
-                IEEE Members
-              </button>
-              <button
-                onClick={() => setTab('non')}
-                className={`px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${tab === 'non' ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}>
-                Non-IEEE Members
-              </button>
-            </div>
           </div>
 
           <div className="overflow-hidden rounded-xl border border-slate-200">
@@ -60,16 +30,36 @@ const Registration = () => {
               <thead className="bg-slate-50">
                 <tr>
                   <th className="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider">Participant Category</th>
-                  <th className="px-6 py-4 text-right text-xs font-bold text-slate-500 uppercase tracking-wider">Fee</th>
+                  <th className="px-6 py-4 text-center text-xs font-bold text-blue-600 uppercase tracking-wider">IEEE Members</th>
+                  <th className="px-6 py-4 text-right text-xs font-bold text-slate-500 uppercase tracking-wider">Non-IEEE Members</th>
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-slate-200">
-                {(tab === 'ieee' ? ieeeRows : nonIeeeRows).map((row, i) => (
-                  <tr key={i} className="hover:bg-slate-50 transition-colors">
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">{row.type}</td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-right text-slate-700 font-bold">{row.fee}</td>
-                  </tr>
-                ))}
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">Student</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-center text-blue-600 font-bold">₹ 7000</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-right text-slate-700 font-bold">₹ 8000</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">Professional</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-center text-blue-600 font-bold">₹ 9000</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-right text-slate-700 font-bold">₹ 10000</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">Industry Participants</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-center text-blue-600 font-bold">₹ 11000</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-right text-slate-700 font-bold">₹ 12000</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">Foreign Participants</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-center text-blue-600 font-bold">300 USD</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-right text-slate-700 font-bold">400 USD</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">Attendee only</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-center text-blue-600 font-bold">₹ 2500</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-right text-slate-700 font-bold">₹ 3000</td>
+                </tr>
               </tbody>
             </table>
           </div>
