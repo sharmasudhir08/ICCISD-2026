@@ -205,7 +205,7 @@ const Home = () => {
 
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left'>
             {[
-              { img: trophy, title: 'IEEE Xplore Indexing', desc: 'All accepted papers will be published in IEEE Xplore Digital Library with DOI assignment for global visibility and citations' },
+              { img: trophy, title: 'IEEE Xplore Indexing', desc: 'It is planned to submit all accepted papers for publication in IEEE Xplore Digital Library with DOI assignment for global visibility and citations' },
               { img: star, title: 'World-Class Speakers', desc: 'Learn from renowned experts in AI, sustainability, and computational intelligence through keynotes and invited talks' },
               { img: network, title: 'Networking Excellence', desc: 'Connect with researchers, academics, and industry leaders from around the world in both physical and virtual formats' },
               { img: researchAssets, title: '7 Research Tracks', desc: 'AI for Sustainability, Communication, Renewable Energy, Robotics and Automation, Cyber security, Health Care, Infrastructure and Smart city' },

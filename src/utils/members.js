@@ -1098,6 +1098,12 @@ export const members = [
     country: "India"
   },
   {
+    name: "Akshat Agrawal",
+    designation: "IILM University Gurugram , Haryana, India",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
     name: "Dr. Alpana Jijja",
     designation: "Sushant University, Haryana",
     committeeType: "Technical Program Committee",
@@ -2066,6 +2072,12 @@ export const members = [
   {
     name: "Ms. Snehal Moghe",
     designation: "Alliance University, Bengaluru",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Ms. Sneha Vasishth",
+    designation: "Data Scientist, Leewayhertz.pvt.ltd, Gurugram, India",
     committeeType: "Technical Program Committee",
     country: "India"
   },

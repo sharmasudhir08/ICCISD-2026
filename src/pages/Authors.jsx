@@ -191,7 +191,7 @@ const Authors = () => {
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Author’s Guidelines</h2>
             <h3 className="text-xl font-semibold text-slate-700 mb-2">Guidelines</h3>
             <p className="text-slate-600 mb-4">
-              At least one author of an accepted paper must register and present his / her paper in conference. Authors are invited to submit original papers of 5 - 6 pages in A4 size using the IEEE template, with one accepted paper covered under standard registration.
+              At least one author of an accepted paper must register and present his / her paper in conference. Authors are invited to submit original papers of 5 - 6 pages in A4 size using the IEEE template.
             </p>
             <a href="https://www.ieee.org/conferences/publishing/templates" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm">
               Manuscript Templates for Conference Proceedings
@@ -203,7 +203,7 @@ const Authors = () => {
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Manuscript Preparation</h2>
             <ul className="list-disc pl-5 space-y-3 text-slate-600">
               <li>
-                All papers are required to be prepared and submitted in the IEEE Standard two–column conference format of A4 size in English. Papers must be five to six pages in length, including texts, figures, photographs and references. <strong className="text-amber-600">Two extra pages are permissible for an additional charge of Rs 1000 per page.</strong>
+                All papers are required to be prepared and submitted in the IEEE Standard two–column conference format of A4 size in English. Papers must be five to six pages in length, including texts, figures, photographs and references. <strong className="text-amber-600">Two extra pages are permissible for an additional charge of Rs 1000 / USD 50 per page.</strong>
               </li>
               <li>The first page must include the title of the paper, author(s), affiliations, address and text.</li>
               <li>Please do not include page numbers on submitted documents. Failing to conform to the standard format will result in rejection. Detailed format information is available in IEEE Website.</li>
@@ -211,9 +211,61 @@ const Authors = () => {
                 The authors are required to use the standard IEEE manuscript template for conferences. The Microsoft Word template in can be downloaded from IEEE conference template page: <a href="https://www.ieee.org/conferences/publishing/templates" className="text-blue-600 hover:underline">Manuscript Templates for Conference Proceedings | IEEE</a>
               </li>
               <li>The paper shall consist of original and previously unpublished work, including specific results. The ‘Introduction’ of the paper shall clearly indicate the unique aspects of the submission and how it is related to the previous work.</li>
-              <li>All paper submissions must be electronic, using IEEE Xplore compliant PDF format (*.pdf). Failure to do so may result in the rejection of the paper.</li>
-              <li>Type 3 fonts (bitmaps) will not be accepted. Authors can use the IEEE PDF eXpress to generate compliant PDF Files for final submission.</li>
+              <li>Type 3 fonts (bitmaps) will not be accepted.</li>
+              <li>Authors can use the IEEE PDF eXpress to generate compliant PDF Files for final submission.</li>
             </ul>
+          </div>
+
+          {/* IEEE PDF eXpress Section */}
+          <div>
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">IEEE PDF eXpress – Step-by-Step Author Guide</h2>
+            <div className="text-slate-600 space-y-4 mb-6">
+              <p>
+                To ensure that all camera-ready papers comply with IEEE Xplore® formatting standards, authors of accepted papers are required to validate their final manuscript using IEEE PDF eXpress before submission.
+              </p>
+              <p>
+                The PDF eXpress access credentials and Conference ID will be shared with the corresponding authors after paper acceptance.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-4 mb-8">
+              <a href="https://www.ieee.org/conferences/publishing/pdfexpress" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition-colors">IEEE PDF eXpress Info</a>
+              <a href="https://ieee-pdf-express.org/account/signup" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition-colors">Create Account</a>
+            </div>
+
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
+              <h3 className="text-xl font-bold text-blue-800 mb-4">PDF Instructions for Authors</h3>
+              <h4 className="font-semibold text-slate-700 mb-6">2026 International Conference on Computational Intelligence Systems and Devices (ICCISD)</h4>
+
+              <div className="space-y-6">
+                <div>
+                  <h5 className="font-bold text-slate-800 mb-2">Before Creating a PDF</h5>
+                  <p className="text-slate-600">Proofread your source document thoroughly to confirm that it will require no revision.</p>
+                </div>
+
+                <div>
+                  <h5 className="font-bold text-slate-800 mb-2">Creating your PDF eXpress Account</h5>
+                  <p className="text-slate-600 mb-2">Log in to the IEEE PDF eXpress® site</p>
+                  <p className="text-slate-600 mb-2 font-medium">First-time users should do the following:</p>
+                  <ol className="list-decimal pl-5 space-y-3 text-slate-600">
+                    <li>Select the <a href="https://ieee-pdf-express.org/account/signup" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-bold">Create Account</a> link.</li>
+                    <li>Enter the following:
+                      <ul className="list-disc pl-5 mt-1 space-y-1">
+                        <li>The Conference ID (to be provided)</li>
+                        <li>Your email address</li>
+                        <li>A password</li>
+                      </ul>
+                    </li>
+                    <li>Continue to enter information as prompted.</li>
+                  </ol>
+                  <p className="text-slate-600 mt-4">An Online confirmation will be displayed and an email confirmation will be sent verifying your account setup.</p>
+
+                  <p className="text-slate-600 mt-4 bg-blue-50 p-4 rounded-lg border border-blue-100 italic">
+                    <span className="font-semibold not-italic">Note for Previous Users:</span> Previous users of PDF eXpress need to follow the above steps but should enter the same password that was used for previous conferences. Verify that your contact information is valid.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Policy on Plagiarism */}
