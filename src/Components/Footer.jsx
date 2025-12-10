@@ -39,10 +39,7 @@ const Footer = () => {
                 <Mail className="w-5 h-5 text-blue-500" />
                 <a href="mailto:iccisd@sharda.ac.in" className="hover:text-white">iccisd@sharda.ac.in</a>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-blue-500" />
-                <span>+91-1234567890</span>
-              </li>
+
             </ul>
           </div>
         </div>
