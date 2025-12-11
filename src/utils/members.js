@@ -2086,6 +2086,72 @@ export const members = [
     designation: "Bharat Institute of Engineering and Technology, Telangana",
     committeeType: "Technical Program Committee",
     country: "India"
+  },
+  {
+    name: "Ms. Seena Thomas",
+    designation: "LBSITW, APJ Abdul Kalam Technological University, Kerala",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Mr. Arundev Vamadevan",
+    designation: "National College of Ireland, Ireland",
+    committeeType: "Technical Program Committee",
+    country: "Ireland"
+  },
+  {
+    name: "Dr. Akshat Agrawal",
+    designation: "IILM University Gurugram, Haryana",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Dr. M. Padma Lalitha",
+    designation: "Annamacharya University, AP",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Mr. Parbhat Gupta",
+    designation: "SRM Institute of Science and Technology, Uttar Pradesh",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Ms. Vartika Vyas",
+    designation: "Sangam University, Rajastan",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Mr. Sathish Krishna Anumula",
+    designation: "IBM, USA",
+    committeeType: "Technical Program Committee",
+    country: "USA"
+  },
+  {
+    name: "Dr. Susmita Das",
+    designation: "Narula Institute of Technology, West Bengal",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Mr. Ishu Anand Jaiswal",
+    designation: "Intuit, United States of America",
+    committeeType: "Technical Program Committee",
+    country: "United States of America"
+  },
+  {
+    name: "Dr. Suja Golden Shiny",
+    designation: "Sri Ramachandra Institute of Higher Education and Research, Chennai Tamil Nadu",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Dr. Shabina Bhaskar",
+    designation: "St. Joseph Engineering College, Mangaluru, Karnataka",
+    committeeType: "Technical Program Committee",
+    country: "India"
   }
 
 ]
