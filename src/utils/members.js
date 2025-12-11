@@ -900,6 +900,12 @@ export const members = [
     country: "India"
   },
   {
+    name: "Prof. (Dr) Magudeeswaran V",
+    designation: "PSNA CET, Dindigul, Tamil Nadu",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
     name: "Prof. (Dr) Mareddy Padma Lalitha",
     designation: "Annamacharya University, Andhra Pradesh",
     committeeType: "Technical Program Committee",
