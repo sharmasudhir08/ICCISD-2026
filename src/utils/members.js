@@ -2158,6 +2158,18 @@ export const members = [
     designation: "St. Joseph Engineering College, Mangaluru, Karnataka",
     committeeType: "Technical Program Committee",
     country: "India"
+  },
+  {
+    name: "Ms. Janisha A",
+    designation: "LBSITW, APJ Abdul Kalam Technological University, Kerala",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Dr Muthupandi G",
+    designation: "Presidency University Bengaluru",
+    committeeType: "Technical Program Committee",
+    country: "India"
   }
 
 ]
