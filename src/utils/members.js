@@ -97,6 +97,32 @@ export const members = [
   },
 
   {
+    name: 'Prof. (Dr.) R. C. Singh',
+    designation: 'Dean Academic Affairs, Sharda University',
+    committeeType: 'Internal Advisory Committee',
+  },
+  {
+    name: 'Prof. (Dr.) Bhuvnesh Kumar',
+    designation: 'Dean, R&D, Sharda University',
+    committeeType: 'Internal Advisory Committee',
+  },
+  {
+    name: 'Prof. (Dr.) Shri Kant',
+    designation: 'Head of center of excellence "Cyber Security and Cryptology", Sharda University',
+    committeeType: 'Internal Advisory Committee',
+  },
+  {
+    name: 'Prof. (Dr.) Ashok Kumar',
+    designation: 'Head of center of excellence " Medical Imaging & Image Processing", Sharda University',
+    committeeType: 'Internal Advisory Committee',
+  },
+  {
+    name: 'Prof. (Dr.) Karthikeyan Natesapillai',
+    designation: 'Director, Internal Quality Assurance Cell (IQAC), Sharda University',
+    committeeType: 'Internal Advisory Committee',
+  },
+
+  {
     name: 'Prof. (Dr.) Bhuvan Unhelkar',
     designation: 'Muma College of Business, University of South Florida, USA',
     committeeType: 'International Advisory Committee',
