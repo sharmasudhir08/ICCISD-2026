@@ -11,6 +11,7 @@ const CommitteeLayout = () => {
     'Conference Chair',
     'Organizing Chair',
     'Convener',
+    'Internal Advisory Committee',
     'International Advisory Committee',
     'Co-Convener',
     'National Advisory Committee',
