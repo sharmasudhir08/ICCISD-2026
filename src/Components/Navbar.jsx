@@ -40,10 +40,6 @@ const Navbar = () => {
           <img src={shardalogo} alt="Sharda University" className="h-10 md:h-12 w-auto object-contain" />
           <div className="hidden lg:block w-px h-10 bg-slate-200 mx-2"></div>
           <img src={ieee} alt="IEEE" className="h-8 md:h-10 w-auto object-contain" />
-          <div className="hidden xl:block ml-2">
-            <span className="block text-lg font-bold text-slate-900 leading-none">ICCISD<span className="text-blue-600">.</span></span>
-            <span className="text-xs text-slate-500 font-medium tracking-wider">2026</span>
-          </div>
         </div>
 
         {/* Mobile menu button */}

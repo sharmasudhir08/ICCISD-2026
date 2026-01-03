@@ -121,6 +121,11 @@ export const members = [
     designation: 'Director, Internal Quality Assurance Cell (IQAC), Sharda University',
     committeeType: 'Internal Advisory Committee',
   },
+  {
+    name: 'Prof. (Dr.) Vrince Vimal',
+    designation: 'Dean Strategy (Development & Growth), Sharda University',
+    committeeType: 'Internal Advisory Committee',
+  },
 
   {
     name: 'Prof. (Dr.) Bhuvan Unhelkar',
