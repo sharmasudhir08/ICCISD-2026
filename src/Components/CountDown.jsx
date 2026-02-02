@@ -47,7 +47,7 @@ const CountDown = () => {
           </h2>
           <ul className='space-y-4 text-slate-600'>
             {[
-              { label: "Paper Submission Deadline", date: "January 30, 2026", color: "text-red-500" },
+              { label: "Paper Submission Deadline", date: <><span className="line-through text-slate-400 mr-2">January 30, 2026</span>February 10, 2026</>, color: "text-red-500" },
               { label: "Notification of Acceptance", date: "March 8, 2026", color: "text-amber-600" },
               { label: "Camera Ready Deadline", date: "March 29, 2026", color: "text-blue-600" },
               { label: "Registration", date: "April 10, 2026", color: "text-green-600" },
