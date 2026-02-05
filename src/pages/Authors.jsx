@@ -442,7 +442,7 @@ const Authors = () => {
                     <li>Select the <a href="https://ieee-pdf-express.org/account/signup" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-bold">Create Account</a> link.</li>
                     <li>Enter the following:
                       <ul className="list-disc pl-5 mt-1 space-y-1">
-                        <li>The Conference ID (to be provided)</li>
+                        <li>The Conference ID: <strong>69924</strong></li>
                         <li>Your email address</li>
                         <li>A password</li>
                       </ul>
