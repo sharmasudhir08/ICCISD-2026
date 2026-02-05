@@ -2,6 +2,194 @@ import React from 'react';
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
 import ieeelogo from '../assets/IEEE new logo.webp';
 
+// Checklist Data
+const checklistData = [
+  {
+    icon: "👤",
+    title: "Author and Manuscript Information",
+    items: [
+      "All author names are correctly spelled and listed in the proper order",
+      "Affiliations and email addresses of all authors are accurate and up to date",
+      "All authors are properly registered in the CMT system",
+      "Addition, deletion, or change in the order of authors is not permitted",
+      "The paper title matches exactly with the registered submission in CMT",
+      "The abstract has been updated in accordance with the revised manuscript"
+    ]
+  },
+  {
+    icon: "📄",
+    title: "IEEE Formatting Compliance",
+    items: [
+      "Manuscript strictly follows the IEEE Conference Paper Format",
+      "The paper is within the prescribed page limit",
+      "Font style, font size, margins, and layout comply with the IEEE template",
+      "All sections (Abstract, Keywords, References, etc.) are properly formatted"
+    ]
+  },
+  {
+    icon: "🔍",
+    title: "Plagiarism and Originality",
+    items: [
+      "Similarity index is below 15% (excluding references)",
+      "Plagiarism check has been performed using Turnitin/iThenticate or equivalent",
+      "No content has been copied from published sources without proper citation",
+      "The manuscript is original and not under review elsewhere"
+    ]
+  },
+  {
+    icon: "🤖",
+    title: "AI-Generated Content Compliance",
+    items: [
+      "The manuscript does not contain directly copied AI-generated text",
+      "Any AI-assisted content has been carefully reviewed and appropriately rewritten",
+      "AI tools have not been used to generate references or citations"
+    ]
+  },
+  {
+    icon: "📊",
+    title: "Figures and Tables",
+    items: [
+      "All figures are of high resolution and clearly readable",
+      "No screenshots or blurred images are included",
+      "All figures are properly numbered and cited in the text",
+      "All tables are clearly formatted and correctly referenced",
+      "Figure and table captions are complete and descriptive"
+    ]
+  },
+  {
+    icon: "∑",
+    title: "Equations and Mathematical Content",
+    items: [
+      "All equations are typed using an equation editor",
+      "No equations are inserted as images",
+      "Equations are properly numbered",
+      "All equations are correctly referenced in the manuscript",
+      "Citations are provided for borrowed formulas or models"
+    ]
+  },
+  {
+    icon: "📚",
+    title: "References and Citations",
+    items: [
+      "IEEE citation and referencing style is strictly followed",
+      "A minimum of 10 relevant and recent references are included",
+      "All in-text citations are present in the reference list",
+      "All references are authentic and verifiable",
+      "No fabricated or AI-generated references are included"
+    ]
+  },
+  {
+    icon: "⚖️",
+    title: "Ethical and Academic Integrity",
+    items: [
+      "All co-authors have approved the revised manuscript",
+      "The work follows ethical research and publication standards",
+      "No data manipulation or falsification is present",
+      "Self-citations are used only when genuinely relevant"
+    ]
+  },
+  {
+    icon: "💾",
+    title: "Dataset and Source Verification",
+    items: [
+      "All datasets used are properly cited",
+      "Sources of data are credible and authentic",
+      "Permissions are obtained where required"
+    ]
+  },
+  {
+    icon: "🎓",
+    title: "Mentor/Supervisor Approval (For Student Authors Only)",
+    items: [
+      "Revised manuscript reviewed and approved by supervisor/mentor",
+      "All reviewer comments have been properly addressed"
+    ]
+  },
+  {
+    icon: "💬",
+    title: "Response to Reviewers",
+    items: [
+      "All reviewer comments have been carefully addressed",
+      "A clear point-by-point response sheet has been prepared",
+      "Changes made in the manuscript are highlighted or tracked"
+    ]
+  }
+];
+
+const finalConfirmationItems = [
+  "The revised manuscript is the final and correct version",
+  "All mandatory corrections have been incorporated",
+  "A detailed response sheet has been provided after the References section",
+  "The file uploaded on CMT is the updated and final version"
+];
+
+// Checklist Category Card Component
+const ChecklistCategory = ({ icon, title, items }) => {
+  return (
+    <div className="border rounded-xl border-slate-200 bg-white p-4">
+      <div className="flex items-center gap-2 mb-3">
+        <span className="text-xl">{icon}</span>
+        <span className="font-semibold text-slate-800 text-sm">{title}</span>
+      </div>
+      <ul className="list-disc pl-6 space-y-1">
+        {items.map((item, index) => (
+          <li key={index} className="text-xs text-slate-600">
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+// Main Checklist Section Component
+const ChecklistSection = () => {
+  return (
+    <div className="mt-8">
+      <h2 className="text-2xl font-bold text-slate-900 mb-2">Checklist for Revised Paper Submission – ICCISD-2026</h2>
+      <p className="text-slate-600 mb-6">
+        Authors are requested to carefully incorporate all reviewers' suggestions before submitting the revised version of their manuscript. A detailed response sheet must be included after the References section in the revised manuscript. <span className="font-semibold text-amber-600">Compliance with all points in the following checklist is mandatory.</span>
+      </p>
+
+      {/* Checklist Categories - Two Column Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {checklistData.map((category, index) => (
+          <ChecklistCategory
+            key={index}
+            icon={category.icon}
+            title={category.title}
+            items={category.items}
+          />
+        ))}
+      </div>
+
+      {/* Final Confirmation */}
+      <div className="mt-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border border-blue-200 p-4">
+        <h3 className="text-base font-bold text-blue-900 mb-3 flex items-center gap-2">
+          <span className="text-lg">✅</span> Final Confirmation
+        </h3>
+        <ul className="list-disc pl-5 space-y-1 columns-1 md:columns-2">
+          {finalConfirmationItems.map((item, index) => (
+            <li
+              key={index}
+              className="text-xs text-slate-700">
+              {item}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Important Note */}
+      <div className="mt-4 bg-red-50 border border-red-200 rounded-xl p-3">
+        <p className="text-red-700 text-xs font-medium flex items-start gap-2">
+          <span className="text-base">⚠️</span>
+          <span><strong>Important Note:</strong> Failure to comply with this checklist may result in rejection of the manuscript at any stage of the IEEE quality compliance process.</span>
+        </p>
+      </div>
+    </div>
+  );
+};
+
 const Authors = () => {
   return (
     <div className='bg-slate-50 font-sans'>
@@ -215,6 +403,9 @@ const Authors = () => {
               <li>Authors can use the IEEE PDF eXpress to generate compliant PDF Files for final submission.</li>
             </ul>
           </div>
+
+          {/* Checklist for Revised Paper Submission */}
+          <ChecklistSection />
 
           {/* IEEE PDF eXpress Section */}
           <div>
