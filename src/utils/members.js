@@ -2201,6 +2201,72 @@ export const members = [
     designation: "Presidency University Bengaluru",
     committeeType: "Technical Program Committee",
     country: "India"
+  },
+  {
+    name: "Mr. Vasudevan Senathi Ramdoss",
+    designation: "McKinney, Texas",
+    committeeType: "Technical Program Committee",
+    country: "USA"
+  },
+  {
+    name: "Mr. Venkata Sai Sandeep Velaga",
+    designation: "AT&T",
+    committeeType: "Technical Program Committee",
+    country: "USA"
+  },
+  {
+    name: "Dr. Mohd Dilshad Ansari",
+    designation: "SRM University Delhi-NCR, Sonepat, Haryana",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Mr. Ashutosh Chandra Jha",
+    designation: "New York University",
+    committeeType: "Technical Program Committee",
+    country: "USA"
+  },
+  {
+    name: "Mr. Prakhar Mittal",
+    designation: "AtriCure",
+    committeeType: "Technical Program Committee",
+    country: "USA"
+  },
+  {
+    name: "Mr. Mohammed Saad Javeed",
+    designation: "Trine University",
+    committeeType: "Technical Program Committee",
+    country: "USA"
+  },
+  {
+    name: "Dr. Nitendra Kumar",
+    designation: "Amity Business School, Amity University Uttar Pradesh",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Dr. Hirdesh Sharma",
+    designation: "Dronacharya Group of Institutions, Greater Noida",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Dr. Sameer Asthana",
+    designation: "GNIOT (Engineering Institute)",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Dr. Ranjan Upadhyaya",
+    designation: "Inurture Education Ltd Bangalore",
+    committeeType: "Technical Program Committee",
+    country: "India"
+  },
+  {
+    name: "Dr. Abhishek Shukla",
+    designation: "R D Engineering College Duhai Ghaziabad U.P.",
+    committeeType: "Technical Program Committee",
+    country: "India"
   }
 
 ]
