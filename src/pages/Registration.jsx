@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
+import qrCode from '../assets/qrcode.png';
 
 const Registration = () => {
 
@@ -72,30 +73,56 @@ const Registration = () => {
           </div>
         </div>
 
-        {/* Payment Details (Placeholder for now) */}
-        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8 mb-12">
-          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Payment Details</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-slate-600">
-            <div className="space-y-4">
-              <div className="flex justify-between border-b border-slate-100 pb-2">
-                <span className="font-medium">Bank Name</span>
-                <span className="text-slate-400">Coming soon...</span>
+        {/* Payment Details */}
+        <div className="bg-white rounded-2xl shadow-lg border border-slate-100 overflow-hidden mb-12">
+          <h2 className='text-2xl font-bold text-slate-900 px-8 pt-8 pb-4 flex items-center gap-3'>
+            <span className="w-1.5 h-8 bg-blue-600 rounded-full"></span>
+            Payment Details
+          </h2>
+
+          {/* Bank & Branch */}
+          <div className="mx-8 mb-6 rounded-xl bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100 p-5 flex flex-col sm:flex-row sm:items-start gap-4">
+            <div className="w-12 h-12 rounded-xl bg-blue-600 flex items-center justify-center flex-shrink-0">
+              <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11m16-11v11M8 14v4m4-4v4m4-4v4" /></svg>
+            </div>
+            <div className="space-y-2">
+              <div>
+                <p className="text-xs font-semibold text-slate-600 uppercase tracking-wider">Bank Name</p>
+                <p className="text-slate-900 font-bold text-lg">ICICI Bank Ltd.</p>
               </div>
-              <div className="flex justify-between border-b border-slate-100 pb-2">
-                <span className="font-medium">Account Name</span>
-                <span className="text-slate-400">Coming soon...</span>
+              <div>
+                <p className="text-xs font-semibold text-slate-600 uppercase tracking-wider">Branch Address</p>
+                <p className="text-slate-700 text-sm">Krishna Apra Royal Plaza, D-2, E(acb), Alpha-1, Greater Noida, Gautam Budh Nagar, UP- 201306</p>
               </div>
             </div>
-            <div className="space-y-4">
-              <div className="flex justify-between border-b border-slate-100 pb-2">
-                <span className="font-medium">Account Number</span>
-                <span className="text-slate-400">Coming soon...</span>
+          </div>
+
+          {/* Detail Grid */}
+          <div className="px-8 pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { label: 'Account Holder Name', value: 'Sharda University-Seminar' },
+              { label: 'Account No.', value: '025405005815 (Current A/C)' },
+              { label: 'IFSC Code', value: 'ICIC0000254' },
+              { label: 'SWIFT Code', value: 'ICICINBBCTS' },
+              { label: 'MICR Code', value: '110229037' },
+            ].map((item, i) => (
+              <div key={i} className="rounded-xl border border-slate-100 bg-slate-50 px-5 py-4 hover:border-blue-200 hover:bg-blue-50/40 transition-all duration-200">
+                <p className="text-xs font-semibold text-slate-600 uppercase tracking-wider mb-1.5">{item.label}</p>
+                <p className="text-slate-900 font-bold text-[15px]">{item.value}</p>
               </div>
-              <div className="flex justify-between border-b border-slate-100 pb-2">
-                <span className="font-medium">IFSC Code</span>
-                <span className="text-slate-400">Coming soon...</span>
-              </div>
-            </div>
+            ))}
+          </div>
+        </div>
+
+        {/* QR Code Section */}
+        <div className="bg-white rounded-2xl shadow-lg border border-slate-100 overflow-hidden mb-12 p-8 flex flex-col items-center">
+          <h2 className='text-2xl font-bold text-slate-900 mb-2 flex items-center gap-3'>
+            <span className="w-1.5 h-8 bg-blue-600 rounded-full"></span>
+            Scan &amp; Pay
+          </h2>
+          <p className="text-slate-500 text-sm mb-6">Scan the QR code below to make your payment directly</p>
+          <div className="rounded-2xl border-2 border-blue-100 bg-white p-4 shadow-md">
+            <img src={qrCode} alt="Payment QR Code" className="w-64 h-64 object-contain rounded-xl" />
           </div>
         </div>
 
