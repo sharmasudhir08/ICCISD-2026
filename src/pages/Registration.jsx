@@ -26,7 +26,8 @@ const Registration = () => {
             <h2 className='text-2xl font-bold text-slate-900'>Registration Fees</h2>
           </div>
 
-          <div className="overflow-hidden rounded-xl border border-slate-200">
+          {/* Desktop Table */}
+          <div className="hidden md:block overflow-hidden rounded-xl border border-slate-200">
             <table className="min-w-full divide-y divide-slate-200">
               <thead className="bg-slate-50">
                 <tr>
@@ -65,11 +66,69 @@ const Registration = () => {
             </table>
           </div>
 
-          <div className="mt-8 p-4 bg-blue-50 rounded-xl flex items-center justify-between border border-blue-100">
-            <span className="text-blue-800 font-medium">Ready to register?</span>
-            <a href="#" className="inline-flex items-center px-4 py-2 border border-blue-600 text-sm font-medium rounded-lg text-blue-600 bg-transparent hover:bg-blue-600 hover:text-white transition-colors">
-              Registration Link Coming Soon &rarr;
-            </a>
+          {/* Mobile Cards */}
+          <div className="md:hidden space-y-4">
+            {[
+              { category: 'Student', ieee: '₹ 7000', nonIeee: '₹ 8000' },
+              { category: 'Professional', ieee: '₹ 9000', nonIeee: '₹ 10000' },
+              { category: 'Industry Participants', ieee: '₹ 11000', nonIeee: '₹ 12000' },
+              { category: 'Foreign Participants', ieee: '300 USD', nonIeee: '400 USD' },
+              { category: 'Attendee only', ieee: '₹ 2500', nonIeee: '₹ 3000' },
+            ].map((item, index) => (
+              <div key={index} className="rounded-xl border border-slate-200 bg-white p-4">
+                <h3 className="text-sm font-bold text-slate-900 mb-3 pb-2 border-b border-slate-100">{item.category}</h3>
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <p className="text-xs font-semibold text-blue-600 uppercase tracking-wider mb-1">IEEE Member</p>
+                    <p className="text-lg font-bold text-blue-600">{item.ieee}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Non-IEEE</p>
+                    <p className="text-lg font-bold text-slate-700">{item.nonIeee}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Enhanced CTA Section */}
+          <div className="mt-10 relative overflow-hidden rounded-2xl bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 p-8 shadow-xl">
+            {/* Background Pattern */}
+            <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+            <div className="absolute top-0 right-0 -mr-10 -mt-10 w-40 h-40 rounded-full bg-white/10 blur-2xl"></div>
+            <div className="absolute bottom-0 left-0 -ml-10 -mb-10 w-40 h-40 rounded-full bg-white/10 blur-2xl"></div>
+            
+            <div className="relative z-10 text-center">
+              <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Secure Your Spot Today!</h3>
+              <p className="text-blue-100 text-sm md:text-base mb-6">Join leading researchers and innovators at ICCISD 2026</p>
+              
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a 
+                  href="https://forms.gle/kRYCi4p32xV8hhReA" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="group w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-blue-600 text-lg font-bold rounded-xl shadow-lg hover:bg-blue-50 hover:scale-105 transition-all duration-300"
+                >
+                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  Register Now
+                  <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </a>
+                
+                <a 
+                  href="#qr-payment" 
+                  className="group w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-white/10 backdrop-blur-sm text-white text-lg font-bold rounded-xl border-2 border-white/30 hover:bg-white/20 hover:border-white/50 hover:scale-105 transition-all duration-300"
+                >
+                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+                  </svg>
+                  Scan QR to Pay
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -115,15 +174,28 @@ const Registration = () => {
         </div>
 
         {/* QR Code Section */}
-        <div className="bg-white rounded-2xl shadow-lg border border-slate-100 overflow-hidden mb-12 p-8 flex flex-col items-center">
-          <h2 className='text-2xl font-bold text-slate-900 mb-2 flex items-center gap-3'>
+        <div id="qr-payment" className="relative bg-white rounded-2xl shadow-lg border border-slate-100 overflow-hidden mb-12 p-8 flex flex-col items-center scroll-mt-24">
+          {/* Corner Decorations */}
+          <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-blue-500 rounded-tl-2xl"></div>
+          <div className="absolute top-0 right-0 w-20 h-20 border-t-4 border-r-4 border-blue-500 rounded-tr-2xl"></div>
+          <div className="absolute bottom-0 left-0 w-20 h-20 border-b-4 border-l-4 border-blue-500 rounded-bl-2xl"></div>
+          <div className="absolute bottom-0 right-0 w-20 h-20 border-b-4 border-r-4 border-blue-500 rounded-br-2xl"></div>
+          
+          <h2 className='text-2xl md:text-3xl font-bold text-slate-900 mb-2 flex items-center gap-3'>
             <span className="w-1.5 h-8 bg-blue-600 rounded-full"></span>
             Scan &amp; Pay
           </h2>
-          <p className="text-slate-500 text-sm mb-6">Scan the QR code below to make your payment directly</p>
-          <div className="rounded-2xl border-2 border-blue-100 bg-white p-4 shadow-md">
-            <img src={qrCode} alt="Payment QR Code" className="w-64 h-64 object-contain rounded-xl" />
+          <p className="text-slate-500 text-sm md:text-base mb-6 text-center">Scan the QR code below to make your payment directly</p>
+          
+          {/* QR Code with animated border */}
+          <div className="relative p-1.5 rounded-2xl bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 shadow-xl">
+            <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 blur-lg opacity-50"></div>
+            <div className="relative rounded-xl bg-white p-5">
+              <img src={qrCode} alt="Payment QR Code" className="w-72 h-72 md:w-96 md:h-96 object-contain rounded-lg" />
+            </div>
           </div>
+          
+          <p className="mt-6 text-base md:text-lg text-slate-700 font-semibold">Use any UPI app to scan and pay</p>
         </div>
 
         <ContactUsLayout />
