@@ -103,10 +103,7 @@ const Registration = () => {
               <p className="text-blue-100 text-sm md:text-base mb-6">Join leading researchers and innovators at ICCISD 2026</p>
               
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a 
-                  href="https://forms.gle/kRYCi4p32xV8hhReA" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                <button 
                   className="group w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-blue-600 text-lg font-bold rounded-xl shadow-lg hover:bg-blue-50 hover:scale-105 transition-all duration-300"
                 >
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -116,7 +113,7 @@ const Registration = () => {
                   <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
-                </a>
+                </button>
                 
                 <a 
                   href="#qr-payment" 

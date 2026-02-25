@@ -66,12 +66,12 @@ const HeroSection = () => {
 
           {/* CTAs */}
           <div className="relative z-10 flex flex-col sm:flex-row gap-4 items-center justify-center mb-6">
-            <a href="https://forms.gle/kRYCi4p32xV8hhReA" target="_blank" rel="noopener noreferrer" className="group relative w-full sm:w-auto overflow-hidden rounded-full bg-slate-900 px-6 py-3 text-white shadow-xl transition-all hover:bg-slate-800 hover:scale-105 active:scale-95 duration-300">
+            <button className="group relative w-full sm:w-auto overflow-hidden rounded-full bg-slate-900 px-6 py-3 text-white shadow-xl transition-all hover:bg-slate-800 hover:scale-105 active:scale-95 duration-300">
               <div className="relative z-10 flex items-center justify-center gap-2 text-sm font-bold tracking-wide">
                 Register Now
                 <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
               </div>
-            </a>
+            </button>
 
             <a href="https://cmt3.research.microsoft.com/ICCISD2026" target="_blank" rel="noopener noreferrer" className="group relative w-full sm:w-auto overflow-hidden rounded-full bg-white border-2 border-slate-100 px-6 py-3 text-slate-900 shadow-sm transition-all hover:border-slate-300 hover:bg-slate-50 hover:scale-105 active:scale-95 duration-300">
               <span className="relative z-10 text-sm font-bold tracking-wide group-hover:text-blue-600 transition-colors">
