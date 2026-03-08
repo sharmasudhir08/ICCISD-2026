@@ -48,9 +48,9 @@ const CountDown = () => {
           <ul className='space-y-4 text-slate-600'>
             {[
               { label: "Paper Submission Deadline", date: <><span className="line-through text-slate-400 mr-2">January 30, 2026</span>February 10, 2026 (Closed)</>, color: "text-red-500" },
-              { label: "Notification of Acceptance", date: "March 8, 2026", color: "text-amber-600" },
-              { label: "Camera Ready Deadline", date: "March 29, 2026", color: "text-blue-600" },
+              { label: "Notification of Acceptance", date: "March 20, 2026", color: "text-amber-600" },
               { label: "Registration", date: "April 10, 2026", color: "text-green-600" },
+              { label: "Camera Ready Deadline", date: "April 17, 2026", color: "text-blue-600" },
               { label: "Conference Dates", date: "23rd – 24th July 2026", color: "text-purple-600" }
             ].map((item, index) => (
               <li key={index} className='flex items-center justify-between border-b border-slate-100 pb-2 last:border-0 last:pb-0'>

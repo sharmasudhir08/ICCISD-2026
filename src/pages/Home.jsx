@@ -210,14 +210,15 @@ const Home = () => {
               { img: network, title: 'Networking Excellence', desc: 'Connect with researchers, academics, and industry leaders from around the world in both physical and virtual formats' },
               { img: researchAssets, title: '7 Research Tracks', desc: 'AI for Sustainability, Communication, Renewable Energy, Robotics and Automation, Cyber security, Health Care, Infrastructure and Smart city' },
               { img: benefits, title: 'IEEE Member Benefits', desc: 'Special discounts for IEEE members, professional recognition, and continuing education credits for career advancement' },
-              { img: Exposure, title: 'Hybrid Experience', desc: 'Participate in-person at beautiful Sharda University campus or join virtually with live streaming and interactive sessions' }
+              { img: Exposure, title: 'Hybrid Experience', desc: 'Participate in-person at beautiful Sharda University campus or join virtually with live streaming and interactive sessions', note: 'Online presentation is allowed for limited number of participants based on distance from the venue', star: true }
             ].map((card, index) => (
               <div key={index} className="bg-slate-800 p-6 rounded-2xl hover:bg-slate-700 transition-colors duration-300 border border-slate-700">
                 <div className="flex items-center gap-4 mb-4">
                   <img src={card.img} alt={card.title} className="w-12 h-12 object-cover rounded-lg bg-white/10" />
-                  <h3 className="text-xl font-bold text-white">{card.title}</h3>
+                  <h3 className="text-xl font-bold text-white">{card.title}{card.star && <span className="text-yellow-400 ml-1">*</span>}</h3>
                 </div>
                 <p className="text-slate-400 text-sm leading-relaxed">{card.desc}</p>
+                {card.note && <p className="text-amber-400 text-xs mt-2 leading-relaxed italic">* {card.note}</p>}
               </div>
             ))}
           </div>
