@@ -381,9 +381,14 @@ const Authors = () => {
             <p className="text-slate-600 mb-4">
               At least one author of an accepted paper must register and present his / her paper in conference. Authors are invited to submit original papers of 5 - 6 pages in A4 size using the IEEE template.
             </p>
-            <a href="https://www.ieee.org/conferences/publishing/templates" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm">
-              Manuscript Templates for Conference Proceedings
-            </a>
+            <div className="flex flex-wrap gap-4">
+              <a href="https://www.ieee.org/conferences/publishing/templates" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm">
+                Manuscript Templates for Conference Proceedings
+              </a>
+              <a href="/ICCISD_Camera_Ready_Template.doc" download className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm">
+                📥 Camera-Ready Template
+              </a>
+            </div>
           </div>
 
           {/* Manuscript Preparation */}
@@ -407,6 +412,30 @@ const Authors = () => {
           {/* Checklist for Revised Paper Submission */}
           <ChecklistSection />
 
+          {/* Camera-Ready Paper and IEEE E-Copyright */}
+          <div>
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Camera-Ready Paper and IEEE E-Copyright</h2>
+            <p className="text-slate-600 mb-6">
+              Authors of accepted papers are required to prepare their camera-ready manuscript and complete the IEEE electronic copyright (eCopyright) process before the Camera Ready deadline.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <a
+                href="/Camera-Ready%20Paper%20and%20IEEE%20E-Copyright.docx"
+                download
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition-colors"
+              >
+                📥 Download Camera-Ready &amp; IEEE E-Copyright Guidelines
+              </a>
+              <a
+                href="/ICCISD_Camera_Ready_Template.doc"
+                download
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition-colors"
+              >
+                📥 Download Camera-Ready Template
+              </a>
+            </div>
+          </div>
+
           {/* IEEE PDF eXpress Section */}
           <div>
             <h2 className="text-2xl font-bold text-slate-900 mb-4">IEEE PDF eXpress – Step-by-Step Author Guide</h2>
@@ -422,6 +451,7 @@ const Authors = () => {
             <div className="flex flex-wrap gap-4 mb-8">
               <a href="https://www.ieee.org/conferences/publishing/pdfexpress" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition-colors">IEEE PDF eXpress Info</a>
               <a href="https://ieee-pdf-express.org/account/signup" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition-colors">Create Account</a>
+              <a href="/IEEE%20PDF%20EXPRESS%20DETAILS.pdf" download className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition-colors">📥 Download IEEE PDF eXpress Details</a>
             </div>
 
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
