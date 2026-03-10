@@ -68,7 +68,7 @@ const HeroSection = () => {
           <div className="relative z-10 flex flex-col sm:flex-row gap-4 items-center justify-center mb-6">
             <button className="group relative w-full sm:w-auto overflow-hidden rounded-full bg-slate-900 px-6 py-3 text-white shadow-xl transition-all hover:bg-slate-800 hover:scale-105 active:scale-95 duration-300">
               <div className="relative z-10 flex items-center justify-center gap-2 text-sm font-bold tracking-wide">
-                Register Now
+                Registration for Attendees
                 <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
               </div>
             </button>
