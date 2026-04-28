@@ -48,7 +48,7 @@ const HeroSection = () => {
                 (ICCISD-2026)
               </span>
               <span className="inline-block px-3 py-1 bg-slate-900 text-white text-[10px] font-bold uppercase tracking-widest rounded-full shadow-md shadow-slate-900/20">
-                IEEE Record # 69924
+                  IEEE Record # 69924X
               </span>
             </div>
           </div>
