@@ -345,7 +345,7 @@ export const members = [
   },
   {
     "name": "Prof. (Dr.) Anil Ahlawat",
-    "designation": "Director Academics, NIET Greater Noida, India",
+    "designation": "Director - IMS Engineering College, Ghaziabad, India",
     "committeeType": "National Advisory Committee"
   },
   {
@@ -385,7 +385,7 @@ export const members = [
   },
   {
     "name": "Prof. (Dr.) Jai Prakash Saini",
-    "designation": "VC- MMMUT, Gorakhpur, India",
+    "designation": "VC, University of Lucknow, India",
     "committeeType": "National Advisory Committee"
   },
   {
@@ -460,7 +460,7 @@ export const members = [
   },
   {
     "name": "Prof. (Dr.) Vikram Bali",
-    "designation": "Galgotias College of Engineering and Technology, Noida, India",
+    "designation": "Director, MAIT, Delhi, India",
     "committeeType": "National Advisory Committee"
   },
   {
@@ -470,7 +470,7 @@ export const members = [
   },
   {
     "name": "Prof. (Dr.) Vimal Shanmuganathan",
-    "designation": "kalaignar karunanidhi Institute of Technology Coimbatore, Tamil Nadu",
+    "designation": "Kalaignar Karunanidhi Institute of Technology Coimbatore, Tamil Nadu",
     "committeeType": "National Advisory Committee"
   },
   {
