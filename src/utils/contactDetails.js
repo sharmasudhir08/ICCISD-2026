@@ -39,6 +39,12 @@ export const contactDetails = [
     email: "Email: iccisd.conference@sharda.ac.in",
     Phone: null
   },
+  {
+    name: 'Dr. Deepthi P. S.',
+    designation: 'Co-Convener',
+    email: "Email: iccisd.conference@sharda.ac.in",
+    Phone: null
+  },
 
     {
         name: "Prof.(Dr.) Ajay Shriram Kushwaha",

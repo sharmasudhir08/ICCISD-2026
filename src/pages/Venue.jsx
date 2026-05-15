@@ -7,6 +7,9 @@ import rishikesh from '../assets/rishikesh.jpg';
 import haridwar from '../assets/haridwar.jpg';
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
 
+const shardaUniversityAddress = 'Sharda University, Knowledge Park III, Greater Noida, Uttar Pradesh 201310';
+const shardaUniversityMapUrl = `https://maps.google.com/maps?q=${encodeURIComponent(shardaUniversityAddress)}&z=16&hl=en&output=embed`;
+
 const Venue = () => {
   return (
     <div className='bg-slate-50 font-sans'>
@@ -38,16 +41,27 @@ const Venue = () => {
 
         {/* Map */}
         <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-4 mb-12">
-          <iframe
-            title='Sharda University Location'
-            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.7039053899697!2d77.48699927549792!3d28.474334491687706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceb77a23d6423%3A0x6e1e4e777fc3a70d!2sSharda%20University!5e0!3m2!1sen!2sin!4v1712345678901'
-            width='100%'
-            height='450'
-            className='rounded-xl'
-            style={{ border: 0 }}
-            allowFullScreen=''
-            loading='lazy'
-          ></iframe>
+          <div className="relative overflow-hidden rounded-xl bg-slate-200">
+            <iframe
+              title='Sharda University Location'
+              src={shardaUniversityMapUrl}
+              width='100%'
+              height='450'
+              className='block rounded-xl'
+              style={{ border: 0 }}
+              allowFullScreen=''
+              loading='lazy'
+              referrerPolicy='no-referrer-when-downgrade'
+            ></iframe>
+            <div
+              className="pointer-events-none absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-full"
+              aria-hidden="true"
+            >
+              <div className="relative h-12 w-12 -rotate-45 rounded-full rounded-bl-sm bg-red-600 shadow-[0_10px_25px_rgba(220,38,38,0.35)] ring-4 ring-white">
+                <span className="absolute left-1/2 top-1/2 h-3.5 w-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white"></span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Tourist Attractions Section */}

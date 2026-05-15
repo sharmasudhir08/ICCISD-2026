@@ -83,17 +83,22 @@ export const members = [
   {
     name: 'Prof.(Dr.) Ajay Shriram Kushwaha',
     designation: 'Professor- CSA, SSCSE, Sharda University',
-    committeeType: 'Co-Convener',
+    committeeType: 'Co-Convener & Publication Chairs',
   },
   {
     name: 'Dr. Sreejith S',
     designation: 'Associate Professor- CSA, SSCSE, Sharda University',
-    committeeType: 'Co-Convener',
+    committeeType: 'Co-Convener & Publication Chairs',
   },
   {
     name: 'Dr. Ravi Prakash Chaturvedi',
     designation: 'Assistant Professor- CSA, SSCSE, Sharda University',
-    committeeType: 'Co-Convener',
+    committeeType: 'Co-Convener & Publication Chairs',
+  },
+  {
+    name: 'Dr. Deepthi P. S.',
+    designation: 'Associate Professor- CSA, SSCSE, Sharda University',
+    committeeType: 'Co-Convener & Publication Chairs',
   },
 
   {
@@ -761,14 +766,6 @@ export const members = [
     committeeType: 'National Advisory Board Committee',
 },
 */
-
-  {
-    name: 'Prof.(Dr.) Ajay Shriram Kushwaha',
-    designation: 'Professor- CSA, SSCSE, Sharda University',
-    committeeType: 'Publication Chair',
-  },
-
-
   {
     name: 'Track 1: Dr. Ravi Prakash Chaturvedi',
     designation: 'Assistant Professor- CSA, SSCSE',
