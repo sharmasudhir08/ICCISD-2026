@@ -78,7 +78,7 @@ export const members = [
   {
     name: 'Prof. (Dr.) Sudhir Kumar Sharma',
     designation: 'Professor- CSA, SSCSE, Sharda University, Greater Noida, India',
-    committeeType: 'Convener',
+    committeeType: 'Convener & TPC Chair',
   },
   {
     name: 'Prof.(Dr.) Ajay Shriram Kushwaha',

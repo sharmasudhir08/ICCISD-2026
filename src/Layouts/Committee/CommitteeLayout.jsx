@@ -10,7 +10,7 @@ const CommitteeLayout = () => {
     'General Chair',
     'Conference Chair',
     'Organizing Chair',
-    'Convener',
+    'Convener & TPC Chair',
     'Internal Advisory Committee',
     'International Advisory Committee',
     'Co-Convener & Publication Chairs',
