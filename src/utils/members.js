@@ -568,6 +568,61 @@ export const members = [
     "designation": "NIT Manipur",
     "committeeType": "National Advisory Committee"
   },
+  {
+    "name": "Prof. (Dr.) Abhay Bansal",
+    "designation": "Dean, School of Computer Science Engineering and Technology, Bennett University, Greater Noida, India",
+    "committeeType": "National Advisory Committee"
+  },
+  {
+    "name": "Prof. (Dr.) Deepak Kumar Singh",
+    "designation": "HoD - IT, GNIOT Group of Institutions, Greater Noida, India",
+    "committeeType": "National Advisory Committee"
+  },
+  {
+    "name": "Dr. Kanta Prasad Sharma",
+    "designation": "Professor, Amity School of Engineering & Technology, Amity University Greater Noida, India",
+    "committeeType": "National Advisory Committee"
+  },
+  {
+    "name": "Prof. M. N. Hoda",
+    "designation": "Director, BVICAM, Chair, IEEE Delhi Section",
+    "committeeType": "National Advisory Committee"
+  },
+  {
+    "name": "Prof. (Dr.) Munish Sabharwal",
+    "designation": "Chief Operating Officer & Professor (CSE), IILM University, Greater Noida, India",
+    "committeeType": "National Advisory Committee"
+  },
+  {
+    "name": "Prof. (Dr.) Prabhat Kumar Vishwakarma",
+    "designation": "Dean Student Welfare, IIMT College of Engineering, Greater Noida, India",
+    "committeeType": "National Advisory Committee"
+  },
+  {
+    "name": "Prof. (Dr.) Rajeev Tiwari",
+    "designation": "Dean, School of Artificial Intelligence, Bennett University, Greater Noida, India",
+    "committeeType": "National Advisory Committee"
+  },
+  {
+    "name": "Dr. Sanjay Kumar",
+    "designation": "Birla Institute of Technology, Mesra, Ranchi, India",
+    "committeeType": "National Advisory Committee"
+  },
+  {
+    "name": "Prof. (Dr.) Sanjeev Kumar Pippal",
+    "designation": "Professor, GL Bajaj Institute of Technology & Management, Greater Noida, India",
+    "committeeType": "National Advisory Committee"
+  },
+  {
+    "name": "Prof. (Dr.) Thipendra P. Singh",
+    "designation": "Pro Vice Chancellor, Chandigarh University, Uttar Pradesh, India",
+    "committeeType": "National Advisory Committee"
+  },
+  {
+    "name": "Prof. (Dr.) Vishnu Sharma",
+    "designation": "Dept. of CSE, I.T.S Engineering College, Greater Noida, India",
+    "committeeType": "National Advisory Committee"
+  },
 
   /*
 {
