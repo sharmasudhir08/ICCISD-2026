@@ -10,6 +10,7 @@ import {
   MapPin,
 } from 'lucide-react';
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
+import DetailedSchedule from '../Components/DetailedSchedule';
 
 const scheduleDays = [
   {
@@ -68,19 +69,35 @@ const Schedule = () => {
         <div className="absolute inset-y-0 left-[7%] hidden w-px bg-white/10 lg:block" />
         <div className="absolute inset-y-0 right-[7%] hidden w-px bg-white/10 lg:block" />
 
-        <div className="relative mx-auto grid max-w-7xl gap-12 px-4 pb-16 pt-32 sm:px-6 md:pb-20 lg:grid-cols-[1.45fr_1fr] lg:items-end lg:px-8">
-          <div>
-            <p className="mb-5 flex items-center gap-3 text-sm font-semibold uppercase text-cyan-300">
-              <span className="h-px w-9 bg-cyan-300" />
-              ICCISD 2026 programme
-            </p>
-            <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] sm:text-5xl md:text-6xl">
-              Presentation schedule
-            </h1>
-            <p className="mt-6 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-              Find your paper, session chair, presentation time and room for both conference days at Sharda University.
-            </p>
-          </div>
+      <div className="relative mx-auto grid max-w-7xl gap-12 px-4 pb-16 pt-32 sm:px-6 md:pb-20 lg:grid-cols-[1.45fr_1fr] lg:items-end lg:px-8">
+        <div>
+          <p className="mb-5 flex items-center gap-3 text-sm font-semibold uppercase text-cyan-300">
+            <span className="h-px w-9 bg-cyan-300" />
+            ICCISD 2026 schedule
+          </p>
+          <h1 className="max-w-4xl text-4xl font-bold leading-[1.08] sm:text-5xl">
+            Conference programme &amp; presentation schedules
+          </h1>
+          <p className="mt-6 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
+            View the full two-day conference programme or go directly to the paper presentation schedules.
+          </p>
+          <nav className="mt-8 flex flex-wrap gap-3" aria-label="Schedule sections">
+            <a
+              href="#conference-programme"
+              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-white px-5 py-3 text-sm font-semibold text-[#071820] transition duration-200 hover:-translate-y-0.5 hover:bg-cyan-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#071820] active:translate-y-0"
+            >
+              <CalendarDays className="h-4 w-4 text-[#0a7784]" aria-hidden="true" />
+              Conference programme
+            </a>
+            <a
+              href="#presentation-schedules"
+              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-white/30 px-5 py-3 text-sm font-semibold text-white transition duration-200 hover:-translate-y-0.5 hover:border-white/60 hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#071820] active:translate-y-0"
+            >
+              <ArrowDown className="h-4 w-4 text-cyan-300" aria-hidden="true" />
+              Presentation schedules
+            </a>
+          </nav>
+        </div>
 
           <dl className="grid grid-cols-3 border-y border-white/15">
             <div className="py-5 pr-3">
@@ -112,8 +129,9 @@ const Schedule = () => {
             <div className="flex items-center gap-4 py-5 md:px-8">
               <Clock3 className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
               <div>
-                <p className="text-xs font-medium text-slate-500">Presentation window</p>
-                <p className="mt-0.5 font-semibold">1:45 PM-4:15 PM</p>
+                <p className="text-xs font-medium text-slate-500">Presentation sessions</p>
+                <p className="mt-0.5 text-sm font-semibold">23 July: 1:45-4:15 PM</p>
+                <p className="mt-0.5 text-sm font-semibold">24 July: 10:30 AM-1:00 PM</p>
               </div>
             </div>
             <div className="flex items-center gap-4 py-5 md:pl-8">
@@ -126,7 +144,12 @@ const Schedule = () => {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-4 pb-12 pt-16 sm:px-6 md:pb-16 md:pt-20 lg:px-8">
+        <DetailedSchedule />
+
+      <section
+        id="presentation-schedules"
+        className="scroll-mt-24 mx-auto max-w-7xl border-t border-slate-200 px-4 pb-12 pt-16 sm:px-6 md:pb-16 md:pt-20 lg:px-8"
+      >
           <h2 className="mb-10 text-3xl font-bold leading-tight sm:text-4xl">
             Presentation schedules
           </h2>
