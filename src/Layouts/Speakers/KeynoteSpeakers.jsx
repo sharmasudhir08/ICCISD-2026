@@ -4,7 +4,7 @@ import { speakerRoster } from './speakerData';
 const KeynoteSpeakers = () => (
   <section id="invited-lineup" className="scroll-mt-20 bg-[#f3f6f5]" aria-labelledby="lineup-heading">
     <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 md:py-20 lg:px-8">
-      <header className="mb-10 grid gap-5 border-b border-slate-300 pb-8 lg:grid-cols-[1fr_auto] lg:items-end">
+      <header className="mb-10 grid gap-5 lg:grid-cols-[1fr_auto] lg:items-end">
         <div>
           <p className="flex items-center gap-3 text-sm font-semibold text-[#0a7784]">
             <Mic2 className="h-4 w-4" aria-hidden="true" />

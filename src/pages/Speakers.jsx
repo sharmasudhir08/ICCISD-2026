@@ -4,14 +4,9 @@ import KeynoteSpeakers from '../Layouts/Speakers/KeynoteSpeakers';
 const Speakers = () => (
   <div className="min-h-screen bg-[#f3f6f5] text-[#071820]">
     <section className="relative overflow-hidden bg-[#071820] text-white">
-      <div className="absolute inset-y-0 left-[7%] hidden w-px bg-white/10 lg:block" aria-hidden="true" />
-      <div className="absolute inset-y-0 right-[7%] hidden w-px bg-white/10 lg:block" aria-hidden="true" />
-      <div className="absolute left-[7%] right-[7%] top-40 hidden h-px bg-white/10 lg:block" aria-hidden="true" />
-
       <div className="relative mx-auto max-w-7xl px-4 pb-10 pt-28 sm:px-6 sm:pb-12 lg:px-8">
         <div className="animate-fadeSlideUp max-w-6xl">
-          <p className="flex items-center gap-3 text-sm font-semibold text-cyan-300">
-            <span className="h-px w-9 bg-cyan-300" aria-hidden="true" />
+          <p className="text-sm font-semibold text-cyan-300">
             ICCISD 2026 · Opening Ceremony
           </p>
           <h1 className="mt-4 text-3xl font-bold leading-[1.08] sm:text-4xl lg:text-5xl">
