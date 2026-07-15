@@ -1,0 +1,73 @@
+export const speakerRoster = [
+  {
+    order: '01',
+    name: 'Shri Ashok Gupta',
+    role: 'Chief Guest',
+    designation: 'Director, STPI & CEO, STPI Apiary',
+    affiliations: ['Gurugram, Haryana'],
+    image: '/images/keynote-speakers/portrait-uniform/ashok-gupta.png',
+  },
+  {
+    order: '02',
+    name: 'Prof. (Dr.) Sri Niwas Singh',
+    role: 'Guest of Honour',
+    designation: 'Director',
+    affiliations: [
+      'Atal Bihari Vajpayee Indian Institute of Information Technology and Management (ABV-IIITM), Gwalior, India',
+    ],
+    image: '/images/keynote-speakers/portrait-uniform/sri-niwas-singh.png',
+  },
+  {
+    order: '03',
+    name: 'Dr. Pankaj Kumar Rawat',
+    role: 'Guest of Honour / Keynote Speaker',
+    designation: 'Scientist E',
+    affiliations: ['ANRF'],
+    image: '/images/keynote-speakers/portrait-uniform/pankaj-kumar-rawat.png',
+  },
+  {
+    order: '04',
+    name: 'Dr. Pramod Kumar Prasad',
+    role: 'Guest of Honour / Keynote Speaker',
+    designation: 'Scientist E',
+    affiliations: ['ANRF'],
+    image: '/images/keynote-speakers/portrait-uniform/pramod-kumar-prasad.png',
+  },
+  {
+    order: '05',
+    name: 'Paulina Muszyńska',
+    role: 'Keynote Speaker',
+    designation: 'Head of Development Projects Department',
+    affiliations: [
+      'Wrocław Agglomeration Development Agency, Poland',
+      'Head of Startup Wrocław | Chief Ecosystem Officer, Startup Ecosystem Strategist | Women in Tech Advocate',
+    ],
+    image: '/images/keynote-speakers/portrait-uniform/paulina-muszynska.png',
+  },
+  {
+    order: '06',
+    name: 'Shri Akash Takyar',
+    role: 'Keynote Speaker',
+    designation: 'Founder and CEO',
+    affiliations: ['LeewayHertz, USA'],
+    image: '/images/keynote-speakers/portrait-uniform/akash-takyar.png',
+  },
+  {
+    order: '07',
+    name: 'Dr. Ankit Agrawal',
+    role: 'Keynote Speaker',
+    designation: 'Research Professor, Department of ECE',
+    affiliations: ['Northwestern University, USA'],
+    image: '/images/keynote-speakers/portrait-uniform/ankit-agrawal.png',
+  },
+  {
+    order: '08',
+    name: 'Dr. Yash Chawla',
+    role: 'Keynote Speaker',
+    designation: 'Founder and Head of CRAFT',
+    affiliations: [
+      'Faculty of Management, Wroclaw University of Science and Technology, Poland',
+    ],
+    image: '/images/keynote-speakers/portrait-uniform/yash-chawla.png',
+  },
+];

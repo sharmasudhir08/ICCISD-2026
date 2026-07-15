@@ -66,13 +66,9 @@ const Schedule = () => {
   return (
     <div className="min-h-screen bg-[#f3f6f5] text-slate-950">
       <section className="relative overflow-hidden bg-[#071820] text-white">
-        <div className="absolute inset-y-0 left-[7%] hidden w-px bg-white/10 lg:block" />
-        <div className="absolute inset-y-0 right-[7%] hidden w-px bg-white/10 lg:block" />
-
       <div className="relative mx-auto grid max-w-7xl gap-12 px-4 pb-16 pt-32 sm:px-6 md:pb-20 lg:grid-cols-[1.45fr_1fr] lg:items-end lg:px-8">
         <div>
           <p className="mb-5 flex items-center gap-3 text-sm font-semibold uppercase text-cyan-300">
-            <span className="h-px w-9 bg-cyan-300" />
             ICCISD 2026 schedule
           </p>
           <h1 className="max-w-4xl text-4xl font-bold leading-[1.08] sm:text-5xl">

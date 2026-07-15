@@ -1,60 +1,66 @@
-import React from 'react'
+import { ArrowDown, CalendarDays, Clock3, MapPin } from 'lucide-react';
+import KeynoteSpeakers from '../Layouts/Speakers/KeynoteSpeakers';
 
-const Speakers = () => {
-  return (
-    <div className='bg-slate-50 font-sans min-h-screen'>
+const Speakers = () => (
+  <div className="min-h-screen bg-[#f3f6f5] text-[#071820]">
+    <section className="relative overflow-hidden bg-[#071820] text-white">
+      <div className="absolute inset-y-0 left-[7%] hidden w-px bg-white/10 lg:block" aria-hidden="true" />
+      <div className="absolute inset-y-0 right-[7%] hidden w-px bg-white/10 lg:block" aria-hidden="true" />
+      <div className="absolute left-[7%] right-[7%] top-40 hidden h-px bg-white/10 lg:block" aria-hidden="true" />
 
-      {/* Header Banner */}
-      <section className="relative w-full bg-slate-900 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900 to-indigo-900 opacity-90"></div>
-        <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] mix-blend-overlay"></div>
-        <div className="relative max-w-7xl mx-auto px-4 pt-32 pb-16 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight">
-            Speakers
+      <div className="relative mx-auto max-w-7xl px-4 pb-10 pt-28 sm:px-6 sm:pb-12 lg:px-8">
+        <div className="animate-fadeSlideUp max-w-6xl">
+          <p className="flex items-center gap-3 text-sm font-semibold text-cyan-300">
+            <span className="h-px w-9 bg-cyan-300" aria-hidden="true" />
+            ICCISD 2026 · Opening Ceremony
+          </p>
+          <h1 className="mt-4 text-3xl font-bold leading-[1.08] sm:text-4xl lg:text-5xl">
+            Dignitaries &amp; Keynote Speakers
           </h1>
-          <p className="mt-4 text-xl text-blue-200">Hear from global experts and visionaries.</p>
+          <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-300 sm:text-base">
+            International Conference on Computational Intelligence Systems and Devices (ICCISD-2026)
+          </p>
+          <a
+            href="#invited-lineup"
+            className="mt-5 inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-white/30 px-5 py-3 text-sm font-semibold text-white transition duration-200 hover:-translate-y-0.5 hover:border-white/60 hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#071820] active:translate-y-0"
+          >
+            View invited lineup
+            <ArrowDown className="h-4 w-4 text-cyan-300" aria-hidden="true" />
+          </a>
         </div>
-      </section>
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
-
-        {/* Placeholder for Keynote Speakers */}
-        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8">
-          <h2 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
-            <span className="w-1.5 h-8 bg-blue-600 rounded-full"></span>
-            Keynote Speakers
-          </h2>
-          <div className="flex flex-col items-center justify-center py-12 text-center rounded-xl bg-slate-50 border border-dashed border-slate-200">
-            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-              <span className="text-2xl">🎙️</span>
-            </div>
-            <h3 className="text-lg font-semibold text-slate-700">Coming Soon</h3>
-            <p className="text-slate-500 max-w-sm mt-2">
-              We are finalizing our lineup of distinguished keynote speakers. Check back soon for updates.
-            </p>
-          </div>
-        </div>
-
-        {/* Placeholder for Tutorial Speakers */}
-        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8">
-          <h2 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
-            <span className="w-1.5 h-8 bg-purple-600 rounded-full"></span>
-            Tutorial Speakers
-          </h2>
-          <div className="flex flex-col items-center justify-center py-12 text-center rounded-xl bg-slate-50 border border-dashed border-slate-200">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
-              <span className="text-2xl">📚</span>
-            </div>
-            <h3 className="text-lg font-semibold text-slate-700">Coming Soon</h3>
-            <p className="text-slate-500 max-w-sm mt-2">
-              Detailed tutorial sessions and speaker profiles will be announced shortly.
-            </p>
-          </div>
-        </div>
-
       </div>
-    </div>
-  )
-}
+    </section>
 
-export default Speakers
+    <section className="border-b border-slate-200 bg-white" aria-label="Opening ceremony details">
+      <div className="mx-auto grid max-w-7xl divide-y divide-slate-200 px-4 sm:px-6 md:grid-cols-[0.8fr_0.7fr_1.5fr] md:divide-x md:divide-y-0 lg:px-8">
+        <div className="flex items-center gap-4 py-5 md:pr-8">
+          <CalendarDays className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
+          <div>
+            <p className="text-xs font-medium text-slate-500">Date</p>
+            <p className="mt-0.5 font-semibold">23rd July 2026</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-4 py-5 md:px-8">
+          <Clock3 className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
+          <div>
+            <p className="text-xs font-medium text-slate-500">Time</p>
+            <p className="mt-0.5 font-semibold">9:00 AM</p>
+          </div>
+        </div>
+        <div className="flex items-start gap-4 py-5 md:pl-8">
+          <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-[#d34a44]" aria-hidden="true" />
+          <div>
+            <p className="text-xs font-medium text-slate-500">Venue</p>
+            <p className="mt-0.5 text-sm font-semibold leading-6">
+              Anand Swaroop Auditorium, Block 45, Sharda University, Greater Noida
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <KeynoteSpeakers />
+  </div>
+);
+
+export default Speakers;
