@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
-import { Award, BookOpenText, X } from 'lucide-react';
+import { Award, BookOpenText, Cpu, GraduationCap, X } from 'lucide-react';
 
 const focusableSelector = [
   'a[href]',
@@ -111,11 +111,70 @@ const SpeakerBioDialog = ({ speaker, onClose }) => {
             ))}
           </div>
 
+          {speaker.education?.length > 0 && (
+            <section className="mt-8" aria-labelledby="speaker-education-title">
+              <p
+                id="speaker-education-title"
+                className="flex items-center gap-2 text-sm font-semibold text-[#0a7784]"
+              >
+                <GraduationCap className="h-4 w-4 shrink-0" aria-hidden="true" />
+                Education
+              </p>
+              <dl className="mt-4 space-y-3">
+                {speaker.education.map((item) => (
+                  <div key={`${item.year}-${item.qualification}`} className="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-3">
+                    <dt className="text-sm font-bold leading-6 text-[#071820]">{item.year}</dt>
+                    <dd className="text-sm leading-6 text-slate-700">{item.qualification}</dd>
+                  </div>
+                ))}
+              </dl>
+            </section>
+          )}
+
           <div id="speaker-bio-copy" className="mt-7 space-y-5 text-[0.95rem] leading-7 text-slate-700 sm:mt-8 sm:text-base sm:leading-8">
             {speaker.bio.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
           </div>
+
+          {speaker.highlights && (
+            <section className="mt-10" aria-labelledby="speaker-highlights-title">
+              <p
+                id="speaker-highlights-title"
+                className="flex items-center gap-2 text-sm font-semibold text-[#0a7784]"
+              >
+                <Cpu className="h-4 w-4 shrink-0" aria-hidden="true" />
+                {speaker.highlights.title}
+              </p>
+              {speaker.highlights.intro && (
+                <p className="mt-4 text-[0.95rem] leading-7 text-slate-700 sm:text-base sm:leading-8">
+                  {speaker.highlights.intro}
+                </p>
+              )}
+              <ul className="mt-5 space-y-5">
+                {speaker.highlights.items.map((item) => (
+                  <li
+                    key={item.title}
+                    className="grid grid-cols-[auto_minmax(0,1fr)] gap-3 text-sm leading-6 text-slate-700"
+                  >
+                    <span className="mt-2.5 h-1.5 w-1.5 rounded-full bg-[#d34a44]" aria-hidden="true" />
+                    <div>
+                      <p className="font-semibold text-slate-900">{item.title}</p>
+                      <p className="mt-1">{item.description}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {speaker.bioClosing?.length > 0 && (
+            <div className="mt-8 space-y-5 text-[0.95rem] leading-7 text-slate-700 sm:text-base sm:leading-8">
+              {speaker.bioClosing.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </div>
+          )}
 
           {speaker.achievements?.length > 0 && (
             <section className="mt-10" aria-labelledby="speaker-achievements-title">

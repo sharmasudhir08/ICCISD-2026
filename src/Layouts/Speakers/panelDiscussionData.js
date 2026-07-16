@@ -11,6 +11,10 @@ export const panelDiscussion = {
     ],
     image: '/images/keynote-speakers/portrait-uniform/yash-chawla.png',
     imageClassName: 'object-contain object-bottom',
+    bio: [
+      'Dr. Yash Chawla is the Founder of CRAFT (Collaboratory for Responsible and Future Technologies) and Deputy Head of the Department of Computational Social Science at the Faculty of Management, Wrocław University of Science and Technology. His research, teaching, and consulting focus on the societal impact of DeepTech, responsible innovation, and sustainability.',
+      'He has received prestigious recognitions including the Scholarship of the Polish Minister of Science and Higher Education for Outstanding Young Scientists and the Interstudent 2021 award. He leads international projects on the circular economy, including the MoSAic project, and contributes to European research and consulting initiatives. He actively promotes interdisciplinary collaboration and responsible technology adoption.',
+    ],
   },
   panelists: [
     {
@@ -23,6 +27,11 @@ export const panelDiscussion = {
       ],
       image: '/images/panel-discussion/yogesh-sharma-user-transparent.png',
       imageClassName: 'object-contain object-bottom',
+      bio: [
+        'Mr. Yogesh Sharma is a globally recognized technology entrepreneur, AI strategist, and author with three decades of experience. His career ranges from applying AI and supercomputing to numerical weather forecasting at C-DAC headquarters to leading AI-driven digital transformation for Fortune 500 companies across North America, Europe, and Asia.',
+        'As Co-Founder and Chairperson of Mamsys World, he has delivered over $1 billion in business value to global clients. His recent book, The Slim Elephant, introduces original frameworks including the AI Adoption Index, Knowledge Quotient Framework, and McSomb Model to guide organizations and individuals through AI transformation.',
+        'Mr. Sharma serves as a Board Member of TiE Germany and TiE Amsterdam, is an Advisory Board member of PAN IIT Europe, and chairs the WHEELS Global Foundation Europe Chapter. He combines deep technical expertise, entrepreneurial leadership, and global thought leadership across his roles.',
+      ],
     },
     {
       name: 'Mr. Vikram Singh',
@@ -35,6 +44,10 @@ export const panelDiscussion = {
       image: '/images/panel-discussion/vikram-singh-transparent.png',
       imageClassName: 'object-contain object-bottom',
       imageZoomClassName: 'scale-[1.16] group-hover:scale-[1.185]',
+      bio: [
+        'Vikram Singh is a project management professional, researcher, and Senior Member of IEEE specializing in fintech, RegTech, and AI governance. He holds an MBA and completed the Executive Programme in Advanced Project Management (EPAPM) at IIT Delhi.',
+        'Representing Tata Consultancy Services (TCS), he currently leads compliance and AI governance initiatives on-site for Nationwide. He has supported enterprise delivery at major financial institutions including PNC, aligning technical execution with regulatory frameworks. His peer-reviewed research has been featured in the LSE Business Review, IEEE Xplore, and IEEE IT Professional.',
+      ],
     },
     {
       name: 'Mr. Sarvesh Kumar Gupta',
@@ -43,6 +56,10 @@ export const panelDiscussion = {
       affiliations: ['Oracle'],
       image: '/images/panel-discussion/sarvesh-kumar-gupta-transparent.png',
       imageClassName: 'object-contain object-bottom',
+      bio: [
+        'Mr. Sarvesh Kumar Gupta is a Senior Principal Engineer (CMT5) at Oracle specializing in Globally Distributed Databases (GDD), Exascale architectures, and high-performance data platforms. He architects mission-critical distributed systems for banking, healthcare diagnostics, energy analytics, fraud detection, and airline travel platforms.',
+        'His expertise includes distributed and sharded databases, Spark, Hadoop, Hive, Pig, Scala, Snowflake, Informatica, Oracle PL/SQL, cloud-native analytics, AI-driven fraud detection, metadata-driven sharding, data warehousing, data integration, and data modeling. He is a Cloudera Certified Spark and Hadoop Specialist.',
+      ],
     },
     {
       name: 'Dr. Ishu Anand Jaiswal',
@@ -51,6 +68,10 @@ export const panelDiscussion = {
       affiliations: ['Author', 'Senior IEEE Member'],
       image: '/images/panel-discussion/ishu-anand-jaiswal-transparent.png',
       imageClassName: 'object-contain object-bottom',
+      bio: [
+        'Dr. Ishu Anand Jaiswal is an engineering leader with over 18 years of experience building mission-critical enterprise platforms and complex identity systems while championing AI-driven engineering leadership. He has successfully scaled engineering organizations from two to more than 30 engineers at Apple and Intuit. His expertise spans platform architecture, distributed systems, productivity engineering, agentic AI development, identity resolution, and high-availability architectures serving hundreds of millions of users.',
+        'He is the author of two books on enterprise architecture and AI leadership and holds a 2025 patent in CDN caching optimization. Passionate about innovation and mentoring, he focuses on engineering excellence, operational efficiency, and delivering reliable, high-performance systems at scale.',
+      ],
     },
     {
       name: 'Mr. Ankur Khare',
@@ -59,6 +80,10 @@ export const panelDiscussion = {
       affiliations: ['SAP'],
       image: '/images/panel-discussion/ankur-khare-transparent.png',
       imageClassName: 'object-contain object-bottom',
+      bio: [
+        'Ankur Khare is an AI Innovation Advisor in Customer Innovation Services at SAP, specializing in Enterprise AI Operationalization, AI Adoption Engineering, Digital Transformation Strategy, and Go-To-Market (GTM) Strategy. He helps enterprises transform AI innovation into measurable business outcomes by aligning technology, people, and processes.',
+        'His expertise includes translating business priorities into scalable AI architectures, clean-core-aligned extension strategies, responsible AI adoption, governance, organizational readiness, and value realization. Throughout his career, he has led digital transformation initiatives, enterprise adoption frameworks, and organizational change management, contributing to business growth across complex enterprise environments. Recognized for industry awards and thought leadership, he is passionate about enabling sustainable AI capabilities that drive long-term innovation and business transformation.',
+      ],
     },
     {
       name: 'Mr. Ashutosh Chandra Jha',
@@ -67,6 +92,10 @@ export const panelDiscussion = {
       affiliations: ['New York University, USA'],
       image: '/images/panel-discussion/ashutosh-chandra-jha-transparent.png',
       imageClassName: 'object-contain object-bottom',
+      bio: [
+        'Ashutosh Chandra Jha is a Network Security Engineer affiliated with New York University. He holds an MBA and specializes in enterprise networking, network security, routing and switching, network automation, and cybersecurity.',
+        'His expertise includes Python scripting, Ansible automation, Linux IPTables, BGP, OSPF, Cisco Nexus switches, Cisco UCS, Cisco Firewalls, VPN technologies, storage networking, Oracle SQL databases, Wireshark, GNS3, and enterprise ticketing tools. He has extensive experience designing, securing, and managing large-scale network infrastructures and is proficient in implementing secure, scalable, and high-availability networking solutions.',
+      ],
     },
     {
       name: 'Mr. Prakhar Mittal',
@@ -75,6 +104,10 @@ export const panelDiscussion = {
       affiliations: ['Product Management Leader', 'IIM Ahmedabad Alumnus'],
       image: '/images/panel-discussion/prakhar-mittal-transparent.png',
       imageClassName: 'object-contain object-bottom',
+      bio: [
+        'Prakhar Mittal is a seasoned Digital Transformation Leader with expertise in enterprise digital transformation, product management, and technology strategy. Currently associated with AtriCure, he focuses on driving innovation, optimizing business processes, and delivering customer-centric digital solutions.',
+        'An alumnus of the Indian Institute of Management Ahmedabad (IIMA), he combines business strategy with technology leadership to enable sustainable organizational growth. His expertise includes digital transformation, product lifecycle management, innovation, stakeholder engagement, and enterprise technology leadership.',
+      ],
     },
     {
       name: 'Justin Rajakumar Maria Thason',

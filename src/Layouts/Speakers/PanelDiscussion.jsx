@@ -1,12 +1,15 @@
+import { useCallback, useState } from 'react';
 import {
+  BookOpenText,
   CalendarDays,
   Clock3,
   MessageSquareText,
   UsersRound,
 } from 'lucide-react';
+import SpeakerBioDialog from './SpeakerBioDialog';
 import { panelDiscussion } from './panelDiscussionData';
 
-const PanelistCard = ({ panelist, index }) => (
+const PanelistCard = ({ panelist, index, onOpenBio }) => (
   <article className="group flex h-full flex-col overflow-hidden rounded-lg border border-slate-300 bg-white shadow-[0_12px_30px_rgba(15,35,42,0.06)] transition duration-300 hover:-translate-y-1 hover:border-slate-400 hover:shadow-[0_18px_38px_rgba(15,35,42,0.11)]">
     <figure
       className={`relative aspect-[4/3] overflow-hidden ${
@@ -34,11 +37,28 @@ const PanelistCard = ({ panelist, index }) => (
           <p key={affiliation}>{affiliation}</p>
         ))}
       </div>
+
+      {panelist.bio && (
+        <div className="mt-auto pt-6">
+          <button
+            type="button"
+            onClick={() => onOpenBio(panelist)}
+            aria-haspopup="dialog"
+            aria-controls="speaker-bio-dialog"
+            className="inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-[#0a7784]/35 px-4 py-2 text-sm font-semibold text-[#0a6670] transition hover:border-[#0a7784] hover:bg-[#e8f3f2] hover:text-[#074f57] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0a7784] focus-visible:ring-offset-2"
+          >
+            <BookOpenText className="h-4 w-4" aria-hidden="true" />
+            Bio
+          </button>
+        </div>
+      )}
     </div>
   </article>
 );
 
 const PanelDiscussion = () => {
+  const [activeBio, setActiveBio] = useState(null);
+  const closeBio = useCallback(() => setActiveBio(null), []);
   const { moderator } = panelDiscussion;
   const participants = [moderator, ...panelDiscussion.panelists];
 
@@ -88,11 +108,18 @@ const PanelDiscussion = () => {
 
           <div className="mt-6 grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4">
             {participants.map((participant, index) => (
-              <PanelistCard key={participant.name} panelist={participant} index={index} />
+              <PanelistCard
+                key={participant.name}
+                panelist={participant}
+                index={index}
+                onOpenBio={setActiveBio}
+              />
             ))}
           </div>
         </div>
       </div>
+
+      {activeBio && <SpeakerBioDialog speaker={activeBio} onClose={closeBio} />}
     </section>
   );
 };

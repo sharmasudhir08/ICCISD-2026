@@ -6,6 +6,31 @@ export const speakerRoster = [
     designation: 'Director, STPI & CEO, STPI Apiary',
     affiliations: ['Gurugram, Haryana'],
     image: '/images/keynote-speakers/portrait-uniform/ashok-gupta-user-transparent.png',
+    bio: [
+      'Shri Ashok Gupta is an accomplished technology leader with nearly three decades of pioneering contributions to India’s telecommunications and deep-tech ecosystem. Appointed as Director of Software Technology Parks of India (STPI) and CEO of the Centre of Excellence in Blockchain, he spearheads efforts to advance the growth of the IT and ITeS sector, foster innovation, and strengthen the startup ecosystem.',
+      'Prior to his current role, Shri Gupta dedicated 27 years to the Centre for Development of Telematics (C-DOT) as Group Head of the Optical Core Network. A core architect of India’s national broadband blueprint, he contributed to the development of indigenous Gigabit Passive Optical Network (GPON) technology and its foundational hardware, with a mandate to connect more than 250,000 Gram Panchayats nationwide under the flagship BharatNet mission.',
+    ],
+    highlights: {
+      title: 'Technology milestones',
+      intro: 'Under his direct leadership, his research and development group achieved major milestones in terabit-scale core transport infrastructure:',
+      items: [
+        {
+          title: '96-Channel PQC-Compliant DWDM System',
+          description: 'He led the engineering of a ruggedized Dense Wavelength Division Multiplexing platform supporting 80/96 wavelengths across 10G, 100G, and 200G line interfaces. The system integrates Post-Quantum Cryptography compliance to safeguard long-haul metro transport backbones against advanced algorithmic decryption threats.',
+        },
+        {
+          title: '12-Tera OTN Optical Transport Network',
+          description: 'He oversaw the architecture of C-DOT’s high-capacity OTN Cross-Connect systems, packing up to 12 terabits of sub-wavelength switching and intelligent GMPLS control-plane grooming into standard rack configurations.',
+        },
+        {
+          title: 'SDN-Defined CDC-F ROADM',
+          description: 'His group engineered Software-Defined Networking controlled Colorless, Directionless, Contentionless, Flex-grid ROADMs. These programmable network elements can remotely route, block, add, or drop specific wavelengths entirely in the optical domain, reducing the latency and cost of optical-electrical-optical conversions while allowing identical wavelengths to coexist across dynamic mesh routes without signal collisions.',
+        },
+      ],
+    },
+    bioClosing: [
+      'His technical contributions are backed by international and domestic patents. Today, he leverages this extensive deep-tech portfolio to accelerate innovation and foster self-reliant electronics manufacturing across India.',
+    ],
   },
   {
     order: '02',

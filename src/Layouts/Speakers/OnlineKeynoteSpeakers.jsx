@@ -1,8 +1,14 @@
-import { CalendarClock, Clock3, Link2, MonitorPlay } from 'lucide-react';
+import { useCallback, useState } from 'react';
+import { BookOpenText, CalendarClock, Clock3, Link2, MonitorPlay } from 'lucide-react';
+import SpeakerBioDialog from './SpeakerBioDialog';
 import { onlineKeynoteSpeakers } from './onlineKeynoteData';
 
-const OnlineKeynoteSpeakers = () => (
-  <section id="online-keynotes" className="scroll-mt-20 bg-white" aria-labelledby="online-keynote-heading">
+const OnlineKeynoteSpeakers = () => {
+  const [activeBio, setActiveBio] = useState(null);
+  const closeBio = useCallback(() => setActiveBio(null), []);
+
+  return (
+    <section id="online-keynotes" className="scroll-mt-20 bg-white" aria-labelledby="online-keynote-heading">
     <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 md:py-20 lg:px-8">
       <header className="max-w-4xl">
         <p className="flex items-center gap-3 text-sm font-semibold text-[#0a7784]">
@@ -70,12 +76,30 @@ const OnlineKeynoteSpeakers = () => (
                   ))}
                 </div>
               )}
+
+              {speaker.bio && (
+                <div className="mt-auto pt-6">
+                  <button
+                    type="button"
+                    onClick={() => setActiveBio(speaker)}
+                    aria-haspopup="dialog"
+                    aria-controls="speaker-bio-dialog"
+                    className="inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-[#0a7784]/35 px-4 py-2 text-sm font-semibold text-[#0a6670] transition hover:border-[#0a7784] hover:bg-[#e8f3f2] hover:text-[#074f57] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0a7784] focus-visible:ring-offset-2"
+                  >
+                    <BookOpenText className="h-4 w-4" aria-hidden="true" />
+                    Bio
+                  </button>
+                </div>
+              )}
             </div>
           </article>
         ))}
       </div>
     </div>
-  </section>
-);
+
+      {activeBio && <SpeakerBioDialog speaker={activeBio} onClose={closeBio} />}
+    </section>
+  );
+};
 
 export default OnlineKeynoteSpeakers;
