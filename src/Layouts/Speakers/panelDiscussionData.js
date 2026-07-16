@@ -27,13 +27,14 @@ export const panelDiscussion = {
     {
       name: 'Mr. Vikram Singh',
       role: 'Distinguished Panelist',
-      designation: 'Delivery Coordinator',
+      designation: 'Delivery Leader',
       affiliations: [
         'Compliance & AI Governance Specialist',
         'Tata Consultancy Services (deployed at Nationwide)',
       ],
       image: '/images/panel-discussion/vikram-singh-transparent.png',
       imageClassName: 'object-contain object-bottom',
+      imageZoomClassName: 'scale-[1.16] group-hover:scale-[1.185]',
     },
     {
       name: 'Mr. Sarvesh Kumar Gupta',

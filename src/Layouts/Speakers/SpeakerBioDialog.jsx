@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
-import { BookOpenText, X } from 'lucide-react';
+import { Award, BookOpenText, X } from 'lucide-react';
 
 const focusableSelector = [
   'a[href]',
@@ -116,6 +116,29 @@ const SpeakerBioDialog = ({ speaker, onClose }) => {
               <p key={paragraph}>{paragraph}</p>
             ))}
           </div>
+
+          {speaker.achievements?.length > 0 && (
+            <section className="mt-10" aria-labelledby="speaker-achievements-title">
+              <p
+                id="speaker-achievements-title"
+                className="flex items-center gap-2 text-sm font-semibold text-[#0a7784]"
+              >
+                <Award className="h-4 w-4 shrink-0" aria-hidden="true" />
+                Achievements and honors
+              </p>
+              <ul className="mt-5 space-y-3">
+                {speaker.achievements.map((achievement) => (
+                  <li
+                    key={achievement}
+                    className="grid grid-cols-[auto_minmax(0,1fr)] gap-3 text-sm leading-6 text-slate-700"
+                  >
+                    <span className="mt-2.5 h-1.5 w-1.5 rounded-full bg-[#d34a44]" aria-hidden="true" />
+                    <span>{achievement}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
         </div>
       </article>
     </div>,

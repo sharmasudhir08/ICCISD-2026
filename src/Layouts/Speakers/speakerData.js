@@ -16,6 +16,30 @@ export const speakerRoster = [
       'Atal Bihari Vajpayee Indian Institute of Information Technology and Management (ABV-IIITM), Gwalior, India',
     ],
     image: '/images/keynote-speakers/portrait-uniform/sri-niwas-singh.png',
+    bio: [
+      'Prof. S. N. Singh is Director of the Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior, Madhya Pradesh, India. He earned his M.Tech. and Ph.D. in Electrical Engineering from the Indian Institute of Technology Kanpur in 1989 and 1995, respectively.',
+      'He began his professional career with the Uttar Pradesh State Electricity Board, serving as Assistant Engineer from 1988 to 1996. He then worked as Assistant Professor at the University of Roorkee, now IIT Roorkee, from 1996 to 2000, and at the Asian Institute of Technology, Bangkok, Thailand, from 2001 to 2002, before joining IIT Kanpur as Associate Professor. He served as Vice-Chancellor of Madan Mohan Malaviya University of Technology, Gorakhpur, from April 2017 to July 2020.',
+      'Prof. Singh served as Chairman of the IEEE Uttar Pradesh Section in 2013 and 2014, IEEE Region 10 Conference and Technical Seminar Coordinator from 2015 to 2018, and IEEE Region 10 Vice-Chair for Technical Activities from 2019 to 2020.',
+      'His research interests include power system restructuring, FACTS, power system optimization and control, security analysis, and wind power. He has published extensively in national journals and conference proceedings and has supervised 42 Ph.D. scholars, with nine more in progress. He has written 33 book chapters, edited 13 books, and authored two textbooks: Electrical Power Generation, Transmission and Distribution and Basic Electrical Engineering, published by PHI India. He has completed approximately three dozen technical projects in India and abroad. His two NPTEL video lecture series on HVDC Transmission and Power System Operation and Control are very popular.',
+    ],
+    achievements: [
+      'Fellow of IEEE (USA), INAE, IET (UK), IE(I), IETE, AvH, AAIA, and AIIA',
+      'C.B.I.P. Young Engineer Award (1996)',
+      'Khosla Research Award (Commendation), University of Roorkee (1998)',
+      'INAE Young Engineer Award (2000)',
+      'Khosla Research Award (Gold), University of Roorkee (2000)',
+      'Humboldt Research Fellowship, Germany (2005 and 2007)',
+      '21st Century Award for Achievement, IBC Cambridge, England (2007)',
+      'Otto Mønsteds Fond Award, Denmark (2009–2010)',
+      'Three Ph.D. theses received the POSOCO Power System Award (2012)',
+      'IEEE Educational Activities Board Meritorious Achievement Award, first Asian recipient (2013)',
+      'Emerald Literati Network Award for Excellence, Emerald Publications, UK (2015)',
+      'INAE Outstanding Teacher Award (2016)',
+      'IEEE Region 10 Outstanding Volunteer Award (2016)',
+      'IEEE Distinguished Lecturer, PES and IAS (2019–2021)',
+      'NPSC Academic Excellence Award (2020)',
+      'IEEE IAS Outstanding Educator/Mentor Award (2021)',
+    ],
   },
   {
     order: '03',
@@ -24,6 +48,11 @@ export const speakerRoster = [
     designation: 'Scientist E',
     affiliations: ['ANRF'],
     image: '/images/keynote-speakers/portrait-uniform/pankaj-kumar-rawat.png',
+    bio: [
+      'Dr. Pankaj Rawat is currently serving the Science and Engineering Research Board (SERB) as Scientist-D. He has more than five years of professional experience in scientific R&D management. In his current role, he is the program officer for Core Research Grant (CRG) in Civil, Mechanical, Materials Engineering and related areas, Uchhatar Avishkar Yojana (UAY), National Science Chair (NSC), and Accelerate Vigyan (AV).',
+      'Prior to his current role, he was a postdoctoral researcher at Yonsei University, Seoul, South Korea. He earned his M.Sc. in Physics from Kumaun University, Nainital, and his M.Tech. and Ph.D. in Materials Science and Engineering from the Indian Institute of Technology Kharagpur. He has published several research papers on thermoelectric materials in internationally reputed journals from ACS, RSC, IOP, Wiley, and Elsevier.',
+      'Dr. Rawat is a recipient of awards including the Brain Korea 21 Postdoctoral Fellowship, DST-INSPIRE Faculty Award, and Japan-Asia Youth Exchange Program in Science.',
+    ],
   },
   {
     order: '04',
@@ -32,6 +61,10 @@ export const speakerRoster = [
     designation: 'Scientist E',
     affiliations: ['ANRF'],
     image: '/images/keynote-speakers/portrait-uniform/pramod-kumar-prasad.png',
+    bio: [
+      'Dr. Pramod Kumar Prasad is working as Scientist-D at the Science and Engineering Research Board (SERB), a statutory body of the Department of Science and Technology, Government of India. He was awarded a Ph.D. in Biotechnology and Bioinformatics from North-Eastern Hill University (a Central University), Shillong, Meghalaya. He is presently working as Program Officer for the implementation of Young Scientist - Life Sciences (YSS, ECRA, SRG, and NPDF), SERB-STAR, SERB-DIA, SERB-TETRA, and PAC-Organismal and Evolutionary Biology - Animal Sciences. Prior to joining SERB, he was involved in implementing the Internship and Faculty Award components of the Innovation in Science Pursuit for Inspired Research (INSPIRE) program of DST.',
+      'His research covers the fields of Molecular Biology, Parasitology, and Bioinformatics. His Ph.D. work provided PCR-based diagnostic markers for species discrimination of zoonotic trematode parasites, supporting accurate diagnosis and the development of novel therapeutic and preventive strategies. He has filed a national patent for this work. It also resulted in 18 research papers in high-impact international and national journals and 42 DNA sequences in GenBank.',
+    ],
   },
   {
     order: '05',

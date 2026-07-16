@@ -17,7 +17,9 @@ const PanelistCard = ({ panelist, index }) => (
         src={panelist.image}
         alt={`Portrait of ${panelist.name}`}
         loading="lazy"
-        className={`absolute inset-0 h-full w-full transition-transform duration-500 ease-out group-hover:scale-[1.025] ${
+        className={`absolute inset-0 h-full w-full transition-transform duration-500 ease-out ${
+          panelist.imageZoomClassName || 'group-hover:scale-[1.025]'
+        } ${
           panelist.imageClassName || 'object-cover object-top'
         }`}
       />
