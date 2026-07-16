@@ -84,5 +84,10 @@ export const speakerRoster = [
       'Faculty of Management, Wroclaw University of Science and Technology, Poland',
     ],
     image: '/images/keynote-speakers/portrait-uniform/yash-chawla.png',
+    bio: [
+      'Dr. Yash Chawla is the Founder and Head of CRAFT, a collaboration-based laboratory and think tank at the Faculty of Management, Wroclaw University of Science and Technology. He also serves as the Deputy Head at the Department of Computational Social Science at Wrocław University of Science and Technology (WUST), Poland. He is also the Founder and CEO of SustematiQ, which builds societal impact and innovation solutions with people at the center.',
+      'He holds a Ph.D. with distinction in Management Sciences and has a multidisciplinary background with two Master’s and two Bachelor’s degrees, encompassing Engineering, Computer Applications, and Business Administration. It enables him to work effectively at the confluence of technology, business strategy, and societal impact.',
+      'With extensive academic and research experience, Dr. Chawla focuses on translating research insights into practical applications, particularly emphasizing sustainable development. He has extensive experience as a mentor at hackathons, including CASSINI Hackathons.',
+    ],
   },
 ];

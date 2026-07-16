@@ -1,5 +1,6 @@
 import { ArrowDown } from 'lucide-react';
 import KeynoteSpeakers from '../Layouts/Speakers/KeynoteSpeakers';
+import OnlineKeynoteSpeakers from '../Layouts/Speakers/OnlineKeynoteSpeakers';
 import PanelDiscussion from '../Layouts/Speakers/PanelDiscussion';
 
 const Speakers = () => (
@@ -29,6 +30,7 @@ const Speakers = () => (
 
     <KeynoteSpeakers />
     <PanelDiscussion />
+    <OnlineKeynoteSpeakers />
   </div>
 );
 
