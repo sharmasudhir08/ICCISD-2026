@@ -5,7 +5,7 @@ export const speakerRoster = [
     role: 'Chief Guest',
     designation: 'Director, STPI & CEO, STPI Apiary',
     affiliations: ['Gurugram, Haryana'],
-    image: '/images/keynote-speakers/portrait-uniform/ashok-gupta.png',
+    image: '/images/keynote-speakers/portrait-uniform/ashok-gupta-user-transparent.png',
   },
   {
     order: '02',
@@ -43,6 +43,11 @@ export const speakerRoster = [
       'Head of Startup Wrocław | Chief Ecosystem Officer, Startup Ecosystem Strategist | Women in Tech Advocate',
     ],
     image: '/images/keynote-speakers/portrait-uniform/paulina-muszynska.png',
+    bio: [
+      'Paulina Muszyńska is an experienced innovation and startup ecosystem leader focused on building environments where entrepreneurship, technology, and collaboration become practical drivers of regional growth. For more than 10 years, she has worked across project development, event management, public relations, and ecosystem-building, designing and leading national and international initiatives that connect business, technology, academia, public institutions, and startup communities.',
+      'As Head of the Development Projects Department at the Wrocław Agglomeration Development Agency and Head of Startup Wrocław, she plays a key role in strengthening the city’s innovation infrastructure. Her work focuses on connecting founders, investors, universities, local government, corporations, and technology partners in order to support entrepreneurship, accelerate business cooperation, and position Wrocław as one of Central Europe’s most dynamic startup and technology hubs.',
+      'Her mission is to build a fast-moving, open, and globally connected startup ecosystem while keeping people, trust, and community at the center of innovation. Since January 2026, she has also served as Chairwoman of the Foundation Council at Startup Poland, where she supports efforts to make startup creation and scaling in Poland more attractive, accessible, and economically viable.',
+    ],
   },
   {
     order: '06',
@@ -51,6 +56,11 @@ export const speakerRoster = [
     designation: 'Founder and CEO',
     affiliations: ['LeewayHertz, USA'],
     image: '/images/keynote-speakers/portrait-uniform/akash-takyar.png',
+    bio: [
+      'Akash Takyar is a serial technology entrepreneur, enterprise AI leader, investor, and technical architect with deep experience building scalable digital platforms for global organizations. He is the Founder and CEO of LeewayHertz, recently acquired by NASDAQ-listed The Hackett Group, where he now serves as Executive Vice President of the AI Implementation Group.',
+      'Over the past 15+ years, Akash has architected and delivered more than 100 enterprise platforms across AI, cloud, mobile, IoT, and automation, many of which are used by millions of people worldwide. His work has supported leading enterprises, including Fortune 500 companies such as Siemens, 3M, P&G, and the US Army.',
+      'Akash is a member of the Forbes Technology Council and serves on several advisory boards. He also founded the world’s first smart chai-making robot, later acquired by a leading tea manufacturer. A recipient of the Indira Gandhi Priyadarshini Award, Akash brings practical insight into building and scaling enterprise-grade GenAI applications.',
+    ],
   },
   {
     order: '07',
@@ -59,6 +69,11 @@ export const speakerRoster = [
     designation: 'Research Professor, Department of ECE',
     affiliations: ['Northwestern University, USA'],
     image: '/images/keynote-speakers/portrait-uniform/ankit-agrawal.png',
+    bio: [
+      'Dr. Ankit Agrawal (Ph.D. 2009, B.Tech. 2006) is a Research Professor in the Department of Electrical and Computer Engineering at Northwestern University, USA, an Affiliate Faculty at Northwestern International Institute for Nanotechnology as well as at Northwestern Paula M. Trienens Institute for Sustainability, and an honorary professor at Amity University, India. He specializes in interdisciplinary artificial intelligence (AI), machine learning (ML), and deep learning (DL) via high-performance data mining, to develop customized AI solutions for big data problems with real-world impact. A pioneer in materials informatics (AI for materials), his research has contributed to various scientific and engineering disciplines, such as materials science, healthcare, social media, and bioinformatics.',
+      'He has co-authored 200+ peer-reviewed publications (100+ as first/last author) with 19,000+ citations (h-index: 50+), co-developed 20+ software, delivered 100+ invited/keynote/plenary talks at conferences, universities, and companies all over the world, been on program/organizing committees of 50+ conferences/workshops, and served as a PI/Co-PI/Co-I on 25+ projects with a combined budget of over $100 million, funded by various US federal agencies (e.g., NSF, DOE, AFOSR, NIST, DARPA, DLA, NIH) as well as industry (e.g., Toyota Motor Corporation Japan). He is also serving as the Editor-in-Chief of Computers, Materials & Continua, and as the Specialty Chief Editor of HPC Applications section of Frontiers in HPC.',
+      'His AI/ML/DL expertise is routinely sought by industry, US federal agencies, international funding agencies, professional societies, academic publishers, etc. He is also regularly invited to speak about his work on interdisciplinary AI at conferences, workshops, panels, universities, companies, etc. He has received many honors and awards throughout his academic career, such as graduating department topper in CSE at IIT Roorkee, research excellence awards during his PhD at Iowa State University, and data science initiative awards and Hind Rattan Award while at Northwestern University. He has been featured in Stanford/Elsevier’s list of top 2% scientists, as well as named a ScholarGPS Top Scholar for being in top 0.5% of scholars worldwide in the fields of machine learning, deep learning, and informatics.',
+    ],
   },
   {
     order: '08',

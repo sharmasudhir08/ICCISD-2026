@@ -1,5 +1,6 @@
-import { ArrowDown, CalendarDays, Clock3, MapPin } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 import KeynoteSpeakers from '../Layouts/Speakers/KeynoteSpeakers';
+import PanelDiscussion from '../Layouts/Speakers/PanelDiscussion';
 
 const Speakers = () => (
   <div className="min-h-screen bg-[#f3f6f5] text-[#071820]">
@@ -26,35 +27,8 @@ const Speakers = () => (
       </div>
     </section>
 
-    <section className="border-b border-slate-200 bg-white" aria-label="Opening ceremony details">
-      <div className="mx-auto grid max-w-7xl divide-y divide-slate-200 px-4 sm:px-6 md:grid-cols-[0.8fr_0.7fr_1.5fr] md:divide-x md:divide-y-0 lg:px-8">
-        <div className="flex items-center gap-4 py-5 md:pr-8">
-          <CalendarDays className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
-          <div>
-            <p className="text-xs font-medium text-slate-500">Date</p>
-            <p className="mt-0.5 font-semibold">23rd July 2026</p>
-          </div>
-        </div>
-        <div className="flex items-center gap-4 py-5 md:px-8">
-          <Clock3 className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
-          <div>
-            <p className="text-xs font-medium text-slate-500">Time</p>
-            <p className="mt-0.5 font-semibold">9:00 AM</p>
-          </div>
-        </div>
-        <div className="flex items-start gap-4 py-5 md:pl-8">
-          <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-[#d34a44]" aria-hidden="true" />
-          <div>
-            <p className="text-xs font-medium text-slate-500">Venue</p>
-            <p className="mt-0.5 text-sm font-semibold leading-6">
-              Anand Swaroop Auditorium, Block 45, Sharda University, Greater Noida
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <KeynoteSpeakers />
+    <PanelDiscussion />
   </div>
 );
 
