@@ -2,7 +2,7 @@ export const speakerRoster = [
   {
     order: '01',
     name: 'Shri Ashok Gupta',
-    role: 'Chief Guest',
+    role: 'Chief Guest, Inaugural Session',
     designation: 'Director, STPI & CEO, STPI Apiary',
     affiliations: ['Gurugram, Haryana'],
     image: '/images/keynote-speakers/portrait-uniform/ashok-gupta-user-transparent.png',
@@ -35,7 +35,7 @@ export const speakerRoster = [
   {
     order: '02',
     name: 'Prof. (Dr.) Sri Niwas Singh',
-    role: 'Guest of Honour',
+    role: 'Chief Guest, Valedictory Session',
     designation: 'Director',
     affiliations: [
       'Atal Bihari Vajpayee Indian Institute of Information Technology and Management (ABV-IIITM), Gwalior, India',

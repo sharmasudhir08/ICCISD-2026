@@ -19,7 +19,7 @@ const SpeakerCard = ({ speaker, index, eager, onOpenBio }) => (
     </figure>
 
     <div className="flex flex-1 flex-col p-5 sm:p-6">
-      <p className={`text-xs font-semibold ${speaker.role === 'Chief Guest' ? 'text-[#d34a44]' : 'text-[#0a7784]'}`}>
+      <p className={`text-xs font-semibold ${speaker.role.startsWith('Chief Guest') ? 'text-[#d34a44]' : 'text-[#0a7784]'}`}>
         {speaker.role}
       </p>
       <h4 className="mt-3 text-xl font-bold leading-tight text-[#071820]">{speaker.name}</h4>
