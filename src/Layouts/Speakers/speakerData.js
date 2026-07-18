@@ -68,31 +68,6 @@ export const speakerRoster = [
   },
   {
     order: '03',
-    name: 'Dr. Pankaj Kumar Rawat',
-    role: 'Guest of Honour / Keynote Speaker',
-    designation: 'Scientist E',
-    affiliations: ['ANRF'],
-    image: '/images/keynote-speakers/portrait-uniform/pankaj-kumar-rawat.png',
-    bio: [
-      'Dr. Pankaj Rawat is currently serving the Science and Engineering Research Board (SERB) as Scientist-D. He has more than five years of professional experience in scientific R&D management. In his current role, he is the program officer for Core Research Grant (CRG) in Civil, Mechanical, Materials Engineering and related areas, Uchhatar Avishkar Yojana (UAY), National Science Chair (NSC), and Accelerate Vigyan (AV).',
-      'Prior to his current role, he was a postdoctoral researcher at Yonsei University, Seoul, South Korea. He earned his M.Sc. in Physics from Kumaun University, Nainital, and his M.Tech. and Ph.D. in Materials Science and Engineering from the Indian Institute of Technology Kharagpur. He has published several research papers on thermoelectric materials in internationally reputed journals from ACS, RSC, IOP, Wiley, and Elsevier.',
-      'Dr. Rawat is a recipient of awards including the Brain Korea 21 Postdoctoral Fellowship, DST-INSPIRE Faculty Award, and Japan-Asia Youth Exchange Program in Science.',
-    ],
-  },
-  {
-    order: '04',
-    name: 'Dr. Pramod Kumar Prasad',
-    role: 'Guest of Honour / Keynote Speaker',
-    designation: 'Scientist E',
-    affiliations: ['ANRF'],
-    image: '/images/keynote-speakers/portrait-uniform/pramod-kumar-prasad.png',
-    bio: [
-      'Dr. Pramod Kumar Prasad is working as Scientist-D at the Science and Engineering Research Board (SERB), a statutory body of the Department of Science and Technology, Government of India. He was awarded a Ph.D. in Biotechnology and Bioinformatics from North-Eastern Hill University (a Central University), Shillong, Meghalaya. He is presently working as Program Officer for the implementation of Young Scientist - Life Sciences (YSS, ECRA, SRG, and NPDF), SERB-STAR, SERB-DIA, SERB-TETRA, and PAC-Organismal and Evolutionary Biology - Animal Sciences. Prior to joining SERB, he was involved in implementing the Internship and Faculty Award components of the Innovation in Science Pursuit for Inspired Research (INSPIRE) program of DST.',
-      'His research covers the fields of Molecular Biology, Parasitology, and Bioinformatics. His Ph.D. work provided PCR-based diagnostic markers for species discrimination of zoonotic trematode parasites, supporting accurate diagnosis and the development of novel therapeutic and preventive strategies. He has filed a national patent for this work. It also resulted in 18 research papers in high-impact international and national journals and 42 DNA sequences in GenBank.',
-    ],
-  },
-  {
-    order: '05',
     name: 'Paulina Muszyńska',
     role: 'Keynote Speaker',
     designation: 'Head of Development Projects Department',
@@ -108,7 +83,7 @@ export const speakerRoster = [
     ],
   },
   {
-    order: '06',
+    order: '04',
     name: 'Shri Akash Takyar',
     role: 'Keynote Speaker',
     designation: 'Founder and CEO',
@@ -121,7 +96,7 @@ export const speakerRoster = [
     ],
   },
   {
-    order: '07',
+    order: '05',
     name: 'Dr. Ankit Agrawal',
     role: 'Keynote Speaker',
     designation: 'Research Professor, Department of ECE',
@@ -134,7 +109,7 @@ export const speakerRoster = [
     ],
   },
   {
-    order: '08',
+    order: '06',
     name: 'Dr. Yash Chawla',
     role: 'Keynote Speaker',
     designation: 'Founder and Head of CRAFT',

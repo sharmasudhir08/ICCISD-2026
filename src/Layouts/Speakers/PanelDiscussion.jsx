@@ -59,8 +59,7 @@ const PanelistCard = ({ panelist, index, onOpenBio }) => (
 const PanelDiscussion = () => {
   const [activeBio, setActiveBio] = useState(null);
   const closeBio = useCallback(() => setActiveBio(null), []);
-  const { moderator } = panelDiscussion;
-  const participants = [moderator, ...panelDiscussion.panelists];
+  const participants = panelDiscussion.panelists;
 
   return (
     <section id="panel-discussion" className="scroll-mt-20 bg-[#e8efee]" aria-labelledby="panel-heading">

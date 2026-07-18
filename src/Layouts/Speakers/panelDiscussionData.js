@@ -2,24 +2,10 @@ export const panelDiscussion = {
   theme: 'AI Agents: Transforming Industry, Academia, and the Future of Intelligent Work',
   date: 'Friday, 24 July 2026',
   time: '9:30 AM – 10:30 AM (IST)',
-  moderator: {
-    name: 'Dr. Yash Chawla',
-    role: 'Moderator',
-    designation: 'Founder & Head, CRAFT',
-    affiliations: [
-      'Faculty of Management, Wroclaw University of Science and Technology, Poland',
-    ],
-    image: '/images/keynote-speakers/portrait-uniform/yash-chawla.png',
-    imageClassName: 'object-contain object-bottom',
-    bio: [
-      'Dr. Yash Chawla is the Founder of CRAFT (Collaboratory for Responsible and Future Technologies) and Deputy Head of the Department of Computational Social Science at the Faculty of Management, Wrocław University of Science and Technology. His research, teaching, and consulting focus on the societal impact of DeepTech, responsible innovation, and sustainability.',
-      'He has received prestigious recognitions including the Scholarship of the Polish Minister of Science and Higher Education for Outstanding Young Scientists and the Interstudent 2021 award. He leads international projects on the circular economy, including the MoSAic project, and contributes to European research and consulting initiatives. He actively promotes interdisciplinary collaboration and responsible technology adoption.',
-    ],
-  },
   panelists: [
     {
       name: 'Mr. Yogesh Sharma',
-      role: 'Distinguished Panelist',
+      role: 'Moderator',
       designation: 'Co-Founder & Chairperson, Mamsys World',
       affiliations: [
         'Author, The Slim Elephant',

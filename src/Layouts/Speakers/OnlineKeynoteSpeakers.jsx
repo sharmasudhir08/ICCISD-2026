@@ -16,7 +16,7 @@ const OnlineKeynoteSpeakers = () => {
           ICCISD 2026 virtual programme
         </p>
         <h2 id="online-keynote-heading" className="mt-4 text-3xl font-bold leading-tight sm:text-4xl">
-          Online speaker
+          Keynote Speakers for Online Tutorial/ WorkShop
         </h2>
 
         <div className="mt-6 flex flex-wrap gap-x-8 gap-y-4 text-sm">
@@ -44,7 +44,7 @@ const OnlineKeynoteSpeakers = () => {
         </div>
       </header>
 
-      <div className="mt-10 grid max-w-lg grid-cols-1 gap-5">
+      <div className="mt-10 grid max-w-5xl grid-cols-1 gap-5 md:grid-cols-2">
         {onlineKeynoteSpeakers.map((speaker, index) => (
           <article
             key={speaker.name}

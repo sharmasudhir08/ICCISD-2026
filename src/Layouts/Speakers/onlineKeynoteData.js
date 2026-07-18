@@ -29,4 +29,39 @@ export const onlineKeynoteSpeakers = [
       'His research focuses on broadband indoor optical wireless communication and software-defined communication systems.',
     ],
   },
+  {
+    name: 'Prof. Mohanad Alfiras',
+    role: 'Online Speaker',
+    designation: 'President',
+    affiliations: ['Gulf University, Kingdom of Bahrain'],
+    image: '/images/online-keynote-speakers/mohanad-alfiras.png',
+    imageClassName: 'object-cover object-top',
+    bio: [
+      'Professor Mohanad Alfiras is President of Gulf University in the Kingdom of Bahrain. An engineer and experienced higher education administrator, he leads the university’s academic and institutional strategy. His leadership supports academic excellence, regional impact, and the continued development of higher education in Bahrain.',
+      'He earned a B.Sc. (Honors) in Electrical and Electronic Engineering from the University of Technology, Iraq, in 1998. He completed his M.Sc. and Ph.D. in Communication System Engineering at the same institution in 2000 and 2006, respectively. He also holds a Ph.D. in Education Technology from Brunel University London, UK.',
+      'Professor Alfiras joined Gulf University in 2006 as an Assistant Professor in the Department of Computer Communication Engineering. He became Head of the department in 2008 and later served as Dean of Admissions and Registration. He was appointed Acting President in 2015 and President in 2017.',
+      'He has authored or co-authored more than 80 peer-reviewed research publications, presented papers at numerous conferences, and served as a keynote speaker at many conferences and events. He received a Principal Fellow Certificate from the Higher Education Academy in 2018 and was appointed full Professor in April 2021.',
+    ],
+    highlights: {
+      title: 'Patents and inventions',
+      intro: 'Professor Alfiras holds five internationally registered patents and industrial designs across the United Kingdom, India, and Germany:',
+      items: [
+        {
+          title: 'AI-Based Safety and Health Devices (2025)',
+          description: 'Devices for fraud-call detection, doctors’ location tracking, and real-time health problem detection.',
+        },
+        {
+          title: 'Autonomous Agricultural Field Robot (2026)',
+          description: 'An autonomous system designed to support smart agriculture and field operations.',
+        },
+        {
+          title: 'Solar-Powered Cyber Car (2026)',
+          description: 'A sustainable transportation concept combining solar energy with intelligent vehicle technology.',
+        },
+      ],
+    },
+    bioClosing: [
+      'These innovations reflect Gulf University’s commitment to artificial intelligence, smart agriculture, and sustainable transportation.',
+    ],
+  },
 ];
