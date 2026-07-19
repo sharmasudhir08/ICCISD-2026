@@ -68,6 +68,7 @@ export const speakerRoster = [
   },
   {
     order: '03',
+    keynoteOrder: 1,
     name: 'Paulina Muszyńska',
     role: 'Keynote Speaker',
     designation: 'Head of Development Projects Department',
@@ -75,6 +76,7 @@ export const speakerRoster = [
       'Wrocław Agglomeration Development Agency, Poland',
       'Head of Startup Wrocław | Chief Ecosystem Officer, Startup Ecosystem Strategist | Women in Tech Advocate',
     ],
+    topic: 'The Ecosystem Advantage: Bridging the Gap Between Academic Excellence and Entrepreneurial Success',
     image: '/images/keynote-speakers/portrait-uniform/paulina-muszynska.png',
     bio: [
       'Paulina Muszyńska is an experienced innovation and startup ecosystem leader focused on building environments where entrepreneurship, technology, and collaboration become practical drivers of regional growth. For more than 10 years, she has worked across project development, event management, public relations, and ecosystem-building, designing and leading national and international initiatives that connect business, technology, academia, public institutions, and startup communities.',
@@ -84,10 +86,12 @@ export const speakerRoster = [
   },
   {
     order: '04',
+    keynoteOrder: 4,
     name: 'Shri Akash Takyar',
     role: 'Keynote Speaker',
     designation: 'Founder and CEO',
     affiliations: ['LeewayHertz, USA'],
+    topic: 'State of Enterprise AI',
     image: '/images/keynote-speakers/portrait-uniform/akash-takyar.png',
     bio: [
       'Akash Takyar is a serial technology entrepreneur, enterprise AI leader, investor, and technical architect with deep experience building scalable digital platforms for global organizations. He is the Founder and CEO of LeewayHertz, recently acquired by NASDAQ-listed The Hackett Group, where he now serves as Executive Vice President of the AI Implementation Group.',
@@ -97,10 +101,12 @@ export const speakerRoster = [
   },
   {
     order: '05',
+    keynoteOrder: 3,
     name: 'Dr. Ankit Agrawal',
     role: 'Keynote Speaker',
     designation: 'Research Professor, Department of ECE',
     affiliations: ['Northwestern University, USA'],
+    topic: 'AI for Science and Engineering: Leveraging GNNs, LLMs, XAI, and Nanocombinatorics',
     image: '/images/keynote-speakers/portrait-uniform/ankit-agrawal.png',
     bio: [
       'Dr. Ankit Agrawal (Ph.D. 2009, B.Tech. 2006) is a Research Professor in the Department of Electrical and Computer Engineering at Northwestern University, USA, an Affiliate Faculty at Northwestern International Institute for Nanotechnology as well as at Northwestern Paula M. Trienens Institute for Sustainability, and an honorary professor at Amity University, India. He specializes in interdisciplinary artificial intelligence (AI), machine learning (ML), and deep learning (DL) via high-performance data mining, to develop customized AI solutions for big data problems with real-world impact. A pioneer in materials informatics (AI for materials), his research has contributed to various scientific and engineering disciplines, such as materials science, healthcare, social media, and bioinformatics.',
@@ -110,12 +116,14 @@ export const speakerRoster = [
   },
   {
     order: '06',
+    keynoteOrder: 2,
     name: 'Dr. Yash Chawla',
     role: 'Keynote Speaker',
     designation: 'Founder and Head of CRAFT',
     affiliations: [
       'Faculty of Management, Wroclaw University of Science and Technology, Poland',
     ],
+    topic: 'Responsible Everyday AI and Human-Centric Sustainable Technologies',
     image: '/images/keynote-speakers/portrait-uniform/yash-chawla.png',
     bio: [
       'Dr. Yash Chawla is the Founder and Head of CRAFT, a collaboration-based laboratory and think tank at the Faculty of Management, Wroclaw University of Science and Technology. He also serves as the Deputy Head at the Department of Computational Social Science at Wrocław University of Science and Technology (WUST), Poland. He is also the Founder and CEO of SustematiQ, which builds societal impact and innovation solutions with people at the center.',

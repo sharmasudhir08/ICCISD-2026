@@ -4,6 +4,7 @@ import { detailedScheduleDays, detailedScheduleFile } from '../utils/detailedSch
 
 const eventStyles = {
   break: 'border-l-[#d5a21a] bg-[#fffdf2]',
+  ceremony: 'border-l-[#d34a44] bg-[#fff7f6]',
   keynote: 'border-l-[#0a7784] bg-[#f1f8f8]',
   session: 'border-l-[#071820] bg-[#f5f7f7]',
 };
@@ -18,7 +19,18 @@ const DetailedSchedule = () => {
       className="scroll-mt-24 mx-auto max-w-7xl px-4 pb-12 pt-16 sm:px-6 md:pb-16 md:pt-20 lg:px-8"
     >
       <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <h2 className="text-3xl font-bold leading-tight sm:text-4xl">Detailed conference schedule</h2>
+        <div className="max-w-4xl">
+          <p className="text-sm font-semibold text-[#0a7784]">
+            International Conference on Computational Intelligence Systems and Devices
+          </p>
+          <h2 className="mt-2 text-3xl font-bold leading-tight sm:text-4xl">
+            ICCISD-2026 programme calendar
+          </h2>
+          <p className="mt-3 text-sm leading-6 text-slate-600 sm:text-base">
+            Department of Computer Science and Applications · Sharda School of Computing Science &amp;
+            Engineering, Sharda University, Greater Noida, India
+          </p>
+        </div>
         <a
           href={detailedScheduleFile}
           download
@@ -104,6 +116,11 @@ const DetailedSchedule = () => {
                       {detail}
                     </p>
                   ))}
+                  {item.topic && (
+                    <p className="mt-3 border-l-2 border-[#0a7784] pl-3 text-sm font-medium leading-6 text-slate-700">
+                      <span className="font-bold text-[#071820]">Title:</span> {item.topic}
+                    </p>
+                  )}
                 </div>
               </li>
             );

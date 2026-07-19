@@ -30,6 +30,13 @@ const SpeakerCard = ({ speaker, index, eager, onOpenBio }) => (
         ))}
       </div>
 
+      {speaker.topic && (
+        <div className="mt-5 border-l-2 border-[#0a7784] pl-4">
+          <p className="text-xs font-semibold uppercase text-[#0a7784]">Keynote title</p>
+          <p className="mt-1 text-sm font-semibold leading-6 text-[#071820]">{speaker.topic}</p>
+        </div>
+      )}
+
       {speaker.bio && (
         <div className="mt-auto pt-6">
           <button
@@ -52,7 +59,9 @@ const KeynoteSpeakers = () => {
   const [activeBio, setActiveBio] = useState(null);
   const closeBio = useCallback(() => setActiveBio(null), []);
   const dignitaries = speakerRoster.slice(0, 2);
-  const keynoteSpeakers = speakerRoster.slice(2);
+  const keynoteSpeakers = speakerRoster
+    .slice(2)
+    .sort((firstSpeaker, secondSpeaker) => firstSpeaker.keynoteOrder - secondSpeaker.keynoteOrder);
 
   return (
     <section id="invited-lineup" className="scroll-mt-20 bg-[#f3f6f5]" aria-labelledby="lineup-heading">

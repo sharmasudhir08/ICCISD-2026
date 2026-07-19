@@ -77,6 +77,13 @@ const OnlineKeynoteSpeakers = () => {
                 </div>
               )}
 
+              {speaker.topic && (
+                <div className="mt-5 border-l-2 border-[#0a7784] pl-4">
+                  <p className="text-xs font-semibold uppercase text-[#0a7784]">Session title</p>
+                  <p className="mt-1 text-sm font-semibold leading-6 text-[#071820]">{speaker.topic}</p>
+                </div>
+              )}
+
               {speaker.bio && (
                 <div className="mt-auto pt-6">
                   <button

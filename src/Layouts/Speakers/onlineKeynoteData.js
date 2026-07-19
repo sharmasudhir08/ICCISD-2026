@@ -8,6 +8,7 @@ export const onlineKeynoteSpeakers = [
       'Center of Research in Optoelectronics, Communications and Computational Systems (BU-CROCCS)',
       'Phahonyothin Road, Pathum Thani 12120, Thailand',
     ],
+    topic: 'LED Lighting and Visible Light Communication (VLC)',
     image: '/images/online-keynote-speakers/karel-sterckx-transparent.png',
     imageClassName: 'object-contain object-bottom',
     education: [
@@ -34,6 +35,7 @@ export const onlineKeynoteSpeakers = [
     role: 'Online Speaker',
     designation: 'President',
     affiliations: ['Gulf University, Kingdom of Bahrain'],
+    topic: 'From Personalized Learning to Employability: The AI Transformation of Higher Education',
     image: '/images/online-keynote-speakers/mohanad-alfiras.png',
     imageClassName: 'object-cover object-top',
     bio: [
