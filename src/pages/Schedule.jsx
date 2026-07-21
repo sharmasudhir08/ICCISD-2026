@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import {
   ArrowDown,
+  BookOpenText,
   CalendarDays,
-  Clock3,
   Download,
   ExternalLink,
   FileText,
   Layers3,
-  MapPin,
 } from 'lucide-react';
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
 import DetailedSchedule from '../Components/DetailedSchedule';
@@ -49,6 +48,12 @@ const scheduleDays = [
   },
 ];
 
+const conferenceSouvenir = {
+  file: '/schedules/iccisd-2026-conference-souvenir.pdf',
+  cover: '/schedules/iccisd-2026-souvenir-cover.jpg',
+  pages: 124,
+};
+
 const Schedule = () => {
   const [activeDay, setActiveDay] = useState(0);
   const selectedSchedule = scheduleDays[activeDay];
@@ -66,7 +71,7 @@ const Schedule = () => {
   return (
     <div className="min-h-screen bg-[#f3f6f5] text-slate-950">
       <section className="relative overflow-hidden bg-[#071820] text-white">
-      <div className="relative mx-auto grid max-w-7xl gap-12 px-4 pb-16 pt-32 sm:px-6 md:pb-20 lg:grid-cols-[1.45fr_1fr] lg:items-end lg:px-8">
+      <div className="relative mx-auto max-w-7xl px-4 pb-16 pt-32 sm:px-6 md:pb-20 lg:px-8">
         <div>
           <p className="mb-5 flex items-center gap-3 text-sm font-semibold uppercase text-cyan-300">
             ICCISD 2026 schedule
@@ -74,9 +79,6 @@ const Schedule = () => {
           <h1 className="max-w-4xl text-4xl font-bold leading-[1.08] sm:text-5xl">
             Conference programme &amp; presentation schedules
           </h1>
-          <p className="mt-6 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-            View the full two-day conference programme or go directly to the paper presentation schedules.
-          </p>
           <nav className="mt-8 flex flex-wrap gap-3" aria-label="Schedule sections">
             <a
               href="#conference-programme"
@@ -92,49 +94,65 @@ const Schedule = () => {
               <ArrowDown className="h-4 w-4 text-cyan-300" aria-hidden="true" />
               Presentation schedules
             </a>
+            <a
+              href="#conference-souvenir"
+              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-white/30 px-5 py-3 text-sm font-semibold text-white transition duration-200 hover:-translate-y-0.5 hover:border-white/60 hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#071820] active:translate-y-0"
+            >
+              <BookOpenText className="h-4 w-4 text-cyan-300" aria-hidden="true" />
+              Conference souvenir
+            </a>
           </nav>
         </div>
-
-          <dl className="grid grid-cols-3 border-y border-white/15">
-            <div className="py-5 pr-3">
-              <dt className="text-xs font-medium text-slate-400">Programme</dt>
-              <dd className="mt-1 text-2xl font-semibold tabular-nums">2 days</dd>
-            </div>
-            <div className="border-x border-white/15 px-4 py-5">
-              <dt className="text-xs font-medium text-slate-400">Sessions</dt>
-              <dd className="mt-1 text-2xl font-semibold tabular-nums">15</dd>
-            </div>
-            <div className="py-5 pl-4">
-              <dt className="text-xs font-medium text-slate-400">Each slot</dt>
-              <dd className="mt-1 text-2xl font-semibold tabular-nums">15 min</dd>
-            </div>
-          </dl>
-        </div>
+      </div>
       </section>
 
       <main>
-        <section className="border-b border-slate-200 bg-white" aria-label="Schedule essentials">
-          <div className="mx-auto grid max-w-7xl divide-y divide-slate-200 px-4 sm:px-6 md:grid-cols-3 md:divide-x md:divide-y-0 lg:px-8">
-            <div className="flex items-center gap-4 py-5 md:pr-8">
-              <CalendarDays className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
-              <div>
-                <p className="text-xs font-medium text-slate-500">Presentation dates</p>
-                <p className="mt-0.5 font-semibold">23-24 July 2026</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-4 py-5 md:px-8">
-              <Clock3 className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
-              <div>
-                <p className="text-xs font-medium text-slate-500">Presentation sessions</p>
-                <p className="mt-0.5 text-sm font-semibold">23 July: 2:00-4:30 PM</p>
-                <p className="mt-0.5 text-sm font-semibold">24 July: 10:30 AM-1:00 PM</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-4 py-5 md:pl-8">
-              <MapPin className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
-              <div>
-                <p className="text-xs font-medium text-slate-500">Session venues</p>
-                <p className="mt-0.5 font-semibold">Hackathon Center, Block 45, 3rd Floor</p>
+        <section
+          id="conference-souvenir"
+          className="scroll-mt-24 border-b border-slate-200 bg-[#e6eceb]"
+          aria-labelledby="souvenir-heading"
+        >
+          <div className="mx-auto grid max-w-7xl gap-9 px-4 py-12 sm:px-6 md:grid-cols-[240px_minmax(0,1fr)] md:items-center md:py-16 lg:gap-14 lg:px-8">
+            <figure className="mx-auto w-full max-w-[240px] md:mx-0">
+              <img
+                src={conferenceSouvenir.cover}
+                alt="Cover of the ICCISD-2026 Conference Souvenir"
+                className="aspect-[0.707/1] w-full bg-white object-cover shadow-[0_18px_45px_rgba(15,35,42,0.2)]"
+              />
+            </figure>
+
+            <div className="max-w-3xl">
+              <p className="flex items-center gap-2 text-sm font-semibold text-[#0a7784]">
+                <BookOpenText className="h-4 w-4" aria-hidden="true" />
+                Conference publication
+              </p>
+              <h2 id="souvenir-heading" className="mt-3 text-3xl font-bold leading-tight sm:text-4xl">
+                ICCISD-2026 Conference Souvenir
+              </h2>
+              <p className="mt-4 text-base leading-7 text-slate-600">
+                Official {conferenceSouvenir.pages}-page souvenir of the International Conference on
+                Computational Intelligence Systems and Devices.
+              </p>
+
+              <div className="mt-7 flex flex-wrap gap-3">
+                <a
+                  href={conferenceSouvenir.file}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-[#0a7784] px-5 py-3 text-sm font-semibold text-white transition duration-200 hover:-translate-y-0.5 hover:bg-[#075f69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0a7784] focus-visible:ring-offset-2 active:translate-y-0"
+                >
+                  <BookOpenText className="h-4 w-4" aria-hidden="true" />
+                  Open souvenir
+                  <ExternalLink className="h-4 w-4" aria-hidden="true" />
+                </a>
+                <a
+                  href={conferenceSouvenir.file}
+                  download
+                  className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-800 transition duration-200 hover:-translate-y-0.5 hover:border-slate-500 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0a7784] focus-visible:ring-offset-2 active:translate-y-0"
+                >
+                  <Download className="h-4 w-4 text-[#0a7784]" aria-hidden="true" />
+                  Download souvenir
+                </a>
               </div>
             </div>
           </div>

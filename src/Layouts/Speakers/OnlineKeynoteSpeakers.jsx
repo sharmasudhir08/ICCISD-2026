@@ -49,10 +49,10 @@ const OnlineKeynoteSpeakers = () => {
                 href={onlineKeynoteSession.meeting.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-0.5 inline-flex items-center gap-1.5 font-semibold text-[#0a6670] underline decoration-[#0a7784]/30 underline-offset-4 transition hover:decoration-[#0a7784] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0a7784] focus-visible:ring-offset-2"
+                className="mt-2 inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-[#0a7784] px-5 py-2.5 font-semibold text-white transition duration-200 hover:-translate-y-0.5 hover:bg-[#075f69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0a7784] focus-visible:ring-offset-2 active:translate-y-0"
               >
                 Join Zoom meeting
-                <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
+                <ExternalLink className="h-4 w-4" aria-hidden="true" />
               </a>
               <p className="mt-1 text-xs leading-5 text-slate-600">
                 ID: {onlineKeynoteSession.meeting.id} · Passcode:{' '}
