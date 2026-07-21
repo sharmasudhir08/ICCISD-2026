@@ -1,7 +1,14 @@
 import { useCallback, useState } from 'react';
-import { BookOpenText, CalendarClock, Clock3, Link2, MonitorPlay } from 'lucide-react';
+import {
+  BookOpenText,
+  CalendarClock,
+  Clock3,
+  ExternalLink,
+  Link2,
+  MonitorPlay,
+} from 'lucide-react';
 import SpeakerBioDialog from './SpeakerBioDialog';
-import { onlineKeynoteSpeakers } from './onlineKeynoteData';
+import { onlineKeynoteSession, onlineKeynoteSpeakers } from './onlineKeynoteData';
 
 const OnlineKeynoteSpeakers = () => {
   const [activeBio, setActiveBio] = useState(null);
@@ -24,21 +31,33 @@ const OnlineKeynoteSpeakers = () => {
             <CalendarClock className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
             <div>
               <p className="text-xs font-medium text-slate-500">Date</p>
-              <p className="mt-0.5 font-semibold text-[#071820]">July 24, 2026</p>
+              <p className="mt-0.5 font-semibold text-[#071820]">{onlineKeynoteSession.date}</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
             <Clock3 className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
             <div>
               <p className="text-xs font-medium text-slate-500">Time</p>
-              <p className="mt-0.5 font-semibold text-[#071820]">2:00 PM to 2:30 PM</p>
+              <p className="mt-0.5 font-semibold text-[#071820]">{onlineKeynoteSession.time}</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
             <Link2 className="h-5 w-5 shrink-0 text-[#d34a44]" aria-hidden="true" />
             <div>
               <p className="text-xs font-medium text-slate-500">Meeting link</p>
-              <p className="mt-0.5 font-semibold text-[#071820]">Coming soon</p>
+              <a
+                href={onlineKeynoteSession.meeting.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-0.5 inline-flex items-center gap-1.5 font-semibold text-[#0a6670] underline decoration-[#0a7784]/30 underline-offset-4 transition hover:decoration-[#0a7784] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0a7784] focus-visible:ring-offset-2"
+              >
+                Join Zoom meeting
+                <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
+              </a>
+              <p className="mt-1 text-xs leading-5 text-slate-600">
+                ID: {onlineKeynoteSession.meeting.id} · Passcode:{' '}
+                {onlineKeynoteSession.meeting.passcode}
+              </p>
             </div>
           </div>
         </div>

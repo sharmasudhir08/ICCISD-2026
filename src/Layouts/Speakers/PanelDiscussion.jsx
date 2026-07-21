@@ -3,8 +3,10 @@ import {
   BookOpenText,
   CalendarDays,
   Clock3,
+  ExternalLink,
   MessageSquareText,
   UsersRound,
+  Video,
 } from 'lucide-react';
 import SpeakerBioDialog from './SpeakerBioDialog';
 import { panelDiscussion } from './panelDiscussionData';
@@ -94,6 +96,28 @@ const PanelDiscussion = () => {
                 <p className="mt-0.5 font-semibold text-[#071820]">{panelDiscussion.time}</p>
               </div>
             </div>
+          </div>
+
+          <div className="mt-6 flex flex-col gap-3 border-y border-slate-300 py-4 sm:flex-row sm:items-center sm:justify-between">
+            <a
+              href={panelDiscussion.meeting.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex min-h-11 items-center justify-center gap-2 self-start rounded-md bg-[#0a7784] px-5 py-2.5 text-sm font-semibold text-white transition duration-200 hover:bg-[#075f69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0a7784] focus-visible:ring-offset-2"
+            >
+              <Video className="h-4 w-4" aria-hidden="true" />
+              Join Zoom meeting
+              <ExternalLink className="h-4 w-4" aria-hidden="true" />
+            </a>
+            <p className="text-xs leading-5 text-slate-600 sm:text-right">
+              <span className="font-semibold text-slate-800">Meeting ID:</span>{' '}
+              {panelDiscussion.meeting.id}
+              <span className="mx-2 text-slate-400" aria-hidden="true">
+                |
+              </span>
+              <span className="font-semibold text-slate-800">Passcode:</span>{' '}
+              {panelDiscussion.meeting.passcode}
+            </p>
           </div>
         </header>
 

@@ -1,7 +1,10 @@
+import { virtualMeetings } from '../../utils/virtualMeetings';
+
 export const panelDiscussion = {
   theme: 'AI Agents: Transforming Industry, Academia, and the Future of Intelligent Work',
   date: 'Friday, 24 July 2026',
   time: '9:30 AM – 10:30 AM (IST)',
+  meeting: virtualMeetings.panelDiscussion,
   panelists: [
     {
       name: 'Mr. Yogesh Sharma',

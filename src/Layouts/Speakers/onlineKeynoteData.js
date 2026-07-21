@@ -1,3 +1,11 @@
+import { virtualMeetings } from '../../utils/virtualMeetings';
+
+export const onlineKeynoteSession = {
+  date: 'July 24, 2026',
+  time: '2:00 PM to 2:30 PM',
+  meeting: virtualMeetings.onlineTutorialWorkshop,
+};
+
 export const onlineKeynoteSpeakers = [
   {
     name: 'Karel L. Sterckx, PhD',

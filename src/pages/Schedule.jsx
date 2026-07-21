@@ -127,14 +127,14 @@ const Schedule = () => {
               <div>
                 <p className="text-xs font-medium text-slate-500">Presentation sessions</p>
                 <p className="mt-0.5 text-sm font-semibold">23 July: 2:00-4:30 PM</p>
-                <p className="mt-0.5 text-sm font-semibold">24 July: 10:45 AM-1:00 PM</p>
+                <p className="mt-0.5 text-sm font-semibold">24 July: 10:30 AM-1:00 PM</p>
               </div>
             </div>
             <div className="flex items-center gap-4 py-5 md:pl-8">
               <MapPin className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
               <div>
                 <p className="text-xs font-medium text-slate-500">Session venues</p>
-                <p className="mt-0.5 font-semibold">Block 45, 3rd Floor</p>
+                <p className="mt-0.5 font-semibold">Hackathon Center, Block 45, 3rd Floor</p>
               </div>
             </div>
           </div>
