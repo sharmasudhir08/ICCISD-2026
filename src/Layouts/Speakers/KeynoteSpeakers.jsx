@@ -95,7 +95,7 @@ const KeynoteSpeakers = () => {
 
         <div className="mt-12 border-t border-slate-300 pt-10">
           <h3 className="text-sm font-semibold text-[#0a7784]">Keynote Speakers</h3>
-          <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
             {keynoteSpeakers.map((speaker, index) => (
               <SpeakerCard
                 key={speaker.name}

@@ -86,21 +86,6 @@ export const speakerRoster = [
   },
   {
     order: '04',
-    keynoteOrder: 4,
-    name: 'Shri Akash Takyar',
-    role: 'Keynote Speaker',
-    designation: 'Founder and CEO',
-    affiliations: ['LeewayHertz, USA'],
-    topic: 'State of Enterprise AI',
-    image: '/images/keynote-speakers/portrait-uniform/akash-takyar.png',
-    bio: [
-      'Akash Takyar is a serial technology entrepreneur, enterprise AI leader, investor, and technical architect with deep experience building scalable digital platforms for global organizations. He is the Founder and CEO of LeewayHertz, recently acquired by NASDAQ-listed The Hackett Group, where he now serves as Executive Vice President of the AI Implementation Group.',
-      'Over the past 15+ years, Akash has architected and delivered more than 100 enterprise platforms across AI, cloud, mobile, IoT, and automation, many of which are used by millions of people worldwide. His work has supported leading enterprises, including Fortune 500 companies such as Siemens, 3M, P&G, and the US Army.',
-      'Akash is a member of the Forbes Technology Council and serves on several advisory boards. He also founded the world’s first smart chai-making robot, later acquired by a leading tea manufacturer. A recipient of the Indira Gandhi Priyadarshini Award, Akash brings practical insight into building and scaling enterprise-grade GenAI applications.',
-    ],
-  },
-  {
-    order: '05',
     keynoteOrder: 3,
     name: 'Dr. Ankit Agrawal',
     role: 'Keynote Speaker',
@@ -115,7 +100,7 @@ export const speakerRoster = [
     ],
   },
   {
-    order: '06',
+    order: '05',
     keynoteOrder: 2,
     name: 'Dr. Yash Chawla',
     role: 'Keynote Speaker',
