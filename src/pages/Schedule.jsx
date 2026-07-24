@@ -195,67 +195,6 @@ const Schedule = () => {
           </div>
         </section>
 
-        <section
-          id="online-presentations"
-          className="scroll-mt-24 border-b border-slate-200 bg-white"
-          aria-labelledby="online-presentations-heading"
-        >
-          <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 md:py-20 lg:px-8">
-            <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
-              <div>
-                <p className="flex items-center gap-2 text-sm font-semibold text-[#0a7784]">
-                  <Video className="h-4 w-4" aria-hidden="true" />
-                  ICCISD-2026 virtual sessions
-                </p>
-                <h2
-                  id="online-presentations-heading"
-                  className="mt-3 text-3xl font-bold leading-tight sm:text-4xl"
-                >
-                  Online paper presentations
-                </h2>
-              </div>
-              <div className="flex items-center gap-3 text-sm text-slate-600">
-                <Clock3 className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
-                <p>
-                  <span className="font-semibold text-slate-900">24 July 2026</span>
-                  <span className="mx-2 text-slate-300" aria-hidden="true">|</span>
-                  10:00 AM IST
-                </p>
-              </div>
-            </div>
-
-            <div className="mt-9 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-              {onlinePresentationRooms.map((room, index) => (
-                <article
-                  key={room.meetingId}
-                  className="flex min-h-56 flex-col rounded-lg border border-slate-200 bg-[#f5f8f7] p-6 transition duration-200 hover:-translate-y-0.5 hover:border-slate-400 hover:shadow-[0_14px_34px_rgba(15,35,42,0.08)]"
-                >
-                  <p className="text-xs font-semibold uppercase text-[#0a7784]">
-                    Zoom room {index + 1}
-                  </p>
-                  <h3 className="mt-3 text-xl font-bold text-[#071820]">{room.name}</h3>
-                  <p className="mt-4 text-sm leading-6 text-slate-600">
-                    <span className="font-semibold text-slate-800">Meeting ID:</span>{' '}
-                    {room.meetingId}
-                    <br />
-                    <span className="font-semibold text-slate-800">Passcode:</span> 112233
-                  </p>
-                  <a
-                    href={room.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-auto inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-[#0a7784] px-5 py-3 text-sm font-semibold text-white transition duration-200 hover:bg-[#075f69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0a7784] focus-visible:ring-offset-2"
-                  >
-                    <Video className="h-4 w-4" aria-hidden="true" />
-                    Join Zoom room
-                    <ExternalLink className="h-4 w-4" aria-hidden="true" />
-                  </a>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <DetailedSchedule />
 
       <section
@@ -351,6 +290,67 @@ const Schedule = () => {
                 </article>
               );
             })}
+          </div>
+        </section>
+
+        <section
+          id="online-presentations"
+          className="scroll-mt-24 border-y border-slate-200 bg-white"
+          aria-labelledby="online-presentations-heading"
+        >
+          <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 md:py-20 lg:px-8">
+            <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+              <div>
+                <p className="flex items-center gap-2 text-sm font-semibold text-[#0a7784]">
+                  <Video className="h-4 w-4" aria-hidden="true" />
+                  ICCISD-2026 virtual sessions
+                </p>
+                <h2
+                  id="online-presentations-heading"
+                  className="mt-3 text-3xl font-bold leading-tight sm:text-4xl"
+                >
+                  Online paper presentations
+                </h2>
+              </div>
+              <div className="flex items-center gap-3 text-sm text-slate-600">
+                <Clock3 className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
+                <p>
+                  <span className="font-semibold text-slate-900">24 July 2026</span>
+                  <span className="mx-2 text-slate-300" aria-hidden="true">|</span>
+                  10:00 AM IST
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-9 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              {onlinePresentationRooms.map((room, index) => (
+                <article
+                  key={room.meetingId}
+                  className="flex min-h-56 flex-col rounded-lg border border-slate-200 bg-[#f5f8f7] p-6 transition duration-200 hover:-translate-y-0.5 hover:border-slate-400 hover:shadow-[0_14px_34px_rgba(15,35,42,0.08)]"
+                >
+                  <p className="text-xs font-semibold uppercase text-[#0a7784]">
+                    Zoom room {index + 1}
+                  </p>
+                  <h3 className="mt-3 text-xl font-bold text-[#071820]">{room.name}</h3>
+                  <p className="mt-4 text-sm leading-6 text-slate-600">
+                    <span className="font-semibold text-slate-800">Meeting ID:</span>{' '}
+                    {room.meetingId}
+                    <br />
+                    <span className="font-semibold text-slate-800">Passcode:</span> 112233
+                  </p>
+                  <a
+                    href={room.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-auto inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-[#0a7784] px-5 py-3 text-sm font-semibold text-white transition duration-200 hover:bg-[#075f69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0a7784] focus-visible:ring-offset-2"
+                  >
+                    <Video className="h-4 w-4" aria-hidden="true" />
+                    Join Zoom room
+                    <ExternalLink className="h-4 w-4" aria-hidden="true" />
+                  </a>
+                </article>
+              ))}
+            </div>
           </div>
         </section>
 
