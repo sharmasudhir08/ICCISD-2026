@@ -3,10 +3,12 @@ import {
   ArrowDown,
   BookOpenText,
   CalendarDays,
+  Clock3,
   Download,
   ExternalLink,
   FileText,
   Layers3,
+  Video,
 } from 'lucide-react';
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
 import DetailedSchedule from '../Components/DetailedSchedule';
@@ -54,6 +56,34 @@ const conferenceSouvenir = {
   pages: 124,
 };
 
+const onlinePresentationRooms = [
+  {
+    name: 'Paper Presentation 1',
+    url: 'https://zoom.us/j/99288626715?pwd=iVyr7VRLrC5ODFzO55rcznRARWwcIc.1',
+    meetingId: '992 8862 6715',
+  },
+  {
+    name: 'Paper Presentation 2',
+    url: 'https://zoom.us/j/99427202623?pwd=i8nhuO68DE2FUEzHCXhv4HfjXAMYZw.1',
+    meetingId: '994 2720 2623',
+  },
+  {
+    name: 'Paper Presentation 3',
+    url: 'https://zoom.us/j/99848745825?pwd=GUgTLjlr2AhpkumbC8uMnmS9p4LaDw.1',
+    meetingId: '998 4874 5825',
+  },
+  {
+    name: 'Paper Presentation 4',
+    url: 'https://zoom.us/j/94415538266?pwd=Qtaw4f5ptOzhomqrdq4jw6Liegtgkz.1',
+    meetingId: '944 1553 8266',
+  },
+  {
+    name: 'Paper Presentation 5',
+    url: 'https://zoom.us/j/93959169851?pwd=U2l85rUqVKJbyJhaEKHMmTE8BiOPzK.1',
+    meetingId: '939 5916 9851',
+  },
+];
+
 const Schedule = () => {
   const [activeDay, setActiveDay] = useState(0);
   const selectedSchedule = scheduleDays[activeDay];
@@ -100,6 +130,13 @@ const Schedule = () => {
             >
               <BookOpenText className="h-4 w-4 text-cyan-300" aria-hidden="true" />
               Conference souvenir
+            </a>
+            <a
+              href="#online-presentations"
+              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-white/30 px-5 py-3 text-sm font-semibold text-white transition duration-200 hover:-translate-y-0.5 hover:border-white/60 hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#071820] active:translate-y-0"
+            >
+              <Video className="h-4 w-4 text-cyan-300" aria-hidden="true" />
+              Online paper presentations
             </a>
           </nav>
         </div>
@@ -154,6 +191,67 @@ const Schedule = () => {
                   Download souvenir
                 </a>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="online-presentations"
+          className="scroll-mt-24 border-b border-slate-200 bg-white"
+          aria-labelledby="online-presentations-heading"
+        >
+          <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 md:py-20 lg:px-8">
+            <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+              <div>
+                <p className="flex items-center gap-2 text-sm font-semibold text-[#0a7784]">
+                  <Video className="h-4 w-4" aria-hidden="true" />
+                  ICCISD-2026 virtual sessions
+                </p>
+                <h2
+                  id="online-presentations-heading"
+                  className="mt-3 text-3xl font-bold leading-tight sm:text-4xl"
+                >
+                  Online paper presentations
+                </h2>
+              </div>
+              <div className="flex items-center gap-3 text-sm text-slate-600">
+                <Clock3 className="h-5 w-5 shrink-0 text-[#0a7784]" aria-hidden="true" />
+                <p>
+                  <span className="font-semibold text-slate-900">24 July 2026</span>
+                  <span className="mx-2 text-slate-300" aria-hidden="true">|</span>
+                  10:00 AM IST
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-9 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              {onlinePresentationRooms.map((room, index) => (
+                <article
+                  key={room.meetingId}
+                  className="flex min-h-56 flex-col rounded-lg border border-slate-200 bg-[#f5f8f7] p-6 transition duration-200 hover:-translate-y-0.5 hover:border-slate-400 hover:shadow-[0_14px_34px_rgba(15,35,42,0.08)]"
+                >
+                  <p className="text-xs font-semibold uppercase text-[#0a7784]">
+                    Zoom room {index + 1}
+                  </p>
+                  <h3 className="mt-3 text-xl font-bold text-[#071820]">{room.name}</h3>
+                  <p className="mt-4 text-sm leading-6 text-slate-600">
+                    <span className="font-semibold text-slate-800">Meeting ID:</span>{' '}
+                    {room.meetingId}
+                    <br />
+                    <span className="font-semibold text-slate-800">Passcode:</span> 112233
+                  </p>
+                  <a
+                    href={room.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-auto inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-[#0a7784] px-5 py-3 text-sm font-semibold text-white transition duration-200 hover:bg-[#075f69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0a7784] focus-visible:ring-offset-2"
+                  >
+                    <Video className="h-4 w-4" aria-hidden="true" />
+                    Join Zoom room
+                    <ExternalLink className="h-4 w-4" aria-hidden="true" />
+                  </a>
+                </article>
+              ))}
             </div>
           </div>
         </section>
