@@ -20,10 +20,13 @@ const GalleryPhoto = ({ photo, onOpen, featured = false }) => (
     aria-label={`Open photograph: ${photo.title}`}
   >
     <img
-      src={photo.src}
+      src={photo.thumbnailSrc || photo.src}
       alt={photo.alt}
       loading={featured ? 'eager' : 'lazy'}
-      className={`h-full w-full object-cover transition duration-500 ease-out group-hover:scale-[1.035] ${
+      decoding="async"
+      className={`h-full w-full transition duration-500 ease-out ${
+        photo.sessionNumber ? 'object-contain group-hover:brightness-95' : 'object-cover group-hover:scale-[1.035]'
+      } ${
         featured ? 'aspect-[16/8]' : 'aspect-[4/3]'
       }`}
     />
@@ -148,14 +151,18 @@ const Gallery = () => {
                 const photos = conferenceGallery.filter((photo) => photo.section === section.label);
 
                 return (
-                  <section key={section.id} aria-labelledby={`${section.id}-heading`}>
+                  <section key={section.id} id={section.id} className="scroll-mt-24" aria-labelledby={`${section.id}-heading`}>
                     <div className="mb-6 flex flex-col gap-2 border-t border-slate-200 pt-5 sm:flex-row sm:items-end sm:justify-between">
                       <h3 id={`${section.id}-heading`} className="text-2xl font-bold text-[#071820]">
                         {section.label}
                       </h3>
-                      <p className="max-w-md text-sm leading-6 text-slate-600">{section.description}</p>
+                      {section.description && (
+                        <p className="max-w-md text-sm leading-6 text-slate-600">{section.description}</p>
+                      )}
                     </div>
-                    <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                    <div className={`grid gap-5 sm:grid-cols-2 ${
+                      section.sessionNumber && section.photoCount === 4 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'
+                    }`}>
                       {photos.map((photo) => (
                         <GalleryPhoto key={photo.id} photo={photo} onOpen={setActivePhoto} featured={photo.featured} />
                       ))}

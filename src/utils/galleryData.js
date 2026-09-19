@@ -1,3 +1,5 @@
+import { sessionGalleryPhotos, sessionGallerySections } from './sessionGalleryData';
+
 export const conferenceGallery = [
   {
     id: 'stage-group-panel',
@@ -169,6 +171,7 @@ export const conferenceGallery = [
     title: 'Conference team gathering',
     alt: 'Conference representatives gathered around an ICCISD-2026 display',
   },
+  ...sessionGalleryPhotos,
 ];
 
 export const gallerySections = [
@@ -187,6 +190,7 @@ export const gallerySections = [
     label: 'People and connections',
     description: 'The conversations and group moments that made the conference feel shared.',
   },
+  ...sessionGallerySections,
 ];
 
 export const galleryHighlights = conferenceGallery.filter((photo) => photo.featured);
