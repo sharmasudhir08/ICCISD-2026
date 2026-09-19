@@ -1,4 +1,6 @@
 import React from 'react';
+import { ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import HeroSection from '../Components/HeroSection';
 import Cards from '../Components/Cards';
 import CountDown from '../Components/CountDown';
@@ -9,11 +11,62 @@ import Exposure from '../assets/Exposure.jpg';
 import network from '../assets/network.jpg';
 import researchAssets from '../assets/researchAssets.avif';
 import ContactUsLayout from '../Layouts/ContactUs/ContactUsLayout';
+import { homeGalleryHighlights } from '../utils/galleryData';
 
 const Home = () => {
   return (
     <div className='bg-slate-50 font-sans'>
       <HeroSection />
+      <section className="bg-white py-16 md:py-20" aria-labelledby="home-gallery-heading">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-sm font-semibold uppercase text-blue-600">Conference highlights</p>
+              <h2 id="home-gallery-heading" className="mt-3 text-3xl font-bold text-slate-900 sm:text-4xl">
+                Moments from ICCISD-2026
+              </h2>
+            </div>
+            <Link
+              to="/gallery"
+              className="inline-flex min-h-11 items-center justify-center gap-2 self-start rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-800 transition duration-200 hover:-translate-y-0.5 hover:border-slate-500 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 active:translate-y-0 sm:self-auto"
+            >
+              View full gallery
+              <ArrowUpRight className="h-4 w-4 text-blue-600" aria-hidden="true" />
+            </Link>
+          </div>
+
+          <div className="mt-10 grid gap-5 lg:grid-cols-[1.35fr_0.65fr]">
+            <Link to="/gallery#gallery-grid" className="group relative overflow-hidden rounded-2xl bg-slate-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-4">
+              <img
+                src={homeGalleryHighlights[0].src}
+                alt={homeGalleryHighlights[0].alt}
+                className="aspect-[16/8] h-full w-full object-cover transition duration-500 ease-out group-hover:scale-[1.025]"
+              />
+            </Link>
+            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
+              {homeGalleryHighlights.slice(1).map((photo) => (
+                <Link
+                  key={photo.id}
+                  to="/gallery#gallery-grid"
+                  className="group relative overflow-hidden rounded-2xl bg-slate-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-4"
+                >
+                  <img
+                    src={photo.src}
+                    alt={photo.alt}
+                    className="aspect-[16/8] h-full w-full object-cover transition duration-500 ease-out group-hover:scale-[1.025] lg:aspect-[16/7]"
+                  />
+                  {photo.id === 'souvenir-release-stage' && (
+                    <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950/80 to-transparent px-5 pb-4 pt-12 text-sm font-semibold text-white">
+                      {photo.title}
+                    </span>
+                  )}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       <CountDown />
 
       {/* About Section */}

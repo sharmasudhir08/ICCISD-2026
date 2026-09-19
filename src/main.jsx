@@ -11,6 +11,7 @@ import Venue from './pages/Venue.jsx'
 import Registration from './pages/Registration.jsx'
 import Schedule from './pages/Schedule.jsx'
 import Speakers from './pages/Speakers.jsx'
+import Gallery from './pages/Gallery.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -32,6 +33,10 @@ const appRouter = createBrowserRouter(
           path: 'speakers',
           element: <Speakers />,
 
+        },
+        {
+          path: 'gallery',
+          element: <Gallery />
         },
         {
           path: 'committee',

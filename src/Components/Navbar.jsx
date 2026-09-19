@@ -20,6 +20,7 @@ const Navbar = () => {
     { label: 'Home', path: '/' },
     { label: 'For Authors', path: 'authors' },
     { label: 'Speakers', path: 'speakers' },
+    { label: 'Gallery', path: 'gallery' },
     { label: 'Committee', path: 'committee' },
     { label: 'Paper Submission', path: 'paperSubmission' },
     { label: 'Venue', path: 'venue' },
@@ -53,13 +54,13 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden lg:flex space-x-1 ml-auto items-center">
+        <ul className="hidden lg:ml-4 lg:flex lg:items-center lg:gap-0.5">
           {navItems.map(({ label, path }) => (
             <li key={path}>
               <NavLink
                 to={path}
                 className={({ isActive }) =>
-                  `px-3 py-2 rounded-full text-xs xl:text-sm font-medium transition-all duration-300 ${isActive
+                  `whitespace-nowrap rounded-full px-2 py-2 text-[11px] font-medium transition-all duration-300 xl:text-xs ${isActive
                     ? 'bg-blue-600 text-white shadow-md shadow-blue-500/30'
                     : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
                   }`
