@@ -24,9 +24,7 @@ const GalleryPhoto = ({ photo, onOpen, featured = false }) => (
       alt={photo.alt}
       loading={featured ? 'eager' : 'lazy'}
       decoding="async"
-      className={`h-full w-full transition duration-500 ease-out ${
-        photo.sessionNumber ? 'object-contain group-hover:brightness-95' : 'object-cover group-hover:scale-[1.035]'
-      } ${
+      className={`h-full w-full object-contain transition duration-500 ease-out group-hover:brightness-95 ${
         featured ? 'aspect-[16/8]' : 'aspect-[4/3]'
       }`}
     />

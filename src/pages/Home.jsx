@@ -40,7 +40,7 @@ const Home = () => {
               <img
                 src={homeGalleryHighlights[0].src}
                 alt={homeGalleryHighlights[0].alt}
-                className="aspect-[16/8] h-full w-full object-cover transition duration-500 ease-out group-hover:scale-[1.025]"
+                className="aspect-[16/8] h-full w-full object-contain transition duration-500 ease-out group-hover:brightness-95"
               />
             </Link>
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
@@ -53,7 +53,7 @@ const Home = () => {
                   <img
                     src={photo.src}
                     alt={photo.alt}
-                    className="aspect-[16/8] h-full w-full object-cover transition duration-500 ease-out group-hover:scale-[1.025] lg:aspect-[16/7]"
+                    className="aspect-[16/8] h-full w-full object-contain transition duration-500 ease-out group-hover:brightness-95 lg:aspect-[16/7]"
                   />
                   {photo.id === 'souvenir-release-stage' && (
                     <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950/80 to-transparent px-5 pb-4 pt-12 text-sm font-semibold text-white">
